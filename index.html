@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiba Cinema Finder - 千葉6劇場 上映スケジュール一覧</title>
+    <meta name="description" content="千葉県内主要6劇場の映画上映スケジュールを、タイトルと日時を指定して一括比較・確認できるツールです。">
+    <!-- Google Fonts: Outfit and Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="background-glow">
+        <div class="glow-1"></div>
+        <div class="glow-2"></div>
+    </div>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fa-solid fa-film logo-icon"></i>
+                <div class="logo-text">
+                    <h1>Chiba Cinema Finder</h1>
+                    <span class="sub-logo">千葉6劇場スケジュール一括比較</span>
+                </div>
+            </div>
+            <div class="update-info" id="update-info">
+                <i class="fa-solid fa-rotate-left"></i> データ更新中...
+            </div>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <!-- 条件選択カード（すりガラス） -->
+        <section class="search-panel glass-card" aria-label="検索条件指定">
+            <div class="form-group">
+                <label for="movie-select-input"><i class="fa-solid fa-magnifying-glass icon-label"></i>上映中の映画を選択</label>
+                <div class="custom-select-container">
+                    <input type="text" id="movie-select-input" placeholder="映画タイトルを入力または選択..." autocomplete="off">
+                    <button id="clear-movie-btn" class="clear-btn" type="button" aria-label="選択をクリア" style="display: none;">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <div class="custom-options-list" id="movie-options-list" style="display: none;">
+                        <!-- JSで動的に映画リストを生成 -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label><i class="fa-solid fa-calendar-days icon-label"></i>上映日を選択 (2週間先まで選択可能)</label>
+                <!-- 横スクロール可能な日付チップリスト -->
+                <div class="date-scroll-container" id="date-scroll-container" role="radiogroup" aria-label="上映日の選択">
+                    <!-- JSで動的に日付チップを生成 -->
+                </div>
+            </div>
+        </section>
+
+        <!-- シミュレーション警告（未来の日付を選択した時のみ表示） -->
+        <section class="simulation-alert glass-card" id="simulation-alert" style="display: none;">
+            <div class="alert-content">
+                <span class="alert-badge"><i class="fa-solid fa-wand-magic-sparkles"></i> 予測（シミュレーション）</span>
+                <p class="alert-text">選択された日付は公式スケジュール未公開のため、直近の上映時間と上映形式の傾向をベースにした予測スケジュールを表示しています。</p>
+            </div>
+        </section>
+
+        <!-- スケジュール結果表示エリア -->
+        <section class="schedule-section" aria-label="上映スケジュール結果">
+            <div class="results-header">
+                <div class="results-title-group">
+                    <h2 id="current-selection-title">映画と日付を選択してください</h2>
+                    <a id="movie-official-link" class="official-link-btn" target="_blank" rel="noopener noreferrer" style="display: none;">
+                        <i class="fa-solid fa-earth-americas"></i> 公式サイト
+                    </a>
+                    <a id="movie-eigacom-link" class="eigacom-link-btn" target="_blank" rel="noopener noreferrer" style="display: none;">
+                        <i class="fa-solid fa-star"></i> 映画.com作品情報
+                    </a>
+                </div>
+                <div class="legend" id="schedule-legend" style="display: none;">
+                    <span class="legend-item"><span class="legend-color real"></span>実データ</span>
+                    <span class="legend-item"><span class="legend-color sim"></span>予測データ</span>
+                </div>
+            </div>
+
+            <!-- 初期表示 / プレースホルダー -->
+            <div class="placeholder-state" id="placeholder-state">
+                <div class="placeholder-icon">
+                    <i class="fa-solid fa-clapperboard animate-float"></i>
+                </div>
+                <h3>比較したい作品と上映日を選択してください</h3>
+                <p>USシネマ、T・ジョイ、TOHOシネマズ、イオンシネマ、京成ローザの上映時間が一覧で並びます。</p>
+            </div>
+
+            <!-- ローディング表示 -->
+            <div class="loading-state" id="loading-state" style="display: none;">
+                <div class="spinner"></div>
+                <p>上映スケジュールを取得中...</p>
+            </div>
+
+            <!-- スケジュールグリッド (6劇場) -->
+            <div class="schedule-grid" id="schedule-grid" style="display: none;">
+                <!-- JSで動的に6劇場のカードを生成 -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Chiba Cinema Finder. All Rights Reserved.</p>
+            <button id="refresh-cache-btn" class="refresh-btn" type="button">
+                <i class="fa-solid fa-circle-info"></i> スケジュールの更新について
+            </button>
+        </div>
+    </footer>
+
+    <!-- 全画面クローラー実行モーダル -->
+    <div class="crawl-modal" id="crawl-modal" style="display: none;">
+        <div class="crawl-modal-content glass-card">
+            <div class="spinnerlarge"></div>
+            <h2>スケジュール情報を同期中...</h2>
+            <p>映画.comから千葉6劇場の上映スケジュールを取得しています。</p>
+            <p class="modal-subtext">これには数秒から数十秒かかる場合があります。しばらくお待ちください。</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

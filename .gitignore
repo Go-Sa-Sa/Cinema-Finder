@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp/Artifacts
+.tempmediaStorage/
+scratch/
+test_api.py
+resize_icons.py
+CrawlLog.txt
+*.log
