@@ -28,7 +28,24 @@ function registerServiceWorker() {
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
             navigator.serviceWorker.register('./service-worker.js')
-                .then(reg => console.log('Service Worker registered successfully.', reg))
+                .then(reg => {
+                    console.log('Service Worker registered successfully.', reg);
+                    
+                    // 新しいサービスワーカー（アップデート）のインストール完了を検知してリロード
+                    reg.onupdatefound = () => {
+                        const installingWorker = reg.installing;
+                        if (installingWorker) {
+                            installingWorker.onstatechange = () => {
+                                if (installingWorker.state === 'installed') {
+                                    if (navigator.serviceWorker.controller) {
+                                        console.log('New version detected. Reloading...');
+                                        window.location.reload();
+                                    }
+                                }
+                            };
+                        }
+                    };
+                })
                 .catch(err => console.log('Service Worker registration failed.', err));
         });
     }
@@ -584,8 +601,11 @@ function setupEventListeners() {
     
     // 入力エリアフォーカスで候補リスト表示
     input.addEventListener("focus", () => {
-        filterMovieOptions(input.value);
+        renderMovieOptions(allMovies);
         list.style.display = "block";
+        setTimeout(() => {
+            input.select();
+        }, 50);
     });
     
     // 入力値変更で候補リストをフィルタリング
@@ -610,6 +630,14 @@ function setupEventListeners() {
     refreshBtn.addEventListener("click", () => {
         triggerManualCrawl();
     });
+    
+    // ヘッダーの更新ボタン
+    const headerRefreshBtn = document.getElementById("header-refresh-btn");
+    if (headerRefreshBtn) {
+        headerRefreshBtn.addEventListener("click", () => {
+            triggerManualCrawl();
+        });
+    }
 }
 
 function filterMovieOptions(keyword) {
@@ -626,6 +654,42 @@ function filterMovieOptions(keyword) {
     renderMovieOptions(filtered);
 }
 
-function triggerManualCrawl() {
-    alert("本アプリは毎日朝に自動で映画.comから最新上映スケジュールを取得し、データを更新しています。PC不要でいつでも最新の情報をご覧いただけます。");
+async function triggerManualCrawl() {
+    const modal = document.getElementById("crawl-modal");
+    if (modal) {
+        modal.style.display = "flex";
+    }
+    
+    try {
+        const response = await fetch("/api/crawl", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        });
+        
+        if (!response.ok) {
+            throw new Error("Crawl request failed");
+        }
+        
+        const result = await response.json();
+        if (result.status === "success") {
+            // キャッシュ再取得
+            await fetchMovies();
+            // 現在の選択に基づいてスケジュール再描画
+            if (selectedMovie && selectedDate) {
+                onSelectionChange();
+            }
+            alert("上映スケジュールの同期が完了しました！");
+        } else {
+            throw new Error(result.error || "Unknown error");
+        }
+    } catch (error) {
+        console.error("Manual crawl error:", error);
+        alert("上映スケジュールの同期に失敗しました。サーバーの接続状況やログを確認してください。");
+    } finally {
+        if (modal) {
+            modal.style.display = "none";
+        }
+    }
 }

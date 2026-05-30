@@ -29,8 +29,13 @@
                     <span class="sub-logo">千葉6劇場スケジュール一括比較</span>
                 </div>
             </div>
-            <div class="update-info" id="update-info">
-                <i class="fa-solid fa-rotate-left"></i> データ更新中...
+            <div class="update-controls">
+                <div class="update-info" id="update-info">
+                    <i class="fa-solid fa-rotate-left"></i> データ更新中...
+                </div>
+                <button id="header-refresh-btn" class="header-refresh-btn" type="button" title="最新スケジュールに更新">
+                    <i class="fa-solid fa-arrows-rotate"></i> 更新
+                </button>
             </div>
         </div>
     </header>
@@ -112,7 +117,7 @@
         <div class="footer-container">
             <p>&copy; 2026 Chiba Cinema Finder. All Rights Reserved.</p>
             <button id="refresh-cache-btn" class="refresh-btn" type="button">
-                <i class="fa-solid fa-circle-info"></i> スケジュールの更新について
+                <i class="fa-solid fa-arrows-rotate"></i> 最新スケジュールに同期
             </button>
         </div>
     </footer>
