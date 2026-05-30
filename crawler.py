@@ -300,8 +300,12 @@ def run_crawler():
             if "rel_url" in movie:
                 del movie["rel_url"]
         
+    # 日本時間 (JST: UTC+9) の現在時刻を取得
+    jst_tz = datetime.timezone(datetime.timedelta(hours=9))
+    current_time_jst = datetime.datetime.now(jst_tz)
+    
     output_data = {
-        "last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "last_updated": current_time_jst.strftime("%Y-%m-%d %H:%M:%S"),
         "theaters": results
     }
     
