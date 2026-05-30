@@ -655,6 +655,14 @@ function filterMovieOptions(keyword) {
 }
 
 async function triggerManualCrawl() {
+    // ローカル実行かGitHub Pages（本番環境）かを判定
+    const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+    
+    if (!isLocal) {
+        alert("【お知らせ】\nスマートフォンや公開サイト（GitHub Pages）からは、システムの仕組み上、この同期ボタンは動作しません。\n\n上映スケジュールは毎日午前6時に自動更新されます。\n\nすぐに最新データに更新したい場合は、PC等からGitHubのリポジトリページを開き、「Actions」タブから手動で更新ワークフロー（Crawl Cinema Schedule）を実行してください。");
+        return;
+    }
+
     const modal = document.getElementById("crawl-modal");
     if (modal) {
         modal.style.display = "flex";
