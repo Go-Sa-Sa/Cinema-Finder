@@ -68,6 +68,20 @@ def parse_date_str(date_str, base_date):
     except ValueError:
         return None
 
+def format_time_str(time_str):
+    """
+    "8:30" などの時間文字列を "08:30" 形式に標準化する
+    """
+    if not time_str:
+        return ""
+    try:
+        parts = time_str.split(':')
+        if len(parts) == 2:
+            return f"{int(parts[0]):02d}:{int(parts[1]):02d}"
+    except:
+        pass
+    return time_str
+
 def crawl_theater(theater, today):
     print(f"Crawling schedule for: {theater['name']}...")
     try:
@@ -129,42 +143,42 @@ def crawl_theater(theater, today):
                                     continue
                                 
                                 # "20:00～22:25" などの開始・終了両方を含むパターン
-                                match_range = re.search(r'(\d{2}:\d{2})\s*[～\-~]\s*(\d{2}:\d{2})', elem_text)
+                                match_range = re.search(r'(\d{1,2}:\d{2})\s*[～\-~]\s*(\d{1,2}:\d{2})', elem_text)
                                 if match_range:
                                     times.append({
-                                        "start": match_range.group(1),
-                                        "end": match_range.group(2)
+                                        "start": format_time_str(match_range.group(1)),
+                                        "end": format_time_str(match_range.group(2))
                                     })
                                 else:
                                     # "20:00" 単一時間のパターン
-                                    match_single = re.search(r'(\d{2}:\d{2})', elem_text)
+                                    match_single = re.search(r'(\d{1,2}:\d{2})', elem_text)
                                     if match_single:
-                                        start_time = match_single.group(1)
+                                        start_time = format_time_str(match_single.group(1))
                                         end_time = ""
                                         
                                         # elemの中にsmall（終了時間）があるか
                                         small = elem.find('small')
                                         if small:
-                                            end_match = re.search(r'(\d{2}:\d{2})', small.text)
+                                            end_match = re.search(r'(\d{1,2}:\d{2})', small.text)
                                             if end_match:
-                                                end_time = end_match.group(1)
+                                                end_time = format_time_str(end_match.group(1))
                                         else:
                                             # 直後の兄弟要素を探索（次の時間要素まで）
                                             sibling = elem.next_sibling
                                             while sibling:
                                                 if isinstance(sibling, Tag):
                                                     # 次の上映時間要素に達したら終了
-                                                    if sibling.name in ['a', 'span'] and re.search(r'\d{2}:\d{2}', sibling.text):
+                                                    if sibling.name in ['a', 'span'] and re.search(r'\d{1,2}:\d{2}', sibling.text):
                                                         break
                                                     if sibling.name == 'small':
-                                                        end_match = re.search(r'(\d{2}:\d{2})', sibling.text)
+                                                        end_match = re.search(r'(\d{1,2}:\d{2})', sibling.text)
                                                         if end_match:
-                                                            end_time = end_match.group(1)
+                                                            end_time = format_time_str(end_match.group(1))
                                                         break
                                                 if not isinstance(sibling, Tag) and '～' in str(sibling):
-                                                    end_match = re.search(r'(\d{2}:\d{2})', str(sibling))
+                                                    end_match = re.search(r'(\d{1,2}:\d{2})', str(sibling))
                                                     if end_match:
-                                                        end_time = end_match.group(1)
+                                                        end_time = format_time_str(end_match.group(1))
                                                     break
                                                 sibling = sibling.next_sibling
                                                 
