@@ -1,10 +1,11 @@
-const CACHE_NAME = 'cinema-finder-v6';
+const CACHE_NAME = 'cinema-finder-v7';
 const ASSETS = [
   './',
   './index.html',
   './index.css',
   './app.js',
   './movies_data.json',
+  './movie_details.json',
   './icon-192.png',
   './icon-512.png',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
@@ -38,8 +39,8 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
   
-  // データファイル (movies_data.json) はネットワーク優先でキャッシュ更新
-  if (url.pathname.includes('movies_data.json')) {
+  // データファイル (movies_data.json, movie_details.json) はネットワーク優先でキャッシュ更新
+  if (url.pathname.includes('movies_data.json') || url.pathname.includes('movie_details.json')) {
     e.respondWith(
       fetch(e.request)
         .then((res) => {

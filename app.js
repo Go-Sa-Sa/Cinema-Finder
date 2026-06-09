@@ -2,6 +2,7 @@
 // Global State & Initialization
 // ==========================================================================
 let moviesData = null; // movies_data.json の全データ
+let movieDetails = {}; // movie_details.json の詳細データ
 let allMovies = [];
 let selectedMovie = "";
 let selectedDate = ""; // YYYY-MM-DD 形式
@@ -111,10 +112,20 @@ function generateDateChips() {
 // ==========================================================================
 async function fetchMovies() {
     try {
-        const response = await fetch("movies_data.json");
-        if (!response.ok) throw new Error("Failed to fetch movies data");
+        // movies_data.json と movie_details.json を並行して取得する
+        const [moviesRes, detailsRes] = await Promise.all([
+            fetch("movies_data.json"),
+            fetch("movie_details.json").catch(() => null)
+        ]);
         
-        moviesData = await response.json();
+        if (!moviesRes.ok) throw new Error("Failed to fetch movies data");
+        moviesData = await moviesRes.json();
+        
+        if (detailsRes && detailsRes.ok) {
+            movieDetails = await detailsRes.json();
+        } else {
+            movieDetails = {};
+        }
         
         // 全劇場の上映作品を集めて重複を排除する
         const movieTitles = new Set();
@@ -140,11 +151,120 @@ async function fetchMovies() {
         // ドロップダウンリストを構築
         renderMovieOptions(allMovies);
         
+        // 上映中映画のギャラリーカード一覧をレンダリング
+        renderMoviesGallery();
+        
     } catch (error) {
         console.error("Error fetching movies:", error);
         const updateInfo = document.getElementById("update-info");
         updateInfo.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i> データ取得エラー`;
     }
+}
+
+function renderMoviesGallery() {
+    const grid = document.getElementById("movies-gallery-grid");
+    if (!grid) return;
+    grid.innerHTML = "";
+    
+    if (allMovies.length === 0) {
+        grid.innerHTML = `<div class="no-movies-gallery" style="color: var(--text-muted); padding: 2rem; text-align: center;">上映中の作品情報がありません</div>`;
+        return;
+    }
+    
+    allMovies.forEach(title => {
+        const details = movieDetails[title] || {};
+        
+        const card = document.createElement("div");
+        card.className = "movie-gallery-card";
+        
+        // ポスター画像
+        const posterUrl = details.poster_url || "";
+        let posterHtml = "";
+        if (posterUrl) {
+            posterHtml = `
+                <div class="movie-gallery-poster">
+                    <img src="${posterUrl}" alt="${title}" loading="lazy">
+                </div>
+            `;
+        } else {
+            posterHtml = `
+                <div class="movie-gallery-poster">
+                    <div class="movie-gallery-poster-placeholder">
+                        <i class="fa-solid fa-film"></i>
+                        <span>NO IMAGE</span>
+                    </div>
+                </div>
+            `;
+        }
+        
+        // メタ情報 (監督・キャスト)
+        const director = details.director || "情報なし";
+        const cast = (details.cast && details.cast.length > 0) ? details.cast.join(", ") : "情報なし";
+        const description = details.description || "あらすじ情報はありません。";
+        const copyright = details.copyright || "";
+        const releaseDateFormatted = details.release_date_formatted || "";
+        const officialUrl = details.official_url || "";
+        const eigacomUrl = details.eigacom_url || "";
+        
+        // リンクボタン
+        let linksHtml = "";
+        if (officialUrl) {
+            linksHtml += `
+                <a href="${officialUrl}" target="_blank" rel="noopener noreferrer" class="movie-gallery-btn" onclick="event.stopPropagation();">
+                    <i class="fa-solid fa-earth-americas"></i>公式サイト
+                </a>
+            `;
+        }
+        if (eigacomUrl) {
+            linksHtml += `
+                <a href="${eigacomUrl}" target="_blank" rel="noopener noreferrer" class="movie-gallery-btn" onclick="event.stopPropagation();">
+                    <i class="fa-solid fa-calendar-days"></i>上映スケジュール
+                </a>
+            `;
+        }
+        
+        card.innerHTML = `
+            ${posterHtml}
+            <div class="movie-gallery-info">
+                ${releaseDateFormatted ? `<span class="movie-gallery-release">${releaseDateFormatted}</span>` : ''}
+                <h3 class="movie-gallery-title">${title}</h3>
+                ${linksHtml ? `<div class="movie-gallery-links">${linksHtml}</div>` : ''}
+                <div class="movie-gallery-meta-row">
+                    <span class="movie-gallery-meta-label">監督</span>
+                    <span class="movie-gallery-meta-value">${director}</span>
+                </div>
+                <div class="movie-gallery-meta-row">
+                    <span class="movie-gallery-meta-label">出演</span>
+                    <span class="movie-gallery-meta-value">${cast}</span>
+                </div>
+                <p class="movie-gallery-desc">${description}</p>
+                ${copyright ? `<p class="movie-gallery-copyright">${copyright}</p>` : ''}
+            </div>
+        `;
+        
+        // カードクリック時のインタラクション
+        card.addEventListener("click", () => {
+            selectMovie(title);
+            
+            // 日付が未選択の場合は、自動的に「今日（一番最初の日付チップ）」を選択する
+            if (!selectedDate) {
+                const firstDateChip = document.querySelector(".date-scroll-container .date-chip");
+                if (firstDateChip) {
+                    firstDateChip.click();
+                }
+            } else {
+                onSelectionChange();
+            }
+            
+            // 画面上部の検索パネルまでスムーズにスクロール
+            const searchPanel = document.querySelector(".search-panel");
+            if (searchPanel) {
+                searchPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+        
+        grid.appendChild(card);
+    });
 }
 
 // ハッシュ値の計算 (String -> Number)

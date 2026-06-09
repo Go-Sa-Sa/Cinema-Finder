@@ -214,65 +214,205 @@ def crawl_theater(theater, today):
         traceback.print_exc()
         print(f"Error crawling {theater['name']}: {e}")
         return None
-def load_movie_urls():
+def load_movie_details():
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    path = os.path.join(script_dir, "movie_urls.json")
-    if os.path.exists(path):
+    # 移行用：古い movie_urls.json が存在し、新しい movie_details.json が無い場合はインポートする
+    details_path = os.path.join(script_dir, "movie_details.json")
+    urls_path = os.path.join(script_dir, "movie_urls.json")
+    
+    if os.path.exists(details_path):
         try:
-            with open(path, "r", encoding="utf-8") as f:
+            with open(details_path, "r", encoding="utf-8") as f:
                 return json.load(f)
         except Exception as e:
-            print(f"Error loading movie_urls.json: {e}")
+            print(f"Error loading movie_details.json: {e}")
+            
+    if os.path.exists(urls_path):
+        try:
+            with open(urls_path, "r", encoding="utf-8") as f:
+                old_data = json.load(f)
+            # 古いデータを新しい形式に変換して初期化する
+            details = {}
+            for title, url in old_data.items():
+                details[title] = {
+                    "official_url": url,
+                    "eigacom_url": "",
+                    "poster_url": "",
+                    "release_date": "",
+                    "release_date_formatted": "",
+                    "director": "",
+                    "cast": [],
+                    "description": "",
+                    "copyright": ""
+                }
+            return details
+        except Exception as e:
+            print(f"Error migrating movie_urls.json: {e}")
+            
     return {}
 
-def save_movie_urls(data):
+def save_movie_details(data):
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    path = os.path.join(script_dir, "movie_urls.json")
+    details_path = os.path.join(script_dir, "movie_details.json")
     try:
-        with open(path, "w", encoding="utf-8") as f:
+        with open(details_path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
     except Exception as e:
-        print(f"Error saving movie_urls.json: {e}")
+        print(f"Error saving movie_details.json: {e}")
 
-def fetch_official_url(rel_url):
+def format_release_date(raw_date_str):
+    """
+    "劇場公開日：2026年5月22日" や "2026年5月22日" などの文字列から ISO形式の日付と
+    表示用のフォーマットされた日付（例: "05月22日(金) 公開"）を生成する
+    """
+    match = re.search(r'(\d{4})年(\d{1,2})月(\d{1,2})日', raw_date_str)
+    if not match:
+        return "", ""
+        
+    year = int(match.group(1))
+    month = int(match.group(2))
+    day = int(match.group(3))
+    
+    date_iso = f"{year:04d}-{month:02d}-{day:02d}"
+    
+    try:
+        dt = datetime.date(year, month, day)
+        weekdays = ["月", "火", "水", "木", "金", "土", "日"]
+        weekday_str = weekdays[dt.weekday()]
+        date_formatted = f"{month:02d}月{day:02d}日({weekday_str}) 公開"
+        return date_iso, date_formatted
+    except Exception as e:
+        print(f"Error formatting date {year}-{month}-{day}: {e}")
+        return date_iso, f"{month:02d}月{day:02d}日 公開"
+
+def fetch_movie_details(rel_url):
     if not rel_url:
-        return ""
+        return None
     
     abs_url = "https://eiga.com" + rel_url if rel_url.startswith('/') else rel_url
-    print(f"Fetching movie details from {abs_url} to get official website URL...")
+    print(f"Fetching movie details from {abs_url}...")
+    
+    details = {
+        "official_url": "",
+        "eigacom_url": abs_url,
+        "poster_url": "",
+        "release_date": "",
+        "release_date_formatted": "",
+        "director": "",
+        "cast": [],
+        "description": "",
+        "copyright": ""
+    }
     
     try:
         response = requests.get(abs_url, headers=HEADERS, timeout=10)
         if response.status_code != 200:
-            return ""
+            print(f"Failed to fetch details from {abs_url}. Status: {response.status_code}")
+            return None
             
         soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # 1. 公式サイトURL
         official_a = soup.find('a', class_=re.compile(r'official'))
         if not official_a:
             official_a = soup.find('a', string=re.compile(r'公式サイト|オフィシャルサイト|オフィシャル'))
             
         if official_a and 'href' in official_a.attrs:
             href = official_a['href']
-            # eiga.comのリダイレクトをパース
             parsed = urllib.parse.urlparse(href)
             query = urllib.parse.parse_qs(parsed.query)
             if 'u' in query:
-                return urllib.parse.unquote(query['u'][0])
+                details["official_url"] = urllib.parse.unquote(query['u'][0])
             else:
                 if href.startswith('/'):
-                    return "https://eiga.com" + href
-                return href
-    except Exception as e:
-        print(f"Error fetching official URL for {rel_url}: {e}")
+                    details["official_url"] = "https://eiga.com" + href
+                else:
+                    details["official_url"] = href
+                    
+        # 2. ポスター画像URL
+        img_div = soup.find('div', class_='hero-img') or soup.find('div', class_='main-img')
+        img_url = ""
+        if img_div:
+            img_tag = img_div.find('img')
+            if img_tag:
+                img_url = img_tag.get('src') or img_tag.get('data-src') or img_tag.get('data-original')
+        if not img_url:
+            img_tag = soup.find('img', itemprop='image')
+            if img_tag:
+                img_url = img_tag.get('src') or img_tag.get('data-src')
+        details["poster_url"] = img_url or ""
         
-    return ""
+        # 3. 監督
+        staff_dl = soup.find('dl', class_='movie-staff')
+        if staff_dl:
+            dt = staff_dl.find('dt', string=re.compile(r'監督'))
+            if dt:
+                dd = dt.find_next_sibling('dd')
+                if dd:
+                    details["director"] = dd.text.strip()
+                    
+        # 4. キャスト (主要3名)
+        cast_ul = soup.find('ul', class_='movie-cast')
+        if cast_ul:
+            cast_spans = cast_ul.select('li a.person p span')
+            details["cast"] = [span.text.strip() for span in cast_spans[:3]]
+        else:
+            actors = soup.find_all(itemprop='actor')
+            details["cast"] = [a.find(itemprop='name').text.strip() if a.find(itemprop='name') else a.text.strip() for a in actors[:3]]
+            
+        # 5. あらすじ（説明文）
+        details_div = soup.find('div', class_='movie-details')
+        if details_div:
+            p_tag = details_div.select_one('section.txt-block p')
+            if p_tag:
+                details["description"] = p_tag.text.strip()
+        if not details["description"]:
+            outline_div = soup.find('div', class_='outline') or soup.find('p', class_='outline') or soup.find(itemprop='description')
+            if outline_div:
+                details["description"] = outline_div.text.strip()
+                
+        if details["description"]:
+            details["description"] = re.sub(r'\s+', ' ', details["description"])
+            
+        # 6. コピーライト
+        copyright_text = ""
+        for t in soup.find_all(string=lambda x: x and ('©' in x or '(C)' in x or 'C)' in x)):
+            if 'eiga.com' not in t and '映画.com' not in t:
+                clean_t = t.strip().rstrip('/')
+                copyright_text = clean_t.strip()
+                break
+        details["copyright"] = copyright_text
+        
+        # 7. 公開日
+        release_date_raw = ""
+        if details_div:
+            data_p = details_div.select_one('section.txt-block p.data')
+            if data_p:
+                match = re.search(r'劇場公開日：[^\n]+', data_p.text)
+                if match:
+                    release_date_raw = match.group(0)
+        if not release_date_raw:
+            opdate = soup.find('span', itemprop='datePublished') or soup.find(class_=re.compile(r'opdate|release'))
+            if opdate:
+                release_date_raw = opdate.text.strip()
+                
+        if release_date_raw:
+            date_iso, date_formatted = format_release_date(release_date_raw)
+            details["release_date"] = date_iso
+            details["release_date_formatted"] = date_formatted
+            
+        return details
+    except Exception as e:
+        print(f"Error fetching movie details for {rel_url}: {e}")
+        
+    return None
 
 def run_crawler():
     today = datetime.date.today()
     results = {}
     
-    # 映画URLキャッシュを読み込む
-    movie_urls_cache = load_movie_urls()
+    # 映画詳細キャッシュを読み込む
+    movie_details_cache = load_movie_details()
     has_cache_updated = False
     
     for theater in THEATERS:
@@ -290,16 +430,34 @@ def run_crawler():
             if title and rel_url and title not in unique_movies:
                 unique_movies[title] = rel_url
 
-    # 各映画の公式サイトURLを解決（キャッシュにないもののみクロール）
+    # 各映画の詳細情報を解決（キャッシュにない、または詳細情報が不完全なもののみクロール）
     for title, rel_url in unique_movies.items():
-        if title not in movie_urls_cache:
-            official_url = fetch_official_url(rel_url)
-            movie_urls_cache[title] = official_url
-            has_cache_updated = True
-            time.sleep(1.0) # 映画詳細ページアクセスの負荷軽減
+        is_incomplete = False
+        if title in movie_details_cache:
+            cached = movie_details_cache[title]
+            if isinstance(cached, str):
+                is_incomplete = True
+            elif isinstance(cached, dict):
+                # 必須キーが空の場合は再クロールして補完する
+                if not cached.get("poster_url") or not cached.get("description"):
+                    is_incomplete = True
+        else:
+            is_incomplete = True
+            
+        if is_incomplete:
+            movie_details = fetch_movie_details(rel_url)
+            if movie_details:
+                # 既存の公式サイトURLを保持
+                if title in movie_details_cache and isinstance(movie_details_cache[title], str):
+                    if movie_details_cache[title]:
+                        movie_details["official_url"] = movie_details_cache[title]
+                        
+                movie_details_cache[title] = movie_details
+                has_cache_updated = True
+                time.sleep(1.0) # 映画詳細ページアクセスの負荷軽減
             
     if has_cache_updated:
-        save_movie_urls(movie_urls_cache)
+        save_movie_details(movie_details_cache)
         
     # 最終的な映画データに official_url と eigacom_url を設定し、一時的な rel_url を削除
     for theater_name, theater_data in results.items():
@@ -310,7 +468,15 @@ def run_crawler():
                 movie["eigacom_url"] = "https://eiga.com" + rel_url if rel_url.startswith('/') else rel_url
             else:
                 movie["eigacom_url"] = ""
-            movie["official_url"] = movie_urls_cache.get(title, "")
+                
+            cached_detail = movie_details_cache.get(title)
+            if isinstance(cached_detail, dict):
+                movie["official_url"] = cached_detail.get("official_url", "")
+            elif isinstance(cached_detail, str):
+                movie["official_url"] = cached_detail
+            else:
+                movie["official_url"] = ""
+                
             if "rel_url" in movie:
                 del movie["rel_url"]
         
@@ -334,3 +500,4 @@ def run_crawler():
 
 if __name__ == "__main__":
     run_crawler()
+

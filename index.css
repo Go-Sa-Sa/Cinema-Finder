@@ -1364,3 +1364,289 @@ footer {
     }
 }
 
+
+
+
+/* ==========================================================================
+   Now Showing Movies Gallery (Cards)
+   ========================================================================== */
+.now-showing-container {
+    margin-top: 3.5rem;
+    width: 100%;
+    animation: fadeIn 0.8s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.now-showing-container h4 {
+    font-family: var(--font-display);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    position: relative;
+    display: inline-block;
+}
+
+.now-showing-container h4::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 2px;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    border-radius: 999px;
+}
+
+.now-showing-subtitle {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.movies-gallery-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    max-width: 900px;
+}
+
+.movie-gallery-card {
+    display: flex;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.movie-gallery-card:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(99, 102, 241, 0.3);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(99, 102, 241, 0.15);
+}
+
+/* ポスター部分 */
+.movie-gallery-poster {
+    flex: 0 0 240px;
+    aspect-ratio: 2 / 3;
+    position: relative;
+    overflow: hidden;
+    border-right: 1px solid var(--glass-border);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.movie-gallery-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.movie-gallery-card:hover .movie-gallery-poster img {
+    transform: scale(1.05);
+}
+
+/* ポスターが無い場合のダミー */
+.movie-gallery-poster-placeholder {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.02);
+    color: rgba(255, 255, 255, 0.15);
+    gap: 1rem;
+}
+
+.movie-gallery-poster-placeholder i {
+    font-size: 3rem;
+}
+
+/* 情報部分 */
+.movie-gallery-info {
+    flex: 1;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: left;
+}
+
+.movie-gallery-release {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #ef4444; /* 赤字 */
+    letter-spacing: 0.02em;
+}
+
+.movie-gallery-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: white;
+    line-height: 1.3;
+    margin-bottom: 0.25rem;
+}
+
+/* リンクボタン */
+.movie-gallery-links {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.movie-gallery-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    color: var(--text-color);
+    padding: 0.35rem 0.85rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.movie-gallery-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.movie-gallery-btn i {
+    font-size: 0.85rem;
+}
+
+/* スタッフ・キャスト */
+.movie-gallery-meta-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.movie-gallery-meta-label {
+    flex: 0 0 60px;
+    text-align: center;
+    background: #8e8e93; /* 灰色の背景 */
+    color: white;
+    font-weight: 700;
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+}
+
+.movie-gallery-meta-value {
+    flex: 1;
+    color: var(--text-color);
+}
+
+/* あらすじ */
+.movie-gallery-desc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-top: 0.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* 最大4行で省略 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* コピーライト */
+.movie-gallery-copyright {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    opacity: 0.6;
+    margin-top: auto;
+    padding-top: 0.5rem;
+    line-height: 1.3;
+}
+
+/* Responsive for Movie Gallery */
+@media (max-width: 768px) {
+    .movies-gallery-grid {
+        gap: 1.25rem;
+    }
+    
+    .movie-gallery-card {
+        flex-direction: row;
+    }
+    
+    .movie-gallery-poster {
+        flex: 0 0 160px;
+        border-right: 1px solid var(--glass-border);
+        border-bottom: none;
+    }
+    
+    .movie-gallery-info {
+        padding: 1.25rem;
+        gap: 0.5rem;
+    }
+    
+    .movie-gallery-title {
+        font-size: 1.25rem;
+    }
+    
+    .movie-gallery-desc {
+        -webkit-line-clamp: 3;
+    }
+}
+
+@media (max-width: 480px) {
+    .movie-gallery-poster {
+        flex: 0 0 110px;
+    }
+    
+    .movie-gallery-info {
+        padding: 1rem;
+        gap: 0.4rem;
+    }
+    
+    .movie-gallery-title {
+        font-size: 1.1rem;
+    }
+    
+    .movie-gallery-links {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    
+    .movie-gallery-btn {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.75rem;
+    }
+    
+    .movie-gallery-meta-row {
+        font-size: 0.8rem;
+    }
+    
+    .movie-gallery-meta-label {
+        flex: 0 0 50px;
+        font-size: 0.75rem;
+        padding: 0.1rem 0.3rem;
+    }
+    
+    .movie-gallery-desc {
+        display: none;
+    }
+}
