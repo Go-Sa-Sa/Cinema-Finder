@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12 18:30:18",
+  "last_updated": "2026-06-12 07:47:42",
   "theaters": {
     "USシネマちはら台": {
       "name": "USシネマちはら台",
@@ -2748,116 +2748,6 @@
           "official_url": "https://memorizu.jp/"
         },
         {
-          "title": "DIE MY LOVE ダイ・マイ・ラブ",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-06-12": [
-                  {
-                    "start": "10:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:20",
-                    "end": "23:25"
-                  }
-                ],
-                "2026-06-13": [
-                  {
-                    "start": "10:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:20",
-                    "end": "23:25"
-                  }
-                ],
-                "2026-06-14": [
-                  {
-                    "start": "10:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:20",
-                    "end": "23:25"
-                  }
-                ],
-                "2026-06-15": [
-                  {
-                    "start": "10:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:20",
-                    "end": "23:25"
-                  }
-                ],
-                "2026-06-16": [
-                  {
-                    "start": "10:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:20",
-                    "end": "23:25"
-                  }
-                ],
-                "2026-06-17": [
-                  {
-                    "start": "10:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:20",
-                    "end": "23:25"
-                  }
-                ],
-                "2026-06-18": [
-                  {
-                    "start": "10:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:20",
-                    "end": "23:25"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/103900/",
-          "official_url": "https://klockworx.com/diemylove"
-        },
-        {
           "title": "エレノアってグレイト。",
           "schedules": [
             {
@@ -3024,6 +2914,116 @@
           ],
           "eigacom_url": "https://eiga.com/movie/105914/",
           "official_url": "https://yamazakiichimon2.com/"
+        },
+        {
+          "title": "DIE MY LOVE／ダイ・マイ・ラブ",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-06-12": [
+                  {
+                    "start": "10:45",
+                    "end": ""
+                  },
+                  {
+                    "start": "14:50",
+                    "end": ""
+                  },
+                  {
+                    "start": "21:20",
+                    "end": "23:25"
+                  }
+                ],
+                "2026-06-13": [
+                  {
+                    "start": "10:45",
+                    "end": ""
+                  },
+                  {
+                    "start": "14:50",
+                    "end": ""
+                  },
+                  {
+                    "start": "21:20",
+                    "end": "23:25"
+                  }
+                ],
+                "2026-06-14": [
+                  {
+                    "start": "10:45",
+                    "end": ""
+                  },
+                  {
+                    "start": "14:50",
+                    "end": ""
+                  },
+                  {
+                    "start": "21:20",
+                    "end": "23:25"
+                  }
+                ],
+                "2026-06-15": [
+                  {
+                    "start": "10:45",
+                    "end": ""
+                  },
+                  {
+                    "start": "14:50",
+                    "end": ""
+                  },
+                  {
+                    "start": "21:20",
+                    "end": "23:25"
+                  }
+                ],
+                "2026-06-16": [
+                  {
+                    "start": "10:45",
+                    "end": ""
+                  },
+                  {
+                    "start": "14:50",
+                    "end": ""
+                  },
+                  {
+                    "start": "21:20",
+                    "end": "23:25"
+                  }
+                ],
+                "2026-06-17": [
+                  {
+                    "start": "10:45",
+                    "end": ""
+                  },
+                  {
+                    "start": "14:50",
+                    "end": ""
+                  },
+                  {
+                    "start": "21:20",
+                    "end": "23:25"
+                  }
+                ],
+                "2026-06-18": [
+                  {
+                    "start": "10:45",
+                    "end": ""
+                  },
+                  {
+                    "start": "14:50",
+                    "end": ""
+                  },
+                  {
+                    "start": "21:20",
+                    "end": "23:25"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "",
+          "official_url": ""
         },
         {
           "title": "箱の中の羊",
@@ -5550,7 +5550,7 @@
           "official_url": "https://michibasyuusaku-movie.jp/"
         },
         {
-          "title": "映画　おそ松さん　人類クズ化計画!!!!!?",
+          "title": "おそ松さん 人類クズ化計画!!!!!?",
           "schedules": [
             {
               "format": "2D",
@@ -5712,8 +5712,8 @@
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/104088/",
-          "official_url": "https://osomatsusan-movie.jp/"
+          "eigacom_url": "",
+          "official_url": ""
         },
         {
           "title": "箱の中の羊",
@@ -7560,7 +7560,7 @@
           "official_url": "https://milkygalacticuniverse.com/"
         },
         {
-          "title": "映画　おそ松さん　人類クズ化計画!!!!!?",
+          "title": "おそ松さん 人類クズ化計画!!!!!?",
           "schedules": [
             {
               "format": "2D",
@@ -7722,8 +7722,8 @@
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/104088/",
-          "official_url": "https://osomatsusan-movie.jp/"
+          "eigacom_url": "",
+          "official_url": ""
         },
         {
           "title": "箱の中の羊",
@@ -9912,7 +9912,7 @@
           "official_url": "https://milkygalacticuniverse.com/"
         },
         {
-          "title": "映画　おそ松さん　人類クズ化計画!!!!!?",
+          "title": "おそ松さん 人類クズ化計画!!!!!?",
           "schedules": [
             {
               "format": "2D",
@@ -10074,8 +10074,8 @@
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/104088/",
-          "official_url": "https://osomatsusan-movie.jp/"
+          "eigacom_url": "",
+          "official_url": ""
         },
         {
           "title": "箱の中の羊",
@@ -12083,7 +12083,145 @@
           "official_url": "https://lifesavermovie.jp/"
         },
         {
-          "title": "映画　おそ松さん　人類クズ化計画!!!!!?",
+          "title": "ブルーイ in シネマ　みちしるべ",
+          "schedules": [
+            {
+              "format": "吹替",
+              "dates": {
+                "2026-06-12": [
+                  {
+                    "start": "09:15",
+                    "end": ""
+                  },
+                  {
+                    "start": "11:55",
+                    "end": ""
+                  },
+                  {
+                    "start": "13:25",
+                    "end": ""
+                  },
+                  {
+                    "start": "14:30",
+                    "end": ""
+                  }
+                ],
+                "2026-06-13": [
+                  {
+                    "start": "08:35",
+                    "end": ""
+                  },
+                  {
+                    "start": "11:00",
+                    "end": ""
+                  },
+                  {
+                    "start": "12:30",
+                    "end": ""
+                  },
+                  {
+                    "start": "13:50",
+                    "end": ""
+                  }
+                ],
+                "2026-06-14": [
+                  {
+                    "start": "08:35",
+                    "end": ""
+                  },
+                  {
+                    "start": "10:55",
+                    "end": ""
+                  },
+                  {
+                    "start": "12:25",
+                    "end": ""
+                  },
+                  {
+                    "start": "13:00",
+                    "end": ""
+                  }
+                ],
+                "2026-06-15": [
+                  {
+                    "start": "09:25",
+                    "end": ""
+                  },
+                  {
+                    "start": "11:55",
+                    "end": ""
+                  },
+                  {
+                    "start": "13:25",
+                    "end": ""
+                  },
+                  {
+                    "start": "14:30",
+                    "end": ""
+                  }
+                ],
+                "2026-06-16": [
+                  {
+                    "start": "09:25",
+                    "end": ""
+                  },
+                  {
+                    "start": "11:55",
+                    "end": ""
+                  },
+                  {
+                    "start": "13:25",
+                    "end": ""
+                  },
+                  {
+                    "start": "14:30",
+                    "end": ""
+                  }
+                ],
+                "2026-06-17": [
+                  {
+                    "start": "09:25",
+                    "end": ""
+                  },
+                  {
+                    "start": "11:55",
+                    "end": ""
+                  },
+                  {
+                    "start": "13:25",
+                    "end": ""
+                  },
+                  {
+                    "start": "14:30",
+                    "end": ""
+                  }
+                ],
+                "2026-06-18": [
+                  {
+                    "start": "09:25",
+                    "end": ""
+                  },
+                  {
+                    "start": "11:55",
+                    "end": ""
+                  },
+                  {
+                    "start": "13:25",
+                    "end": ""
+                  },
+                  {
+                    "start": "14:30",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105665/",
+          "official_url": "https://www.bluey.tv/blog/jp-thesignincinema/"
+        },
+        {
+          "title": "おそ松さん 人類クズ化計画!!!!!?",
           "schedules": [
             {
               "format": "2D",
@@ -12277,146 +12415,8 @@
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/104088/",
-          "official_url": "https://osomatsusan-movie.jp/"
-        },
-        {
-          "title": "ブルーイ in シネマ　みちしるべ",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-06-12": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:30",
-                    "end": ""
-                  }
-                ],
-                "2026-06-13": [
-                  {
-                    "start": "08:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:50",
-                    "end": ""
-                  }
-                ],
-                "2026-06-14": [
-                  {
-                    "start": "08:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "10:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:00",
-                    "end": ""
-                  }
-                ],
-                "2026-06-15": [
-                  {
-                    "start": "09:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:30",
-                    "end": ""
-                  }
-                ],
-                "2026-06-16": [
-                  {
-                    "start": "09:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:30",
-                    "end": ""
-                  }
-                ],
-                "2026-06-17": [
-                  {
-                    "start": "09:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:30",
-                    "end": ""
-                  }
-                ],
-                "2026-06-18": [
-                  {
-                    "start": "09:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:30",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105665/",
-          "official_url": "https://www.bluey.tv/blog/jp-thesignincinema/"
+          "eigacom_url": "",
+          "official_url": ""
         },
         {
           "title": "箱の中の羊",
@@ -13953,24 +13953,6 @@
           "official_url": ""
         },
         {
-          "title": "B’z LIVE-GYM 2026 -FYOP+- ライブビューイング",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-06-14": [
-                  {
-                    "start": "17:00",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "",
-          "official_url": ""
-        },
-        {
           "title": "森口博子 40周年アニバーサリーコンサート \"Your Flower\" バースデー劇場上映会",
           "schedules": [
             {
@@ -13987,336 +13969,8 @@
           ],
           "eigacom_url": "",
           "official_url": ""
-        },
-        {
-          "title": "『BTS WORLD TOUR 'ARIRANG' IN BUSAN』ライブビューイング",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-06-13": [
-                  {
-                    "start": "19:00",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "",
-          "official_url": ""
         }
       ]
     }
-  },
-  "upcoming": [
-    {
-      "title": "清掃する女　亡霊",
-      "release_date": "2026-06-13"
-    },
-    {
-      "title": "PEAK END",
-      "release_date": "2026-06-13"
-    },
-    {
-      "title": "ゆっくりあるく　川村浪子、84歳のダンス",
-      "release_date": "2026-06-13"
-    },
-    {
-      "title": "君の過ち　ロンドン編",
-      "release_date": "2026-06-17"
-    },
-    {
-      "title": "高校卒業できない!?大人たち",
-      "release_date": "2026-06-17"
-    },
-    {
-      "title": "免許返納!?",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "黒牢城",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "急に具合が悪くなる",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "マジカル・シークレット・ツアー",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "さよなら、僕の英雄",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "魔女の宅急便（1989）",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "プリティ・クレイジー　悪魔が引っ越してきた",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "君は映画",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "ダイヤモンド　私たちの衣装工房",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "GENERATIONS “6IX SENSE” LIVE IN CINEMA",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "偏向報道",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "億万長者の不都合な終末",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "アイ・ワズ・ア・ストレンジャー",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "福山市に帰ってみた",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "遺愛",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "スクリーム 7",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "イミディエイト ファミリー",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "a whisper",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "おくりもの",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "お笑えない芸人",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "怪獣と老人",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "傘少女",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "カラーブック",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "チーム・ハズバンド",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "小さな祈り",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "地底への旅",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "ナショナル・シアター・ライブ「みんな我が子」",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "ハイスクール・ミュージカル　ザ・ムービー",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "バカンスは始まったばかり",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "PLAYLIST アジアの才能",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "﻿ボイスメールで恋をして",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "四つのいのち",
-      "release_date": "2026-06-19"
-    },
-    {
-      "title": "愛の世紀",
-      "release_date": "2026-06-20"
-    },
-    {
-      "title": "アワーミュージック",
-      "release_date": "2026-06-20"
-    },
-    {
-      "title": "ウィスキー・ガロア",
-      "release_date": "2026-06-20"
-    },
-    {
-      "title": "映画史特別編　選ばれた瞬間",
-      "release_date": "2026-06-20"
-    },
-    {
-      "title": "カインド・ハート",
-      "release_date": "2026-06-20"
-    },
-    {
-      "title": "ゴダール・ソシアリスム",
-      "release_date": "2026-06-20"
-    },
-    {
-      "title": "最後通告",
-      "release_date": "2026-06-20"
-    },
-    {
-      "title": "ディッシュアップ",
-      "release_date": "2026-06-20"
-    },
-    {
-      "title": "白衣の男",
-      "release_date": "2026-06-20"
-    },
-    {
-      "title": "緑の山",
-      "release_date": "2026-06-20"
-    },
-    {
-      "title": "山の焚火",
-      "release_date": "2026-06-20"
-    },
-    {
-      "title": "ラベンダー・ヒル・モブ",
-      "release_date": "2026-06-20"
-    },
-    {
-      "title": "我ら山人たち",
-      "release_date": "2026-06-20"
-    },
-    {
-      "title": "ダンテの遺稿",
-      "release_date": "2026-06-24"
-    },
-    {
-      "title": "スーパーガール",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "最終絶叫計画　令和！",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "ロングウォーク",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "熱狂をこえて",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "四月の余白",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "新劇場版☆ケロロ軍曹　復活して速攻地球滅亡の危機であります！",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "アウトウォーターズ　裂けた砂漠",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "ヤマトよ永遠に REBEL3199 第六章　碧い迷宮",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "死神バーバー",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "英国ロイヤル・バレエ＆オペラ in シネマ 2025/26 ロイヤル・オペラ「ジークフリート」",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "エド・ケンパー",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "家族という病",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "クリス＆マルチナ　ファイナルセットのその先に",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "シンシン アンド ザ マウス SINSIN AND THE MOUSE",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "それいけ！アンパンマン　パンタンと約束の星",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "大福のメルヘン村探検2 リズムさんのうた",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "罪の棘",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "メリリー・ウィー・ロール・アロング",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "メルヘン・ハニー",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "リトル・ブラザー",
-      "release_date": "2026-06-26"
-    },
-    {
-      "title": "健康ちえのわトランポリン教室",
-      "release_date": "2026-06-27"
-    },
-    {
-      "title": "バナ穴 BANA_ANA",
-      "release_date": "2026-06-27"
-    },
-    {
-      "title": "おかえりの湯",
-      "release_date": "2026-06-27"
-    },
-    {
-      "title": "熊蟲萬壽無彊クマムシばんじゅ・きわみなし The Space Bears 4 Ever 生命の戦略",
-      "release_date": "2026-06-27"
-    },
-    {
-      "title": "雲と大地のはざまで",
-      "release_date": "2026-06-27"
-    },
-    {
-      "title": "ひとりたび",
-      "release_date": "2026-06-27"
-    }
-  ]
+  }
 }
