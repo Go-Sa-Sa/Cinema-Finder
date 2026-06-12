@@ -1411,18 +1411,20 @@ footer {
 }
 
 .movies-gallery-grid {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 2rem;
     width: 100%;
-    max-width: 900px;
+    max-width: 950px;
 }
 
 .movie-gallery-card {
-    display: flex;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100%;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid var(--glass-border);
-    border-radius: 16px;
+    border-radius: 20px;
     overflow: hidden;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
@@ -1436,13 +1438,13 @@ footer {
     box-shadow: 0 12px 40px rgba(99, 102, 241, 0.15);
 }
 
-/* ポスター部分 */
+/* ポスター部分 (横長 16:9) */
 .movie-gallery-poster {
-    flex: 0 0 240px;
-    aspect-ratio: 2 / 3;
+    width: 100%;
+    aspect-ratio: 16 / 9;
     position: relative;
     overflow: hidden;
-    border-right: 1px solid var(--glass-border);
+    border-bottom: 1px solid var(--glass-border);
     background: rgba(0, 0, 0, 0.2);
 }
 
@@ -1461,23 +1463,21 @@ footer {
 .movie-gallery-poster-placeholder {
     width: 100%;
     height: 100%;
-    min-height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background: rgba(255, 255, 255, 0.02);
     color: rgba(255, 255, 255, 0.15);
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .movie-gallery-poster-placeholder i {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /* 情報部分 */
 .movie-gallery-info {
-    flex: 1;
     padding: 1.75rem;
     display: flex;
     flex-direction: column;
@@ -1585,17 +1585,8 @@ footer {
 /* Responsive for Movie Gallery */
 @media (max-width: 768px) {
     .movies-gallery-grid {
-        gap: 1.25rem;
-    }
-    
-    .movie-gallery-card {
-        flex-direction: row;
-    }
-    
-    .movie-gallery-poster {
-        flex: 0 0 160px;
-        border-right: 1px solid var(--glass-border);
-        border-bottom: none;
+        gap: 1.5rem;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     }
     
     .movie-gallery-info {
@@ -1613,8 +1604,9 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .movie-gallery-poster {
-        flex: 0 0 110px;
+    .movies-gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
     }
     
     .movie-gallery-info {
@@ -1648,5 +1640,291 @@ footer {
     
     .movie-gallery-desc {
         display: none;
+    }
+}
+
+/* ==========================================================================
+   Gallery Container & Tabs Custom Styling
+   ========================================================================== */
+.now-showing-container.glass-card {
+    padding: 2.5rem;
+    margin-top: 3.5rem;
+    width: 100%;
+    max-width: 950px;
+    align-self: center;
+    border-radius: 20px;
+}
+
+.gallery-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--glass-border);
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.gallery-tabs {
+    display: flex;
+    gap: 0.5rem;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 0.4rem;
+    border-radius: 999px;
+    border: 1px solid var(--glass-border);
+}
+
+.gallery-tab {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    padding: 0.6rem 1.5rem;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gallery-tab:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.gallery-tab.active {
+    color: white;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.4), rgba(168, 85, 247, 0.4));
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gallery-tab i {
+    font-size: 0.85rem;
+}
+
+/* ==========================================================================
+   Upcoming Detail Card in Schedule Area
+   ========================================================================== */
+.upcoming-detail-card {
+    display: flex;
+    gap: 2rem;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid var(--glass-highlight);
+    background: rgba(255, 255, 255, 0.02);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.5s ease-out;
+}
+
+.upcoming-detail-poster {
+    flex: 0 0 200px;
+    aspect-ratio: 2 / 3;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.upcoming-detail-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.upcoming-detail-poster-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.02);
+    color: rgba(255, 255, 255, 0.2);
+    gap: 1rem;
+    min-height: 300px;
+}
+
+.upcoming-detail-poster-placeholder i {
+    font-size: 2.5rem;
+}
+
+.upcoming-detail-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    text-align: left;
+}
+
+.upcoming-release-badge {
+    align-self: flex-start;
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    color: #f87171;
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.upcoming-detail-info h3 {
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: white;
+    margin: 0;
+}
+
+.upcoming-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+    color: var(--text-color);
+    border-top: 1px solid var(--glass-border);
+    border-bottom: 1px solid var(--glass-border);
+    padding: 0.75rem 0;
+}
+
+.upcoming-meta p {
+    margin: 0;
+}
+
+.upcoming-meta strong {
+    color: var(--text-muted);
+}
+
+.upcoming-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin: 0;
+    opacity: 0.85;
+}
+
+.upcoming-links {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.upcoming-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.upcoming-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.upcoming-notice {
+    margin-top: auto;
+    background: rgba(59, 130, 246, 0.1);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    color: #60a5fa;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Responsive adjustments for upcoming card */
+@media (max-width: 640px) {
+    .upcoming-detail-card {
+        flex-direction: column;
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    .upcoming-detail-poster {
+        flex: 0 0 auto;
+        width: 140px;
+        margin: 0 auto;
+    }
+    
+    .upcoming-detail-info h3 {
+        font-size: 1.4rem;
+    }
+}
+
+/* ==========================================================================
+   Responsive adjustments for Now Showing Container & Tabs
+   ========================================================================== */
+@media (max-width: 768px) {
+    .now-showing-container.glass-card {
+        padding: 1.5rem;
+        margin-top: 2.5rem;
+        border-radius: 16px;
+    }
+    
+    .gallery-header {
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .gallery-tab {
+        padding: 0.5rem 1.2rem;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .now-showing-container.glass-card {
+        padding: 1rem;
+        margin-top: 2rem;
+        border-radius: 12px;
+    }
+    
+    .gallery-header {
+        padding-bottom: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .gallery-tabs {
+        width: 100%;
+        display: flex;
+        gap: 0.25rem;
+        padding: 0.3rem;
+    }
+    
+    .gallery-tab {
+        flex: 1;
+        justify-content: center;
+        padding: 0.5rem 0.5rem;
+        font-size: 0.8rem;
+        gap: 0.3rem;
+        white-space: nowrap;
+    }
+    
+    .gallery-tab i {
+        font-size: 0.75rem;
+    }
+    
+    .now-showing-subtitle {
+        font-size: 0.75rem;
+        margin-bottom: 1rem;
     }
 }

@@ -6,6 +6,8 @@ let movieDetails = {}; // movie_details.json の詳細データ
 let allMovies = [];
 let selectedMovie = "";
 let selectedDate = ""; // YYYY-MM-DD 形式
+let activeTab = "showing";
+let upcomingMovies = [];
 
 document.addEventListener("DOMContentLoaded", () => {
     initApp();
@@ -148,6 +150,9 @@ async function fetchMovies() {
             updateInfo.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i> データ未取得`;
         }
         
+        // 上映予定映画のリストをロード
+        upcomingMovies = moviesData.upcoming || [];
+
         // ドロップダウンリストを構築
         renderMovieOptions(allMovies);
         
@@ -166,12 +171,16 @@ function renderMoviesGallery() {
     if (!grid) return;
     grid.innerHTML = "";
     
-    if (allMovies.length === 0) {
-        grid.innerHTML = `<div class="no-movies-gallery" style="color: var(--text-muted); padding: 2rem; text-align: center;">上映中の作品情報がありません</div>`;
+    const isUpcoming = activeTab === "upcoming";
+    const moviesToRender = isUpcoming ? upcomingMovies.map(m => m.title) : allMovies;
+    
+    if (moviesToRender.length === 0) {
+        const msg = isUpcoming ? "上映予定の作品情報がありません" : "上映中の作品情報がありません";
+        grid.innerHTML = `<div class="no-movies-gallery" style="color: var(--text-muted); padding: 2rem; text-align: center;">${msg}</div>`;
         return;
     }
     
-    allMovies.forEach(title => {
+    moviesToRender.forEach(title => {
         const details = movieDetails[title] || {};
         
         const card = document.createElement("div");
@@ -218,7 +227,7 @@ function renderMoviesGallery() {
         if (eigacomUrl) {
             linksHtml += `
                 <a href="${eigacomUrl}" target="_blank" rel="noopener noreferrer" class="movie-gallery-btn" onclick="event.stopPropagation();">
-                    <i class="fa-solid fa-calendar-days"></i>上映スケジュール
+                    <i class="fa-solid fa-calendar-days"></i>作品情報 (映画.com)
                 </a>
             `;
         }
@@ -246,11 +255,16 @@ function renderMoviesGallery() {
         card.addEventListener("click", () => {
             selectMovie(title);
             
-            // 日付が未選択の場合は、自動的に「今日（一番最初の日付チップ）」を選択する
-            if (!selectedDate) {
-                const firstDateChip = document.querySelector(".date-scroll-container .date-chip");
-                if (firstDateChip) {
-                    firstDateChip.click();
+            // 上映予定作品でない場合のみ日付チップとの自動連動を行う
+            if (!isUpcomingMovie(title)) {
+                // 日付が未選択の場合は、自動的に「今日（一番最初の日付チップ）」を選択する
+                if (!selectedDate) {
+                    const firstDateChip = document.querySelector(".date-scroll-container .date-chip");
+                    if (firstDateChip) {
+                        firstDateChip.click();
+                    }
+                } else {
+                    onSelectionChange();
                 }
             } else {
                 onSelectionChange();
@@ -485,7 +499,15 @@ function getScheduleFromCache(title, dateStr) {
 }
 
 async function fetchSchedule() {
-    if (!selectedMovie || !selectedDate) return;
+    if (!selectedMovie) return;
+    
+    // 上映予定映画の場合は、日付に関わらず詳細予告をレンダリングする
+    if (isUpcomingMovie(selectedMovie)) {
+        renderUpcomingDetail(selectedMovie);
+        return;
+    }
+    
+    if (!selectedDate) return;
     
     // 画面状態の切り替え
     document.getElementById("placeholder-state").style.display = "none";
@@ -567,7 +589,7 @@ function clearMovieSelection() {
 }
 
 function onSelectionChange() {
-    if (selectedMovie && selectedDate) {
+    if (selectedMovie && (selectedDate || isUpcomingMovie(selectedMovie))) {
         fetchSchedule();
     }
 }
@@ -719,6 +741,39 @@ function setupEventListeners() {
     const clearBtn = document.getElementById("clear-movie-btn");
     const refreshBtn = document.getElementById("refresh-cache-btn");
     
+    // タブ切り替えのイベント設定
+    const tabShowing = document.getElementById("tab-now-showing");
+    const tabUpcoming = document.getElementById("tab-upcoming");
+    if (tabShowing && tabUpcoming) {
+        tabShowing.addEventListener("click", () => {
+            if (activeTab === "showing") return;
+            activeTab = "showing";
+            tabShowing.classList.add("active");
+            tabShowing.setAttribute("aria-selected", "true");
+            tabUpcoming.classList.remove("active");
+            tabUpcoming.setAttribute("aria-selected", "false");
+            
+            const subtitle = document.getElementById("gallery-subtitle");
+            if (subtitle) subtitle.innerText = "作品をクリックすると、スケジュールが表示されます";
+            
+            renderMoviesGallery();
+        });
+        
+        tabUpcoming.addEventListener("click", () => {
+            if (activeTab === "upcoming") return;
+            activeTab = "upcoming";
+            tabUpcoming.classList.add("active");
+            tabUpcoming.setAttribute("aria-selected", "true");
+            tabShowing.classList.remove("active");
+            tabShowing.setAttribute("aria-selected", "false");
+            
+            const subtitle = document.getElementById("gallery-subtitle");
+            if (subtitle) subtitle.innerText = "近日公開予定の作品です（作品をクリックすると詳細が表示されます）";
+            
+            renderMoviesGallery();
+        });
+    }
+    
     // 入力エリアフォーカスで候補リスト表示
     input.addEventListener("focus", () => {
         renderMovieOptions(allMovies);
@@ -820,4 +875,91 @@ async function triggerManualCrawl() {
             modal.style.display = "none";
         }
     }
+}
+
+function isUpcomingMovie(title) {
+    return upcomingMovies.some(m => m.title === title);
+}
+
+function renderUpcomingDetail(title) {
+    document.getElementById("placeholder-state").style.display = "none";
+    document.getElementById("loading-state").style.display = "none";
+    document.getElementById("schedule-legend").style.display = "none";
+    document.getElementById("simulation-alert").style.display = "none";
+    
+    const details = movieDetails[title] || {};
+    const posterUrl = details.poster_url || "";
+    const director = details.director || "情報なし";
+    const cast = (details.cast && details.cast.length > 0) ? details.cast.join(", ") : "情報なし";
+    const description = details.description || "あらすじ情報はありません。";
+    const releaseDateFormatted = details.release_date_formatted || "近日公開";
+    const officialUrl = details.official_url || "";
+    const eigacomUrl = details.eigacom_url || "";
+    
+    // タイトルの更新
+    document.getElementById("current-selection-title").innerText = `「${title}」作品情報`;
+    
+    // 公式サイト・映画.comリンク
+    const officialLink = document.getElementById("movie-official-link");
+    if (officialUrl) {
+        officialLink.href = officialUrl;
+        officialLink.style.display = "inline-flex";
+    } else {
+        officialLink.style.display = "none";
+    }
+    
+    const eigacomLink = document.getElementById("movie-eigacom-link");
+    if (eigacomUrl) {
+        eigacomLink.href = eigacomUrl;
+        eigacomLink.style.display = "inline-flex";
+    } else {
+        eigacomLink.style.display = "none";
+    }
+    
+    // リンクボタンのHTML
+    let linksHtml = "";
+    if (officialUrl) {
+        linksHtml += `
+            <a href="${officialUrl}" target="_blank" rel="noopener noreferrer" class="upcoming-btn">
+                <i class="fa-solid fa-earth-americas"></i>公式サイト
+            </a>
+        `;
+    }
+    if (eigacomUrl) {
+        linksHtml += `
+            <a href="${eigacomUrl}" target="_blank" rel="noopener noreferrer" class="upcoming-btn">
+                <i class="fa-solid fa-calendar-days"></i>作品情報 (映画.com)
+            </a>
+        `;
+    }
+    
+    const grid = document.getElementById("schedule-grid");
+    grid.style.display = "block";
+    grid.innerHTML = `
+        <div class="upcoming-detail-card">
+            <div class="upcoming-detail-poster">
+                ${posterUrl ? `<img src="${posterUrl}" alt="${title}">` : `
+                    <div class="upcoming-detail-poster-placeholder">
+                        <i class="fa-solid fa-film"></i>
+                        <span>NO IMAGE</span>
+                    </div>
+                `}
+            </div>
+            <div class="upcoming-detail-info">
+                <span class="upcoming-release-badge"><i class="fa-solid fa-calendar"></i> ${releaseDateFormatted}</span>
+                <h3>${title}</h3>
+                <div class="upcoming-meta">
+                    <p><strong>監督:</strong> ${director}</p>
+                    <p><strong>出演:</strong> ${cast}</p>
+                </div>
+                <p class="upcoming-description">${description}</p>
+                <div class="upcoming-links">
+                    ${linksHtml}
+                </div>
+                <div class="upcoming-notice">
+                    <i class="fa-solid fa-circle-info"></i> この作品は上映予定の作品です。公開日以降に順次上映スケジュールが掲載されます。
+                </div>
+            </div>
+        </div>
+    `;
 }

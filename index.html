@@ -142,9 +142,18 @@
             </div>
         </section>
 
-        <div class="now-showing-container">
-            <h4>上映中の作品一覧</h4>
-            <p class="now-showing-subtitle">作品をクリックすると、スケジュールが表示されます</p>
+        <div class="now-showing-container glass-card">
+            <div class="gallery-header">
+                <div class="gallery-tabs" role="tablist">
+                    <button class="gallery-tab active" id="tab-now-showing" role="tab" aria-selected="true" aria-controls="movies-gallery-grid">
+                        <i class="fa-solid fa-play"></i> 上映中の作品
+                    </button>
+                    <button class="gallery-tab" id="tab-upcoming" role="tab" aria-selected="false" aria-controls="movies-gallery-grid">
+                        <i class="fa-solid fa-calendar-days"></i> 次回上映予定の作品
+                    </button>
+                </div>
+            </div>
+            <p class="now-showing-subtitle" id="gallery-subtitle">作品をクリックすると、スケジュールが表示されます</p>
             <div class="movies-gallery-grid" id="movies-gallery-grid">
                 <!-- JSで動的に映画カードを生成 -->
             </div>

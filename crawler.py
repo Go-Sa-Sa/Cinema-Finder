@@ -407,6 +407,95 @@ def fetch_movie_details(rel_url):
         
     return None
 
+def crawl_upcoming_movies(today):
+    print("Crawling upcoming movies...")
+    upcoming_url = "https://eiga.com/coming/"
+    upcoming_movies = []
+    
+    try:
+        response = requests.get(upcoming_url, headers=HEADERS, timeout=10)
+        if response.status_code != 200:
+            print(f"Failed to fetch upcoming movies. Status code: {response.status_code}")
+            return []
+            
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        for h2 in soup.find_all('h2', class_='title-square'):
+            year_span = h2.find('span', class_='year')
+            calendar_span = h2.find('span', class_='calendar')
+            if not year_span or not calendar_span:
+                continue
+            year_text = year_span.text.strip()
+            calendar_text = calendar_span.text.strip()
+            
+            year_match = re.search(r'\d+', year_text)
+            date_match = re.search(r'(\d+)月(\d+)日', calendar_text)
+            if not year_match or not date_match:
+                continue
+                
+            year = int(year_match.group(0))
+            month = int(date_match.group(1))
+            day = int(date_match.group(2))
+            
+            h2_text = h2.text.strip()
+            weekday_match = re.search(r'（(.)）', h2_text)
+            weekday = weekday_match.group(1) if weekday_match else ""
+            
+            date_iso = f"{year:04d}-{month:02d}-{day:02d}"
+            date_formatted = f"{month:02d}月{day:02d}日({weekday}) 公開"
+            
+            sibling = h2.next_sibling
+            while sibling:
+                if isinstance(sibling, Tag):
+                    if sibling.name == 'h2' and 'title-square' in sibling.get('class', []):
+                        break
+                    if sibling.name == 'div' and ('list-block' in sibling.get('class', []) or 'list-block2' in sibling.get('class', [])):
+                        title_h3 = sibling.find('h3', class_='title')
+                        if title_h3:
+                            title_a = title_h3.find('a')
+                            movie_title = title_h3.text.strip()
+                            rel_url = title_a['href'] if title_a else ""
+                            
+                            img_tag = sibling.find('div', class_='img-box').find('img') if sibling.find('div', class_='img-box') else None
+                            poster_url = img_tag['src'] if img_tag else ""
+                            if poster_url and 'noimg' in poster_url:
+                                poster_url = ""
+                                
+                            desc_p = sibling.find('p', class_='txt')
+                            description = desc_p.text.strip() if desc_p else ""
+                            
+                            director = ""
+                            cast = []
+                            cast_staff_ul = sibling.find('ul', class_='cast-staff')
+                            if cast_staff_ul:
+                                for li in cast_staff_ul.find_all('li'):
+                                    li_text = li.text.strip()
+                                    if "監督" in li_text:
+                                        director = li_text.replace("監督", "").strip()
+                                    else:
+                                        cast_names = [span.text.strip() for span in li.find_all('span')]
+                                        if cast_names:
+                                            cast = cast_names
+                                        else:
+                                            cast = [c.strip() for c in li_text.split(',') if c.strip()]
+                                            
+                            upcoming_movies.append({
+                                "title": movie_title,
+                                "release_date": date_iso,
+                                "release_date_formatted": date_formatted,
+                                "poster_url": poster_url,
+                                "description": description,
+                                "director": director,
+                                "cast": cast,
+                                "eigacom_url": "https://eiga.com" + rel_url if rel_url.startswith('/') else rel_url
+                            })
+                sibling = sibling.next_sibling
+                
+        return upcoming_movies
+    except Exception as e:
+        print(f"Error crawling upcoming movies: {e}")
+        return []
+
 def run_crawler():
     today = datetime.date.today()
     results = {}
@@ -414,6 +503,26 @@ def run_crawler():
     # 映画詳細キャッシュを読み込む
     movie_details_cache = load_movie_details()
     has_cache_updated = False
+    
+    # 上映予定映画のスクレイピング
+    upcoming_list = crawl_upcoming_movies(today)
+    
+    # 上映予定映画の詳細情報を movie_details_cache にマージする
+    for m in upcoming_list:
+        title = m["title"]
+        if title not in movie_details_cache:
+            movie_details_cache[title] = {
+                "official_url": "",
+                "eigacom_url": m["eigacom_url"],
+                "poster_url": m["poster_url"],
+                "release_date": m["release_date"],
+                "release_date_formatted": m["release_date_formatted"],
+                "director": m["director"],
+                "cast": m["cast"],
+                "description": m["description"],
+                "copyright": ""
+            }
+            has_cache_updated = True
     
     for theater in THEATERS:
         data = crawl_theater(theater, today)
@@ -484,9 +593,12 @@ def run_crawler():
     jst_tz = datetime.timezone(datetime.timedelta(hours=9))
     current_time_jst = datetime.datetime.now(jst_tz)
     
+    upcoming_data = [{"title": m["title"], "release_date": m["release_date"]} for m in upcoming_list]
+    
     output_data = {
         "last_updated": current_time_jst.strftime("%Y-%m-%d %H:%M:%S"),
-        "theaters": results
+        "theaters": results,
+        "upcoming": upcoming_data
     }
     
     # 実行ファイルと同階層に movies_data.json を保存
