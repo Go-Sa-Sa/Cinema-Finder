@@ -21,3 +21,7 @@ test_api.py
 resize_icons.py
 CrawlLog.txt
 *.log
+*.bak
+~$*
+*.tmp
+

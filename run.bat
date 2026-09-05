@@ -1,10 +1,14 @@
 @echo off
-title Cinema Schedule Tool Launcher
+title Chiba Cinema Finder - Local Server
 cd /d "%~dp0"
-echo Starting Cinema Schedule Tool Server...
+echo ========================================================
+echo Starting Chiba Cinema Finder (Local Web Server)...
+echo Access at: http://localhost:8000
+echo (Press Ctrl+C to stop)
+echo ========================================================
+
 python server.py
 if %errorlevel% neq 0 (
-  echo "python" failed. Trying "py"...
   py server.py
 )
 if %errorlevel% neq 0 (

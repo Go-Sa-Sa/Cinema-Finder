@@ -1,9 +1,17 @@
-const CACHE_NAME = 'cinema-finder-v9';
+const CACHE_NAME = 'cinema-finder-v11';
 const ASSETS = [
   './',
   './index.html',
   './index.css',
   './app.js',
+  './src/state.js',
+  './src/api.js',
+  './src/dates.js',
+  './src/gallery.js',
+  './src/dropdown.js',
+  './src/schedule.js',
+  './src/simulation.js',
+  './src/sw-register.js',
   './movies_data.json',
   './movie_details.json',
   './icon-192.png',

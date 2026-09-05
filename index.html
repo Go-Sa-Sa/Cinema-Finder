@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chiba Cinema Finder - 千葉6劇場 上映スケジュール一覧</title>
-    <meta name="description" content="千葉県内主要6劇場の映画上映スケジュールを、タイトルと日時を指定して一括比較・確認できるツールです。">
+    <title>Chiba Cinema Finder - 千葉7劇場 上映スケジュール一覧</title>
+    <meta name="description" content="千葉県内主要7劇場の映画上映スケジュールを、タイトルと日時を指定して一括比較・確認できるツールです。">
     <!-- Google Fonts: Outfit and Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
                 <i class="fa-solid fa-film logo-icon"></i>
                 <div class="logo-text">
                     <h1>Chiba Cinema Finder</h1>
-                    <span class="sub-logo">千葉6劇場スケジュール一括比較</span>
+                    <span class="sub-logo">千葉7劇場スケジュール一括比較</span>
                 </div>
             </div>
             <div class="update-controls">
@@ -126,6 +126,10 @@
                             <span class="theater-link-name">イオンシネマ幕張新都心</span>
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         </a>
+                        <a href="https://www.aeoncinema.com/cinema/tsudanumasouth/" target="_blank" rel="noopener noreferrer" class="theater-link-card">
+                            <span class="theater-link-name">イオンシネマ津田沼South</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -136,9 +140,9 @@
                 <p>上映スケジュールを取得中...</p>
             </div>
 
-            <!-- スケジュールグリッド (6劇場) -->
+            <!-- スケジュールグリッド (7劇場) -->
             <div class="schedule-grid" id="schedule-grid" style="display: none;">
-                <!-- JSで動的に6劇場のカードを生成 -->
+                <!-- JSで動的に7劇場のカードを生成 -->
             </div>
         </section>
 
@@ -174,11 +178,11 @@
         <div class="crawl-modal-content glass-card">
             <div class="spinnerlarge"></div>
             <h2>スケジュール情報を同期中...</h2>
-            <p>映画.comから千葉6劇場の上映スケジュールを取得しています。</p>
+            <p>映画.comから千葉7劇場の上映スケジュールを取得しています。</p>
             <p class="modal-subtext">これには数秒から数十秒かかる場合があります。しばらくお待ちください。</p>
         </div>
     </div>
 
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
 </body>
 </html>
