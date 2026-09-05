@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06 00:40:41",
+  "last_updated": "2026-09-06 07:30:02",
   "theaters": {
     "USシネマちはら台": {
       "name": "USシネマちはら台",
@@ -1042,6 +1042,68 @@
           "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
         },
         {
+          "title": "オデュッセイア",
+          "schedules": [
+            {
+              "format": "IMAX字幕",
+              "dates": {
+                "2026-09-06": [
+                  {
+                    "start": "12:00",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:00",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-09-07": [
+                  {
+                    "start": "12:00",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:00",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-09-08": [
+                  {
+                    "start": "12:00",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:00",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-09-09": [
+                  {
+                    "start": "12:00",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:00",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-09-10": [
+                  {
+                    "start": "12:00",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:00",
+                    "end": "23:00"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104267/",
+          "official_url": ""
+        },
+        {
           "title": "オークストリートの異変",
           "schedules": [
             {
@@ -1158,68 +1220,6 @@
             }
           ],
           "eigacom_url": "https://eiga.com/movie/102846/",
-          "official_url": ""
-        },
-        {
-          "title": "オデュッセイア",
-          "schedules": [
-            {
-              "format": "IMAX字幕",
-              "dates": {
-                "2026-09-06": [
-                  {
-                    "start": "12:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-09-07": [
-                  {
-                    "start": "12:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-09-08": [
-                  {
-                    "start": "12:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-09-09": [
-                  {
-                    "start": "12:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-09-10": [
-                  {
-                    "start": "12:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "23:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104267/",
           "official_url": ""
         },
         {
@@ -3455,42 +3455,6 @@
           "official_url": ""
         },
         {
-          "title": "見えない娘 THE INVISIBLES",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-07": [
-                  {
-                    "start": "16:55",
-                    "end": "18:55"
-                  }
-                ],
-                "2026-09-08": [
-                  {
-                    "start": "16:55",
-                    "end": "18:55"
-                  }
-                ],
-                "2026-09-09": [
-                  {
-                    "start": "16:55",
-                    "end": "18:55"
-                  }
-                ],
-                "2026-09-10": [
-                  {
-                    "start": "16:55",
-                    "end": "18:55"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105735/",
-          "official_url": "https://mienaimusume.com/"
-        },
-        {
           "title": "ミニオンズ＆モンスターズ",
           "schedules": [
             {
@@ -3553,6 +3517,42 @@
           "official_url": "https://minions.jp/"
         },
         {
+          "title": "見えない娘 THE INVISIBLES",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-07": [
+                  {
+                    "start": "16:55",
+                    "end": "18:55"
+                  }
+                ],
+                "2026-09-08": [
+                  {
+                    "start": "16:55",
+                    "end": "18:55"
+                  }
+                ],
+                "2026-09-09": [
+                  {
+                    "start": "16:55",
+                    "end": "18:55"
+                  }
+                ],
+                "2026-09-10": [
+                  {
+                    "start": "16:55",
+                    "end": "18:55"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105735/",
+          "official_url": "https://mienaimusume.com/"
+        },
+        {
           "title": "モアナと伝説の海",
           "schedules": [
             {
@@ -3592,6 +3592,48 @@
             }
           ],
           "eigacom_url": "https://eiga.com/movie/104003/",
+          "official_url": ""
+        },
+        {
+          "title": "パウ・パトロール　ザ・ダイノ・ムービー",
+          "schedules": [
+            {
+              "format": "吹替",
+              "dates": {
+                "2026-09-06": [
+                  {
+                    "start": "13:00",
+                    "end": "14:40"
+                  }
+                ],
+                "2026-09-07": [
+                  {
+                    "start": "13:00",
+                    "end": "14:40"
+                  }
+                ],
+                "2026-09-08": [
+                  {
+                    "start": "13:00",
+                    "end": "14:40"
+                  }
+                ],
+                "2026-09-09": [
+                  {
+                    "start": "13:00",
+                    "end": "14:40"
+                  }
+                ],
+                "2026-09-10": [
+                  {
+                    "start": "13:00",
+                    "end": "14:40"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105057/",
           "official_url": ""
         },
         {
@@ -3635,48 +3677,6 @@
           ],
           "eigacom_url": "https://eiga.com/movie/105730/",
           "official_url": "https://gaga.ne.jp/shiranuhi/"
-        },
-        {
-          "title": "パウ・パトロール　ザ・ダイノ・ムービー",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-06": [
-                  {
-                    "start": "13:00",
-                    "end": "14:40"
-                  }
-                ],
-                "2026-09-07": [
-                  {
-                    "start": "13:00",
-                    "end": "14:40"
-                  }
-                ],
-                "2026-09-08": [
-                  {
-                    "start": "13:00",
-                    "end": "14:40"
-                  }
-                ],
-                "2026-09-09": [
-                  {
-                    "start": "13:00",
-                    "end": "14:40"
-                  }
-                ],
-                "2026-09-10": [
-                  {
-                    "start": "13:00",
-                    "end": "14:40"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105057/",
-          "official_url": ""
         },
         {
           "title": "劇場版 TUBE 40th Anniversary Live & Documentary 40周年の航海記",
@@ -5288,6 +5288,24 @@
           ],
           "eigacom_url": "https://eiga.com/movie/50843/",
           "official_url": ""
+        },
+        {
+          "title": "水曜どうでしょう祭UNITE2026 ライブ・ビューイング",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-06": [
+                  {
+                    "start": "17:30",
+                    "end": "21:00"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "",
+          "official_url": ""
         }
       ]
     },
@@ -6679,6 +6697,24 @@
           "official_url": ""
         },
         {
+          "title": "パウ・パトロール　ザ・ダイノ・ムービー",
+          "schedules": [
+            {
+              "format": "吹替",
+              "dates": {
+                "2026-09-06": [
+                  {
+                    "start": "09:00",
+                    "end": "10:35"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105057/",
+          "official_url": ""
+        },
+        {
           "title": "機動警察パトレイバー EZY File 2",
           "schedules": [
             {
@@ -6751,24 +6787,6 @@
           ],
           "eigacom_url": "https://eiga.com/movie/105425/",
           "official_url": "https://ezy.patlabor.tokyo/"
-        },
-        {
-          "title": "パウ・パトロール　ザ・ダイノ・ムービー",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-06": [
-                  {
-                    "start": "09:00",
-                    "end": "10:35"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105057/",
-          "official_url": ""
         },
         {
           "title": "レッド・サン",
@@ -8392,6 +8410,48 @@
           "official_url": "https://minions.jp/"
         },
         {
+          "title": "モアナと伝説の海",
+          "schedules": [
+            {
+              "format": "吹替",
+              "dates": {
+                "2026-09-06": [
+                  {
+                    "start": "18:35",
+                    "end": "20:40"
+                  }
+                ],
+                "2026-09-07": [
+                  {
+                    "start": "18:35",
+                    "end": "20:40"
+                  }
+                ],
+                "2026-09-08": [
+                  {
+                    "start": "18:35",
+                    "end": "20:40"
+                  }
+                ],
+                "2026-09-09": [
+                  {
+                    "start": "18:35",
+                    "end": "20:40"
+                  }
+                ],
+                "2026-09-10": [
+                  {
+                    "start": "18:35",
+                    "end": "20:40"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104003/",
+          "official_url": ""
+        },
+        {
           "title": "ハリー・ポッターと賢者の石",
           "schedules": [
             {
@@ -8434,45 +8494,45 @@
           "official_url": "https://www.warnerbros.co.jp/harrypotter/"
         },
         {
-          "title": "モアナと伝説の海",
+          "title": "パウ・パトロール　ザ・ダイノ・ムービー",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
                 "2026-09-06": [
                   {
-                    "start": "18:35",
-                    "end": "20:40"
+                    "start": "16:15",
+                    "end": "17:50"
                   }
                 ],
                 "2026-09-07": [
                   {
-                    "start": "18:35",
-                    "end": "20:40"
+                    "start": "16:15",
+                    "end": "17:50"
                   }
                 ],
                 "2026-09-08": [
                   {
-                    "start": "18:35",
-                    "end": "20:40"
+                    "start": "16:15",
+                    "end": "17:50"
                   }
                 ],
                 "2026-09-09": [
                   {
-                    "start": "18:35",
-                    "end": "20:40"
+                    "start": "16:15",
+                    "end": "17:50"
                   }
                 ],
                 "2026-09-10": [
                   {
-                    "start": "18:35",
-                    "end": "20:40"
+                    "start": "16:15",
+                    "end": "17:50"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/104003/",
+          "eigacom_url": "https://eiga.com/movie/105057/",
           "official_url": ""
         },
         {
@@ -8516,48 +8576,6 @@
           ],
           "eigacom_url": "https://eiga.com/movie/105891/",
           "official_url": "https://www.searchlightpictures.jp/movies/readyornot2"
-        },
-        {
-          "title": "パウ・パトロール　ザ・ダイノ・ムービー",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-06": [
-                  {
-                    "start": "16:15",
-                    "end": "17:50"
-                  }
-                ],
-                "2026-09-07": [
-                  {
-                    "start": "16:15",
-                    "end": "17:50"
-                  }
-                ],
-                "2026-09-08": [
-                  {
-                    "start": "16:15",
-                    "end": "17:50"
-                  }
-                ],
-                "2026-09-09": [
-                  {
-                    "start": "16:15",
-                    "end": "17:50"
-                  }
-                ],
-                "2026-09-10": [
-                  {
-                    "start": "16:15",
-                    "end": "17:50"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105057/",
-          "official_url": ""
         }
       ]
     },
@@ -9000,6 +9018,48 @@
           "official_url": "https://www.theribbonhero.com/"
         },
         {
+          "title": "カーズ",
+          "schedules": [
+            {
+              "format": "吹替",
+              "dates": {
+                "2026-09-06": [
+                  {
+                    "start": "10:35",
+                    "end": ""
+                  }
+                ],
+                "2026-09-07": [
+                  {
+                    "start": "11:50",
+                    "end": ""
+                  }
+                ],
+                "2026-09-08": [
+                  {
+                    "start": "11:50",
+                    "end": ""
+                  }
+                ],
+                "2026-09-09": [
+                  {
+                    "start": "11:30",
+                    "end": ""
+                  }
+                ],
+                "2026-09-10": [
+                  {
+                    "start": "11:50",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/1030/",
+          "official_url": ""
+        },
+        {
           "title": "劇場版 THE ALFEE 3000PREMIUM トラベリングバンドが刻んだ3000本の奇跡と軌跡",
           "schedules": [
             {
@@ -9076,48 +9136,6 @@
           ],
           "eigacom_url": "https://eiga.com/movie/106598/",
           "official_url": "https://movie.alfee-sp.com/"
-        },
-        {
-          "title": "カーズ",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-06": [
-                  {
-                    "start": "10:35",
-                    "end": ""
-                  }
-                ],
-                "2026-09-07": [
-                  {
-                    "start": "11:50",
-                    "end": ""
-                  }
-                ],
-                "2026-09-08": [
-                  {
-                    "start": "11:50",
-                    "end": ""
-                  }
-                ],
-                "2026-09-09": [
-                  {
-                    "start": "11:30",
-                    "end": ""
-                  }
-                ],
-                "2026-09-10": [
-                  {
-                    "start": "11:50",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/1030/",
-          "official_url": ""
         },
         {
           "title": "べべフィン・ザ・ムービー　うたとまほうのピンキッツワールド",
@@ -9691,6 +9709,88 @@
           "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
         },
         {
+          "title": "オデュッセイア",
+          "schedules": [
+            {
+              "format": "IMAX字幕",
+              "dates": {
+                "2026-09-06": [
+                  {
+                    "start": "09:00",
+                    "end": ""
+                  },
+                  {
+                    "start": "15:10",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:45",
+                    "end": ""
+                  }
+                ],
+                "2026-09-07": [
+                  {
+                    "start": "09:30",
+                    "end": ""
+                  },
+                  {
+                    "start": "15:20",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:50",
+                    "end": ""
+                  }
+                ],
+                "2026-09-08": [
+                  {
+                    "start": "09:30",
+                    "end": ""
+                  },
+                  {
+                    "start": "15:20",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:50",
+                    "end": ""
+                  }
+                ],
+                "2026-09-09": [
+                  {
+                    "start": "09:30",
+                    "end": ""
+                  },
+                  {
+                    "start": "15:20",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:50",
+                    "end": ""
+                  }
+                ],
+                "2026-09-10": [
+                  {
+                    "start": "09:30",
+                    "end": ""
+                  },
+                  {
+                    "start": "15:20",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:50",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104267/",
+          "official_url": ""
+        },
+        {
           "title": "オークストリートの異変",
           "schedules": [
             {
@@ -9783,88 +9883,6 @@
             }
           ],
           "eigacom_url": "https://eiga.com/movie/102846/",
-          "official_url": ""
-        },
-        {
-          "title": "オデュッセイア",
-          "schedules": [
-            {
-              "format": "IMAX字幕",
-              "dates": {
-                "2026-09-06": [
-                  {
-                    "start": "09:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:45",
-                    "end": ""
-                  }
-                ],
-                "2026-09-07": [
-                  {
-                    "start": "09:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": ""
-                  }
-                ],
-                "2026-09-08": [
-                  {
-                    "start": "09:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": ""
-                  }
-                ],
-                "2026-09-09": [
-                  {
-                    "start": "09:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": ""
-                  }
-                ],
-                "2026-09-10": [
-                  {
-                    "start": "09:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104267/",
           "official_url": ""
         },
         {
@@ -9998,36 +10016,6 @@
           "official_url": "https://bluelock-movie.jp/"
         },
         {
-          "title": "ドラマなふたり",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-09-07": [
-                  {
-                    "start": "19:25",
-                    "end": ""
-                  }
-                ],
-                "2026-09-08": [
-                  {
-                    "start": "19:25",
-                    "end": ""
-                  }
-                ],
-                "2026-09-10": [
-                  {
-                    "start": "19:25",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105977/",
-          "official_url": "https://happinet-phantom.com/drama/"
-        },
-        {
           "title": "トイ・ストーリー5",
           "schedules": [
             {
@@ -10076,6 +10064,36 @@
           ],
           "eigacom_url": "https://eiga.com/movie/104002/",
           "official_url": "https://www.disney.co.jp/movie/toy5"
+        },
+        {
+          "title": "ドラマなふたり",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-09-07": [
+                  {
+                    "start": "19:25",
+                    "end": ""
+                  }
+                ],
+                "2026-09-08": [
+                  {
+                    "start": "19:25",
+                    "end": ""
+                  }
+                ],
+                "2026-09-10": [
+                  {
+                    "start": "19:25",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105977/",
+          "official_url": "https://happinet-phantom.com/drama/"
         },
         {
           "title": "映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション",
@@ -11424,6 +11442,10 @@
       "release_date": "2026-09-11"
     },
     {
+      "title": "私たちは、ちょうどいい。",
+      "release_date": "2026-09-11"
+    },
+    {
       "title": "5秒で完全犯罪を生成する方法",
       "release_date": "2026-09-11"
     },
@@ -11432,15 +11454,15 @@
       "release_date": "2026-09-11"
     },
     {
-      "title": "スターヴ・エイカー　召喚",
-      "release_date": "2026-09-11"
-    },
-    {
       "title": "最終楽章　響け！ユーフォニアム　後編",
       "release_date": "2026-09-11"
     },
     {
-      "title": "BULLY ブリー",
+      "title": "スターヴ・エイカー　召喚",
+      "release_date": "2026-09-11"
+    },
+    {
+      "title": "クロノス・カイロス",
       "release_date": "2026-09-11"
     },
     {
@@ -11448,7 +11470,7 @@
       "release_date": "2026-09-11"
     },
     {
-      "title": "私たちは、ちょうどいい。",
+      "title": "BULLY ブリー",
       "release_date": "2026-09-11"
     },
     {
@@ -11461,10 +11483,6 @@
     },
     {
       "title": "エルミタージュ幻想",
-      "release_date": "2026-09-11"
-    },
-    {
-      "title": "クロノス・カイロス",
       "release_date": "2026-09-11"
     },
     {
@@ -11576,11 +11594,15 @@
       "release_date": "2026-09-25"
     },
     {
+      "title": "シャドウワーク",
+      "release_date": "2026-09-25"
+    },
+    {
       "title": "ナギダイアリー",
       "release_date": "2026-09-25"
     },
     {
-      "title": "シャドウワーク",
+      "title": "襲名",
       "release_date": "2026-09-25"
     },
     {
@@ -11592,15 +11614,11 @@
       "release_date": "2026-09-25"
     },
     {
-      "title": "ベイ・シティ・ローラーズ　ウッディ・ウッドが語る真実",
-      "release_date": "2026-09-25"
-    },
-    {
       "title": "藁にもすがる獣たち",
       "release_date": "2026-09-25"
     },
     {
-      "title": "マッチング TRUE LOVE",
+      "title": "ベイ・シティ・ローラーズ　ウッディ・ウッドが語る真実",
       "release_date": "2026-09-25"
     },
     {
@@ -11608,15 +11626,15 @@
       "release_date": "2026-09-25"
     },
     {
-      "title": "襲名",
-      "release_date": "2026-09-25"
-    },
-    {
-      "title": "undo",
+      "title": "マッチング TRUE LOVE",
       "release_date": "2026-09-25"
     },
     {
       "title": "縁の手紙",
+      "release_date": "2026-09-25"
+    },
+    {
+      "title": "undo",
       "release_date": "2026-09-25"
     },
     {
