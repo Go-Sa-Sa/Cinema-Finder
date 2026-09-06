@@ -4870,18 +4870,19 @@
     "copyright": ""
   },
   "モアナと伝説の海": {
-    "official_url": "",
+    "official_url": "https://www.disney.co.jp/movie/moana-movie",
     "eigacom_url": "https://eiga.com/movie/104003/",
-    "poster_url": "https://media.eiga.com/images/movie/104003/photo/2d2983c872c1d13b/320.jpg",
+    "poster_url": "https://media.eiga.com/images/movie/104003/photo/91cc8db174ff20d0/640.jpg",
     "release_date": "2026-07-31",
     "release_date_formatted": "07月31日(金) 公開",
     "director": "トーマス・ケイル",
     "cast": [
       "キャサリン・ラガイア",
-      "ドウェイン・ジョンソン"
+      "ドウェイン・ジョンソン",
+      "ジョン・トゥイ"
     ],
-    "description": "海と特別な絆で結ばれた少女モアナが世界を救うため冒険の旅に出る姿を描いた2016年の長編ディズニーアニメ「モアナと伝説の海」を実写映画...",
-    "copyright": ""
+    "description": "海と特別な絆で結ばれた少女モアナが世界を救うため冒険の旅に出る姿を描いた2016年の長編ディズニーアニメ「モアナと伝説の海」を実写映画化したミュージカルアドベンチャー。神秘的な伝説が息づく南海の楽園モトゥヌイ島。海と島の人々を誰よりも愛し、家族の誇りとして育てられた16歳の少女モアナは、祖母のタラおばあちゃんから、島に語り継がれてきた伝説の真実と自分の運命を告げられる。邪悪な闇が迫るなか、「海に選ばれし者」として使命を託されたモアナは、伝説の英雄マウイを探し出し、共に女神テ・フィティの心を返しに行くため、小さなカヌーに乗り込んで大海原へ旅立つ。主人公モアナ役にはオーストラリア出身の新人俳優キャサリン・ラガイアが抜擢され、力強い歌声を披露する。半神半人の英雄マウイ役は、アニメ版で同役の声優を務めたドウェイン・ジョンソンが引き続き担当。名作ブロードウェイミュージカルを映像化した「ハミルトン」のトーマス・ケイル監督がメガホンをとり、実写映画ならではの臨場感あふれる映像と珠玉の音楽で描き出す。",
+    "copyright": "© 2026 Disney Enterprises, Inc. All Rights Reserved."
   },
   "映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション": {
     "official_url": "",
@@ -7334,6 +7335,20 @@
       "ホロライブプロダクション"
     ],
     "description": "hololive 7th fes. Ridin' on Dreams のディレイビューイング（アフター上映）。幕張メッセで開催された熱狂のステージを劇場のスクリーンでお届けします。",
+    "copyright": ""
+  },
+  "水曜どうでしょう祭UNITE2026 ライブ・ビューイング": {
+    "official_url": "https://liveviewing.jp/suidou_unite2026/",
+    "eigacom_url": "",
+    "poster_url": "https://liveviewing.jp/wp-content/uploads/WEB_bn_suidou_unite2026.jpg",
+    "release_date": "",
+    "release_date_formatted": "",
+    "director": "藤村忠寿, 嬉野雅道",
+    "cast": [
+      "鈴井貴之",
+      "大泉洋"
+    ],
+    "description": "大和ハウス プレミストドームで開催される「水曜どうでしょう祭 UNITE2026」の模様を生中継！2026年最新作の先行上映やスペシャルライブをお届けします。",
     "copyright": ""
   }
 }

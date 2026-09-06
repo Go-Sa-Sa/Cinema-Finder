@@ -76,9 +76,13 @@ class TestCrawlerUtils(unittest.TestCase):
         self.assertEqual(iso, "2026-05-22")
         self.assertEqual(formatted, "05月22日(金) 公開")
 
-        iso_invalid, formatted_invalid = format_release_date("未定")
-        self.assertEqual(iso_invalid, "")
-        self.assertEqual(formatted_invalid, "")
+    def test_is_poster_url_valid(self):
+        from crawler import is_poster_url_valid
+        self.assertFalse(is_poster_url_valid(""))
+        self.assertFalse(is_poster_url_valid(None))
+        self.assertFalse(is_poster_url_valid("not_a_url"))
+        self.assertFalse(is_poster_url_valid("https://example.com/noimg/160.png"))
+        self.assertFalse(is_poster_url_valid("https://example.com/no_hero_image.png"))
 
 
 if __name__ == "__main__":

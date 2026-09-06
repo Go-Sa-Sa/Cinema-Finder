@@ -334,6 +334,22 @@ def fetch_og_image(url):
         print(f"Error fetching og:image from {url}: {e}")
     return ""
 
+def is_poster_url_valid(url):
+    """
+    画像URLが有効（アクセス可能で403/404などのエラーにならない）かチェックする
+    """
+    if not url or not url.startswith('http'):
+        return False
+    if 'noimg' in url or 'no_hero_image' in url:
+        return False
+    try:
+        resp = requests.head(url, headers=HEADERS, timeout=4)
+        if resp.status_code == 405:
+            resp = requests.get(url, headers=HEADERS, timeout=4, stream=True)
+        return resp.status_code == 200
+    except Exception:
+        return False
+
 def search_movie_on_eigacom(title):
     """
     タイトルから映画.comを検索し、作品個別ページの相対URL (例: /movie/12345/) を返す
@@ -681,6 +697,14 @@ def run_crawler():
             "director": "",
             "cast": ["ホロライブプロダクション"],
             "description": "hololive 7th fes. Ridin' on Dreams のディレイビューイング（アフター上映）。幕張メッセで開催された熱狂のステージを劇場のスクリーンでお届けします。"
+        },
+        {
+            "pattern": r"水曜どうでしょう祭",
+            "official_url": "https://liveviewing.jp/suidou_unite2026/",
+            "poster_url": "https://liveviewing.jp/wp-content/uploads/WEB_bn_suidou_unite2026.jpg",
+            "director": "藤村忠寿, 嬉野雅道",
+            "cast": ["鈴井貴之", "大泉洋"],
+            "description": "大和ハウス プレミストドームで開催される「水曜どうでしょう祭 UNITE2026」の模様を生中継！2026年最新作の先行上映やスペシャルライブをお届けします。"
         }
     ]
 
@@ -692,8 +716,9 @@ def run_crawler():
             if isinstance(cached, str):
                 is_incomplete = True
             elif isinstance(cached, dict):
-                # 必須キーが空の場合は再クロールして補完する
-                if not cached.get("poster_url") or not cached.get("description"):
+                # 必須キーが空、または画像URLが無効（403/404エラー・リンク切れ等）の場合は再クロールして補完する
+                poster = cached.get("poster_url", "")
+                if not poster or not cached.get("description") or not is_poster_url_valid(poster):
                     is_incomplete = True
         else:
             is_incomplete = True
