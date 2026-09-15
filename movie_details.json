@@ -6031,7 +6031,7 @@
   "映画名探偵プリキュア！不思議な庭と2人の秘密": {
     "official_url": "https://2026.precure-movie.com/",
     "eigacom_url": "https://eiga.com/movie/105969/",
-    "poster_url": "https://media.eiga.com/images/movie/105969/photo/9ab706b2beff2ef6/640.jpg",
+    "poster_url": "https://media.eiga.com/images/movie/105969/photo/d57c18dbd6b98e78/640.jpg",
     "release_date": "2026-09-18",
     "release_date_formatted": "09月18日(金) 公開",
     "director": "上田華子",
@@ -7379,5 +7379,20 @@
     ],
     "description": "Netflixで2026年9月18日から配信。",
     "copyright": ""
+  },
+  "許されざる者（1992）": {
+    "official_url": "",
+    "eigacom_url": "https://eiga.com/movie/30882/",
+    "poster_url": "https://media.eiga.com/images/movie/30882/photo/98be2a9d896f0322/640.jpg",
+    "release_date": "1993-04-17",
+    "release_date_formatted": "04月17日(土) 公開",
+    "director": "クリント・イーストウッド",
+    "cast": [
+      "クリント・イーストウッド",
+      "ジーン・ハックマン",
+      "モーガン・フリーマン"
+    ],
+    "description": "クリント・イーストウッドが、師匠であるセルジオ・レオーネ監督とドン・シーゲル監督に捧げた異色西部劇。1870年代の米ワイオミング。かつては無法者として悪名を轟かせたウィリアム・マニーだったが、今は若い妻に先立たれ、2人の幼い子どもとともに貧しい農夫として静かに暮らしていた。そこに若いガンマン、キッドが立ち寄り、賞金稼ぎの話を持ちかける。共演にジーン・ハックマン、モーガン・フリーマン、リチャード・ハリス。92年度のアカデミー賞では作品、監督を含む4部門を受賞した。",
+    "copyright": "「八つ墓村」©2026「八つ墓村」製作委員会 ©Yokomizo Seishi/KADOKAWA"
   }
 }
