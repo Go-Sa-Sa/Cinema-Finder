@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23 08:23:24",
+  "last_updated": "2026-09-24 08:21:26",
   "theaters": {
     "USシネマちはら台": {
       "name": "USシネマちはら台",
@@ -11,12 +11,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:15",
-                    "end": "14:25"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "11:15",
@@ -28,12 +22,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "14:20",
-                    "end": "17:30"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "14:20",
@@ -45,12 +33,6 @@
             {
               "format": "4D吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "16:55",
-                    "end": "20:05"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "16:55",
@@ -69,40 +51,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:20",
@@ -149,12 +97,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "17:30",
-                    "end": "20:30"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "17:30",
@@ -166,12 +108,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:55",
-                    "end": "14:55"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "11:55",
@@ -183,24 +119,6 @@
             {
               "format": "IMAX字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:30",
@@ -226,69 +144,11 @@
           "official_url": ""
         },
         {
-          "title": "白鳥とコウモリ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "08:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "23:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105470/",
-          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
-        },
-        {
           "title": "八つ墓村",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:50",
@@ -314,21 +174,37 @@
           "official_url": ""
         },
         {
+          "title": "白鳥とコウモリ",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "08:50",
+                    "end": ""
+                  },
+                  {
+                    "start": "17:45",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:30",
+                    "end": "23:00"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105470/",
+          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
+        },
+        {
           "title": "ルックバック",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "16:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "16:10",
@@ -351,28 +227,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:25"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:10",
@@ -400,16 +254,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:45",
-                    "end": "16:30"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:40",
@@ -432,12 +276,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:00",
-                    "end": "11:15"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:00",
@@ -451,69 +289,11 @@
           "official_url": "https://a24jp.com/films/backrooms/"
         },
         {
-          "title": "ブルーロック",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "20:40",
-                    "end": "22:55"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "20:40",
-                    "end": "22:55"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104707/",
-          "official_url": "https://bluelock-movie.jp/"
-        },
-        {
-          "title": "5秒で完全犯罪を生成する方法",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "18:40",
-                    "end": "20:35"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "09:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:40",
-                    "end": "20:35"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105699/",
-          "official_url": ""
-        },
-        {
           "title": "Michael マイケル",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:40",
-                    "end": "14:00"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "11:40",
@@ -527,65 +307,11 @@
           "official_url": "https://www.michael-movie.jp/"
         },
         {
-          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "15:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "15:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "23:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/94928/",
-          "official_url": "https://www.madoka-magica.com/wr/"
-        },
-        {
           "title": "映画名探偵プリキュア！不思議な庭と2人の秘密",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:55",
-                    "end": "18:15"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:20",
@@ -615,17 +341,55 @@
           "official_url": "https://2026.precure-movie.com/"
         },
         {
+          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "15:05",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:55",
+                    "end": "23:00"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/94928/",
+          "official_url": "https://www.madoka-magica.com/wr/"
+        },
+        {
+          "title": "5秒で完全犯罪を生成する方法",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "09:10",
+                    "end": ""
+                  },
+                  {
+                    "start": "18:40",
+                    "end": "20:35"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105699/",
+          "official_url": ""
+        },
+        {
           "title": "スパイダーマン　ブランド・ニュー・デイ",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "17:40",
-                    "end": "20:10"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "17:40",
@@ -644,16 +408,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:50",
-                    "end": "17:20"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:00",
@@ -669,16 +423,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "11:50",
@@ -701,12 +445,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "17:50",
-                    "end": "20:10"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "17:50",
@@ -725,12 +463,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:25",
-                    "end": "13:15"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "11:25",
@@ -744,22 +476,22 @@
           "official_url": "https://www.disney.co.jp/movie/toy5"
         },
         {
-          "title": "映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション",
+          "title": "ブルーロック",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
+                "2026-09-24": [
                   {
-                    "start": "09:10",
-                    "end": "10:55"
+                    "start": "20:40",
+                    "end": "22:55"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105228/",
-          "official_url": ""
+          "eigacom_url": "https://eiga.com/movie/104707/",
+          "official_url": "https://bluelock-movie.jp/"
         },
         {
           "title": "ミニオンズ＆モンスターズ",
@@ -767,12 +499,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "15:40",
-                    "end": "17:15"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "15:40",
@@ -797,16 +523,6 @@
             {
               "format": "ScreenXDolby Atmos字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "14:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:35",
-                    "end": "23:55"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "14:10",
@@ -829,44 +545,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "10:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:25",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:45",
@@ -917,20 +595,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "23:55"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:10",
@@ -950,12 +614,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "18:10",
-                    "end": "21:15"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "18:10",
@@ -969,69 +627,11 @@
           "official_url": ""
         },
         {
-          "title": "白鳥とコウモリ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "10:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:15",
-                    "end": "23:50"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "10:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:15",
-                    "end": "23:50"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105470/",
-          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
-        },
-        {
           "title": "八つ墓村",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:25",
-                    "end": "23:35"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "11:10",
@@ -1057,21 +657,37 @@
           "official_url": ""
         },
         {
+          "title": "白鳥とコウモリ",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "10:55",
+                    "end": ""
+                  },
+                  {
+                    "start": "16:00",
+                    "end": ""
+                  },
+                  {
+                    "start": "21:15",
+                    "end": "23:50"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105470/",
+          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
+        },
+        {
           "title": "ルックバック",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:50",
-                    "end": "15:40"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:25",
@@ -1094,36 +710,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "10:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:40",
-                    "end": "23:30"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "10:50",
@@ -1162,12 +748,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "10:55",
-                    "end": "13:10"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "10:55",
@@ -1179,12 +759,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "18:50",
-                    "end": "21:05"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "18:50",
@@ -1203,12 +777,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:55",
-                    "end": "11:15"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:55",
@@ -1222,101 +790,11 @@
           "official_url": "https://www.tokizan.jp/"
         },
         {
-          "title": "ブルーロック",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "21:15",
-                    "end": "23:35"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "21:15",
-                    "end": "23:35"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104707/",
-          "official_url": "https://bluelock-movie.jp/"
-        },
-        {
-          "title": "最終楽章　響け！ユーフォニアム　後編",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:10",
-                    "end": "18:30"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "08:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:10",
-                    "end": "18:30"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/106095/",
-          "official_url": "https://anime-eupho.com/"
-        },
-        {
-          "title": "5秒で完全犯罪を生成する方法",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "18:55",
-                    "end": "20:50"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "08:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:55",
-                    "end": "20:50"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105699/",
-          "official_url": ""
-        },
-        {
           "title": "Michael マイケル",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "13:45",
-                    "end": "16:05"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "13:45",
@@ -1330,69 +808,11 @@
           "official_url": "https://www.michael-movie.jp/"
         },
         {
-          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:20",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "08:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:20",
-                    "end": "20:30"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/94928/",
-          "official_url": "https://www.madoka-magica.com/wr/"
-        },
-        {
           "title": "さとこはいつも",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "10:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:30",
-                    "end": "20:55"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "10:30",
@@ -1410,52 +830,26 @@
           "official_url": "https://happinet-phantom.com/satoko/"
         },
         {
-          "title": "平行と垂直",
+          "title": "最終楽章　響け！ユーフォニアム　後編",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:30",
-                    "end": "10:35"
-                  }
-                ],
                 "2026-09-24": [
                   {
-                    "start": "16:25",
+                    "start": "08:30",
+                    "end": ""
+                  },
+                  {
+                    "start": "16:10",
                     "end": "18:30"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105571/",
-          "official_url": "https://www.toei-video.co.jp/heikoutosuichoku/"
-        },
-        {
-          "title": "あの星が降る丘で、君とまた出会いたい。",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "21:30",
-                    "end": "23:50"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "21:30",
-                    "end": "23:50"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104441/",
-          "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
+          "eigacom_url": "https://eiga.com/movie/106095/",
+          "official_url": "https://anime-eupho.com/"
         },
         {
           "title": "映画名探偵プリキュア！不思議な庭と2人の秘密",
@@ -1463,36 +857,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "10:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:10",
-                    "end": "20:35"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:40",
@@ -1530,17 +894,99 @@
           "official_url": "https://2026.precure-movie.com/"
         },
         {
+          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "08:35",
+                    "end": ""
+                  },
+                  {
+                    "start": "13:20",
+                    "end": ""
+                  },
+                  {
+                    "start": "15:50",
+                    "end": ""
+                  },
+                  {
+                    "start": "18:20",
+                    "end": "20:30"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/94928/",
+          "official_url": "https://www.madoka-magica.com/wr/"
+        },
+        {
+          "title": "平行と垂直",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "16:25",
+                    "end": "18:30"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105571/",
+          "official_url": "https://www.toei-video.co.jp/heikoutosuichoku/"
+        },
+        {
+          "title": "5秒で完全犯罪を生成する方法",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "08:35",
+                    "end": ""
+                  },
+                  {
+                    "start": "18:55",
+                    "end": "20:50"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105699/",
+          "official_url": ""
+        },
+        {
+          "title": "あの星が降る丘で、君とまた出会いたい。",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "21:30",
+                    "end": "23:50"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104441/",
+          "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
+        },
+        {
           "title": "スパイダーマン　ブランド・ニュー・デイ",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "15:35",
-                    "end": "18:10"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "15:35",
@@ -1559,16 +1005,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "22:00",
-                    "end": "24:00"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "11:05",
@@ -1586,21 +1022,48 @@
           "official_url": ""
         },
         {
+          "title": "超かぐや姫！",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "13:25",
+                    "end": ""
+                  },
+                  {
+                    "start": "21:35",
+                    "end": "24:10"
+                  }
+                ]
+              }
+            },
+            {
+              "format": "ScreenXDolby Atmos",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "08:50",
+                    "end": ""
+                  },
+                  {
+                    "start": "17:45",
+                    "end": "20:20"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105011/",
+          "official_url": "https://www.cho-kaguyahime.com/"
+        },
+        {
           "title": "SEKIRO: NO DEFEAT",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "13:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:55",
-                    "end": "20:55"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "13:15",
@@ -1616,6 +1079,60 @@
           ],
           "eigacom_url": "https://eiga.com/movie/105845/",
           "official_url": "https://sekiro-anime.jp/"
+        },
+        {
+          "title": "キングダム　魂の決戦",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "21:10",
+                    "end": "23:35"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104266/",
+          "official_url": ""
+        },
+        {
+          "title": "トイ・ストーリー5",
+          "schedules": [
+            {
+              "format": "吹替",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "11:35",
+                    "end": "13:25"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104002/",
+          "official_url": "https://www.disney.co.jp/movie/toy5"
+        },
+        {
+          "title": "ブルーロック",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "21:15",
+                    "end": "23:35"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104707/",
+          "official_url": "https://bluelock-movie.jp/"
         },
         {
           "title": "私はあなたを知らない、",
@@ -1636,74 +1153,11 @@
           "official_url": "https://watashiramovie.com/"
         },
         {
-          "title": "超かぐや姫！",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "13:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:35",
-                    "end": "24:10"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "13:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:35",
-                    "end": "24:10"
-                  }
-                ]
-              }
-            },
-            {
-              "format": "ScreenXDolby Atmos",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:45",
-                    "end": "20:20"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "08:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:45",
-                    "end": "20:20"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105011/",
-          "official_url": "https://www.cho-kaguyahime.com/"
-        },
-        {
           "title": "オアシス　ドント・ルック・バック・イン・アンガー",
           "schedules": [
             {
               "format": "Dolby Atmos字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:40",
-                    "end": "13:55"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "11:40",
@@ -1717,65 +1171,11 @@
           "official_url": "https://www.disney.co.jp/movie/oasis"
         },
         {
-          "title": "キングダム　魂の決戦",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "21:10",
-                    "end": "23:35"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "21:10",
-                    "end": "23:35"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104266/",
-          "official_url": ""
-        },
-        {
-          "title": "トイ・ストーリー5",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:35",
-                    "end": "13:25"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "11:35",
-                    "end": "13:25"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104002/",
-          "official_url": "https://www.disney.co.jp/movie/toy5"
-        },
-        {
           "title": "映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "12:35",
-                    "end": "14:25"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "12:35",
@@ -1794,12 +1194,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:55",
-                    "end": "10:35"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:55",
@@ -1818,12 +1212,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:25",
-                    "end": "10:10"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:25",
@@ -1842,12 +1230,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "20:55",
-                    "end": "23:20"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "20:55",
@@ -1866,12 +1248,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "19:15",
-                    "end": "21:45"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "19:15",
@@ -1896,12 +1272,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "18:50",
-                    "end": "22:10"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "18:50",
@@ -1920,40 +1290,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "10:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:30",
@@ -2000,16 +1336,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "12:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "23:05"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "12:25",
@@ -2025,12 +1351,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "16:10",
-                    "end": "19:15"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "16:10",
@@ -2044,73 +1364,11 @@
           "official_url": ""
         },
         {
-          "title": "白鳥とコウモリ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "12:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:25",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "12:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:05",
-                    "end": "22:40"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105470/",
-          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
-        },
-        {
           "title": "八つ墓村",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:10",
-                    "end": "22:20"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:20",
@@ -2140,25 +1398,37 @@
           "official_url": ""
         },
         {
+          "title": "白鳥とコウモリ",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "12:10",
+                    "end": ""
+                  },
+                  {
+                    "start": "18:10",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:05",
+                    "end": "22:40"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105470/",
+          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
+        },
+        {
           "title": "ルックバック",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "14:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:10"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:25",
@@ -2185,24 +1455,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:35",
-                    "end": "18:25"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:35",
@@ -2233,12 +1485,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:50",
-                    "end": "14:05"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "11:50",
@@ -2257,12 +1503,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:15",
-                    "end": "11:35"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:15",
@@ -2276,73 +1516,11 @@
           "official_url": "https://www.tokizan.jp/"
         },
         {
-          "title": "ブルーロック",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "20:40",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "20:40",
-                    "end": "23:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104707/",
-          "official_url": "https://bluelock-movie.jp/"
-        },
-        {
-          "title": "5秒で完全犯罪を生成する方法",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "12:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:05",
-                    "end": "22:05"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "12:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:05",
-                    "end": "23:05"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105699/",
-          "official_url": ""
-        },
-        {
           "title": "Michael マイケル",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:35",
-                    "end": "12:00"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:35",
@@ -2356,45 +1534,11 @@
           "official_url": "https://www.michael-movie.jp/"
         },
         {
-          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "17:25",
-                    "end": "19:35"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "17:25",
-                    "end": "19:35"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/94928/",
-          "official_url": "https://www.madoka-magica.com/wr/"
-        },
-        {
           "title": "さとこはいつも",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:15",
-                    "end": "17:45"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:15",
@@ -2416,57 +1560,11 @@
           "official_url": "https://happinet-phantom.com/satoko/"
         },
         {
-          "title": "あの星が降る丘で、君とまた出会いたい。",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "17:55",
-                    "end": "20:15"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "17:55",
-                    "end": "20:15"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104441/",
-          "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
-        },
-        {
           "title": "映画名探偵プリキュア！不思議な庭と2人の秘密",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:15",
-                    "end": "17:40"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:25",
@@ -2496,17 +1594,69 @@
           "official_url": "https://2026.precure-movie.com/"
         },
         {
+          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "17:25",
+                    "end": "19:35"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/94928/",
+          "official_url": "https://www.madoka-magica.com/wr/"
+        },
+        {
+          "title": "5秒で完全犯罪を生成する方法",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "12:00",
+                    "end": ""
+                  },
+                  {
+                    "start": "21:05",
+                    "end": "23:05"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105699/",
+          "official_url": ""
+        },
+        {
+          "title": "あの星が降る丘で、君とまた出会いたい。",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "17:55",
+                    "end": "20:15"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104441/",
+          "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
+        },
+        {
           "title": "スパイダーマン　ブランド・ニュー・デイ",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "17:05",
-                    "end": "19:40"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "17:05",
@@ -2525,12 +1675,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "14:25",
-                    "end": "16:50"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "14:25",
@@ -2549,12 +1693,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "13:20",
-                    "end": "15:15"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "13:20",
@@ -2568,17 +1706,29 @@
           "official_url": "https://www.disney.co.jp/movie/toy5"
         },
         {
+          "title": "ブルーロック",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "20:40",
+                    "end": "23:00"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104707/",
+          "official_url": "https://bluelock-movie.jp/"
+        },
+        {
           "title": "オークストリートの異変",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "21:05",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "15:40",
@@ -2590,42 +1740,6 @@
           ],
           "eigacom_url": "https://eiga.com/movie/105912/",
           "official_url": "https://oak-street.jp/"
-        },
-        {
-          "title": "映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:25",
-                    "end": "11:15"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105228/",
-          "official_url": ""
-        },
-        {
-          "title": "ミニオンズ＆モンスターズ",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "15:50",
-                    "end": "17:30"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105870/",
-          "official_url": "https://minions.jp/"
         },
         {
           "title": "モアナと伝説の海",
@@ -2651,12 +1765,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:30",
-                    "end": "11:50"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:30",
@@ -2681,16 +1789,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "16:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "23:10"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "16:30",
@@ -2709,44 +1807,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "10:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:25",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:15",
@@ -2797,16 +1857,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "11:05",
@@ -2822,12 +1872,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "14:25",
-                    "end": "17:25"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "14:25",
@@ -2841,73 +1885,11 @@
           "official_url": ""
         },
         {
-          "title": "白鳥とコウモリ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:25",
-                    "end": "20:00"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:25",
-                    "end": "20:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105470/",
-          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
-        },
-        {
           "title": "八つ墓村",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:00",
@@ -2937,21 +1919,37 @@
           "official_url": ""
         },
         {
+          "title": "白鳥とコウモリ",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "09:15",
+                    "end": ""
+                  },
+                  {
+                    "start": "12:10",
+                    "end": ""
+                  },
+                  {
+                    "start": "17:25",
+                    "end": "20:00"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105470/",
+          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
+        },
+        {
           "title": "ルックバック",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:55",
-                    "end": "17:40"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "11:40",
@@ -2974,32 +1972,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:45",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:15",
@@ -3038,12 +2010,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "14:30",
-                    "end": "16:45"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "14:30",
@@ -3062,12 +2028,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:15",
-                    "end": "11:30"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:15",
@@ -3081,28 +2041,22 @@
           "official_url": "https://www.tokizan.jp/"
         },
         {
-          "title": "ブルーロック",
+          "title": "Michael マイケル",
           "schedules": [
             {
-              "format": "2D",
+              "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "20:15",
-                    "end": "22:30"
-                  }
-                ],
                 "2026-09-24": [
                   {
-                    "start": "20:15",
-                    "end": "22:30"
+                    "start": "11:50",
+                    "end": "14:05"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/104707/",
-          "official_url": "https://bluelock-movie.jp/"
+          "eigacom_url": "https://eiga.com/movie/102093/",
+          "official_url": "https://www.michael-movie.jp/"
         },
         {
           "title": "最終楽章　響け！ユーフォニアム　後編",
@@ -3110,16 +2064,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:10",
-                    "end": "15:25"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:20",
@@ -3137,149 +2081,11 @@
           "official_url": "https://anime-eupho.com/"
         },
         {
-          "title": "5秒で完全犯罪を生成する方法",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "17:45",
-                    "end": "19:40"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "08:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:45",
-                    "end": "19:40"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105699/",
-          "official_url": ""
-        },
-        {
-          "title": "Michael マイケル",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:50",
-                    "end": "14:05"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "11:50",
-                    "end": "14:05"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/102093/",
-          "official_url": "https://www.michael-movie.jp/"
-        },
-        {
-          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:15",
-                    "end": "22:25"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "09:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:05",
-                    "end": "22:15"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/94928/",
-          "official_url": "https://www.madoka-magica.com/wr/"
-        },
-        {
-          "title": "あの星が降る丘で、君とまた出会いたい。",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "20:00",
-                    "end": "22:15"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "20:00",
-                    "end": "22:15"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104441/",
-          "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
-        },
-        {
           "title": "映画名探偵プリキュア！不思議な庭と2人の秘密",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:00",
-                    "end": "19:20"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:00",
@@ -3309,17 +2115,77 @@
           "official_url": "https://2026.precure-movie.com/"
         },
         {
+          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "09:00",
+                    "end": ""
+                  },
+                  {
+                    "start": "11:55",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:05",
+                    "end": "22:15"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/94928/",
+          "official_url": "https://www.madoka-magica.com/wr/"
+        },
+        {
+          "title": "5秒で完全犯罪を生成する方法",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "08:55",
+                    "end": ""
+                  },
+                  {
+                    "start": "17:45",
+                    "end": "19:40"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105699/",
+          "official_url": ""
+        },
+        {
+          "title": "あの星が降る丘で、君とまた出会いたい。",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "20:00",
+                    "end": "22:15"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104441/",
+          "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
+        },
+        {
           "title": "スパイダーマン　ブランド・ニュー・デイ",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "17:05",
-                    "end": "19:40"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "17:05",
@@ -3333,41 +2199,11 @@
           "official_url": ""
         },
         {
-          "title": "SEKIRO: NO DEFEAT",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "15:10",
-                    "end": "17:05"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "15:10",
-                    "end": "17:05"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105845/",
-          "official_url": "https://sekiro-anime.jp/"
-        },
-        {
           "title": "超かぐや姫！",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "17:25",
-                    "end": "19:55"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "20:05",
@@ -3381,17 +2217,29 @@
           "official_url": "https://www.cho-kaguyahime.com/"
         },
         {
+          "title": "SEKIRO: NO DEFEAT",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "15:10",
+                    "end": "17:05"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105845/",
+          "official_url": "https://sekiro-anime.jp/"
+        },
+        {
           "title": "キングダム　魂の決戦",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "20:00",
-                    "end": "22:20"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "20:00",
@@ -3410,12 +2258,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "13:45",
-                    "end": "15:35"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "13:45",
@@ -3429,22 +2271,22 @@
           "official_url": "https://www.disney.co.jp/movie/toy5"
         },
         {
-          "title": "映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション",
+          "title": "ブルーロック",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
+                "2026-09-24": [
                   {
-                    "start": "08:55",
-                    "end": "10:45"
+                    "start": "20:15",
+                    "end": "22:30"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105228/",
-          "official_url": ""
+          "eigacom_url": "https://eiga.com/movie/104707/",
+          "official_url": "https://bluelock-movie.jp/"
         },
         {
           "title": "ミニオンズ＆モンスターズ",
@@ -3452,12 +2294,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "18:40",
-                    "end": "20:20"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "18:40",
@@ -3476,12 +2312,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:00",
-                    "end": "11:20"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:00",
@@ -3506,12 +2336,6 @@
             {
               "format": "4D吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "18:30",
-                    "end": "21:45"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "18:30",
@@ -3523,12 +2347,6 @@
             {
               "format": "Dolby Atmos字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "13:25",
-                    "end": "16:40"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "13:25",
@@ -3547,40 +2365,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "09:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:50",
@@ -3627,16 +2411,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:30",
@@ -3652,12 +2426,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "14:15",
-                    "end": "17:15"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "14:15",
@@ -3671,73 +2439,11 @@
           "official_url": ""
         },
         {
-          "title": "白鳥とコウモリ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:25",
-                    "end": "22:55"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "11:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:25",
-                    "end": "22:55"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105470/",
-          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
-        },
-        {
           "title": "八つ墓村",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:30",
@@ -3767,17 +2473,37 @@
           "official_url": ""
         },
         {
+          "title": "白鳥とコウモリ",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "11:25",
+                    "end": ""
+                  },
+                  {
+                    "start": "17:35",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:25",
+                    "end": "22:55"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105470/",
+          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
+        },
+        {
           "title": "ルックバック",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "13:40",
-                    "end": "15:25"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "13:40",
@@ -3789,12 +2515,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:40",
-                    "end": "10:25"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:40",
@@ -3813,28 +2533,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "09:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:00",
@@ -3862,16 +2560,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:20",
-                    "end": "15:05"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:20",
@@ -3894,12 +2582,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "18:15",
-                    "end": "20:30"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "18:15",
@@ -3918,12 +2600,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "17:25",
-                    "end": "19:40"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "17:25",
@@ -3937,114 +2613,11 @@
           "official_url": "https://www.tokizan.jp/"
         },
         {
-          "title": "ブルーロック",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "20:45",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "20:45",
-                    "end": "23:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104707/",
-          "official_url": "https://bluelock-movie.jp/"
-        },
-        {
-          "title": "最終楽章　響け！ユーフォニアム　後編",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:55"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "08:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:55"
-                  }
-                ]
-              }
-            },
-            {
-              "format": "Dolby Atmos",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "18:05",
-                    "end": "20:20"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "18:05",
-                    "end": "20:20"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/106095/",
-          "official_url": "https://anime-eupho.com/"
-        },
-        {
-          "title": "5秒で完全犯罪を生成する方法",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "12:55",
-                    "end": "14:50"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "12:55",
-                    "end": "14:50"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105699/",
-          "official_url": ""
-        },
-        {
           "title": "Michael マイケル",
           "schedules": [
             {
               "format": "Dolby Atmos字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "10:45",
-                    "end": "13:05"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "10:45",
@@ -4058,21 +2631,19 @@
           "official_url": "https://www.michael-movie.jp/"
         },
         {
-          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
+          "title": "最終楽章　響け！ユーフォニアム　後編",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "15:40",
-                    "end": "17:45"
-                  }
-                ],
                 "2026-09-24": [
                   {
-                    "start": "15:40",
-                    "end": "17:45"
+                    "start": "08:50",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:40",
+                    "end": "22:55"
                   }
                 ]
               }
@@ -4080,36 +2651,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "20:40",
-                    "end": "22:45"
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "20:40",
-                    "end": "22:45"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/94928/",
-          "official_url": "https://www.madoka-magica.com/wr/"
-        },
-        {
-          "title": "あの星が降る丘で、君とまた出会いたい。",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "18:05",
-                    "end": "20:20"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "18:05",
@@ -4119,8 +2660,8 @@
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/104441/",
-          "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
+          "eigacom_url": "https://eiga.com/movie/106095/",
+          "official_url": "https://anime-eupho.com/"
         },
         {
           "title": "映画名探偵プリキュア！不思議な庭と2人の秘密",
@@ -4128,28 +2669,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "10:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:30",
-                    "end": "16:50"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:40",
@@ -4179,17 +2698,76 @@
           "official_url": "https://2026.precure-movie.com/"
         },
         {
+          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "15:40",
+                    "end": "17:45"
+                  }
+                ]
+              }
+            },
+            {
+              "format": "Dolby Atmos",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "20:40",
+                    "end": "22:45"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/94928/",
+          "official_url": "https://www.madoka-magica.com/wr/"
+        },
+        {
+          "title": "5秒で完全犯罪を生成する方法",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "12:55",
+                    "end": "14:50"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105699/",
+          "official_url": ""
+        },
+        {
+          "title": "あの星が降る丘で、君とまた出会いたい。",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "18:05",
+                    "end": "20:20"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104441/",
+          "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
+        },
+        {
           "title": "スパイダーマン　ブランド・ニュー・デイ",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "14:30",
-                    "end": "17:05"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "14:30",
@@ -4208,12 +2786,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "17:55",
-                    "end": "20:25"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "17:55",
@@ -4225,16 +2797,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "10:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:30",
-                    "end": "18:00"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "10:30",
@@ -4257,12 +2819,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "15:10",
-                    "end": "17:35"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "15:10",
@@ -4281,12 +2837,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "10:40",
-                    "end": "12:30"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "10:40",
@@ -4300,17 +2850,29 @@
           "official_url": "https://www.disney.co.jp/movie/toy5"
         },
         {
+          "title": "ブルーロック",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "20:45",
+                    "end": "23:00"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104707/",
+          "official_url": "https://bluelock-movie.jp/"
+        },
+        {
           "title": "シェルター",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "17:45",
-                    "end": "19:40"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "17:45",
@@ -4329,12 +2891,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "12:20",
-                    "end": "14:10"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "12:20",
@@ -4353,12 +2909,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:30",
-                    "end": "10:10"
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:30",
@@ -4383,12 +2933,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "15:45",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:30",
@@ -4415,40 +2959,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:15",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:35",
@@ -4499,12 +3009,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "10:25",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "11:45",
@@ -4516,24 +3020,6 @@
             {
               "format": "IMAX字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:25",
@@ -4559,73 +3045,11 @@
           "official_url": ""
         },
         {
-          "title": "白鳥とコウモリ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:15",
-                    "end": ""
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "08:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:40",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105470/",
-          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
-        },
-        {
           "title": "八つ墓村",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:40",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:25",
@@ -4655,21 +3079,37 @@
           "official_url": ""
         },
         {
+          "title": "白鳥とコウモリ",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "08:40",
+                    "end": ""
+                  },
+                  {
+                    "start": "15:20",
+                    "end": ""
+                  },
+                  {
+                    "start": "20:40",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105470/",
+          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
+        },
+        {
           "title": "ルックバック",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:40",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:20",
@@ -4692,36 +3132,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "10:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:50",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:15",
@@ -4741,12 +3151,6 @@
             {
               "format": "IMAX",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:50",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "11:50",
@@ -4765,12 +3169,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "18:40",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "16:55",
@@ -4789,12 +3187,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "18:55",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "18:50",
@@ -4808,28 +3200,22 @@
           "official_url": "https://www.tokizan.jp/"
         },
         {
-          "title": "ブルーロック",
+          "title": "Michael マイケル",
           "schedules": [
             {
-              "format": "2D",
+              "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "15:40",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
-                    "start": "15:40",
+                    "start": "10:05",
                     "end": ""
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/104707/",
-          "official_url": "https://bluelock-movie.jp/"
+          "eigacom_url": "https://eiga.com/movie/102093/",
+          "official_url": "https://www.michael-movie.jp/"
         },
         {
           "title": "最終楽章　響け！ユーフォニアム　後編",
@@ -4837,16 +3223,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "12:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:20",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "12:55",
@@ -4864,149 +3240,11 @@
           "official_url": "https://anime-eupho.com/"
         },
         {
-          "title": "5秒で完全犯罪を生成する方法",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "10:30",
-                    "end": ""
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "10:35",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105699/",
-          "official_url": ""
-        },
-        {
-          "title": "Michael マイケル",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "10:05",
-                    "end": ""
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "10:05",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/102093/",
-          "official_url": "https://www.michael-movie.jp/"
-        },
-        {
-          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:30",
-                    "end": ""
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "08:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:35",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/94928/",
-          "official_url": "https://www.madoka-magica.com/wr/"
-        },
-        {
-          "title": "あの星が降る丘で、君とまた出会いたい。",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "21:05",
-                    "end": ""
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "21:25",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104441/",
-          "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
-        },
-        {
           "title": "映画名探偵プリキュア！不思議な庭と2人の秘密",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "10:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:25",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:50",
@@ -5044,17 +3282,69 @@
           "official_url": "https://2026.precure-movie.com/"
         },
         {
+          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "08:20",
+                    "end": ""
+                  },
+                  {
+                    "start": "16:35",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/94928/",
+          "official_url": "https://www.madoka-magica.com/wr/"
+        },
+        {
+          "title": "5秒で完全犯罪を生成する方法",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "10:35",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105699/",
+          "official_url": ""
+        },
+        {
+          "title": "あの星が降る丘で、君とまた出会いたい。",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "21:25",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104441/",
+          "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
+        },
+        {
           "title": "スパイダーマン　ブランド・ニュー・デイ",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "21:20",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "21:20",
@@ -5068,63 +3358,11 @@
           "official_url": ""
         },
         {
-          "title": "SEKIRO: NO DEFEAT",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "18:55",
-                    "end": ""
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "18:20",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105845/",
-          "official_url": "https://sekiro-anime.jp/"
-        },
-        {
-          "title": "ラスト・サバイバー",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-09-24": [
-                  {
-                    "start": "21:45",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104000/",
-          "official_url": "https://www.20thcenturystudios.jp/movies/last-survivor"
-        },
-        {
           "title": "超かぐや姫！",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "12:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:10",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "13:35",
@@ -5146,17 +3384,47 @@
           "official_url": "https://www.cho-kaguyahime.com/"
         },
         {
+          "title": "ラスト・サバイバー",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "21:45",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104000/",
+          "official_url": "https://www.20thcenturystudios.jp/movies/last-survivor"
+        },
+        {
+          "title": "SEKIRO: NO DEFEAT",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "18:20",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105845/",
+          "official_url": "https://sekiro-anime.jp/"
+        },
+        {
           "title": "キングダム　魂の決戦",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "18:25",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "18:25",
@@ -5170,58 +3438,22 @@
           "official_url": ""
         },
         {
-          "title": "トイ・ストーリー5",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "16:40",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104002/",
-          "official_url": "https://www.disney.co.jp/movie/toy5"
-        },
-        {
-          "title": "映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション",
+          "title": "ブルーロック",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
+                "2026-09-24": [
                   {
-                    "start": "11:25",
+                    "start": "15:40",
                     "end": ""
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105228/",
-          "official_url": ""
-        },
-        {
-          "title": "ミニオンズ＆モンスターズ",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:20",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105870/",
-          "official_url": "https://minions.jp/"
+          "eigacom_url": "https://eiga.com/movie/104707/",
+          "official_url": "https://bluelock-movie.jp/"
         },
         {
           "title": "劇場版 THE ALFEE 3000PREMIUM トラベリングバンドが刻んだ3000本の奇跡と軌跡",
@@ -5229,12 +3461,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:15",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "10:55",
@@ -5253,12 +3479,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:30",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "08:30",
@@ -5277,12 +3497,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "13:55",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "12:15",
@@ -5307,12 +3521,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "14:45",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:30",
@@ -5331,28 +3539,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:00",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "10:00",
@@ -5387,12 +3573,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "14:20",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "14:15",
@@ -5404,12 +3584,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "20:45",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "20:40",
@@ -5423,61 +3597,11 @@
           "official_url": ""
         },
         {
-          "title": "白鳥とコウモリ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "11:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:45",
-                    "end": ""
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "11:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:40",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105470/",
-          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
-        },
-        {
           "title": "八つ墓村",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "10:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:45",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:50",
@@ -5503,17 +3627,33 @@
           "official_url": ""
         },
         {
+          "title": "白鳥とコウモリ",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "11:15",
+                    "end": ""
+                  },
+                  {
+                    "start": "17:40",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105470/",
+          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
+        },
+        {
           "title": "ルックバック",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "17:00",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "16:10",
@@ -5532,20 +3672,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:30",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "16:40",
@@ -5564,12 +3690,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:15",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "13:30",
@@ -5583,89 +3703,11 @@
           "official_url": "https://a24jp.com/films/backrooms/"
         },
         {
-          "title": "5秒で完全犯罪を生成する方法",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "19:15",
-                    "end": ""
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105699/",
-          "official_url": ""
-        },
-        {
-          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
-          "schedules": [
-            {
-              "format": "Dolby Atmos",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "16:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:40",
-                    "end": ""
-                  }
-                ],
-                "2026-09-24": [
-                  {
-                    "start": "15:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:30",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/94928/",
-          "official_url": "https://www.madoka-magica.com/wr/"
-        },
-        {
           "title": "映画名探偵プリキュア！不思議な庭と2人の秘密",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "10:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:10",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:25",
@@ -5695,17 +3737,51 @@
           "official_url": "https://2026.precure-movie.com/"
         },
         {
+          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
+          "schedules": [
+            {
+              "format": "Dolby Atmos",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "15:30",
+                    "end": ""
+                  },
+                  {
+                    "start": "21:30",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/94928/",
+          "official_url": "https://www.madoka-magica.com/wr/"
+        },
+        {
+          "title": "5秒で完全犯罪を生成する方法",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-09-24": [
+                  {
+                    "start": "09:20",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105699/",
+          "official_url": ""
+        },
+        {
           "title": "スパイダーマン　ブランド・ニュー・デイ",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:20",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "18:25",
@@ -5724,12 +3800,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "21:20",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "15:05",
@@ -5745,16 +3815,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "13:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:40",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "12:20",
@@ -5777,12 +3837,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "21:30",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "21:25",
@@ -5796,71 +3850,11 @@
           "official_url": ""
         },
         {
-          "title": "トイ・ストーリー5",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "17:00",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104002/",
-          "official_url": "https://www.disney.co.jp/movie/toy5"
-        },
-        {
-          "title": "映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "10:50",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105228/",
-          "official_url": ""
-        },
-        {
-          "title": "ミニオンズ＆モンスターズ",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "13:05",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105870/",
-          "official_url": "https://minions.jp/"
-        },
-        {
           "title": "劇場版　少女☆歌劇 レヴュー・スタァライト",
           "schedules": [
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-09-23": [
-                  {
-                    "start": "08:25",
-                    "end": ""
-                  }
-                ],
                 "2026-09-24": [
                   {
                     "start": "09:30",
@@ -5878,10 +3872,6 @@
   },
   "upcoming": [
     {
-      "title": "サイレントヒル",
-      "release_date": "2026-09-24"
-    },
-    {
       "title": "藁にもすがる獣たち",
       "release_date": "2026-09-25"
     },
@@ -5890,11 +3880,11 @@
       "release_date": "2026-09-25"
     },
     {
-      "title": "ハート・オブ・ビースト",
+      "title": "シャドウワーク",
       "release_date": "2026-09-25"
     },
     {
-      "title": "シャドウワーク",
+      "title": "ハート・オブ・ビースト",
       "release_date": "2026-09-25"
     },
     {
@@ -5902,11 +3892,11 @@
       "release_date": "2026-09-25"
     },
     {
-      "title": "しびれ",
+      "title": "我々は宇宙人",
       "release_date": "2026-09-25"
     },
     {
-      "title": "我々は宇宙人",
+      "title": "しびれ",
       "release_date": "2026-09-25"
     },
     {
@@ -5942,15 +3932,15 @@
       "release_date": "2026-09-25"
     },
     {
-      "title": "3670",
-      "release_date": "2026-09-25"
-    },
-    {
       "title": "PiCNiC",
       "release_date": "2026-09-25"
     },
     {
       "title": "劇場版 RE:cycle of the PENGUINDRUM 前編　君の列車は生存戦略",
+      "release_date": "2026-09-25"
+    },
+    {
+      "title": "3670",
       "release_date": "2026-09-25"
     },
     {
