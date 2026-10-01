@@ -1,567 +1,10 @@
 {
-  "last_updated": "2026-09-30 09:00:27",
+  "last_updated": "2026-10-01 09:17:49",
   "theaters": {
     "USシネマちはら台": {
       "name": "USシネマちはら台",
       "url": "https://uscinemas.jp/category/chiharadai/",
-      "movies": [
-        {
-          "title": "ハート・オブ・ビースト",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "08:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "22:50"
-                  }
-                ]
-              }
-            },
-            {
-              "format": "4D字幕",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:50",
-                    "end": "19:40"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/106332/",
-          "official_url": ""
-        },
-        {
-          "title": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "23:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/103045/",
-          "official_url": ""
-        },
-        {
-          "title": "オデュッセイア",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "14:20",
-                    "end": "17:20"
-                  }
-                ]
-              }
-            },
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:35",
-                    "end": "20:35"
-                  }
-                ]
-              }
-            },
-            {
-              "format": "IMAX字幕",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "23:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104267/",
-          "official_url": ""
-        },
-        {
-          "title": "白鳥とコウモリ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "10:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:45",
-                    "end": "20:15"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105470/",
-          "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
-        },
-        {
-          "title": "八つ墓村",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:00",
-                    "end": "17:05"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105477/",
-          "official_url": ""
-        },
-        {
-          "title": "映画ちいかわ　人魚の島のひみつ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "22:35"
-                  }
-                ]
-              }
-            },
-            {
-              "format": "4D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "15:30",
-                    "end": "17:15"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105109/",
-          "official_url": ""
-        },
-        {
-          "title": "マッチング TRUE LOVE",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "22:45"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105204/",
-          "official_url": ""
-        },
-        {
-          "title": "シャドウワーク",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "08:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:55"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105621/",
-          "official_url": ""
-        },
-        {
-          "title": "藁にもすがる獣たち",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "22:40"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105942/",
-          "official_url": ""
-        },
-        {
-          "title": "ルックバック",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "18:35",
-                    "end": "20:20"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105185/",
-          "official_url": ""
-        },
-        {
-          "title": "アベンジャーズ　エンドゲーム　アンコール",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:25",
-                    "end": "20:35"
-                  }
-                ]
-              }
-            },
-            {
-              "format": "4D吹替",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:40",
-                    "end": "12:50"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/106590/",
-          "official_url": "https://marvel.disney.co.jp/movie/avengers-doomsday/endgame-encore"
-        },
-        {
-          "title": "Michael マイケル",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:10",
-                    "end": "11:30"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/102093/",
-          "official_url": "https://www.michael-movie.jp/"
-        },
-        {
-          "title": "バックルームズ",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:55",
-                    "end": "20:10"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/106287/",
-          "official_url": "https://a24jp.com/films/backrooms/"
-        },
-        {
-          "title": "スパイダーマン　ブランド・ニュー・デイ",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "20:30",
-                    "end": "23:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/102846/",
-          "official_url": ""
-        },
-        {
-          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "15:25",
-                    "end": "17:30"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/94928/",
-          "official_url": "https://www.madoka-magica.com/wr/"
-        },
-        {
-          "title": "超かぐや姫！",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "15:45",
-                    "end": "18:15"
-                  }
-                ]
-              }
-            },
-            {
-              "format": "4D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "20:10",
-                    "end": "22:40"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105011/",
-          "official_url": "https://www.cho-kaguyahime.com/"
-        },
-        {
-          "title": "映画名探偵プリキュア！不思議な庭と2人の秘密",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:10",
-                    "end": "17:30"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105969/",
-          "official_url": "https://2026.precure-movie.com/"
-        },
-        {
-          "title": "5秒で完全犯罪を生成する方法",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "18:10",
-                    "end": "20:05"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105699/",
-          "official_url": ""
-        },
-        {
-          "title": "キングダム　魂の決戦",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "20:40",
-                    "end": "23:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104266/",
-          "official_url": ""
-        },
-        {
-          "title": "トイ・ストーリー5",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "16:10",
-                    "end": "18:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104002/",
-          "official_url": "https://www.disney.co.jp/movie/toy5"
-        },
-        {
-          "title": "ザ・スーパーマリオギャラクシー・ムービー",
-          "schedules": [
-            {
-              "format": "4D3D吹替",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "13:20",
-                    "end": "15:05"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104621/",
-          "official_url": "https://mario-movie.jp/"
-        }
-      ]
+      "movies": []
     },
     "T・ジョイ蘇我": {
       "name": "T・ジョイ蘇我",
@@ -625,24 +68,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:30",
-                    "end": "23:20"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:00",
@@ -662,17 +87,6 @@
                   }
                 ]
               }
-            },
-            {
-              "format": "Dolby Atmos字幕",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:10",
-                    "end": "11:00"
-                  }
-                ]
-              }
             }
           ],
           "eigacom_url": "https://eiga.com/movie/106332/",
@@ -684,32 +98,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "08:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:05",
-                    "end": "23:40"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "08:45",
@@ -748,16 +136,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "13:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:05",
-                    "end": "21:10"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "13:00",
@@ -780,16 +158,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:40",
-                    "end": "18:15"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:10",
@@ -812,16 +180,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "10:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:10",
-                    "end": "21:20"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "10:35",
@@ -844,24 +202,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:25",
-                    "end": "21:15"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:25",
@@ -892,24 +232,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:00",
@@ -944,16 +266,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "10:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:50",
-                    "end": "21:10"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "10:30",
@@ -976,28 +288,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:35",
-                    "end": "23:20"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "08:50",
@@ -1032,12 +322,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "19:10",
-                    "end": "21:00"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "19:10",
@@ -1056,16 +340,6 @@
             {
               "format": "ScreenXDolby Atmos字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:40",
-                    "end": "21:00"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:25",
@@ -1083,35 +357,11 @@
           "official_url": "https://marvel.disney.co.jp/movie/avengers-doomsday/endgame-encore"
         },
         {
-          "title": "あの星が降る丘で、君とまた出会いたい。",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "08:30",
-                    "end": "10:50"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104441/",
-          "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
-        },
-        {
           "title": "Michael マイケル",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "14:15",
-                    "end": "16:35"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "14:15",
@@ -1130,12 +380,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "10:45",
-                    "end": "12:40"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "10:45",
@@ -1154,12 +398,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "21:40",
-                    "end": "23:55"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "21:40",
@@ -1171,12 +409,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:45",
-                    "end": "14:00"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:45",
@@ -1195,12 +427,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "08:45",
-                    "end": "11:10"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "08:45",
@@ -1219,12 +445,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "16:20",
-                    "end": "18:55"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "16:20",
@@ -1238,43 +458,11 @@
           "official_url": ""
         },
         {
-          "title": "平行と垂直",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "08:45",
-                    "end": "10:50"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105571/",
-          "official_url": "https://www.toei-video.co.jp/heikoutosuichoku/"
-        },
-        {
           "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "08:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:40",
-                    "end": "23:50"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "13:55",
@@ -1297,12 +485,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:10",
-                    "end": "11:30"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:10",
@@ -1319,29 +501,8 @@
           "title": "超かぐや姫！",
           "schedules": [
             {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "18:15",
-                    "end": "20:50"
-                  }
-                ]
-              }
-            },
-            {
               "format": "ScreenXDolby Atmos",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "14:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:15",
-                    "end": "23:50"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "15:00",
@@ -1364,12 +525,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "16:50",
-                    "end": "18:50"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "16:50",
@@ -1388,28 +543,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:35",
-                    "end": "18:00"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "08:50",
@@ -1440,12 +573,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "21:35",
-                    "end": "23:30"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "10:55",
@@ -1464,12 +591,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "21:15",
-                    "end": "23:40"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "21:15",
@@ -1488,20 +609,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "08:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:30",
-                    "end": "23:35"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "08:35",
@@ -1528,12 +635,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "15:05",
-                    "end": "16:55"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "15:05",
@@ -1552,12 +653,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "13:20",
-                    "end": "15:40"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "08:40",
@@ -1576,12 +671,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "08:30",
-                    "end": "10:30"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "08:40",
@@ -1600,20 +689,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "08:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:10",
-                    "end": "18:55"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "08:40",
@@ -1640,12 +715,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "08:30",
-                    "end": "10:20"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "08:30",
@@ -1664,12 +733,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "19:05",
-                    "end": "21:15"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "18:35",
@@ -1683,57 +746,11 @@
           "official_url": "https://wwws.warnerbros.co.jp/shingintamamovie/"
         },
         {
-          "title": "仮面ライダーカブト 20th 天を継ぐもの",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:40",
-                    "end": "21:12"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105953/",
-          "official_url": "https://www.toei-video.co.jp/vcinext-kabuto/"
-        },
-        {
-          "title": "劇場版　少女☆歌劇 レヴュー・スタァライト",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "21:20",
-                    "end": "23:45"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/92127/",
-          "official_url": ""
-        },
-        {
           "title": "メイドインアビス　烈日の黄金郷【後編】7話～12話",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:55",
-                    "end": "20:55"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "17:55",
@@ -1752,12 +769,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "21:10",
-                    "end": "23:40"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "21:10",
@@ -1823,28 +834,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "22:50"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:30",
@@ -1879,28 +868,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:35",
-                    "end": "23:10"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:25",
@@ -1935,12 +902,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "13:25",
-                    "end": "16:30"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "13:25",
@@ -1952,16 +913,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:05",
-                    "end": "23:10"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:50",
@@ -1984,16 +935,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:05",
-                    "end": "19:40"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:50",
@@ -2016,16 +957,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:10",
-                    "end": "17:20"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:35",
@@ -2048,24 +979,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:30",
-                    "end": "18:20"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:30",
@@ -2096,28 +1009,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "22:00"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "10:10",
@@ -2152,24 +1043,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:15",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "15:05",
@@ -2192,24 +1065,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:25"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:40",
@@ -2232,12 +1087,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:15",
-                    "end": "11:05"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:15",
@@ -2256,12 +1105,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "19:00",
-                    "end": "22:20"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "19:00",
@@ -2280,12 +1123,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:50",
-                    "end": "20:15"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "17:50",
@@ -2304,16 +1141,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "12:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:45",
-                    "end": "19:45"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "12:45",
@@ -2336,12 +1163,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "12:20",
-                    "end": "14:35"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "12:20",
@@ -2360,12 +1181,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "20:10",
-                    "end": "22:40"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "20:10",
@@ -2384,12 +1199,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "20:00",
-                    "end": "22:10"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "20:40",
@@ -2408,24 +1217,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:40",
-                    "end": "17:05"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:20",
@@ -2448,12 +1239,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "18:25",
-                    "end": "20:25"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "18:25",
@@ -2472,12 +1257,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:00",
-                    "end": "19:25"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "17:00",
@@ -2496,12 +1275,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "14:20",
-                    "end": "16:15"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "14:50",
@@ -2520,12 +1293,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "20:45",
-                    "end": "23:05"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "20:45",
@@ -2544,12 +1311,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:45",
-                    "end": "12:05"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:45",
@@ -2608,28 +1369,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:12"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:10",
@@ -2664,32 +1403,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:25",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:10",
@@ -2724,12 +1437,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:40",
-                    "end": "14:40"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:10",
@@ -2741,12 +1448,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "15:10",
-                    "end": "18:10"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "14:45",
@@ -2765,20 +1466,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:30",
@@ -2805,20 +1492,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:00",
-                    "end": "20:05"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "12:25",
@@ -2841,28 +1514,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:35",
-                    "end": "22:25"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "10:50",
@@ -2897,24 +1548,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:00",
@@ -2945,24 +1578,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:25",
-                    "end": "22:05"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:05",
@@ -2993,12 +1608,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:05",
-                    "end": "12:50"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:05",
@@ -3017,12 +1626,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "14:15",
-                    "end": "17:25"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "13:00",
@@ -3040,35 +1643,11 @@
           "official_url": "https://marvel.disney.co.jp/movie/avengers-doomsday/endgame-encore"
         },
         {
-          "title": "あの星が降る丘で、君とまた出会いたい。",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "20:25",
-                    "end": "22:40"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104441/",
-          "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
-        },
-        {
           "title": "Michael マイケル",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "14:20",
-                    "end": "16:40"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "20:35",
@@ -3087,12 +1666,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "15:10",
-                    "end": "17:25"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "15:10",
@@ -3111,12 +1684,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "12:10",
-                    "end": "13:55"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "12:30",
@@ -3130,35 +1697,11 @@
           "official_url": ""
         },
         {
-          "title": "時には懺悔を",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "20:00",
-                    "end": "22:15"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/103169/",
-          "official_url": "https://www.tokizan.jp/"
-        },
-        {
           "title": "スパイダーマン　ブランド・ニュー・デイ",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:00",
-                    "end": "19:35"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "20:00",
@@ -3177,16 +1720,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "16:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:30"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "16:35",
@@ -3205,16 +1738,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "13:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:45",
@@ -3237,12 +1760,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "15:45",
-                    "end": "18:15"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:10",
@@ -3261,24 +1778,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:40",
-                    "end": "20:00"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:10",
@@ -3309,12 +1808,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "18:30",
-                    "end": "20:25"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "17:45",
@@ -3333,12 +1826,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:00",
-                    "end": "11:20"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "20:15",
@@ -3357,12 +1844,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:00",
-                    "end": "10:50"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:05",
@@ -3376,53 +1857,11 @@
           "official_url": "https://www.disney.co.jp/movie/toy5"
         },
         {
-          "title": "ブルーロック",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:45",
-                    "end": "20:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104707/",
-          "official_url": "https://bluelock-movie.jp/"
-        },
-        {
-          "title": "ミニオンズ＆モンスターズ",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:00",
-                    "end": "10:40"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105870/",
-          "official_url": "https://minions.jp/"
-        },
-        {
           "title": "許されざる者（1992）",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:05",
-                    "end": "11:25"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:05",
@@ -3441,12 +1880,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "18:00",
-                    "end": "20:10"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "17:50",
@@ -3519,20 +1952,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:30"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:20",
@@ -3552,12 +1971,6 @@
             {
               "format": "4D字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:40",
-                    "end": "19:30"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "17:40",
@@ -3569,16 +1982,6 @@
             {
               "format": "Dolby Atmos字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:10",
-                    "end": "16:00"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "14:40",
@@ -3597,28 +2000,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:50"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:00",
@@ -3653,12 +2034,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:30",
-                    "end": "12:30"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:30",
@@ -3667,17 +2042,6 @@
                   {
                     "start": "17:20",
                     "end": "20:20"
-                  }
-                ]
-              }
-            },
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "20:00",
-                    "end": "23:00"
                   }
                 ]
               }
@@ -3692,16 +2056,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:10",
-                    "end": "22:40"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:15",
@@ -3724,16 +2078,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "08:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:05",
-                    "end": "16:10"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "08:50",
@@ -3756,28 +2100,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:10",
@@ -3801,12 +2123,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "15:15",
-                    "end": "17:00"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "15:20",
@@ -3825,28 +2141,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "22:25"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:20",
@@ -3881,20 +2175,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:00",
@@ -3917,28 +2197,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "08:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "10:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "22:30"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "08:50",
@@ -3969,12 +2227,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "18:25",
-                    "end": "20:10"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "18:35",
@@ -3993,12 +2245,6 @@
             {
               "format": "4D吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:30",
-                    "end": "12:45"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:30",
@@ -4010,12 +2256,6 @@
             {
               "format": "Dolby Atmos字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "16:20",
-                    "end": "19:35"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "16:50",
@@ -4029,35 +2269,11 @@
           "official_url": "https://marvel.disney.co.jp/movie/avengers-doomsday/endgame-encore"
         },
         {
-          "title": "あの星が降る丘で、君とまた出会いたい。",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "20:30",
-                    "end": "22:45"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104441/",
-          "official_url": "https://movies.shochiku.co.jp/anohoshi-movie/"
-        },
-        {
           "title": "Michael マイケル",
           "schedules": [
             {
               "format": "Dolby Atmos字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:30",
-                    "end": "13:50"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "12:00",
@@ -4076,12 +2292,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:45",
-                    "end": "20:00"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "17:45",
@@ -4095,35 +2305,11 @@
           "official_url": "https://a24jp.com/films/backrooms/"
         },
         {
-          "title": "時には懺悔を",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "12:55",
-                    "end": "15:10"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/103169/",
-          "official_url": "https://www.tokizan.jp/"
-        },
-        {
           "title": "スパイダーマン　ブランド・ニュー・デイ",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:45",
-                    "end": "20:20"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "17:15",
@@ -4142,12 +2328,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:40",
-                    "end": "19:45"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "20:20",
@@ -4166,12 +2346,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "18:10",
-                    "end": "20:25"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "14:45",
@@ -4190,12 +2364,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "15:35",
-                    "end": "18:05"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "15:35",
@@ -4207,12 +2375,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "20:00",
-                    "end": "22:30"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "20:00",
@@ -4231,24 +2393,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:30",
-                    "end": "17:50"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:30",
@@ -4279,12 +2423,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "15:20",
-                    "end": "17:15"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "20:40",
@@ -4303,12 +2441,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "12:50",
-                    "end": "15:15"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "12:50",
@@ -4327,12 +2459,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "13:00",
-                    "end": "14:50"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "15:40",
@@ -4351,12 +2477,6 @@
             {
               "format": "4D3D吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "13:10",
-                    "end": "14:55"
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "13:10",
@@ -4720,28 +2840,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "22:00",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:15",
@@ -4818,28 +2916,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:20",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:20",
@@ -4940,12 +3016,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:45",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:40",
@@ -4973,24 +3043,6 @@
             {
               "format": "IMAX字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:30",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "13:10",
@@ -5043,16 +3095,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:30",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:30",
@@ -5093,20 +3135,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:30",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:35",
@@ -5151,20 +3179,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:10",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "14:25",
@@ -5232,24 +3246,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:55",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:25",
@@ -5310,24 +3306,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:45",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:20",
@@ -5376,12 +3354,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "19:30",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "19:45",
@@ -5418,16 +3390,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:35",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:45",
@@ -5468,12 +3430,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "18:15",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "18:05",
@@ -5510,12 +3466,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:30",
-                    "end": ""
-                  }
-                ],
                 "2026-10-02": [
                   {
                     "start": "21:30",
@@ -5546,12 +3496,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "10:35",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "10:40",
@@ -5588,12 +3532,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "21:15",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "20:50",
@@ -5613,35 +3551,11 @@
           "official_url": "https://a24jp.com/films/backrooms/"
         },
         {
-          "title": "時には懺悔を",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "21:25",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/103169/",
-          "official_url": "https://www.tokizan.jp/"
-        },
-        {
           "title": "スパイダーマン　ブランド・ニュー・デイ",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "12:30",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "17:50",
@@ -5666,16 +3580,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "15:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:25",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:25",
@@ -5712,12 +3616,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "13:25",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "13:30",
@@ -5754,12 +3652,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "16:30",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "13:50",
@@ -5796,24 +3688,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:40",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:45",
@@ -5882,12 +3756,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "19:00",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "19:05",
@@ -5906,12 +3774,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "21:20",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "21:25",
@@ -5960,12 +3822,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "18:30",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "19:10",
@@ -5984,20 +3840,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "13:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:25",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "13:30",
@@ -6080,12 +3922,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "12:05",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "12:05",
@@ -6122,12 +3958,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:15",
@@ -6146,12 +3976,6 @@
             {
               "format": "外国語字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "16:05",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "16:10",
@@ -6217,12 +4041,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "13:30",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:30",
@@ -6246,24 +4064,6 @@
             {
               "format": "Dolby Atmos字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:50",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "15:50",
@@ -6282,28 +4082,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "17:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:00",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:40",
@@ -6338,12 +4116,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "18:05",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "16:25",
@@ -6362,12 +4134,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "12:10",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "15:40",
@@ -6390,16 +4156,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "15:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:30",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:40",
@@ -6422,20 +4178,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "13:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:30",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "15:40",
@@ -6454,24 +4196,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "11:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "15:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "11:45",
@@ -6498,12 +4222,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "15:50",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "14:10",
@@ -6522,12 +4240,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:50",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:30",
@@ -6546,12 +4258,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:30",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:20",
@@ -6577,17 +4283,6 @@
                   }
                 ]
               }
-            },
-            {
-              "format": "Dolby Atmos",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "19:15",
-                    "end": ""
-                  }
-                ]
-              }
             }
           ],
           "eigacom_url": "https://eiga.com/movie/94928/",
@@ -6599,26 +4294,9 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "20:10",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "18:30",
-                    "end": ""
-                  }
-                ]
-              }
-            },
-            {
-              "format": "Dolby Atmos",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "13:55",
                     "end": ""
                   }
                 ]
@@ -6634,24 +4312,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "11:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:15",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "12:00",
@@ -6678,12 +4338,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  }
-                ],
                 "2026-10-01": [
                   {
                     "start": "09:20",
@@ -6695,27 +4349,514 @@
           ],
           "eigacom_url": "https://eiga.com/movie/105699/",
           "official_url": ""
-        },
-        {
-          "title": "キングダム　魂の決戦",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-09-30": [
-                  {
-                    "start": "17:40",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104266/",
-          "official_url": ""
         }
       ]
     }
   },
-  "upcoming": []
+  "upcoming": [
+    {
+      "title": "ママがもうこの世界にいなくても　私の命の日記",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "ファーストボイス",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "時給三〇〇円の死神",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "キリコのタクト YELL",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "あなたの息子ひき出します！",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "沖晴くんの涙を殺して",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "愛し合ってるかい？　忌野清志郎が教えてくれた",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "逃げろお嬢さん",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "劇場版ダーウィンが来た！世界のネコのなかまたち",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "本当にあった話（の話）",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "セックス・ピストルズ　破壊の設計図",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "レズビアン・スペース・プリンセス",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "≒草間彌生　わたし大好き",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "ポンペイ、雲の下に生きる",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "カードファイト!! ヴァンガード Divinez 運命星戦編",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "劇場版 RE:cycle of the PENGUINDRUM 後編　僕は君を愛してる",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "デス≠キル／ゲーム",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "歌って！",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "キャンプ・ロック3",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "ザ・ラスト・ファースト　冬のK2への挑戦",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "シューマッハ‘94 伝説の幕開け",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "第19回ショパン国際ピアノコンクール映像選",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "ライフ　そして日々を紡ぐ",
+      "release_date": "2026-10-02"
+    },
+    {
+      "title": "プーチンの愛国教室",
+      "release_date": "2026-10-03"
+    },
+    {
+      "title": "かぶと島が浮く日",
+      "release_date": "2026-10-03"
+    },
+    {
+      "title": "鴉",
+      "release_date": "2026-10-03"
+    },
+    {
+      "title": "still dark",
+      "release_date": "2026-10-03"
+    },
+    {
+      "title": "ドルフィ田イル香の偏屈なダンス",
+      "release_date": "2026-10-03"
+    },
+    {
+      "title": "冒険の夜",
+      "release_date": "2026-10-03"
+    },
+    {
+      "title": "クイーン　ブダペスト",
+      "release_date": "2026-10-07"
+    },
+    {
+      "title": "バイオハザード",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "DIGGER ディガー",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "汝、星のごとく",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "エヴィレンコ",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "どこよりも遠い場所にいる君へ",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "遥かな町へ",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "ハードボイルド",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "あぶない刑事",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "ガールズ＆パンツァー　最終章　第5話",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "アニマルズ",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "インビジブル・ビューティー　ランウェイの革命",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "遠近を抱えた女　完全版",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "The Ozu Diaries 小津ダイアリー",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "サクラマスのラストワルツ",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "憎しみ",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "Matchbox ザ・ムービー",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "ミッシェル・ガン・エレファント“THEE MOVIE” LAST HEAVEN 031011",
+      "release_date": "2026-10-09"
+    },
+    {
+      "title": "東京上空300メートル",
+      "release_date": "2026-10-10"
+    },
+    {
+      "title": "逃亡者狂騒曲",
+      "release_date": "2026-10-10"
+    },
+    {
+      "title": "ALWAYS LALISA",
+      "release_date": "2026-10-12"
+    },
+    {
+      "title": "ピエロ・パニック",
+      "release_date": "2026-10-12"
+    },
+    {
+      "title": "生涯の愛",
+      "release_date": "2026-10-14"
+    },
+    {
+      "title": "ディナーは吹雪の夜に",
+      "release_date": "2026-10-15"
+    },
+    {
+      "title": "クジラに落ちた男",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "わたしの知らない子どもたち",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "mentor",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "ストリートファイター　ザ・ムービー",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "太陽を盗んだ男",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "影を売る女",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "青春ブタ野郎はディアフレンドの夢を見ない",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "ハイファイブ！",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "ミッション",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "呪区",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "真実と反逆　ナチスと闘った若きレジスタンス",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "演歌の坂道",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "椎名林檎　党大会　令和八年列島巡回",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "ジェームズ・ディーンにさよならを",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "Cilvaringz ウータン・クランと幻のアルバム",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "テンジン",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "ナショナル・シアター・ライブ「危険な関係」",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "BanG Dream! Ave Mujica prima aurora",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "マスタープラン",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "LEONIDAS",
+      "release_date": "2026-10-16"
+    },
+    {
+      "title": "愛しのサキュバス",
+      "release_date": "2026-10-17"
+    },
+    {
+      "title": "うそがほんとに　ほんとがうそに",
+      "release_date": "2026-10-17"
+    },
+    {
+      "title": "ごじゃっぺタクシー",
+      "release_date": "2026-10-17"
+    },
+    {
+      "title": "ワンカモ",
+      "release_date": "2026-10-17"
+    },
+    {
+      "title": "うるわしの宵の月",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "バッド・ルーテナント：トウキョウ",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "もしもの愛",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "劇場版「進撃の巨人」前編　紅蓮の弓矢",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "メイドインアビス　目覚める神秘",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "耳をすませば（1995）",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "BOSS ボス",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "URCHIN アーチン",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "AYUMI",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "映画　ひつじのショーン　かぼちゃ畑の怪物！",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "劇場版　前橋ウィッチーズ　魔女見習いのエモエモリーズ",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "昨夜は殺れたかも",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "ザ・ハウスメAIド　服従",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "CBGB ニューヨーク、PUNKが生まれた場所",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "ジュディ・シル　贖罪のシンガーソングライター",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "進行曲　マーチングボーイズ",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "てんてん　ずっと独身でいるつもり？",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "ハリケーンの向こうへ",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "ピリオド",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "Blue Heron ブルーヘロン",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "MANA",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "養父",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "リアリティ・プラス",
+      "release_date": "2026-10-23"
+    },
+    {
+      "title": "魂のきせき",
+      "release_date": "2026-10-24"
+    },
+    {
+      "title": "中国山地　牛と人風土記",
+      "release_date": "2026-10-24"
+    },
+    {
+      "title": "YAMANEKO",
+      "release_date": "2026-10-24"
+    },
+    {
+      "title": "ドライブ　偽りの関係",
+      "release_date": "2026-10-28"
+    },
+    {
+      "title": "映画　聲の形",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "RYUJI 竜二",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "クレイフェイス",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "恒星の向こう側",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "見上げてごらん",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "地球を守れ！",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "アポカリプスZ 新しい世界",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "煙突の中の雀",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "ガール・アンド・スパイダー",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "COWBOY BEBOP 天国の扉",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "韓国ミュージカル ON SCREEN フランケンシュタイン",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "コリジョン",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "ストレンジ・リトル・キャット",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "月影のゴールデン街",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "TOMORROW X TOGETHER WORLD TOUR ʻACT : TOMORROWʼ",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "ヤマトよ永遠に REBEL3199 第七章　虹色の輪廻",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "ラウ・チュー・ホア　あの屋敷には、何かいる。",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "イエロー・マシマシ・ラプソディ（仮）",
+      "release_date": "2026-10-31"
+    },
+    {
+      "title": "映画　すみっコぐらし　青い月夜のまほうのコ",
+      "release_date": "2026-10-31"
+    },
+    {
+      "title": "京都ALS患者嘱託殺人事件",
+      "release_date": "2026-10-31"
+    },
+    {
+      "title": "鳥を導く",
+      "release_date": "2026-10-31"
+    },
+    {
+      "title": "私がまだ知らない沖縄",
+      "release_date": "2026-10-31"
+    }
+  ]
 }
