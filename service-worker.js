@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinema-finder-v13';
+const CACHE_NAME = 'cinema-finder-v14';
 const ASSETS = [
   './',
   './index.html',

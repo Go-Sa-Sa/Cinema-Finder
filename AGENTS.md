@@ -79,7 +79,8 @@
               "format": "2D/吹替",
               "dates": {
                 "2026-05-28": [
-                  { "start": "09:30", "end": "11:45" }
+                  { "start": "09:30", "end": "11:45" },
+                  { "start": "13:00", "end": "15:15", "end_estimated": true }
                 ]
               }
             }
@@ -96,6 +97,7 @@
   ]
 }
 ```
+※ `end_estimated: true` は、劇場が終了時刻を掲載していないため `crawler.py` の `fill_estimated_end_times()` が上映時間（`runtime_minutes`）＋予告編時間から推定した終了時刻であることを示す。画面では「～15:15頃」と表示する。
 
 ### `movie_details.json`
 映画タイトルをキーとする詳細情報のディクショナリ：
@@ -110,10 +112,12 @@
     "director": "監督名",
     "cast": ["出演者1", "出演者2", "出演者3"],
     "description": "あらすじテキスト...",
-    "copyright": "(C)2026 ..."
+    "copyright": "(C)2026 ...",
+    "runtime_minutes": 120
   }
 }
 ```
+※ `runtime_minutes` は映画.comの上映時間（分）。取得できなかった場合は `null`。
 
 ---
 

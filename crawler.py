@@ -4,6 +4,7 @@ import re
 import json
 import datetime
 import time
+import statistics
 import os
 import sys
 import urllib.parse
@@ -291,6 +292,105 @@ def format_release_date(raw_date_str):
         print(f"Error formatting date {year}-{month}-{day}: {e}")
         return date_iso, f"{month:02d}月{day:02d}日 公開"
 
+def parse_runtime_minutes(text):
+    """
+    "2026年製作／145分／G／アメリカ" のような文字列から上映時間（分）を取り出す。見つからなければ None
+    """
+    if not text:
+        return None
+    match = re.search(r'／\s*(\d{2,3})分', text) or re.search(r'(\d{2,3})分', text)
+    if not match:
+        return None
+    minutes = int(match.group(1))
+    return minutes if 30 <= minutes <= 400 else None
+
+# 予告編・CM等で「上映時間」より終了時刻が後ろにずれる分の既定値（実測の中央値に近い値）
+DEFAULT_TRAILER_MINUTES = 9
+# 予告編時間として妥当とみなす範囲（舞台挨拶付き上映などの外れ値を除外する）
+TRAILER_MINUTES_RANGE = (0, 40)
+
+def _time_to_minutes(time_str):
+    match = re.fullmatch(r'(\d{1,2}):(\d{2})', time_str or "")
+    if not match:
+        return None
+    return int(match.group(1)) * 60 + int(match.group(2))
+
+def _minutes_to_time(minutes):
+    minutes %= 24 * 60
+    return f"{minutes // 60:02d}:{minutes % 60:02d}"
+
+def _known_duration(time_entry):
+    start = _time_to_minutes(time_entry.get("start"))
+    end = _time_to_minutes(time_entry.get("end"))
+    if start is None or end is None:
+        return None
+    return (end - start) % (24 * 60)
+
+def _median_int(values):
+    return int(round(statistics.median(values)))
+
+def fill_estimated_end_times(theaters, movie_details):
+    """
+    終了時刻が空の上映回に、推定した終了時刻を補完して "end_estimated": True を付ける。
+    優先順:
+      1. 同じ劇場・同じ作品・同じ上映形式で終了時刻が判明している回の所要時間
+      2. 同じ劇場・同じ作品で終了時刻が判明している回の所要時間
+      3. 上映時間（映画.com）+ その劇場の予告編時間（実測の中央値）
+      4. 上映時間 + 全劇場の予告編時間の中央値（劇場に実測が無い場合）
+    補完した回数を返す。
+    """
+    def runtime_of(title):
+        detail = movie_details.get(title)
+        return detail.get("runtime_minutes") if isinstance(detail, dict) else None
+
+    def known_durations(schedules):
+        return [d for s in schedules for times in s.get("dates", {}).values()
+                for t in times if (d := _known_duration(t)) is not None]
+
+    # 劇場ごとの予告編時間（実際の所要時間 - 上映時間）を実測する
+    low, high = TRAILER_MINUTES_RANGE
+    theater_offsets = {}
+    all_offsets = []
+    for theater_name, theater_data in theaters.items():
+        offsets = []
+        for movie in theater_data.get("movies", []):
+            runtime = runtime_of(movie.get("title"))
+            if not runtime:
+                continue
+            offsets += [d - runtime for d in known_durations(movie.get("schedules", []))
+                        if low <= d - runtime <= high]
+        if offsets:
+            theater_offsets[theater_name] = _median_int(offsets)
+            all_offsets += offsets
+    global_offset = _median_int(all_offsets) if all_offsets else DEFAULT_TRAILER_MINUTES
+
+    filled = 0
+    for theater_name, theater_data in theaters.items():
+        offset = theater_offsets.get(theater_name, global_offset)
+        for movie in theater_data.get("movies", []):
+            schedules = movie.get("schedules", [])
+            movie_known = known_durations(schedules)
+            runtime = runtime_of(movie.get("title"))
+            for schedule in schedules:
+                format_known = known_durations([schedule])
+                if format_known:
+                    duration = _median_int(format_known)
+                elif movie_known:
+                    duration = _median_int(movie_known)
+                elif runtime:
+                    duration = runtime + offset
+                else:
+                    continue
+                for times in schedule.get("dates", {}).values():
+                    for t in times:
+                        start = _time_to_minutes(t.get("start"))
+                        if t.get("end") or start is None:
+                            continue
+                        t["end"] = _minutes_to_time(start + duration)
+                        t["end_estimated"] = True
+                        filled += 1
+    return filled
+
 def fetch_og_image(url):
     """
     公式サイトURLからOGP画像 (og:image / twitter:image) を取得する
@@ -388,9 +488,10 @@ def fetch_movie_details(rel_url):
         "director": "",
         "cast": [],
         "description": "",
-        "copyright": ""
+        "copyright": "",
+        "runtime_minutes": None
     }
-    
+
     try:
         response = requests.get(abs_url, headers=HEADERS, timeout=10)
         if response.status_code != 200:
@@ -493,7 +594,7 @@ def fetch_movie_details(rel_url):
                 break
         details["copyright"] = copyright_text
         
-        # 7. 公開日
+        # 7. 公開日・上映時間 (例: "2026年製作／145分／G／アメリカ ... 劇場公開日：2026年10月1日")
         release_date_raw = ""
         if details_div:
             data_p = details_div.select_one('section.txt-block p.data')
@@ -501,6 +602,7 @@ def fetch_movie_details(rel_url):
                 match = re.search(r'劇場公開日：[^\n]+', data_p.text)
                 if match:
                     release_date_raw = match.group(0)
+                details["runtime_minutes"] = parse_runtime_minutes(data_p.text)
         if not release_date_raw:
             opdate = soup.find('span', itemprop='datePublished') or soup.find(class_=re.compile(r'opdate|release'))
             if opdate:
@@ -720,9 +822,12 @@ def run_crawler():
             if isinstance(cached, str):
                 is_incomplete = True
             elif isinstance(cached, dict):
-                # 必須キーが空、または画像URLが無効（403/404エラー・リンク切れ等）の場合は再クロールして補完する
+                # 必須キーが空、上映時間が未取得（キー自体が無い旧データ）、または画像URLが無効
+                # （403/404エラー・リンク切れ等）の場合は再クロールして補完する
                 poster = cached.get("poster_url", "")
-                if not poster or not cached.get("description") or not is_poster_url_valid(poster):
+                if (not poster or not cached.get("description")
+                        or "runtime_minutes" not in cached
+                        or not is_poster_url_valid(poster)):
                     is_incomplete = True
         else:
             is_incomplete = True
@@ -801,7 +906,11 @@ def run_crawler():
                 
             if "rel_url" in movie:
                 del movie["rel_url"]
-        
+
+    # 終了時刻が掲載されていない上映回を、上映時間から推定して補完する
+    filled_count = fill_estimated_end_times(results, movie_details_cache)
+    print(f"Estimated end times filled for {filled_count} showtimes.")
+
     # 日本時間 (JST: UTC+9) の現在時刻を取得
     jst_tz = datetime.timezone(datetime.timedelta(hours=9))
     current_time_jst = datetime.datetime.now(jst_tz)

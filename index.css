@@ -778,6 +778,10 @@ header {
     margin-top: 0.15rem;
 }
 
+.time-chip .end-t.estimated {
+    opacity: 0.75;
+}
+
 /* Simulation time styling on card */
 .theater-card.sim-card {
     border-color: rgba(245, 158, 11, 0.15);

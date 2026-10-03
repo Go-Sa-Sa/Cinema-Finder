@@ -165,9 +165,15 @@ export function renderSchedule(data) {
                     const timeChip = document.createElement("div");
                     timeChip.className = "time-chip";
                     
+                    // 終了時刻が劇場未掲載で上映時間から推定したものは「頃」を付けて区別する
+                    const endHtml = t.end
+                        ? (t.end_estimated
+                            ? `<span class="end-t estimated" title="上映時間から推定した終了時刻">～${escapeHtml(t.end)}頃</span>`
+                            : `<span class="end-t">～${escapeHtml(t.end)}</span>`)
+                        : `<span class="end-t"></span>`;
                     timeChip.innerHTML = `
                         <span class="start-t">${escapeHtml(t.start)}</span>
-                        <span class="end-t">${t.end ? '～' + escapeHtml(t.end) : ''}</span>
+                        ${endHtml}
                     `;
                     timeList.appendChild(timeChip);
                 });
