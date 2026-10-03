@@ -93,6 +93,27 @@ class TestCrawlerUtils(unittest.TestCase):
         self.assertIsNone(parse_runtime_minutes(None))
 
 
+class TestPruneMovieDetails(unittest.TestCase):
+
+    def test_removes_only_inactive_titles(self):
+        from crawler import prune_movie_details
+        details = {
+            "上映中": {"poster_url": "a"},
+            "公開予定": {"poster_url": "b"},
+            "上映終了": {"poster_url": "c"},
+            "旧形式": "https://example.com"
+        }
+        removed = prune_movie_details(details, {"上映中", "公開予定"})
+        self.assertEqual(removed, 2)
+        self.assertEqual(set(details), {"上映中", "公開予定"})
+
+    def test_nothing_to_remove(self):
+        from crawler import prune_movie_details
+        details = {"A": {}}
+        self.assertEqual(prune_movie_details(details, {"A", "B"}), 0)
+        self.assertEqual(details, {"A": {}})
+
+
 class TestFillEstimatedEndTimes(unittest.TestCase):
 
     def test_uses_known_duration_of_same_format_first(self):

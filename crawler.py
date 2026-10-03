@@ -267,6 +267,16 @@ def save_movie_details(data):
     except Exception as e:
         print(f"Error saving movie_details.json: {e}")
 
+def prune_movie_details(movie_details, active_titles):
+    """
+    上映中・公開予定のどちらにも含まれない作品を詳細キャッシュから削除する。
+    削除した件数を返す。
+    """
+    stale_titles = [title for title in movie_details if title not in active_titles]
+    for title in stale_titles:
+        del movie_details[title]
+    return len(stale_titles)
+
 def format_release_date(raw_date_str):
     """
     "劇場公開日：2026年5月22日" や "2026年5月22日" などの文字列から ISO形式の日付と
@@ -882,6 +892,17 @@ def run_crawler():
                     movie_details_cache[title] = cached
                     has_cache_updated = True
                     break
+
+    # 上映が終わった作品の詳細をキャッシュから削除する。
+    # 一部の劇場・公開予定の取得に失敗した日は、取得できなかった作品まで消えてしまうため削除しない
+    if len(results) == len(THEATERS) and upcoming_list:
+        active_titles = all_known_titles | {m["title"] for m in upcoming_list}
+        pruned_count = prune_movie_details(movie_details_cache, active_titles)
+        if pruned_count:
+            print(f"Pruned {pruned_count} movies no longer showing or upcoming from movie_details.json.")
+            has_cache_updated = True
+    else:
+        print("Skipped pruning movie_details.json because some sources failed to crawl.")
 
     if has_cache_updated:
         save_movie_details(movie_details_cache)
