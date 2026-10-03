@@ -4,6 +4,7 @@
 import { state } from './state.js';
 import { selectMovie } from './dropdown.js';
 import { onSelectionChange } from './schedule.js';
+import { escapeHtml, safeUrl } from './utils.js';
 
 export function isUpcomingMovie(title) {
     return state.upcomingMovies.some(m => m.title === title);
@@ -25,17 +26,18 @@ export function renderMoviesGallery() {
     
     moviesToRender.forEach(title => {
         const details = state.movieDetails[title] || {};
+        const safeTitle = escapeHtml(title);
         
         const card = document.createElement("div");
         card.className = "movie-gallery-card";
         
         // ポスター画像
-        const posterUrl = details.poster_url || "";
+        const posterUrl = escapeHtml(safeUrl(details.poster_url));
         let posterHtml = "";
         if (posterUrl) {
             posterHtml = `
                 <div class="movie-gallery-poster">
-                    <img src="${posterUrl}" alt="${title}" loading="lazy" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\\'movie-gallery-poster-placeholder\\'><i class=\\'fa-solid fa-film\\'></i><span>NO IMAGE</span></div>';">
+                    <img src="${posterUrl}" alt="${safeTitle}" loading="lazy" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\\'movie-gallery-poster-placeholder\\'><i class=\\'fa-solid fa-film\\'></i><span>NO IMAGE</span></div>';">
                 </div>
             `;
         } else {
@@ -50,13 +52,13 @@ export function renderMoviesGallery() {
         }
         
         // メタ情報 (監督・キャスト)
-        const director = details.director || "情報なし";
-        const cast = (details.cast && details.cast.length > 0) ? details.cast.join(", ") : "情報なし";
-        const description = details.description || "あらすじ情報はありません。";
-        const copyright = details.copyright || "";
-        const releaseDateFormatted = details.release_date_formatted || "";
-        const officialUrl = details.official_url || "";
-        const eigacomUrl = details.eigacom_url || "";
+        const director = escapeHtml(details.director || "情報なし");
+        const cast = escapeHtml((details.cast && details.cast.length > 0) ? details.cast.join(", ") : "情報なし");
+        const description = escapeHtml(details.description || "あらすじ情報はありません。");
+        const copyright = escapeHtml(details.copyright || "");
+        const releaseDateFormatted = escapeHtml(details.release_date_formatted || "");
+        const officialUrl = escapeHtml(safeUrl(details.official_url));
+        const eigacomUrl = escapeHtml(safeUrl(details.eigacom_url));
         
         // リンクボタン
         let linksHtml = "";
@@ -79,7 +81,7 @@ export function renderMoviesGallery() {
             ${posterHtml}
             <div class="movie-gallery-info">
                 ${releaseDateFormatted ? `<span class="movie-gallery-release">${releaseDateFormatted}</span>` : ''}
-                <h3 class="movie-gallery-title">${title}</h3>
+                <h3 class="movie-gallery-title">${safeTitle}</h3>
                 ${linksHtml ? `<div class="movie-gallery-links">${linksHtml}</div>` : ''}
                 <div class="movie-gallery-meta-row">
                     <span class="movie-gallery-meta-label">監督</span>
@@ -131,29 +133,33 @@ export function renderUpcomingDetail(title) {
     document.getElementById("simulation-alert").style.display = "none";
     
     const details = state.movieDetails[title] || {};
-    const posterUrl = details.poster_url || "";
-    const director = details.director || "情報なし";
-    const cast = (details.cast && details.cast.length > 0) ? details.cast.join(", ") : "情報なし";
-    const description = details.description || "あらすじ情報はありません。";
-    const releaseDateFormatted = details.release_date_formatted || "近日公開";
-    const officialUrl = details.official_url || "";
-    const eigacomUrl = details.eigacom_url || "";
+    const safeTitle = escapeHtml(title);
+    const posterUrl = escapeHtml(safeUrl(details.poster_url));
+    const director = escapeHtml(details.director || "情報なし");
+    const cast = escapeHtml((details.cast && details.cast.length > 0) ? details.cast.join(", ") : "情報なし");
+    const description = escapeHtml(details.description || "あらすじ情報はありません。");
+    const releaseDateFormatted = escapeHtml(details.release_date_formatted || "近日公開");
+    // href プロパティへ直接代入する分はエスケープ不要（スキームのみ検証）
+    const rawOfficialUrl = safeUrl(details.official_url);
+    const rawEigacomUrl = safeUrl(details.eigacom_url);
+    const officialUrl = escapeHtml(rawOfficialUrl);
+    const eigacomUrl = escapeHtml(rawEigacomUrl);
     
     // タイトルの更新
     document.getElementById("current-selection-title").innerText = `「${title}」作品情報`;
     
     // 公式サイト・映画.comリンク
     const officialLink = document.getElementById("movie-official-link");
-    if (officialUrl) {
-        officialLink.href = officialUrl;
+    if (rawOfficialUrl) {
+        officialLink.href = rawOfficialUrl;
         officialLink.style.display = "inline-flex";
     } else {
         officialLink.style.display = "none";
     }
     
     const eigacomLink = document.getElementById("movie-eigacom-link");
-    if (eigacomUrl) {
-        eigacomLink.href = eigacomUrl;
+    if (rawEigacomUrl) {
+        eigacomLink.href = rawEigacomUrl;
         eigacomLink.style.display = "inline-flex";
     } else {
         eigacomLink.style.display = "none";
@@ -181,7 +187,7 @@ export function renderUpcomingDetail(title) {
     grid.innerHTML = `
         <div class="upcoming-detail-card">
             <div class="upcoming-detail-poster">
-                ${posterUrl ? `<img src="${posterUrl}" alt="${title}" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\\'upcoming-detail-poster-placeholder\\'><i class=\\'fa-solid fa-film\\'></i><span>NO IMAGE</span></div>';">` : `
+                ${posterUrl ? `<img src="${posterUrl}" alt="${safeTitle}" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\\'upcoming-detail-poster-placeholder\\'><i class=\\'fa-solid fa-film\\'></i><span>NO IMAGE</span></div>';">` : `
                     <div class="upcoming-detail-poster-placeholder">
                         <i class="fa-solid fa-film"></i>
                         <span>NO IMAGE</span>
@@ -190,7 +196,7 @@ export function renderUpcomingDetail(title) {
             </div>
             <div class="upcoming-detail-info">
                 <span class="upcoming-release-badge"><i class="fa-solid fa-calendar"></i> ${releaseDateFormatted}</span>
-                <h3>${title}</h3>
+                <h3>${safeTitle}</h3>
                 <div class="upcoming-meta">
                     <p><strong>監督:</strong> ${director}</p>
                     <p><strong>出演:</strong> ${cast}</p>

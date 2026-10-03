@@ -45,6 +45,7 @@
 | `src/schedule.js` | 7劇場のタイムテーブル・上映形式バッジ描画 |
 | `src/simulation.js` | 未確定スケジュールのシミュレーション計算・時間計算ロジック |
 | `src/sw-register.js`| サービスワーカー登録と更新検知リロード |
+| `src/utils.js` | HTMLエスケープ・URL検証ヘルパー（スクレイピングデータを innerHTML に埋め込む際は必ず使用） |
 | `service-worker.js` | PWA用サービスワーカー（オフラインキャッシュおよび更新検知） |
 | `manifest.json` | PWAマニフェスト（アプリアイコン・表示設定） |
 | `server.py` | ローカル実行用軽量サーバー（静的配信 + ブラウザからのクローラーAPI対応） |

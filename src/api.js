@@ -5,6 +5,7 @@ import { state } from './state.js';
 import { renderMovieOptions } from './dropdown.js';
 import { renderMoviesGallery } from './gallery.js';
 import { onSelectionChange } from './schedule.js';
+import { escapeHtml } from './utils.js';
 
 export async function fetchMovies(bypassCache = false) {
     try {
@@ -43,7 +44,7 @@ export async function fetchMovies(bypassCache = false) {
         const updateInfo = document.getElementById("update-info");
         if (updateInfo) {
             if (state.moviesData.last_updated) {
-                updateInfo.innerHTML = `<i class="fa-solid fa-clock"></i> 更新: ${state.moviesData.last_updated}`;
+                updateInfo.innerHTML = `<i class="fa-solid fa-clock"></i> 更新: ${escapeHtml(state.moviesData.last_updated)}`;
             } else {
                 updateInfo.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i> データ未取得`;
             }

@@ -22,29 +22,31 @@ export function createRandom(seed) {
     };
 }
 
-export function getDurationMinutes(startStr, endStr) {
-    try {
-        const [sh, sm] = startStr.split(':').map(Number);
-        const [eh, em] = endStr.split(':').map(Number);
-        let startMin = sh * 60 + sm;
-        let endMin = eh * 60 + em;
-        if (endMin < startMin) { // 深夜またぎ
-            endMin += 24 * 60;
-        }
-        return endMin - startMin;
-    } catch (e) {
-        return 120; // デフォルト120分
-    }
+const TIME_PATTERN = /^(\d{1,2}):(\d{2})$/;
+
+function parseTimeMinutes(timeStr) {
+    const match = TIME_PATTERN.exec(timeStr || "");
+    if (!match) return null;
+    return Number(match[1]) * 60 + Number(match[2]);
 }
 
-export function addMinutes(timeStr, minutes) {
-    try {
-        const [h, m] = timeStr.split(':').map(Number);
-        const date = new Date(2000, 0, 1, h, m + minutes);
-        return `${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`;
-    } catch (e) {
-        return timeStr;
+// 上映時間（分）を返す。終了時刻が無い・不正な場合は null
+export function getDurationMinutes(startStr, endStr) {
+    const startMin = parseTimeMinutes(startStr);
+    let endMin = parseTimeMinutes(endStr);
+    if (startMin === null || endMin === null) return null;
+    if (endMin < startMin) { // 深夜またぎ
+        endMin += 24 * 60;
     }
+    return endMin - startMin;
+}
+
+// 時刻に分を加算する。計算できない場合は空文字（終了時刻なし扱い）
+export function addMinutes(timeStr, minutes) {
+    const baseMin = parseTimeMinutes(timeStr);
+    if (baseMin === null || !Number.isFinite(minutes)) return "";
+    const total = ((baseMin + minutes) % (24 * 60) + 24 * 60) % (24 * 60);
+    return `${String(Math.floor(total / 60)).padStart(2, '0')}:${String(total % 60).padStart(2, '0')}`;
 }
 
 export function generateSimulationSchedule(targetTitle, targetDateStr, cacheData) {
@@ -86,7 +88,11 @@ export function generateSimulationSchedule(targetTitle, targetDateStr, cacheData
             if (allRealTimes.length === 0) continue;
             
             const uniqueStarts = Array.from(new Set(allRealTimes.map(item => item.start))).sort();
-            const avgDuration = allRealTimes[0].duration;
+            // 終了時刻が判明している回だけで平均上映時間を求める（無ければ終了時刻は表示しない）
+            const knownDurations = allRealTimes.map(item => item.duration).filter(d => d !== null);
+            const avgDuration = knownDurations.length > 0
+                ? Math.round(knownDurations.reduce((sum, d) => sum + d, 0) / knownDurations.length)
+                : null;
             
             const simulatedTimes = [];
             for (const startTime of uniqueStarts) {
@@ -98,7 +104,7 @@ export function generateSimulationSchedule(targetTitle, targetDateStr, cacheData
                 }
                 
                 const simStart = addMinutes(startTime, shiftMinutes);
-                const simEnd = addMinutes(simStart, avgDuration);
+                const simEnd = avgDuration !== null ? addMinutes(simStart, avgDuration) : "";
                 
                 simulatedTimes.push({
                     start: simStart,

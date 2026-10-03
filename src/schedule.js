@@ -4,6 +4,7 @@
 import { state } from './state.js';
 import { getScheduleFromCache } from './simulation.js';
 import { isUpcomingMovie, renderUpcomingDetail } from './gallery.js';
+import { escapeHtml, safeUrl } from './utils.js';
 
 export const targetTheaters = [
     "USシネマちはら台",
@@ -75,8 +76,9 @@ export function renderSchedule(data) {
     
     // 公式サイトリンクの制御
     const officialLink = document.getElementById("movie-official-link");
-    if (data.official_url) {
-        officialLink.href = data.official_url;
+    const officialUrl = safeUrl(data.official_url);
+    if (officialUrl) {
+        officialLink.href = officialUrl;
         officialLink.style.display = "inline-flex";
     } else {
         officialLink.style.display = "none";
@@ -84,8 +86,9 @@ export function renderSchedule(data) {
     
     // 映画.comリンクの制御
     const eigacomLink = document.getElementById("movie-eigacom-link");
-    if (data.eigacom_url) {
-        eigacomLink.href = data.eigacom_url;
+    const eigacomUrl = safeUrl(data.eigacom_url);
+    if (eigacomUrl) {
+        eigacomLink.href = eigacomUrl;
         eigacomLink.style.display = "inline-flex";
     } else {
         eigacomLink.style.display = "none";
@@ -119,12 +122,12 @@ export function renderSchedule(data) {
         const header = document.createElement("div");
         header.className = "theater-card-header";
         
-        const url = theaterData ? theaterData.url : "#";
-        const hasUrl = url && url !== "#";
+        const theaterUrl = theaterData ? safeUrl(theaterData.url) : "";
+        const hasUrl = Boolean(theaterUrl);
         
         header.innerHTML = `
-            <a href="${url}" target="_blank" rel="noopener noreferrer" class="theater-name-link">
-                ${theaterName} ${hasUrl ? '<i class="fa-solid fa-arrow-up-right-from-square"></i>' : ''}
+            <a href="${hasUrl ? escapeHtml(theaterUrl) : "#"}" target="_blank" rel="noopener noreferrer" class="theater-name-link">
+                ${escapeHtml(theaterName)} ${hasUrl ? '<i class="fa-solid fa-arrow-up-right-from-square"></i>' : ''}
             </a>
         `;
         card.appendChild(header);
@@ -144,7 +147,7 @@ export function renderSchedule(data) {
                 formats.forEach(f => {
                     const cleanF = f.trim();
                     if (cleanF) {
-                        badgesHtml += `<span class="badge ${getBadgeClass(cleanF)}">${cleanF}</span>`;
+                        badgesHtml += `<span class="badge ${getBadgeClass(cleanF)}">${escapeHtml(cleanF)}</span>`;
                     }
                 });
                 
@@ -163,8 +166,8 @@ export function renderSchedule(data) {
                     timeChip.className = "time-chip";
                     
                     timeChip.innerHTML = `
-                        <span class="start-t">${t.start}</span>
-                        <span class="end-t">${t.end ? '～' + t.end : ''}</span>
+                        <span class="start-t">${escapeHtml(t.start)}</span>
+                        <span class="end-t">${t.end ? '～' + escapeHtml(t.end) : ''}</span>
                     `;
                     timeList.appendChild(timeChip);
                 });

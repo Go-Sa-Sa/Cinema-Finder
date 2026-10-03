@@ -606,6 +606,10 @@ def crawl_upcoming_movies(today):
         print(f"Error crawling upcoming movies: {e}")
         return []
 
+class CrawlValidationError(Exception):
+    """スクレイピング結果が不正で、保存を中止したことを表す例外"""
+    pass
+
 def validate_movies_data(data, min_theaters=4, min_movies=10):
     """
     スクレイピング結果データの整合性を検証する。
@@ -815,7 +819,8 @@ def run_crawler():
     if not is_valid:
         print(f"CRITICAL ERROR: Data validation failed! Reason: {reason}")
         print("Aborting save to protect existing movies_data.json from corruption.")
-        sys.exit(1)
+        # sys.exit() だと server.py 経由の実行時にサーバーごと終了してしまうため例外で通知する
+        raise CrawlValidationError(f"データ検証に失敗したため保存を中止しました: {reason}")
         
     # 実行ファイルと同階層に movies_data.json を保存
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -827,5 +832,9 @@ def run_crawler():
     print(f"Successfully scraped all theaters and saved to {output_path}")
 
 if __name__ == "__main__":
-    run_crawler()
+    try:
+        run_crawler()
+    except CrawlValidationError:
+        # GitHub Actions でジョブを失敗扱いにするため終了コード 1 で終了する
+        sys.exit(1)
 
