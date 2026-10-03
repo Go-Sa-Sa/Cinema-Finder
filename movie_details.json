@@ -8435,12 +8435,12 @@
     "official_url": "",
     "eigacom_url": "https://eiga.com/movie/106969/",
     "poster_url": "",
-    "release_date": "2026-10-12",
-    "release_date_formatted": "10月12日(月) 公開",
+    "release_date": "2026-09-25",
+    "release_date_formatted": "09月25日(金) 公開",
     "director": "エド・パーキンズ",
     "cast": [],
     "description": "Disney+で2026年10月12日から配信。",
-    "copyright": "「ファーストボイス」©2026「ファーストボイス」製作委員会"
+    "copyright": "「クジラに落ちた男」©2026 20th Century Studios. All Rights Reserved."
   },
   "生涯の愛": {
     "official_url": "",
@@ -9461,7 +9461,7 @@
     "director": "青原さとし",
     "cast": [],
     "description": "古くから牛と人が強い絆で結ばれてきた中国山地を舞台に、近代化と過疎化のなかで失われゆく生活文化史を記録したドキュメンタリー。中国山地各地では、昭和30年代まで「牛馬市」という競り市が開かれていた。特に島根県邑南町では、出羽・亀谷・阿須那などで大規模な牛馬市が開かれ、昭和の最盛期には出羽牛馬市に8000頭以上もの牛馬が、博労と呼ばれる家畜商に連れられて集まったという。市には露天商やサーカスなどの催しも出されたことから多くの人々で賑わい、地元の農家や住民が牛馬宿をしつらえるなど、地域経済を支える一大産業となった。農業の近代化以前、牛は農耕や荷役を担う重要な労働力であり、家族同様に大切にされていた。しかし近年では過疎化が進み、各地で伝承されてきた地域の生活文化や精神文化は消滅しつつある。牛によってもたらされた豊かな生活文化のありようが見えにくくなった現在、残り少ない伝承者の人々と向き合い映像を記録することが緊急課題となっている。監督は、「タケヤネの里」「藝州かやぶき紀行」などのドキュメンタリー映画作家・青原さとし。島根県邑南町をはじめ、広島県、岡山県、鳥取県などで5年の歳月をかけて撮影をおこない、牛とともに生きてきた人々の想いを記録していく。",
-    "copyright": "「ファーストボイス」©2026「ファーストボイス」製作委員会"
+    "copyright": "「クジラに落ちた男」©2026 20th Century Studios. All Rights Reserved."
   },
   "YAMANEKO": {
     "official_url": "",
@@ -9920,5 +9920,192 @@
     ],
     "description": "二組のやくざが対立するさびれた宿場町。そこへ一人の浪人者がふらりと流れ着く。男はやがて巧みな策略で双方を戦わせ、最後には自らの刀を抜きやくざたちを倒す。町の平和を取り戻した彼は、またいずこへとも知れず去っていく……。時代劇に西部劇の要素を取り入れた痛快娯楽活劇。ピストルにマフラーのニヒルな殺し屋を演じた新鋭・仲代達矢の存在感が光る。64年にはセルジオ・レオーネ監督が本作をもとにマカロニウエスタン「荒野の用心棒」を作り、大ヒットした。",
     "copyright": "(C) TOHO CO., LTD."
+  },
+  "これぞマーティン・マル": {
+    "official_url": "https://www.netflix.com/title/81922437",
+    "eigacom_url": "https://eiga.com/movie/107015/",
+    "poster_url": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTKtxEpIYCQkcu5o3HwYr7IYyV8yYW0JI5Q_QjTTciGZg3CSxHqsnsKufHKQ7ZrPGOsrGCEM_zK90-vB7gVZzhnw_oTc6JbFgkBa.jpg?r=e16",
+    "release_date": "2026-09-25",
+    "release_date_formatted": "09月25日(金) 公開",
+    "director": "ボブ・サゲット",
+    "cast": [
+      "マーティン・マル"
+    ],
+    "description": "Netflixで2026年10月7日から配信。",
+    "copyright": "「クジラに落ちた男」©2026 20th Century Studios. All Rights Reserved."
+  },
+  "レス・オブ・ア・ストレンジャー": {
+    "official_url": "https://www.netflix.com/title/81744789",
+    "eigacom_url": "https://eiga.com/movie/107014/",
+    "poster_url": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABecx3ISFV7GkYiU23qh7hhiF9rCHGs1rsadHmlMlUmqWXiFw0avUlAU1XrEG-p2lhxmI8b7hupE-r2TXHjeyMdWFSIZDfC_vVeYf.jpg?r=39d",
+    "release_date": "2026-09-25",
+    "release_date_formatted": "09月25日(金) 公開",
+    "director": "クリストファー・ルス",
+    "cast": [
+      "キンガ・プレイス",
+      "イレネウシュ・チョプ",
+      "フベルト・ミウコフスキ"
+    ],
+    "description": "Netflixで2026年10月7日から配信。",
+    "copyright": "「クジラに落ちた男」©2026 20th Century Studios. All Rights Reserved."
+  },
+  "グッド・セラピスト": {
+    "official_url": "https://www.netflix.com/title/82027563",
+    "eigacom_url": "https://eiga.com/movie/107016/",
+    "poster_url": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTAJDIc_XGmSJAbgkQuG24ogPLymSvvrKOpeeYvRvAxMm3WVymFc1tTfjLqw6w1Hd7i9vElnfx36ohD6I7uxG_usd6w3W_kUdxnj.jpg?r=dd5",
+    "release_date": "2026-09-25",
+    "release_date_formatted": "09月25日(金) 公開",
+    "director": "エルナン・ゴルドフリード",
+    "cast": [
+      "ディエゴ・ペレッティ",
+      "アントニア・ベンゴエチェア",
+      "イネス・エフロン"
+    ],
+    "description": "Netflixで2026年10月16日から配信。",
+    "copyright": "「クジラに落ちた男」©2026 20th Century Studios. All Rights Reserved."
+  },
+  "ノーム・マクドナルド物語": {
+    "official_url": "https://www.netflix.com/title/81611105",
+    "eigacom_url": "https://eiga.com/movie/107018/",
+    "poster_url": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABevPb7kSJRafRIurQ30INRVJHjfttl9_6Z0kegkMKCgRMXJtpPHQPO0Ha3Of_lHLjD3d64VFchNbkf3icwLj6Qi65GeJ0NG8Oggd.jpg?r=8e8",
+    "release_date": "2026-09-25",
+    "release_date_formatted": "09月25日(金) 公開",
+    "director": "ジャド・アパトー",
+    "cast": [
+      "ノーム・マクドナルド"
+    ],
+    "description": "Netflixで2026年10月16日から配信。",
+    "copyright": "「クジラに落ちた男」©2026 20th Century Studios. All Rights Reserved."
+  },
+  "もっとシングル・フレンズ　そんな恋愛やめちゃえば？": {
+    "official_url": "https://www.netflix.com/title/81645163",
+    "eigacom_url": "https://eiga.com/movie/107017/",
+    "poster_url": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbac1t6UN65kkVNaZqP7PgeB0ugYJUu468c9J5XTfxN6wzmmw1hYM7XpQpkxzqsl5eNk-6ms9tB1TXVlWDm5xwZEQUJsg4Cq9iuK.jpg?r=2ad",
+    "release_date": "2026-09-25",
+    "release_date_formatted": "09月25日(金) 公開",
+    "director": "レタビレ・ラマパケラ",
+    "cast": [
+      "ヨンダ・トーマス"
+    ],
+    "description": "Netflixで2026年10月16日から配信。",
+    "copyright": "「クジラに落ちた男」©2026 20th Century Studios. All Rights Reserved."
+  },
+  "希望で一歩も動けない　マリア・バンフォードの場合": {
+    "official_url": "https://www.netflix.com/jp/title/82917947",
+    "eigacom_url": "https://eiga.com/movie/107019/",
+    "poster_url": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABTR5_SBVEY08HO0AD8Sg0P-MuYpEnOPcEJ463HfCu91DfldlWblIWMvjFtcdsipea3molDXlWl4Lh_elpYOyDDLz_k_BgXFei6qB.jpg?r=f65",
+    "release_date": "2026-09-25",
+    "release_date_formatted": "09月25日(金) 公開",
+    "director": "ジャド・アパトー",
+    "cast": [
+      "マリア・バンフォード"
+    ],
+    "description": "Netflixで2026年10月23日から配信。",
+    "copyright": "「クジラに落ちた男」©2026 20th Century Studios. All Rights Reserved."
+  },
+  "月の糸杉": {
+    "official_url": "",
+    "eigacom_url": "https://eiga.com/movie/106742/",
+    "poster_url": "",
+    "release_date": "2026-10-23",
+    "release_date_formatted": "10月23日(金) 公開",
+    "director": "末廣朋樹",
+    "cast": [
+      "松井薫平",
+      "辻凪子",
+      "三河悠冴"
+    ],
+    "description": "2025年製作／91分／日本配給：蒸気機関車シアター劇場公開日：2026年10月23日",
+    "copyright": "「クジラに落ちた男」©2026 20th Century Studios. All Rights Reserved."
+  },
+  "竜二": {
+    "official_url": "",
+    "eigacom_url": "https://eiga.com/movie/40089/",
+    "poster_url": "https://media.eiga.com/images/movie/40089/photo/69467954685ad74b/320.jpg",
+    "release_date": "2026-10-23",
+    "release_date_formatted": "10月23日(金) 公開",
+    "director": "川島透",
+    "cast": [
+      "金子正次",
+      "永島暎子",
+      "北公次",
+      "佐藤金造",
+      "小川亜佐美",
+      "泉アキ",
+      "菊地健二",
+      "もも",
+      "銀粉蝶",
+      "土方鉄人",
+      "檀喧太",
+      "岩尾正隆",
+      "大塚五郎",
+      "高橋明",
+      "堺勝朗",
+      "高杉哲平",
+      "戸川暁子",
+      "笹野高史",
+      "かいどう旬",
+      "前田哲朗"
+    ],
+    "description": "妻子のためにヤクザ稼業から足を洗った男が堅気の世界で奮闘するも苛立ちを募らせていく姿を描き、自主制作作品ながら大ヒットを記録した異色の...",
+    "copyright": ""
+  },
+  "NAZA ナザ": {
+    "official_url": "",
+    "eigacom_url": "https://eiga.com/movie/106834/",
+    "poster_url": "https://media.eiga.com/images/movie/106834/photo/fe061e0e9558072b/320.jpg",
+    "release_date": "2026-10-24",
+    "release_date_formatted": "10月24日(土) 公開",
+    "director": "ユバル・アブラハーム , ラヘル・ショール",
+    "cast": [],
+    "description": "2026年・第83回ベネチア国際映画祭コンペティション部門で審査員特別賞を受賞。",
+    "copyright": ""
+  },
+  "トリコロール　青の愛": {
+    "official_url": "",
+    "eigacom_url": "https://eiga.com/movie/21401/",
+    "poster_url": "https://media.eiga.com/images/movie/21401/photo/24cd4477fcc87c5d/320.jpg",
+    "release_date": "2026-10-30",
+    "release_date_formatted": "10月30日(金) 公開",
+    "director": "クシシュトフ・キエシロフスキ",
+    "cast": [
+      "ジュリエット・ビノシュ",
+      "ブノワ・レジャン",
+      "エレーヌ・バンサン"
+    ],
+    "description": "ポーランドの巨匠クシシュトフ・キエシロフスキ監督による、青、白、赤のフランス国旗をモチーフにした三部作「トリコロール」の第1作。 自...",
+    "copyright": ""
+  },
+  "トリコロール　赤の愛": {
+    "official_url": "",
+    "eigacom_url": "https://eiga.com/movie/21403/",
+    "poster_url": "https://media.eiga.com/images/movie/21403/photo/af2dc842bec11091/320.jpg",
+    "release_date": "2026-10-30",
+    "release_date_formatted": "10月30日(金) 公開",
+    "director": "クシシュトフ・キエシロフスキ",
+    "cast": [
+      "イレーヌ・ジャコブ",
+      "ジャン＝ルイ・トランティニャン",
+      "フレデリック・フェデール",
+      "ジャン＝ピエール・ロリ",
+      "サミュエル・ル・ビアン"
+    ],
+    "description": "ポーランドの巨匠クシシュトフ・キエシロフスキ監督による、青、白、赤のフランス国旗をモチーフにした三部作「トリコロール」の第3作。キェシ...",
+    "copyright": ""
+  },
+  "トリコロール　白の愛": {
+    "official_url": "",
+    "eigacom_url": "https://eiga.com/movie/21404/",
+    "poster_url": "https://media.eiga.com/images/movie/21404/photo/1e47992478885edd/320.jpg",
+    "release_date": "2026-10-30",
+    "release_date_formatted": "10月30日(金) 公開",
+    "director": "クシシュトフ・キエシロフスキ",
+    "cast": [
+      "ジュリー・デルピー",
+      "ズビグニエフ・ザマホフスキー",
+      "ヤヌシュ・ガヨス"
+    ],
+    "description": "ポーランドの巨匠クシシュトフ・キエシロフスキ監督による、青、白、赤のフランス国旗をモチーフにした三部作「トリコロール」の第2作。 舞...",
+    "copyright": ""
   }
 }
