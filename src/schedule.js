@@ -2,7 +2,7 @@
 // Schedule Display & Rendering Component
 // ==========================================================================
 import { state } from './state.js';
-import { getScheduleFromCache } from './simulation.js';
+import { getScheduleFromCache, formatDateLabel } from './simulation.js';
 import { isUpcomingMovie, renderUpcomingDetail } from './gallery.js';
 import { escapeHtml, safeUrl } from './utils.js';
 
@@ -73,7 +73,9 @@ export async function fetchSchedule() {
 export function renderSchedule(data) {
     document.getElementById("loading-state").style.display = "none";
     document.getElementById("schedule-legend").style.display = "flex";
-    
+    document.getElementById("current-selection-title").innerText =
+        `「${data.title}」の上映スケジュール (${formatDateLabel(data.date)})${data.is_simulation ? " ※未発表日" : ""}`;
+
     // 公式サイトリンクの制御
     const officialLink = document.getElementById("movie-official-link");
     const officialUrl = safeUrl(data.official_url);
@@ -94,9 +96,15 @@ export function renderSchedule(data) {
         eigacomLink.style.display = "none";
     }
     
-    // シミュレーション（予測）警告の制御
+    // 未発表日の注意表示
     const simAlert = document.getElementById("simulation-alert");
     if (data.is_simulation) {
+        const publishedUntil = data.latest_published_date
+            ? `（発表済みは${formatDateLabel(data.latest_published_date)}まで）`
+            : "";
+        document.getElementById("simulation-alert-text").innerText =
+            `この日の上映スケジュールはまだ発表されていません${publishedUntil}。` +
+            "下の時刻は直近の実績（同じ曜日を優先）を「参考」として載せたもので、実際とは異なる場合があります。";
         simAlert.style.display = "block";
     } else {
         simAlert.style.display = "none";
@@ -114,7 +122,8 @@ export function renderSchedule(data) {
         // 劇場カードの作成
         const card = document.createElement("article");
         card.className = "theater-card glass-card";
-        if (data.is_simulation) {
+        const status = theaterData ? theaterData.status : "missing";
+        if (status === "reference") {
             card.classList.add("sim-card");
         }
         
@@ -137,6 +146,12 @@ export function renderSchedule(data) {
         body.className = "theater-card-body";
         
         if (theaterData && theaterData.schedules && theaterData.schedules.length > 0) {
+            if (status === "reference") {
+                const note = document.createElement("p");
+                note.className = "reference-note";
+                note.innerHTML = `<i class="fa-solid fa-circle-info"></i> 未発表のため、${escapeHtml(formatDateLabel(theaterData.reference_date))}の時刻を参考表示`;
+                body.appendChild(note);
+            }
             theaterData.schedules.forEach(sched => {
                 const block = document.createElement("div");
                 block.className = "format-block";
@@ -182,11 +197,28 @@ export function renderSchedule(data) {
                 body.appendChild(block);
             });
         } else {
-            // 上映情報がない場合
+            // 上映情報がない場合（理由を区別して表示する）
+            let icon = "fa-calendar-xmark";
+            let message = "指定日の上映予定はありません";
+            if (status === "missing") {
+                icon = "fa-triangle-exclamation";
+                message = "この劇場のスケジュールを取得できませんでした";
+            } else if (status === "unpublished") {
+                message = "現在この劇場では上映していません（この日のスケジュールは未発表）";
+            } else if (status === "reference") {
+                icon = "fa-hourglass-half";
+                message = "この日のスケジュールはまだ発表されていません";
+            } else if (status === "opening") {
+                icon = "fa-hourglass-half";
+                message = `${formatDateLabel(theaterData.release_date)}公開予定。この日のスケジュールはまだ発表されていません`;
+            } else if (status === "ended") {
+                icon = "fa-hourglass-end";
+                message = `${formatDateLabel(theaterData.last_date)}までの掲載です（その後は上映終了の可能性があります）`;
+            }
             body.innerHTML = `
                 <div class="no-schedule-msg">
-                    <i class="fa-solid fa-calendar-xmark"></i>
-                    <span>指定日の上映予定はありません</span>
+                    <i class="fa-solid ${icon}"></i>
+                    <span>${escapeHtml(message)}</span>
                 </div>
             `;
         }

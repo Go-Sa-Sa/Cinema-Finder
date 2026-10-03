@@ -47,7 +47,7 @@
             <div class="form-group">
                 <label for="movie-select-input"><i class="fa-solid fa-magnifying-glass icon-label"></i>上映中の映画を選択</label>
                 <div class="custom-select-container">
-                    <input type="text" id="movie-select-input" placeholder="映画タイトルを入力または選択..." autocomplete="off">
+                    <input type="text" id="movie-select-input" placeholder="タップして映画を選択..." autocomplete="off" readonly inputmode="none" aria-haspopup="listbox" aria-controls="movie-options-list">
                     <button id="clear-movie-btn" class="clear-btn" type="button" aria-label="選択をクリア" style="display: none;">
                         <i class="fa-solid fa-xmark"></i>
                     </button>
@@ -66,11 +66,11 @@
             </div>
         </section>
 
-        <!-- シミュレーション警告（未来の日付を選択した時のみ表示） -->
+        <!-- 未発表日の注意（劇場がまだスケジュールを発表していない日を選択した時のみ表示） -->
         <section class="simulation-alert glass-card" id="simulation-alert" style="display: none;">
             <div class="alert-content">
-                <span class="alert-badge"><i class="fa-solid fa-wand-magic-sparkles"></i> 予測（シミュレーション）</span>
-                <p class="alert-text">選択された日付は公式スケジュール未公開のため、直近の上映時間と上映形式の傾向をベースにした予測スケジュールを表示しています。</p>
+                <span class="alert-badge"><i class="fa-solid fa-circle-info"></i> 未発表の日</span>
+                <p class="alert-text" id="simulation-alert-text">この日の上映スケジュールはまだ発表されていません。</p>
             </div>
         </section>
 
@@ -87,8 +87,8 @@
                     </a>
                 </div>
                 <div class="legend" id="schedule-legend" style="display: none;">
-                    <span class="legend-item"><span class="legend-color real"></span>実データ</span>
-                    <span class="legend-item"><span class="legend-color sim"></span>予測データ</span>
+                    <span class="legend-item"><span class="legend-color real"></span>発表済み</span>
+                    <span class="legend-item"><span class="legend-color sim"></span>参考（未発表日）</span>
                     <span class="legend-item">終了「頃」= 上映時間から推定</span>
                 </div>
             </div>
@@ -155,7 +155,7 @@
                         <i class="fa-solid fa-play"></i> 上映中の作品
                     </button>
                     <button class="gallery-tab" id="tab-upcoming" role="tab" aria-selected="false" aria-controls="movies-gallery-grid">
-                        <i class="fa-solid fa-calendar-days"></i> 次回上映予定の作品
+                        <i class="fa-solid fa-calendar-days"></i> 全国の公開予定
                     </button>
                 </div>
             </div>
@@ -174,16 +174,6 @@
             </button>
         </div>
     </footer>
-
-    <!-- 全画面クローラー実行モーダル -->
-    <div class="crawl-modal" id="crawl-modal" style="display: none;">
-        <div class="crawl-modal-content glass-card">
-            <div class="spinnerlarge"></div>
-            <h2>スケジュール情報を同期中...</h2>
-            <p>映画.comから千葉7劇場の上映スケジュールを取得しています。</p>
-            <p class="modal-subtext">これには数秒から数十秒かかる場合があります。しばらくお待ちください。</p>
-        </div>
-    </div>
 
     <script type="module" src="app.js"></script>
 </body>

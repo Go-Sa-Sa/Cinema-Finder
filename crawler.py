@@ -4,6 +4,7 @@ import re
 import json
 import datetime
 import time
+import unicodedata
 import statistics
 import os
 import sys
@@ -223,39 +224,15 @@ def crawl_theater(theater, today):
         return None
 def load_movie_details():
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    # 移行用：古い movie_urls.json が存在し、新しい movie_details.json が無い場合はインポートする
     details_path = os.path.join(script_dir, "movie_details.json")
-    urls_path = os.path.join(script_dir, "movie_urls.json")
-    
+
     if os.path.exists(details_path):
         try:
             with open(details_path, "r", encoding="utf-8") as f:
                 return json.load(f)
         except Exception as e:
             print(f"Error loading movie_details.json: {e}")
-            
-    if os.path.exists(urls_path):
-        try:
-            with open(urls_path, "r", encoding="utf-8") as f:
-                old_data = json.load(f)
-            # 古いデータを新しい形式に変換して初期化する
-            details = {}
-            for title, url in old_data.items():
-                details[title] = {
-                    "official_url": url,
-                    "eigacom_url": "",
-                    "poster_url": "",
-                    "release_date": "",
-                    "release_date_formatted": "",
-                    "director": "",
-                    "cast": [],
-                    "description": "",
-                    "copyright": ""
-                }
-            return details
-        except Exception as e:
-            print(f"Error migrating movie_urls.json: {e}")
-            
+
     return {}
 
 def save_movie_details(data):
@@ -481,6 +458,54 @@ def search_movie_on_eigacom(title):
     except Exception as e:
         print(f"Error searching eiga.com for {title}: {e}")
     return None
+
+def normalize_title(text):
+    """全角/半角・記号・空白の違いを無視してタイトルを比較するための正規化"""
+    text = unicodedata.normalize('NFKC', text or "").lower()
+    return re.sub(r"[\s・:：\-~～〜!！?？&＆「」『』【】()（）\[\]<>＜＞\"'.,、。]", '', text)
+
+def extract_parent_title(title):
+    """
+    イベント上映のタイトルから元になった作品名を取り出す。
+    例: 『ガールズ&パンツァー 最終章』第5話上映記念 … → ガールズ&パンツァー 最終章
+    『』「」で囲まれた部分が無い場合は None
+    """
+    match = re.search(r'[『「](.+?)[』」]', title or "")
+    if not match:
+        return None
+    core = match.group(1).strip()
+    return core if len(normalize_title(core)) >= 3 else None
+
+def search_related_movie_url(core_title):
+    """
+    映画.comを core_title で検索し、作品名に core_title を含む作品の相対URLを返す。
+    無関係な作品の画像を拾わないよう、タイトルが一致しない検索結果は採用しない。
+    """
+    wanted = normalize_title(core_title)
+    search_url = f"https://eiga.com/search/{urllib.parse.quote(core_title)}/"
+    try:
+        resp = requests.get(search_url, headers=HEADERS, timeout=10)
+        if resp.status_code != 200:
+            return None
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        for a in soup.select('div.content-main section a'):
+            href = a.get('href', '')
+            if re.match(r'^/movie/\d+/?$', href) and wanted in normalize_title(a.get_text()):
+                return href
+    except Exception as e:
+        print(f"Error searching eiga.com for {core_title}: {e}")
+    return None
+
+def find_related_poster(title):
+    """映画.comに個別ページや画像が無いイベント上映向けに、元作品のポスター画像URLを探す"""
+    core = extract_parent_title(title)
+    if not core:
+        return ""
+    rel_url = search_related_movie_url(core)
+    if not rel_url:
+        return ""
+    details = fetch_movie_details(rel_url)
+    return (details or {}).get("poster_url", "")
 
 def fetch_movie_details(rel_url):
     if not rel_url:
@@ -892,6 +917,34 @@ def run_crawler():
                     movie_details_cache[title] = cached
                     has_cache_updated = True
                     break
+
+    # それでも画像が無いイベント上映は、タイトル内の『元作品名』から画像だけを借りる
+    # （上映時間やあらすじは元作品と異なるため流用しない）
+    for title in sorted(all_known_titles):
+        cached = movie_details_cache.get(title)
+        if isinstance(cached, dict) and cached.get("poster_url"):
+            continue
+        poster = find_related_poster(title)
+        time.sleep(1.0)
+        if not poster:
+            continue
+        if not isinstance(cached, dict):
+            cached = {
+                "official_url": "",
+                "eigacom_url": "",
+                "poster_url": "",
+                "release_date": "",
+                "release_date_formatted": "",
+                "director": "",
+                "cast": [],
+                "description": "",
+                "copyright": "",
+                "runtime_minutes": None
+            }
+        cached["poster_url"] = poster
+        movie_details_cache[title] = cached
+        has_cache_updated = True
+        print(f"Borrowed poster from parent work for: {title}")
 
     # 上映が終わった作品の詳細をキャッシュから削除する。
     # 一部の劇場・公開予定の取得に失敗した日は、取得できなかった作品まで消えてしまうため削除しない

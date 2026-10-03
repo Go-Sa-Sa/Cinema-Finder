@@ -1,6 +1,8 @@
 import unittest
 import datetime
+from unittest import mock
 from crawler import parse_date_str, format_time_str, validate_movies_data
+from crawler import normalize_title, extract_parent_title, search_related_movie_url, find_related_poster
 
 class TestCrawlerUtils(unittest.TestCase):
     
@@ -164,6 +166,42 @@ class TestFillEstimatedEndTimes(unittest.TestCase):
         self.assertEqual(fill_estimated_end_times(theaters, {}), 0)
         entry = theaters["A"]["movies"][0]["schedules"][0]["dates"]["2026-10-03"][0]
         self.assertEqual(entry, {"start": "18:00", "end": ""})
+
+
+class TestRelatedPoster(unittest.TestCase):
+
+    SEARCH_HTML = """
+    <div class="content-main"><section>
+      <a href="/movie/105083/">ガールズ＆パンツァー 最終章 第5話</a>
+      <a href="/movie/105673/">無関係な作品</a>
+    </section></div>
+    """
+
+    def _response(self, text, status=200):
+        resp = mock.Mock()
+        resp.status_code = status
+        resp.text = text
+        return resp
+
+    def test_normalize_title_ignores_width_and_symbols(self):
+        self.assertEqual(normalize_title("ガールズ&パンツァー 最終章"),
+                         normalize_title("ガールズ＆パンツァー　最終章"))
+
+    def test_extract_parent_title(self):
+        title = "『ガールズ&パンツァー 最終章』第5話上映記念 『最終章』第1話～第4話一挙上映"
+        self.assertEqual(extract_parent_title(title), "ガールズ&パンツァー 最終章")
+        self.assertIsNone(extract_parent_title("中島健人 ASIA TOUR 2026 ライブビューイング"))
+
+    def test_search_related_movie_url_requires_title_match(self):
+        with mock.patch("crawler.requests.get", return_value=self._response(self.SEARCH_HTML)):
+            self.assertEqual(search_related_movie_url("ガールズ&パンツァー 最終章"), "/movie/105083/")
+            # 検索結果の先頭でもタイトルが一致しなければ採用しない
+            self.assertIsNone(search_related_movie_url("中島健人"))
+
+    def test_find_related_poster_uses_parent_work_image(self):
+        with mock.patch("crawler.search_related_movie_url", return_value="/movie/105083/"),              mock.patch("crawler.fetch_movie_details", return_value={"poster_url": "https://media.eiga.com/x/640.jpg"}):
+            self.assertEqual(find_related_poster("『ガールズ&パンツァー 最終章』一挙上映"), "https://media.eiga.com/x/640.jpg")
+        self.assertEqual(find_related_poster("タイトルに作品名が無いイベント"), "")
 
 
 if __name__ == "__main__":

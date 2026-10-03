@@ -60,17 +60,3 @@ export function clearMovieSelection() {
     document.getElementById("movie-eigacom-link").style.display = "none";
     document.getElementById("current-selection-title").innerText = "映画と日付を選択してください";
 }
-
-export function filterMovieOptions(keyword) {
-    const cleanKeyword = keyword.trim().toLowerCase();
-    if (!cleanKeyword) {
-        renderMovieOptions(state.allMovies);
-        return;
-    }
-    
-    const filtered = state.allMovies.filter(movie => 
-        movie.toLowerCase().includes(cleanKeyword)
-    );
-    
-    renderMovieOptions(filtered);
-}

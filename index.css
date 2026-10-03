@@ -257,6 +257,13 @@ header {
     box-shadow: 0 0 0 4px var(--primary-glow);
 }
 
+/* 選択専用（readonly）なのでカーソルを出さずクリック可能に見せる */
+#movie-select-input[readonly] {
+    cursor: pointer;
+    caret-color: transparent;
+    text-overflow: ellipsis;
+}
+
 .clear-btn {
     position: absolute;
     right: 1.25rem;
@@ -407,6 +414,23 @@ header {
     color: white; /* アクティブ時は白 */
 }
 
+/* 劇場がまだスケジュールを発表していない日 */
+.date-chip.unpublished {
+    border-style: dashed;
+    border-color: rgba(245, 158, 11, 0.35);
+}
+
+.date-chip .chip-note {
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: #f59e0b;
+    line-height: 1;
+}
+
+.date-chip.active .chip-note {
+    color: #fef3c7;
+}
+
 /* ==========================================================================
    Alerts & Simulation Panels
    ========================================================================== */
@@ -538,7 +562,8 @@ header {
 
 .legend {
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
     font-size: 0.85rem;
 }
 
@@ -547,6 +572,7 @@ header {
     align-items: center;
     gap: 0.4rem;
     color: var(--text-muted);
+    white-space: nowrap;
 }
 
 .legend-color {
@@ -624,16 +650,6 @@ header {
     border-radius: 50%;
     border-top-color: var(--primary);
     animation: spin 1s ease-in-out infinite;
-}
-
-.spinnerlarge {
-    width: 60px;
-    height: 60px;
-    border: 4px solid rgba(255, 255, 255, 0.05);
-    border-radius: 50%;
-    border-top-color: var(--secondary);
-    animation: spin 1s ease-in-out infinite;
-    margin-bottom: 1.5rem;
 }
 
 @keyframes spin {
@@ -805,6 +821,15 @@ header {
     color: #fef3c7;
 }
 
+.reference-note {
+    font-size: 0.8rem;
+    color: #fbbf24;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-bottom: 0.75rem;
+}
+
 /* Empty Schedule State on Card */
 .no-schedule-msg {
     color: var(--text-muted);
@@ -861,58 +886,10 @@ footer {
     transform: scale(0.98);
 }
 
-/* ==========================================================================
-   Full screen sync modal
-   ========================================================================== */
-.crawl-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(11, 15, 25, 0.85);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation: fadeIn 0.3s ease-out;
-}
-
+/* Shared fade-in animation */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
-}
-
-.crawl-modal-content {
-    max-width: 480px;
-    width: 90%;
-    padding: 3rem 2rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid var(--glass-highlight);
-}
-
-.crawl-modal-content h2 {
-    font-family: var(--font-display);
-    font-size: 1.5rem;
-    margin-bottom: 0.75rem;
-}
-
-.crawl-modal-content p {
-    color: var(--text-muted);
-    font-size: 0.95rem;
-    margin-bottom: 0.5rem;
-}
-
-.crawl-modal-content .modal-subtext {
-    font-size: 0.8rem;
-    color: var(--text-muted);
-    opacity: 0.7;
-    margin-top: 0.5rem;
 }
 
 /* ==========================================================================
@@ -1189,19 +1166,7 @@ footer {
         font-size: 0.85rem;
         border-radius: 10px;
     }
-    
-    /* Modal */
-    .crawl-modal-content {
-        padding: 2rem 1.5rem;
-    }
-    
-    .crawl-modal-content h2 {
-        font-size: 1.2rem;
-    }
-    
-    .crawl-modal-content p {
-        font-size: 0.85rem;
-    }
+
 }
 
 /* Touch device optimizations */
@@ -1464,20 +1429,43 @@ footer {
 }
 
 /* ポスターが無い場合のダミー */
-.movie-gallery-poster-placeholder {
+.movie-gallery-poster-placeholder,
+.upcoming-detail-poster-placeholder {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.02);
-    color: rgba(255, 255, 255, 0.15);
+    padding: 1rem 1.25rem;
+    text-align: center;
+    background:
+        radial-gradient(circle at 20% 15%, rgba(99, 102, 241, 0.35), transparent 60%),
+        radial-gradient(circle at 85% 90%, rgba(236, 72, 153, 0.25), transparent 55%),
+        #141a2b;
+    color: rgba(255, 255, 255, 0.55);
     gap: 0.5rem;
 }
 
 .movie-gallery-poster-placeholder i {
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.poster-placeholder-title {
+    color: #f8fafc;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.poster-placeholder-note {
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
 }
 
 /* 情報部分 */
@@ -1743,16 +1731,8 @@ footer {
 }
 
 .upcoming-detail-poster-placeholder {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.02);
-    color: rgba(255, 255, 255, 0.2);
-    gap: 1rem;
     min-height: 300px;
+    gap: 1rem;
 }
 
 .upcoming-detail-poster-placeholder i {

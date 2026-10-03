@@ -5,6 +5,8 @@ import { state } from './state.js';
 import { renderMovieOptions } from './dropdown.js';
 import { renderMoviesGallery } from './gallery.js';
 import { onSelectionChange } from './schedule.js';
+import { markUnpublishedDates } from './dates.js';
+import { getLatestPublishedDate } from './simulation.js';
 import { escapeHtml } from './utils.js';
 
 export async function fetchMovies(bypassCache = false) {
@@ -50,6 +52,9 @@ export async function fetchMovies(bypassCache = false) {
             }
         }
         
+        // 劇場がまだ発表していない日付チップに印を付ける
+        markUnpublishedDates(getLatestPublishedDate(state.moviesData));
+
         // 上映予定映画のリストをロード
         state.upcomingMovies = state.moviesData.upcoming || [];
 
@@ -150,7 +155,4 @@ export async function refreshData() {
         });
     }
 }
-
-// 互換性のためのエイリアス
-export const triggerManualCrawl = refreshData;
 

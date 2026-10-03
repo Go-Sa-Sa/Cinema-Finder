@@ -7,7 +7,7 @@ import { registerServiceWorker } from './src/sw-register.js';
 import { generateDateChips } from './src/dates.js';
 import { fetchMovies, refreshData } from './src/api.js';
 import { renderMoviesGallery } from './src/gallery.js';
-import { renderMovieOptions, clearMovieSelection, filterMovieOptions } from './src/dropdown.js';
+import { renderMovieOptions, clearMovieSelection } from './src/dropdown.js';
 
 document.addEventListener("DOMContentLoaded", () => {
     initApp();
@@ -60,26 +60,32 @@ function setupEventListeners() {
             tabShowing.setAttribute("aria-selected", "false");
             
             const subtitle = document.getElementById("gallery-subtitle");
-            if (subtitle) subtitle.innerText = "近日公開予定の作品です（作品をクリックすると詳細が表示されます）";
+            if (subtitle) subtitle.innerText = "全国の公開予定作品です。千葉7劇場で上映されるとは限りません（作品をクリックすると詳細が表示されます）";
             
             renderMoviesGallery();
         });
     }
     
-    // 入力エリアフォーカスで候補リスト表示
+    // 映画欄（readonly のためキーボードは出ない）はタップで候補リストを開閉する
     if (input && list) {
-        input.addEventListener("focus", () => {
+        const openList = () => {
             renderMovieOptions(state.allMovies);
             list.style.display = "block";
-            setTimeout(() => {
-                input.select();
-            }, 50);
+        };
+        input.addEventListener("click", () => {
+            if (list.style.display === "block") {
+                list.style.display = "none";
+            } else {
+                openList();
+            }
         });
-        
-        // 入力値変更で候補リストをフィルタリング
-        input.addEventListener("input", () => {
-            filterMovieOptions(input.value);
-            list.style.display = "block";
+        input.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " " || e.key === "ArrowDown") {
+                e.preventDefault();
+                openList();
+            } else if (e.key === "Escape") {
+                list.style.display = "none";
+            }
         });
     }
     

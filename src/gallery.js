@@ -6,8 +6,29 @@ import { selectMovie } from './dropdown.js';
 import { onSelectionChange } from './schedule.js';
 import { escapeHtml, safeUrl } from './utils.js';
 
+// 公開前でも千葉7劇場で上映スケジュールが出ている作品（先行上映など）は上映中として扱う
+// 画像が無い作品用のカード（タイトルを大きく表示して作品を見分けられるようにする）
+function posterPlaceholderHtml(title, className) {
+    return `
+        <div class="${className}">
+            <i class="fa-solid fa-film"></i>
+            <span class="poster-placeholder-title">${escapeHtml(title)}</span>
+            <span class="poster-placeholder-note">画像準備中</span>
+        </div>
+    `;
+}
+
+// 画像の読み込みに失敗したら、タイトル入りのカードに差し替える
+function attachPosterFallback(container, title, className) {
+    const img = container.querySelector("img");
+    if (!img) return;
+    img.addEventListener("error", () => {
+        img.parentElement.innerHTML = posterPlaceholderHtml(title, className);
+    }, { once: true });
+}
+
 export function isUpcomingMovie(title) {
-    return state.upcomingMovies.some(m => m.title === title);
+    return !state.allMovies.includes(title) && state.upcomingMovies.some(m => m.title === title);
 }
 
 export function renderMoviesGallery() {
@@ -19,7 +40,7 @@ export function renderMoviesGallery() {
     const moviesToRender = isUpcoming ? state.upcomingMovies.map(m => m.title) : state.allMovies;
     
     if (moviesToRender.length === 0) {
-        const msg = isUpcoming ? "上映予定の作品情報がありません" : "上映中の作品情報がありません";
+        const msg = isUpcoming ? "公開予定の作品情報がありません" : "上映中の作品情報がありません";
         grid.innerHTML = `<div class="no-movies-gallery" style="color: var(--text-muted); padding: 2rem; text-align: center;">${msg}</div>`;
         return;
     }
@@ -31,25 +52,15 @@ export function renderMoviesGallery() {
         const card = document.createElement("div");
         card.className = "movie-gallery-card";
         
-        // ポスター画像
+        // ポスター画像（無い・読み込めない場合はタイトル入りのカードを表示）
         const posterUrl = escapeHtml(safeUrl(details.poster_url));
-        let posterHtml = "";
-        if (posterUrl) {
-            posterHtml = `
-                <div class="movie-gallery-poster">
-                    <img src="${posterUrl}" alt="${safeTitle}" loading="lazy" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\\'movie-gallery-poster-placeholder\\'><i class=\\'fa-solid fa-film\\'></i><span>NO IMAGE</span></div>';">
-                </div>
-            `;
-        } else {
-            posterHtml = `
-                <div class="movie-gallery-poster">
-                    <div class="movie-gallery-poster-placeholder">
-                        <i class="fa-solid fa-film"></i>
-                        <span>NO IMAGE</span>
-                    </div>
-                </div>
-            `;
-        }
+        const posterHtml = `
+            <div class="movie-gallery-poster">
+                ${posterUrl
+                    ? `<img src="${posterUrl}" alt="${safeTitle}" loading="lazy">`
+                    : posterPlaceholderHtml(title, "movie-gallery-poster-placeholder")}
+            </div>
+        `;
         
         // メタ情報 (監督・キャスト)
         const director = escapeHtml(details.director || "情報なし");
@@ -96,6 +107,8 @@ export function renderMoviesGallery() {
             </div>
         `;
         
+        attachPosterFallback(card, title, "movie-gallery-poster-placeholder");
+
         // カードクリック時のインタラクション
         card.addEventListener("click", () => {
             selectMovie(title);
@@ -187,12 +200,9 @@ export function renderUpcomingDetail(title) {
     grid.innerHTML = `
         <div class="upcoming-detail-card">
             <div class="upcoming-detail-poster">
-                ${posterUrl ? `<img src="${posterUrl}" alt="${safeTitle}" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\\'upcoming-detail-poster-placeholder\\'><i class=\\'fa-solid fa-film\\'></i><span>NO IMAGE</span></div>';">` : `
-                    <div class="upcoming-detail-poster-placeholder">
-                        <i class="fa-solid fa-film"></i>
-                        <span>NO IMAGE</span>
-                    </div>
-                `}
+                ${posterUrl
+                    ? `<img src="${posterUrl}" alt="${safeTitle}">`
+                    : posterPlaceholderHtml(title, "upcoming-detail-poster-placeholder")}
             </div>
             <div class="upcoming-detail-info">
                 <span class="upcoming-release-badge"><i class="fa-solid fa-calendar"></i> ${releaseDateFormatted}</span>
@@ -206,9 +216,10 @@ export function renderUpcomingDetail(title) {
                     ${linksHtml}
                 </div>
                 <div class="upcoming-notice">
-                    <i class="fa-solid fa-circle-info"></i> この作品は上映予定の作品です。公開日以降に順次上映スケジュールが掲載されます。
+                    <i class="fa-solid fa-circle-info"></i> この作品は全国の公開予定作品です。千葉7劇場で上映が決まると、スケジュールが表示されるようになります。
                 </div>
             </div>
         </div>
     `;
+    attachPosterFallback(grid, title, "upcoming-detail-poster-placeholder");
 }

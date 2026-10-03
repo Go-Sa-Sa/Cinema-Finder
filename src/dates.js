@@ -56,3 +56,20 @@ export function generateDateChips() {
         container.appendChild(chip);
     }
 }
+
+// 劇場がまだスケジュールを発表していない日のチップに「未発表」印を付ける
+export function markUnpublishedDates(latestPublishedDate) {
+    document.querySelectorAll(".date-scroll-container .date-chip").forEach(chip => {
+        const unpublished = Boolean(latestPublishedDate) && chip.dataset.date > latestPublishedDate;
+        chip.classList.toggle("unpublished", unpublished);
+        let note = chip.querySelector(".chip-note");
+        if (unpublished && !note) {
+            note = document.createElement("span");
+            note.className = "chip-note";
+            note.innerText = "未発表";
+            chip.appendChild(note);
+        } else if (!unpublished && note) {
+            note.remove();
+        }
+    });
+}
