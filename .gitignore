@@ -25,3 +25,6 @@ CrawlLog.txt
 ~$*
 *.tmp
 
+
+# Personal documents
+*.docx
