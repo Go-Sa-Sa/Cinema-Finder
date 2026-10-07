@@ -608,7 +608,7 @@
   "カードファイト!! ヴァンガード Divinez 運命星戦編": {
     "official_url": "https://anime.cf-vanguard.com/",
     "eigacom_url": "https://eiga.com/movie/106032/",
-    "poster_url": "https://media.eiga.com/images/movie/106032/photo/5b0ed91ed73febe8/640.jpg",
+    "poster_url": "https://media.eiga.com/images/movie/106032/photo/b8a32502c70512a4/640.jpg",
     "release_date": "2026-10-02",
     "release_date_formatted": "10月02日(金) 公開",
     "director": "山田卓",
@@ -970,8 +970,8 @@
     "official_url": "",
     "eigacom_url": "https://eiga.com/movie/106969/",
     "poster_url": "",
-    "release_date": "2026-09-25",
-    "release_date_formatted": "09月25日(金) 公開",
+    "release_date": "2026-10-01",
+    "release_date_formatted": "10月01日(木) 公開",
     "director": "エド・パーキンズ",
     "cast": [],
     "description": "Disney+で2026年10月12日から配信。",
@@ -2161,36 +2161,6 @@
     "description": "二組のやくざが対立するさびれた宿場町。そこへ一人の浪人者がふらりと流れ着く。男はやがて巧みな策略で双方を戦わせ、最後には自らの刀を抜きやくざたちを倒す。町の平和を取り戻した彼は、またいずこへとも知れず去っていく……。時代劇に西部劇の要素を取り入れた痛快娯楽活劇。ピストルにマフラーのニヒルな殺し屋を演じた新鋭・仲代達矢の存在感が光る。64年にはセルジオ・レオーネ監督が本作をもとにマカロニウエスタン「荒野の用心棒」を作り、大ヒットした。",
     "copyright": "(C) TOHO CO., LTD.",
     "runtime_minutes": 110
-  },
-  "これぞマーティン・マル": {
-    "official_url": "https://www.netflix.com/title/81922437",
-    "eigacom_url": "https://eiga.com/movie/107015/",
-    "poster_url": "https://occ-0-3012-116.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTKtxEpIYCQkcu5o3HwYr7IYyV8yYW0JI5Q_QjTTciGZg3CSxHqsnsKufHKQ7ZrPGOsrGCEM_zK90-vB7gVZzhnw_oTc6JbFgkBa.jpg?r=e16",
-    "release_date": "2026-09-25",
-    "release_date_formatted": "09月25日(金) 公開",
-    "director": "ボブ・サゲット",
-    "cast": [
-      "マーティン・マル"
-    ],
-    "description": "Netflixで2026年10月7日から配信。",
-    "copyright": "「クジラに落ちた男」©2026 20th Century Studios. All Rights Reserved.",
-    "runtime_minutes": 94
-  },
-  "レス・オブ・ア・ストレンジャー": {
-    "official_url": "https://www.netflix.com/title/81744789",
-    "eigacom_url": "https://eiga.com/movie/107014/",
-    "poster_url": "https://occ-0-3012-116.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABecx3ISFV7GkYiU23qh7hhiF9rCHGs1rsadHmlMlUmqWXiFw0avUlAU1XrEG-p2lhxmI8b7hupE-r2TXHjeyMdWFSIZDfC_vVeYf.jpg?r=39d",
-    "release_date": "2026-09-25",
-    "release_date_formatted": "09月25日(金) 公開",
-    "director": "クリストファー・ルス",
-    "cast": [
-      "キンガ・プレイス",
-      "イレネウシュ・チョプ",
-      "フベルト・ミウコフスキ"
-    ],
-    "description": "Netflixで2026年10月7日から配信。",
-    "copyright": "「クジラに落ちた男」©2026 20th Century Studios. All Rights Reserved.",
-    "runtime_minutes": 126
   },
   "グッド・セラピスト": {
     "official_url": "https://www.netflix.com/title/82027563",
