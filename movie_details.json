@@ -477,22 +477,6 @@
     "copyright": "© Universal Studios. All Rights Reserved.",
     "runtime_minutes": 145
   },
-  "温泉シャーク2 九州大決戦": {
-    "official_url": "https://hotspringshark.com/",
-    "eigacom_url": "https://eiga.com/movie/104446/",
-    "poster_url": "https://media.eiga.com/images/movie/104446/photo/2c2d40dba0e86dcf/640.jpg",
-    "release_date": "2026-09-04",
-    "release_date_formatted": "09月04日(金) 公開",
-    "director": "井上森人",
-    "cast": [
-      "柴田瑠歌",
-      "金子清文",
-      "内藤正記"
-    ],
-    "description": "人々の癒やしの場である温泉に突如として凶暴なサメが出現するという奇想天外な設定で話題を集めた日本発のサメ映画「温泉シャーク」の続編。熊本県小国町をはじめ九州各地でロケを敢行し、九州全土を巻き込んだ壮絶なバトルを描き出す。古くから「サメ太郎」伝説が語り継がれてきたK県湯国町では、町内の至るところにサメをまつる意匠が残され、恐ろしいサメを退治した英雄の記憶を留めている。しかし暑海市で起きた「温泉シャーク騒動」の影響により、湯国町でも観光客が減少し、すっかり活気が失われていた。ミュージシャンを夢見る女子高生の速見天満は、ある夜、地元に伝わる大切な「サメ太郎像」を誤って壊してしまう。その直後、観光客が行方不明になる事件が発生し……。「空（カラ）の味」の柴田瑠歌が速見天満役で主演を務め、天満の祖父を勝野洋が演じる。共演には金子清文、内藤正記ら前作のキャストが再結集し、前作で観客の理解を超えた存在として話題となったキャラクター「マッチョ」も再登場。現代美術界隈で活動するコントユニット「そんたくズ」の井上森人が前作に引き続き監督・脚本を手がけた。",
-    "copyright": "©2026 PLAN A inc.",
-    "runtime_minutes": 88
-  },
   "ママがもうこの世界にいなくても　私の命の日記": {
     "official_url": "https://www.mamaseka-movie.com/",
     "eigacom_url": "https://eiga.com/movie/106044/",
@@ -2339,5 +2323,21 @@
     "description": "",
     "copyright": "",
     "runtime_minutes": null
+  },
+  "BanG Dream! ぽっぴん'どりーむ！": {
+    "official_url": "",
+    "eigacom_url": "https://eiga.com/movie/93010/",
+    "poster_url": "https://media.eiga.com/images/movie/93010/photo/d93301c050eac20c/640.jpg",
+    "release_date": "2022-01-01",
+    "release_date_formatted": "01月01日(土) 公開",
+    "director": "柿本広大",
+    "cast": [
+      "愛美",
+      "大塚紗英",
+      "西本りみ"
+    ],
+    "description": "各キャラクターを担当する声優が実際にバンド活動も展開する、キャラクターとライブがリンクした人気ガールズバンドプロジェクト「BanG Dream! （バンドリ！）」の劇場版アニメ。2020年に放送されたテレビアニメ「BanG Dream! 3rd Season」の最終回で、「Poppin'Party」「Roselia」「RAISE A SUILEN」の3バンドが武道館ライブを成功させた、その後の物語を描く。武道館という夢の大舞台に立った余韻が残る「Poppin'Party」の戸山香澄らの前に、謎の女性が現れる。それをきっかけに香澄たちは、次なるステージに立つため海外へと羽ばたいていく。「BanG Dream!」アニメシリーズを多数手がける柿本広大が総監督、テレビシリーズで絵コンテやライブパートコンテを担当してきた植高正典が監督を担当。",
+    "copyright": "(C)BanG Dream! Project",
+    "runtime_minutes": 71
   }
 }
