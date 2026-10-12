@@ -654,32 +654,6 @@
     "copyright": "(C)2009 NIKKATSU",
     "runtime_minutes": 119
   },
-  "ALWAYS LALISA": {
-    "official_url": "https://www.culture-ville.jp/alwayslalisa",
-    "eigacom_url": "https://eiga.com/movie/106912/",
-    "poster_url": "https://media.eiga.com/images/movie/106912/photo/e7e4c5a5c2e895d2/640.jpg",
-    "release_date": "2026-10-12",
-    "release_date_formatted": "10月12日(月) 公開",
-    "director": "スー・キム",
-    "cast": [
-      "LISA"
-    ],
-    "description": "2026年製作／98分／アメリカ配給：カルチャヴィル劇場公開日：2026年10月12日",
-    "copyright": "© 2026 SONY MUSIC ENTERTAINMENT. ALL RIGHTS RESERVED.",
-    "runtime_minutes": 98
-  },
-  "ピエロ・パニック": {
-    "official_url": "",
-    "eigacom_url": "https://eiga.com/movie/106969/",
-    "poster_url": "",
-    "release_date": "2026-10-09",
-    "release_date_formatted": "10月09日(金) 公開",
-    "director": "エド・パーキンズ",
-    "cast": [],
-    "description": "Disney+で2026年10月12日から配信。",
-    "copyright": "「DIGGER ディガー」© 2026 WBEI and Legendary",
-    "runtime_minutes": null
-  },
   "生涯の愛": {
     "official_url": "",
     "eigacom_url": "https://eiga.com/movie/106997/",
@@ -2030,20 +2004,16 @@
     "copyright": "(C)2015 Roots Films Fisfisa Media All Rights Reserved.",
     "runtime_minutes": 162
   },
-  "BanG Dream! ぽっぴん'どりーむ！": {
+  "ミュージカル「忍たま乱太郎」第16弾 再演 タソガレドキで忍者修行！ ライブビューイング": {
     "official_url": "",
-    "eigacom_url": "https://eiga.com/movie/93010/",
-    "poster_url": "https://media.eiga.com/images/movie/93010/photo/d93301c050eac20c/640.jpg",
-    "release_date": "2022-01-01",
-    "release_date_formatted": "01月01日(土) 公開",
-    "director": "柿本広大",
-    "cast": [
-      "愛美",
-      "大塚紗英",
-      "西本りみ"
-    ],
-    "description": "各キャラクターを担当する声優が実際にバンド活動も展開する、キャラクターとライブがリンクした人気ガールズバンドプロジェクト「BanG Dream! （バンドリ！）」の劇場版アニメ。2020年に放送されたテレビアニメ「BanG Dream! 3rd Season」の最終回で、「Poppin'Party」「Roselia」「RAISE A SUILEN」の3バンドが武道館ライブを成功させた、その後の物語を描く。武道館という夢の大舞台に立った余韻が残る「Poppin'Party」の戸山香澄らの前に、謎の女性が現れる。それをきっかけに香澄たちは、次なるステージに立つため海外へと羽ばたいていく。「BanG Dream!」アニメシリーズを多数手がける柿本広大が総監督、テレビシリーズで絵コンテやライブパートコンテを担当してきた植高正典が監督を担当。",
-    "copyright": "(C)BanG Dream! Project",
-    "runtime_minutes": 71
+    "eigacom_url": "",
+    "poster_url": "https://media.eiga.com/images/movie/101301/photo/2ae675366b6066da/640.jpg",
+    "release_date": "",
+    "release_date_formatted": "",
+    "director": "",
+    "cast": [],
+    "description": "",
+    "copyright": "",
+    "runtime_minutes": null
   }
 }
