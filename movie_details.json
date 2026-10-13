@@ -2015,5 +2015,21 @@
     "description": "",
     "copyright": "",
     "runtime_minutes": null
+  },
+  "椎名林檎 党大会 令和八年列島巡回": {
+    "official_url": "https://liveviewing.jp/totaikai-reiwa8/",
+    "eigacom_url": "https://eiga.com/movie/106976/",
+    "poster_url": "https://media.eiga.com/images/movie/106976/photo/c5d0f63fa49d6e60/640.jpg",
+    "release_date": "2026-10-16",
+    "release_date_formatted": "10月16日(金) 公開",
+    "director": "",
+    "cast": [
+      "椎名林檎",
+      "石若駿",
+      "鳥越啓介"
+    ],
+    "description": "2026年製作／115分／日本配給：ライブ・ビューイング・ジャパン劇場公開日：2026年10月16日",
+    "copyright": "「DIGGER ディガー」© 2026 WBEI and Legendary",
+    "runtime_minutes": 115
   }
 }
