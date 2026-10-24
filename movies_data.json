@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24 08:41:50",
+  "last_updated": "2026-10-25 07:47:49",
   "theaters": {
     "USシネマちはら台": {
       "name": "USシネマちはら台",
@@ -11,32 +11,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:30",
-                    "end": "11:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:50",
-                    "end": "13:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:55",
-                    "end": "16:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:40",
-                    "end": "20:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:30",
@@ -179,32 +153,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "10:10",
-                    "end": "12:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:40",
-                    "end": "14:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:10",
-                    "end": "17:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:40",
-                    "end": "19:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:10",
-                    "end": "22:15"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "10:10",
@@ -347,17 +295,6 @@
             {
               "format": "IMAX",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "14:00",
-                    "end": "16:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "14:00",
@@ -425,12 +362,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:20",
-                    "end": "20:25"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "18:20",
@@ -473,27 +404,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:50",
-                    "end": "12:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:30",
-                    "end": "14:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:10",
-                    "end": "17:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:50",
@@ -611,22 +521,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "12:10",
-                    "end": "13:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:50",
-                    "end": "20:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "22:40"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "12:10",
@@ -712,12 +606,6 @@
             {
               "format": "IMAX字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:50",
-                    "end": "11:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:50",
@@ -753,12 +641,6 @@
             {
               "format": "4D吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "14:40",
-                    "end": "16:20"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "14:40",
@@ -801,27 +683,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:40",
-                    "end": "11:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:15",
-                    "end": "17:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:50",
-                    "end": "20:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:40",
@@ -929,65 +790,11 @@
           "official_url": "https://www.mamaseka-movie.com/"
         },
         {
-          "title": "ディスクロージャー・デイ",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "20:30",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "20:30",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "20:30",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "20:30",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "14:00",
-                    "end": "16:30"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "20:30",
-                    "end": "23:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105261/",
-          "official_url": "https://disclosureday.jp/"
-        },
-        {
           "title": "DIGGER ディガー",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "17:40",
-                    "end": "19:55"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "17:40",
@@ -1025,17 +832,53 @@
           "official_url": "https://digger-movie.jp/"
         },
         {
+          "title": "ディスクロージャー・デイ",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "20:30",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "20:30",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "20:30",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "14:00",
+                    "end": "16:30"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "20:30",
+                    "end": "23:00"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105261/",
+          "official_url": "https://disclosureday.jp/"
+        },
+        {
           "title": "ストリートファイター　ザ・ムービー",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "12:30",
-                    "end": "14:35"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "12:30",
@@ -1071,12 +914,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "15:00",
-                    "end": "17:05"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "15:00",
@@ -1132,12 +969,6 @@
             {
               "format": "IMAX字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "16:25",
-                    "end": "18:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "16:25",
@@ -1173,12 +1004,6 @@
             {
               "format": "4D吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "20:50",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "20:50",
@@ -1221,17 +1046,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "12:20",
-                    "end": "14:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:50"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "12:20",
@@ -1299,12 +1113,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "14:00",
-                    "end": "17:00"
-                  }
-                ],
                 "2026-10-26": [
                   {
                     "start": "14:00",
@@ -1335,12 +1143,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:40",
-                    "end": "11:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:40",
@@ -1378,173 +1180,11 @@
           "official_url": "https://heart-of-the-beast.jp/"
         },
         {
-          "title": "影を売る女",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:30",
-                    "end": "11:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:10",
-                    "end": "15:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:45",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "09:30",
-                    "end": "11:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:10",
-                    "end": "15:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:45",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "09:30",
-                    "end": "11:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:10",
-                    "end": "15:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:45",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "09:30",
-                    "end": "11:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:40",
-                    "end": "13:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:10",
-                    "end": "15:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:45",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "09:30",
-                    "end": "11:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:40",
-                    "end": "13:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:10",
-                    "end": "15:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:45",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "09:30",
-                    "end": "11:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:40",
-                    "end": "13:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:10",
-                    "end": "15:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:45",
-                    "end": "20:30"
-                  }
-                ]
-              }
-            },
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:40",
-                    "end": "13:25"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "11:40",
-                    "end": "13:25"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "11:40",
-                    "end": "13:25"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105906/",
-          "official_url": "https://hs-movies.jp/kagewouruonna/"
-        },
-        {
           "title": "映画ちいかわ　人魚の島のひみつ",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "10:00",
-                    "end": "11:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:20",
-                    "end": "16:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:40",
-                    "end": "18:25"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "10:00",
@@ -1590,12 +1230,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "12:30",
-                    "end": "14:15"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "12:30",
@@ -1633,17 +1267,135 @@
           "official_url": "https://chiikawa.toho-movie.jp"
         },
         {
+          "title": "影を売る女",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "09:30",
+                    "end": "11:15",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:10",
+                    "end": "15:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:45",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "09:30",
+                    "end": "11:15",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:10",
+                    "end": "15:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:45",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "09:30",
+                    "end": "11:15",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "11:40",
+                    "end": "13:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:10",
+                    "end": "15:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:45",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "09:30",
+                    "end": "11:15",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "11:40",
+                    "end": "13:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:10",
+                    "end": "15:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:45",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "09:30",
+                    "end": "11:15",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "11:40",
+                    "end": "13:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:10",
+                    "end": "15:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:45",
+                    "end": "20:30"
+                  }
+                ]
+              }
+            },
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "11:40",
+                    "end": "13:25"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "11:40",
+                    "end": "13:25"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105906/",
+          "official_url": "https://hs-movies.jp/kagewouruonna/"
+        },
+        {
           "title": "白鳥とコウモリ",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "17:30",
-                    "end": "20:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "17:30",
@@ -1722,12 +1474,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "20:30",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "20:30",
@@ -1770,12 +1516,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:40",
-                    "end": "11:55"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:40",
@@ -1818,12 +1558,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "16:15",
-                    "end": "18:20"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "16:15",
@@ -1866,17 +1600,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "13:30",
-                    "end": "14:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:10",
-                    "end": "18:15"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "13:30",
@@ -1937,12 +1660,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:00",
-                    "end": "12:05"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:00",
@@ -1980,65 +1697,11 @@
           "official_url": "https://girls-und-panzer-finale.jp/"
         },
         {
-          "title": "映画名探偵プリキュア！不思議な庭と2人の秘密",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:50",
-                    "end": "13:10"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "11:50",
-                    "end": "13:10"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "11:50",
-                    "end": "13:10"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "11:50",
-                    "end": "13:10"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "11:50",
-                    "end": "13:10"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "11:50",
-                    "end": "13:10"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105969/",
-          "official_url": "https://2026.precure-movie.com/"
-        },
-        {
           "title": "キングダム　魂の決戦",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "17:55",
-                    "end": "20:15"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "17:55",
@@ -2076,22 +1739,53 @@
           "official_url": "https://kingdom-the-movie.jp/"
         },
         {
+          "title": "映画名探偵プリキュア！不思議な庭と2人の秘密",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "11:50",
+                    "end": "13:10"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "11:50",
+                    "end": "13:10"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "11:50",
+                    "end": "13:10"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "11:50",
+                    "end": "13:10"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "11:50",
+                    "end": "13:10"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105969/",
+          "official_url": "https://2026.precure-movie.com/"
+        },
+        {
           "title": "借りぐらしのアリエッティ",
           "schedules": [
             {
               "format": "IMAX",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:55",
-                    "end": "13:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:55",
-                    "end": "20:35"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:55",
@@ -2159,17 +1853,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:20",
-                    "end": "10:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:40",
-                    "end": "18:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:20",
@@ -2261,32 +1944,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:25",
-                    "end": "13:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:45",
-                    "end": "15:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:05",
-                    "end": "18:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:25",
-                    "end": "20:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:45",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:25",
@@ -2409,32 +2066,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "10:55",
-                    "end": "13:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:20",
-                    "end": "15:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:50",
-                    "end": "18:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:20",
-                    "end": "20:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "10:55",
@@ -2577,12 +2208,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:40",
-                    "end": "20:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "18:40",
@@ -2625,32 +2250,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:30",
-                    "end": "10:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:35",
-                    "end": "15:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:10",
-                    "end": "17:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:05",
-                    "end": "19:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:20",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:30",
@@ -2793,17 +2392,6 @@
             {
               "format": "ScreenX",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "16:10",
-                    "end": "18:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:35",
-                    "end": "23:45"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "12:05",
@@ -2871,22 +2459,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:10",
-                    "end": "10:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:35",
-                    "end": "16:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:25",
-                    "end": "17:55"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:10",
@@ -2979,22 +2551,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "10:35",
-                    "end": "13:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:45",
-                    "end": "18:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "23:20"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "10:35",
@@ -3067,17 +2623,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:40",
-                    "end": "13:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:15",
-                    "end": "20:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:40",
@@ -3113,22 +2658,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "13:40",
-                    "end": "15:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:15",
-                    "end": "17:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:05"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "13:40",
@@ -3246,110 +2775,11 @@
           "official_url": "https://biomovie.jp"
         },
         {
-          "title": "mentor",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:20",
-                    "end": "11:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:45",
-                    "end": "16:50"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "09:20",
-                    "end": "11:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:45",
-                    "end": "16:50"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "09:20",
-                    "end": "11:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:45",
-                    "end": "16:50"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "09:20",
-                    "end": "11:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:45",
-                    "end": "16:50"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "09:20",
-                    "end": "11:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:45",
-                    "end": "16:50"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "09:20",
-                    "end": "11:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:45",
-                    "end": "16:50"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104992/",
-          "official_url": "https://www.mentor-movie.jp/"
-        },
-        {
           "title": "ママがもうこの世界にいなくても　私の命の日記",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "10:55",
-                    "end": "13:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:30",
-                    "end": "15:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:05",
-                    "end": "18:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:45",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "10:55",
@@ -3467,17 +2897,78 @@
           "official_url": "https://www.mamaseka-movie.com/"
         },
         {
+          "title": "mentor",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "09:20",
+                    "end": "11:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:45",
+                    "end": "16:50"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "09:20",
+                    "end": "11:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:45",
+                    "end": "16:50"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "09:20",
+                    "end": "11:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:45",
+                    "end": "16:50"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "09:20",
+                    "end": "11:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:45",
+                    "end": "16:50"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "09:20",
+                    "end": "11:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:45",
+                    "end": "16:50"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104992/",
+          "official_url": "https://www.mentor-movie.jp/"
+        },
+        {
           "title": "わたしの知らない子どもたち",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:20",
-                    "end": "12:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:20",
@@ -3515,143 +3006,11 @@
           "official_url": "https://k2pic.com/film/wsk/"
         },
         {
-          "title": "ディスクロージャー・デイ",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:40",
-                    "end": "14:15"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "11:40",
-                    "end": "14:15"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "11:40",
-                    "end": "14:15"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "11:40",
-                    "end": "14:15"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "11:40",
-                    "end": "14:15"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "11:40",
-                    "end": "14:15"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105261/",
-          "official_url": "https://disclosureday.jp/"
-        },
-        {
-          "title": "クジラに落ちた男",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:50",
-                    "end": "13:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:10",
-                    "end": "21:05"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "11:50",
-                    "end": "13:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:25",
-                    "end": "21:20"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "11:50",
-                    "end": "13:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:25",
-                    "end": "18:20"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "11:50",
-                    "end": "13:45"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "11:50",
-                    "end": "13:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:25",
-                    "end": "18:20"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "11:50",
-                    "end": "13:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:25",
-                    "end": "18:20"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/106324/",
-          "official_url": "https://www.20thcenturystudios.jp/movies/whalefall"
-        },
-        {
           "title": "DIGGER ディガー",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:15",
-                    "end": "11:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:50",
-                    "end": "18:10"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:15",
@@ -3714,27 +3073,115 @@
           "official_url": "https://digger-movie.jp/"
         },
         {
+          "title": "ディスクロージャー・デイ",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "11:40",
+                    "end": "14:15"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "11:40",
+                    "end": "14:15"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "11:40",
+                    "end": "14:15"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "11:40",
+                    "end": "14:15"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "11:40",
+                    "end": "14:15"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105261/",
+          "official_url": "https://disclosureday.jp/"
+        },
+        {
+          "title": "クジラに落ちた男",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "11:50",
+                    "end": "13:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "19:25",
+                    "end": "21:20"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "11:50",
+                    "end": "13:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:25",
+                    "end": "18:20"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "11:50",
+                    "end": "13:45"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "11:50",
+                    "end": "13:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:25",
+                    "end": "18:20"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "11:50",
+                    "end": "13:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:25",
+                    "end": "18:20"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/106324/",
+          "official_url": "https://www.20thcenturystudios.jp/movies/whalefall"
+        },
+        {
           "title": "ストリートファイター　ザ・ムービー",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:10",
-                    "end": "11:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:10",
-                    "end": "19:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:05",
-                    "end": "23:15"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:10",
@@ -3827,17 +3274,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "12:20",
-                    "end": "14:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:20",
-                    "end": "19:55"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "12:20",
@@ -3895,12 +3331,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "20:15",
-                    "end": "23:20"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "20:15",
@@ -3943,12 +3373,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "21:00",
-                    "end": "22:50"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "21:00",
@@ -3986,80 +3410,11 @@
           "official_url": "https://heart-of-the-beast.jp/"
         },
         {
-          "title": "影を売る女",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:20",
-                    "end": "11:10"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "09:20",
-                    "end": "11:10"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "09:20",
-                    "end": "11:10"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "09:20",
-                    "end": "11:10"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "09:20",
-                    "end": "11:10"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "09:20",
-                    "end": "11:10"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105906/",
-          "official_url": "https://hs-movies.jp/kagewouruonna/"
-        },
-        {
           "title": "映画ちいかわ　人魚の島のひみつ",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:15",
-                    "end": "11:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:25",
-                    "end": "13:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:20",
-                    "end": "17:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "21:50"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:15",
@@ -4127,6 +3482,48 @@
           "official_url": "https://chiikawa.toho-movie.jp"
         },
         {
+          "title": "影を売る女",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "09:20",
+                    "end": "11:10"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "09:20",
+                    "end": "11:10"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "09:20",
+                    "end": "11:10"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "09:20",
+                    "end": "11:10"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "09:20",
+                    "end": "11:10"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105906/",
+          "official_url": "https://hs-movies.jp/kagewouruonna/"
+        },
+        {
           "title": "白鳥とコウモリ",
           "schedules": [
             {
@@ -4163,37 +3560,53 @@
           "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
         },
         {
+          "title": "どこよりも遠い場所にいる君へ",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "11:15",
+                    "end": "13:20"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "11:05",
+                    "end": "13:10"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "11:05",
+                    "end": "13:10"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "11:05",
+                    "end": "13:10"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "11:05",
+                    "end": "13:10"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105503/",
+          "official_url": "https://sh-anime.shochiku.co.jp/dokokimi-movie/"
+        },
+        {
           "title": "青春ブタ野郎はディアフレンドの夢を見ない",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:15",
-                    "end": "11:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:45",
-                    "end": "13:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:15",
-                    "end": "16:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:45",
-                    "end": "18:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:20",
-                    "end": "23:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:15",
@@ -4331,54 +3744,6 @@
           "official_url": "https://ao-buta.com/"
         },
         {
-          "title": "どこよりも遠い場所にいる君へ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:15",
-                    "end": "13:20"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "11:15",
-                    "end": "13:20"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "11:05",
-                    "end": "13:10"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "11:05",
-                    "end": "13:10"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "11:05",
-                    "end": "13:10"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "11:05",
-                    "end": "13:10"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105503/",
-          "official_url": "https://sh-anime.shochiku.co.jp/dokokimi-movie/"
-        },
-        {
           "title": "ファーストボイス",
           "schedules": [
             {
@@ -4413,42 +3778,6 @@
           ],
           "eigacom_url": "https://eiga.com/movie/106291/",
           "official_url": "https://movies.shochiku.co.jp/firstvoicemovie/"
-        },
-        {
-          "title": "時給三〇〇円の死神",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-26": [
-                  {
-                    "start": "18:30",
-                    "end": "20:40"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "18:30",
-                    "end": "20:40"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "18:30",
-                    "end": "20:40"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "18:30",
-                    "end": "20:40"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105416/",
-          "official_url": "https://gaga.ne.jp/jikyu-300movie/"
         },
         {
           "title": "愛し合ってるかい？　忌野清志郎が教えてくれた",
@@ -4487,52 +3816,40 @@
           "official_url": "https://www.toei-video.co.jp/kiyoshiro-movie/"
         },
         {
-          "title": "ハイファイブ！",
+          "title": "時給三〇〇円の死神",
           "schedules": [
             {
-              "format": "字幕",
+              "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:30",
-                    "end": "20:40"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "18:30",
-                    "end": "20:40"
-                  }
-                ],
                 "2026-10-26": [
                   {
-                    "start": "18:45",
-                    "end": "20:55"
+                    "start": "18:30",
+                    "end": "20:40"
                   }
                 ],
                 "2026-10-27": [
                   {
-                    "start": "18:45",
-                    "end": "20:55"
+                    "start": "18:30",
+                    "end": "20:40"
                   }
                 ],
                 "2026-10-28": [
                   {
-                    "start": "18:45",
-                    "end": "20:55"
+                    "start": "18:30",
+                    "end": "20:40"
                   }
                 ],
                 "2026-10-29": [
                   {
-                    "start": "18:45",
-                    "end": "20:55"
+                    "start": "18:30",
+                    "end": "20:40"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105328/",
-          "official_url": "https://klockworx.com/movies/hifive"
+          "eigacom_url": "https://eiga.com/movie/105416/",
+          "official_url": "https://gaga.ne.jp/jikyu-300movie/"
         },
         {
           "title": "超かぐや姫！",
@@ -4540,17 +3857,6 @@
             {
               "format": "ScreenXDolby Atmos",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "10:50",
-                    "end": "13:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:40",
-                    "end": "21:15"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:10",
@@ -4613,40 +3919,46 @@
           "official_url": "https://www.cho-kaguyahime.com/"
         },
         {
-          "title": "最終楽章　響け！ユーフォニアム　後編",
+          "title": "ハイファイブ！",
           "schedules": [
             {
-              "format": "2D",
+              "format": "字幕",
               "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "18:30",
+                    "end": "20:40"
+                  }
+                ],
                 "2026-10-26": [
                   {
-                    "start": "18:15",
-                    "end": "20:35"
+                    "start": "18:45",
+                    "end": "20:55"
                   }
                 ],
                 "2026-10-27": [
                   {
-                    "start": "18:15",
-                    "end": "20:35"
+                    "start": "18:45",
+                    "end": "20:55"
                   }
                 ],
                 "2026-10-28": [
                   {
-                    "start": "13:30",
-                    "end": "15:50"
+                    "start": "18:45",
+                    "end": "20:55"
                   }
                 ],
                 "2026-10-29": [
                   {
-                    "start": "18:15",
-                    "end": "20:35"
+                    "start": "18:45",
+                    "end": "20:55"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/106095/",
-          "official_url": "https://anime-eupho.com/"
+          "eigacom_url": "https://eiga.com/movie/105328/",
+          "official_url": "https://klockworx.com/movies/hifive"
         },
         {
           "title": "Michael マイケル",
@@ -4685,17 +3997,47 @@
           "official_url": "https://www.michael-movie.jp/"
         },
         {
+          "title": "最終楽章　響け！ユーフォニアム　後編",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-26": [
+                  {
+                    "start": "18:15",
+                    "end": "20:35"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "18:15",
+                    "end": "20:35"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "13:30",
+                    "end": "15:50"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "18:15",
+                    "end": "20:35"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/106095/",
+          "official_url": "https://anime-eupho.com/"
+        },
+        {
           "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:30",
-                    "end": "20:40"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "18:30",
@@ -4738,22 +4080,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:10",
-                    "end": "10:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:20",
-                    "end": "14:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:30",
-                    "end": "18:35"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:10",
@@ -4841,12 +4167,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "19:40",
-                    "end": "20:45"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "19:40",
@@ -4882,12 +4202,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:20",
-                    "end": "10:25"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "14:35",
@@ -4925,22 +4239,47 @@
           "official_url": "https://girls-und-panzer-finale.jp/"
         },
         {
+          "title": "キングダム　魂の決戦",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-26": [
+                  {
+                    "start": "21:00",
+                    "end": "23:25"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "20:55",
+                    "end": "23:20"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "21:00",
+                    "end": "23:25"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "21:00",
+                    "end": "23:25"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104266/",
+          "official_url": "https://kingdom-the-movie.jp/"
+        },
+        {
           "title": "映画名探偵プリキュア！不思議な庭と2人の秘密",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:10",
-                    "end": "10:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:00",
-                    "end": "15:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:10",
@@ -4983,53 +4322,11 @@
           "official_url": "https://2026.precure-movie.com/"
         },
         {
-          "title": "キングダム　魂の決戦",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-26": [
-                  {
-                    "start": "21:00",
-                    "end": "23:25"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "20:55",
-                    "end": "23:20"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "21:00",
-                    "end": "23:25"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "21:00",
-                    "end": "23:25"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104266/",
-          "official_url": "https://kingdom-the-movie.jp/"
-        },
-        {
           "title": "椎名林檎　党大会　令和八年列島巡回",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:55",
-                    "end": "21:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "19:15",
@@ -5107,32 +4404,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:25",
-                    "end": "13:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:50",
-                    "end": "15:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:15",
-                    "end": "18:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:40",
-                    "end": "20:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:25",
@@ -5275,32 +4546,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:35",
-                    "end": "11:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:20",
-                    "end": "14:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:10",
-                    "end": "17:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:45",
-                    "end": "19:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:35",
@@ -5443,12 +4688,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:10",
-                    "end": "20:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "18:45",
@@ -5484,17 +4723,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "13:50",
-                    "end": "15:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:45",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "13:50",
@@ -5572,22 +4800,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:45",
-                    "end": "13:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:05",
-                    "end": "17:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "22:40"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:45",
@@ -5680,27 +4892,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:40",
-                    "end": "12:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:25",
-                    "end": "14:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:10",
-                    "end": "17:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:35",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:40",
@@ -5818,12 +5009,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:15",
-                    "end": "11:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:15",
@@ -5859,17 +5044,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "14:00",
-                    "end": "15:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:05",
-                    "end": "22:50"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "14:00",
@@ -5952,140 +5126,11 @@
           "official_url": "https://biomovie.jp"
         },
         {
-          "title": "mentor",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "12:35",
-                    "end": "14:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:05",
-                    "end": "20:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "22:55"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "12:35",
-                    "end": "14:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:05",
-                    "end": "20:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "22:55"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "12:35",
-                    "end": "14:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:05",
-                    "end": "20:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:25",
-                    "end": "22:30"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "12:35",
-                    "end": "14:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:05",
-                    "end": "20:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:25",
-                    "end": "22:30"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "12:35",
-                    "end": "14:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:05",
-                    "end": "20:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:45",
-                    "end": "22:50"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "12:35",
-                    "end": "14:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:05",
-                    "end": "20:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:25",
-                    "end": "22:30"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104992/",
-          "official_url": "https://www.mentor-movie.jp/"
-        },
-        {
           "title": "ママがもうこの世界にいなくても　私の命の日記",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "12:00",
-                    "end": "14:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:45",
-                    "end": "17:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:25",
-                    "end": "19:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:10",
-                    "end": "22:25"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "12:00",
@@ -6208,17 +5253,174 @@
           "official_url": "https://www.mamaseka-movie.com/"
         },
         {
+          "title": "mentor",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "12:35",
+                    "end": "14:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:10",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:50",
+                    "end": "22:55"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "12:35",
+                    "end": "14:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:10",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:25",
+                    "end": "22:30"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "12:35",
+                    "end": "14:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:10",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:25",
+                    "end": "22:30"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "12:35",
+                    "end": "14:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:10",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:45",
+                    "end": "22:50"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "12:35",
+                    "end": "14:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:10",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:25",
+                    "end": "22:30"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104992/",
+          "official_url": "https://www.mentor-movie.jp/"
+        },
+        {
+          "title": "DIGGER ディガー",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-10-26": [
+                  {
+                    "start": "09:40",
+                    "end": "12:00"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "09:40",
+                    "end": "12:00"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "09:40",
+                    "end": "12:00"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "09:40",
+                    "end": "12:00"
+                  }
+                ]
+              }
+            },
+            {
+              "format": "吹替",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "15:20",
+                    "end": "17:40"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "15:20",
+                    "end": "17:40"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "15:20",
+                    "end": "17:40"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "15:20",
+                    "end": "17:40"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "15:20",
+                    "end": "17:40"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105275/",
+          "official_url": "https://digger-movie.jp/"
+        },
+        {
           "title": "ディスクロージャー・デイ",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "13:00",
-                    "end": "15:35"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "10:10",
@@ -6261,17 +5463,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "16:00",
-                    "end": "18:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:25",
-                    "end": "20:25"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "16:00",
@@ -6334,100 +5525,11 @@
           "official_url": "https://www.20thcenturystudios.jp/movies/whalefall"
         },
         {
-          "title": "DIGGER ディガー",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:40",
-                    "end": "12:00"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "09:40",
-                    "end": "12:00"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "09:40",
-                    "end": "12:00"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "09:40",
-                    "end": "12:00"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "09:40",
-                    "end": "12:00"
-                  }
-                ]
-              }
-            },
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "15:20",
-                    "end": "17:40"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "15:20",
-                    "end": "17:40"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "15:20",
-                    "end": "17:40"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "15:20",
-                    "end": "17:40"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "15:20",
-                    "end": "17:40"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "15:20",
-                    "end": "17:40"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105275/",
-          "official_url": "https://digger-movie.jp/"
-        },
-        {
           "title": "ストリートファイター　ザ・ムービー",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:20",
-                    "end": "11:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:20",
@@ -6463,17 +5565,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "15:45",
-                    "end": "17:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:05",
-                    "end": "22:15"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "18:05",
@@ -6541,17 +5632,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:35",
-                    "end": "12:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:40",
-                    "end": "15:15"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:35",
@@ -6619,12 +5699,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:30",
-                    "end": "12:35"
-                  }
-                ],
                 "2026-10-26": [
                   {
                     "start": "09:30",
@@ -6661,12 +5735,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:40",
-                    "end": "13:35"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:40",
@@ -6709,27 +5777,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "10:00",
-                    "end": "11:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:30",
-                    "end": "14:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:05",
-                    "end": "16:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:40",
-                    "end": "19:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "10:00",
@@ -6807,12 +5854,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:00",
-                    "end": "20:35"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:25",
@@ -6855,12 +5896,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "16:10",
-                    "end": "18:20"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "16:10",
@@ -6910,6 +5945,24 @@
           "official_url": "https://gaga.ne.jp/jikyu-300movie/"
         },
         {
+          "title": "Michael マイケル",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "20:40",
+                    "end": "23:00"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/102093/",
+          "official_url": "https://www.michael-movie.jp/"
+        },
+        {
           "title": "マッチング TRUE LOVE",
           "schedules": [
             {
@@ -6946,94 +5999,11 @@
           "official_url": "https://movies.kadokawa.co.jp/matching/"
         },
         {
-          "title": "Michael マイケル",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "20:25",
-                    "end": "22:45"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "20:40",
-                    "end": "23:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/102093/",
-          "official_url": "https://www.michael-movie.jp/"
-        },
-        {
-          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:20",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "18:20",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "18:20",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "18:20",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "18:20",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "18:20",
-                    "end": "20:30"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/94928/",
-          "official_url": "https://www.madoka-magica.com/wr/"
-        },
-        {
           "title": "椿三十郎（1962）",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:20",
-                    "end": "11:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:45",
-                    "end": "20:35"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:20",
@@ -7076,17 +6046,53 @@
           "official_url": ""
         },
         {
+          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "18:20",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "18:20",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "18:20",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "18:20",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "18:20",
+                    "end": "20:30"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/94928/",
+          "official_url": "https://www.madoka-magica.com/wr/"
+        },
+        {
           "title": "映画名探偵プリキュア！不思議な庭と2人の秘密",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:45",
-                    "end": "11:15"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:45",
@@ -7201,32 +6207,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:20",
-                    "end": "11:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:35",
-                    "end": "13:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:50",
-                    "end": "15:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:30",
-                    "end": "20:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:45",
-                    "end": "22:40"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:20",
@@ -7369,32 +6349,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "10:50",
-                    "end": "12:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:25",
-                    "end": "15:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:10",
-                    "end": "17:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:40",
-                    "end": "19:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:10",
-                    "end": "22:15"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "10:50",
@@ -7537,27 +6491,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "10:30",
-                    "end": "11:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:20",
-                    "end": "14:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:50",
-                    "end": "20:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:25",
-                    "end": "21:50"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "10:30",
@@ -7675,22 +6608,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:10",
-                    "end": "10:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:25",
-                    "end": "15:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:35",
-                    "end": "20:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:15",
@@ -7783,22 +6700,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:40",
-                    "end": "14:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:40",
-                    "end": "16:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:20",
-                    "end": "17:45"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:20",
@@ -7894,12 +6795,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:00",
-                    "end": "20:25"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "15:30",
@@ -7924,17 +6819,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "16:30",
-                    "end": "18:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "22:10"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "16:30",
@@ -7995,17 +6879,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:55",
-                    "end": "13:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:30",
-                    "end": "20:10"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:55",
@@ -8073,27 +6946,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "12:25",
-                    "end": "14:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:05",
-                    "end": "17:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:45",
-                    "end": "19:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:35",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "12:25",
@@ -8206,12 +7058,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:00",
-                    "end": "11:35"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:00",
@@ -8249,148 +7095,11 @@
           "official_url": "https://k2pic.com/film/wsk/"
         },
         {
-          "title": "ディスクロージャー・デイ",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "17:35",
-                    "end": "20:10"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "17:35",
-                    "end": "20:10"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "17:35",
-                    "end": "20:10"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "17:35",
-                    "end": "20:10"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "17:35",
-                    "end": "20:10"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "17:35",
-                    "end": "20:10"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105261/",
-          "official_url": "https://disclosureday.jp/"
-        },
-        {
-          "title": "クジラに落ちた男",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "08:55",
-                    "end": "10:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:25",
-                    "end": "15:20"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "08:55",
-                    "end": "10:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:25",
-                    "end": "15:20"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "08:55",
-                    "end": "10:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:25",
-                    "end": "15:20"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "08:55",
-                    "end": "10:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:25",
-                    "end": "15:20"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "08:55",
-                    "end": "10:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:25",
-                    "end": "15:20"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "08:55",
-                    "end": "10:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:25",
-                    "end": "15:20"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/106324/",
-          "official_url": "https://www.20thcenturystudios.jp/movies/whalefall"
-        },
-        {
           "title": "DIGGER ディガー",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "13:55",
-                    "end": "16:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "13:55",
@@ -8453,17 +7162,120 @@
           "official_url": "https://digger-movie.jp/"
         },
         {
+          "title": "ディスクロージャー・デイ",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "17:35",
+                    "end": "20:10"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "17:35",
+                    "end": "20:10"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "17:35",
+                    "end": "20:10"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "17:35",
+                    "end": "20:10"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "17:35",
+                    "end": "20:10"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105261/",
+          "official_url": "https://disclosureday.jp/"
+        },
+        {
+          "title": "クジラに落ちた男",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "08:55",
+                    "end": "10:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:25",
+                    "end": "15:20"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "08:55",
+                    "end": "10:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:25",
+                    "end": "15:20"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "08:55",
+                    "end": "10:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:25",
+                    "end": "15:20"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "08:55",
+                    "end": "10:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:25",
+                    "end": "15:20"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "08:55",
+                    "end": "10:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:25",
+                    "end": "15:20"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/106324/",
+          "official_url": "https://www.20thcenturystudios.jp/movies/whalefall"
+        },
+        {
           "title": "ストリートファイター　ザ・ムービー",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "20:15",
-                    "end": "22:20"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "20:15",
@@ -8499,17 +7311,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:05",
-                    "end": "13:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:40",
-                    "end": "17:45"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:05",
@@ -8572,70 +7373,11 @@
           "official_url": "https://streetfighter-the-movie.jp/"
         },
         {
-          "title": "我々は宇宙人",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "16:10",
-                    "end": "18:15"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "09:45",
-                    "end": "11:50"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "18:20",
-                    "end": "20:25"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "18:20",
-                    "end": "20:25"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "13:40",
-                    "end": "15:45"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "18:20",
-                    "end": "20:25"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105075/",
-          "official_url": "https://nothingnew.film/wearealiens/"
-        },
-        {
           "title": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:00",
-                    "end": "11:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:50",
-                    "end": "17:20"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:00",
@@ -8698,6 +7440,48 @@
           "official_url": "https://odoru.com/"
         },
         {
+          "title": "我々は宇宙人",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "09:45",
+                    "end": "11:50"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "18:20",
+                    "end": "20:25"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "18:20",
+                    "end": "20:25"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "13:40",
+                    "end": "15:45"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "18:20",
+                    "end": "20:25"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105075/",
+          "official_url": "https://nothingnew.film/wearealiens/"
+        },
+        {
           "title": "オデュッセイア",
           "schedules": [
             {
@@ -8739,12 +7523,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:05",
-                    "end": "19:55"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "18:05",
@@ -8787,27 +7565,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:05",
-                    "end": "12:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:00",
-                    "end": "17:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:20",
-                    "end": "20:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:10",
@@ -8880,12 +7637,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:55",
-                    "end": "14:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:55",
@@ -8923,27 +7674,53 @@
           "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
         },
         {
+          "title": "どこよりも遠い場所にいる君へ",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "16:05",
+                    "end": "18:10"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "16:05",
+                    "end": "18:10"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "16:05",
+                    "end": "18:10"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "16:05",
+                    "end": "18:10"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "16:05",
+                    "end": "18:10"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105503/",
+          "official_url": "https://sh-anime.shochiku.co.jp/dokokimi-movie/"
+        },
+        {
           "title": "青春ブタ野郎はディアフレンドの夢を見ない",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:15",
-                    "end": "13:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:25",
-                    "end": "18:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:25"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:25",
@@ -9031,54 +7808,6 @@
           "official_url": "https://ao-buta.com/"
         },
         {
-          "title": "どこよりも遠い場所にいる君へ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "16:05",
-                    "end": "18:10"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "16:05",
-                    "end": "18:10"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "16:05",
-                    "end": "18:10"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "16:05",
-                    "end": "18:10"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "16:05",
-                    "end": "18:10"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "16:05",
-                    "end": "18:10"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105503/",
-          "official_url": "https://sh-anime.shochiku.co.jp/dokokimi-movie/"
-        },
-        {
           "title": "ファーストボイス",
           "schedules": [
             {
@@ -9114,12 +7843,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "08:55",
-                    "end": "11:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "18:10",
@@ -9162,12 +7885,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:20",
-                    "end": "13:35"
-                  }
-                ],
                 "2026-10-26": [
                   {
                     "start": "20:45",
@@ -9193,65 +7910,11 @@
           "official_url": "https://anime-eupho.com/"
         },
         {
-          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:10",
-                    "end": "11:20"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "09:00",
-                    "end": "11:10"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "18:05",
-                    "end": "20:15"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "18:05",
-                    "end": "20:15"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "18:15",
-                    "end": "20:25"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "18:05",
-                    "end": "20:15"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/94928/",
-          "official_url": "https://www.madoka-magica.com/wr/"
-        },
-        {
           "title": "椿三十郎（1962）",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:15",
-                    "end": "11:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:15",
@@ -9289,27 +7952,53 @@
           "official_url": ""
         },
         {
+          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "09:00",
+                    "end": "11:10"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "18:05",
+                    "end": "20:15"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "18:05",
+                    "end": "20:15"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "18:15",
+                    "end": "20:25"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "18:05",
+                    "end": "20:15"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/94928/",
+          "official_url": "https://www.madoka-magica.com/wr/"
+        },
+        {
           "title": "ガールズ＆パンツァー　最終章　第5話",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:00",
-                    "end": "10:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:55",
-                    "end": "15:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "21:45"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:00",
@@ -9402,12 +8091,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:00",
-                    "end": "10:25"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:00",
@@ -9474,32 +8157,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "08:50",
-                    "end": "10:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:10",
-                    "end": "13:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:30",
-                    "end": "15:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:30",
-                    "end": "17:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "08:50",
@@ -9637,32 +8294,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:10",
-                    "end": "11:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:00",
-                    "end": "13:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:30",
-                    "end": "15:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:10",
-                    "end": "18:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:10",
@@ -9805,32 +8436,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "08:55",
-                    "end": "10:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:15",
-                    "end": "12:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:10",
-                    "end": "16:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:20",
-                    "end": "18:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:05",
-                    "end": "20:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "08:55",
@@ -9973,12 +8578,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:15",
-                    "end": "20:20"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "18:15",
@@ -10021,22 +8620,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:10",
-                    "end": "12:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:15",
-                    "end": "14:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:55",
-                    "end": "18:25"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:10",
@@ -10129,22 +8712,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:00",
-                    "end": "11:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:35",
-                    "end": "16:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:10",
-                    "end": "22:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:00",
@@ -10237,17 +8804,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "13:15",
-                    "end": "14:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:40",
-                    "end": "20:20"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "13:15",
@@ -10308,12 +8864,6 @@
             {
               "format": "4D吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "10:50",
-                    "end": "12:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "10:50",
@@ -10349,12 +8899,6 @@
             {
               "format": "Dolby Atmos字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:00",
-                    "end": "10:40"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:00",
@@ -10392,110 +8936,11 @@
           "official_url": "https://biomovie.jp"
         },
         {
-          "title": "mentor",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "15:05",
-                    "end": "17:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:20"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "15:05",
-                    "end": "17:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:20"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "15:05",
-                    "end": "17:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:20"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "15:05",
-                    "end": "17:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:20"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "15:05",
-                    "end": "17:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:20"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "15:05",
-                    "end": "17:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:20"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104992/",
-          "official_url": "https://www.mentor-movie.jp/"
-        },
-        {
           "title": "ママがもうこの世界にいなくても　私の命の日記",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "10:40",
-                    "end": "12:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:15",
-                    "end": "17:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:50",
-                    "end": "20:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "22:40"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "10:40",
@@ -10588,17 +9033,78 @@
           "official_url": "https://www.mamaseka-movie.com/"
         },
         {
+          "title": "mentor",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "15:05",
+                    "end": "17:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:20",
+                    "end": "22:20"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "15:05",
+                    "end": "17:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:20",
+                    "end": "22:20"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "15:05",
+                    "end": "17:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:20",
+                    "end": "22:20"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "15:05",
+                    "end": "17:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:20",
+                    "end": "22:20"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "15:05",
+                    "end": "17:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:20",
+                    "end": "22:20"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104992/",
+          "official_url": "https://www.mentor-movie.jp/"
+        },
+        {
           "title": "わたしの知らない子どもたち",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:40",
-                    "end": "14:15"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:40",
@@ -10636,17 +9142,88 @@
           "official_url": "https://k2pic.com/film/wsk/"
         },
         {
+          "title": "DIGGER ディガー",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "20:45",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "20:45",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "20:45",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "20:45",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "20:45",
+                    "end": "23:00"
+                  }
+                ]
+              }
+            },
+            {
+              "format": "吹替",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "08:50",
+                    "end": "11:05"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "08:50",
+                    "end": "11:05"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "08:50",
+                    "end": "11:05"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "08:50",
+                    "end": "11:05"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "08:50",
+                    "end": "11:05"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105275/",
+          "official_url": "https://digger-movie.jp/"
+        },
+        {
           "title": "ディスクロージャー・デイ",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:10",
-                    "end": "20:40"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "18:10",
@@ -10689,12 +9266,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "15:40",
-                    "end": "17:35"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "15:40",
@@ -10730,12 +9301,6 @@
             {
               "format": "Dolby Atmos字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "20:50",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "20:50",
@@ -10773,106 +9338,11 @@
           "official_url": "https://www.20thcenturystudios.jp/movies/whalefall"
         },
         {
-          "title": "DIGGER ディガー",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "20:45",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "20:45",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "20:45",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "20:45",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "20:45",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "20:45",
-                    "end": "23:00"
-                  }
-                ]
-              }
-            },
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "08:50",
-                    "end": "11:05"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "08:50",
-                    "end": "11:05"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "08:50",
-                    "end": "11:05"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "08:50",
-                    "end": "11:05"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "08:50",
-                    "end": "11:05"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "08:50",
-                    "end": "11:05"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105275/",
-          "official_url": "https://digger-movie.jp/"
-        },
-        {
           "title": "ストリートファイター　ザ・ムービー",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "08:50",
-                    "end": "10:55"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "08:50",
@@ -10908,17 +9378,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "10:50",
-                    "end": "12:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:45",
-                    "end": "17:50"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "10:50",
@@ -10979,12 +9438,6 @@
             {
               "format": "4D吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "20:40",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "20:40",
@@ -11027,17 +9480,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "12:50",
-                    "end": "15:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:55",
-                    "end": "20:25"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "12:50",
@@ -11105,12 +9547,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "20:00",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "20:00",
@@ -11141,12 +9577,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "13:00",
-                    "end": "14:50"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "13:00",
@@ -11184,113 +9614,11 @@
           "official_url": "https://heart-of-the-beast.jp/"
         },
         {
-          "title": "影を売る女",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:10",
-                    "end": "10:55"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "09:10",
-                    "end": "10:55"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "09:10",
-                    "end": "10:55"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "09:10",
-                    "end": "10:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:45",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "09:10",
-                    "end": "10:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:45",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "09:10",
-                    "end": "10:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:45",
-                    "end": "20:30"
-                  }
-                ]
-              }
-            },
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:45",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "18:45",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "18:45",
-                    "end": "20:30"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105906/",
-          "official_url": "https://hs-movies.jp/kagewouruonna/"
-        },
-        {
           "title": "映画ちいかわ　人魚の島のひみつ",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:40",
-                    "end": "13:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:55",
-                    "end": "15:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:50",
-                    "end": "19:35"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:40",
@@ -11346,12 +9674,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "16:05",
-                    "end": "17:50"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "16:05",
@@ -11389,17 +9711,85 @@
           "official_url": "https://chiikawa.toho-movie.jp"
         },
         {
+          "title": "影を売る女",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "09:10",
+                    "end": "10:55"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "09:10",
+                    "end": "10:55"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "09:10",
+                    "end": "10:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:45",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "09:10",
+                    "end": "10:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:45",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "09:10",
+                    "end": "10:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:45",
+                    "end": "20:30"
+                  }
+                ]
+              }
+            },
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "18:45",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "18:45",
+                    "end": "20:30"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105906/",
+          "official_url": "https://hs-movies.jp/kagewouruonna/"
+        },
+        {
           "title": "白鳥とコウモリ",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "17:30",
-                    "end": "20:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "17:30",
@@ -11478,12 +9868,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "13:00",
-                    "end": "15:05"
-                  }
-                ],
                 "2026-10-26": [
                   {
                     "start": "13:00",
@@ -11520,12 +9904,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "17:20",
-                    "end": "19:50"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "17:20",
@@ -11537,42 +9915,6 @@
           ],
           "eigacom_url": "https://eiga.com/movie/105011/",
           "official_url": "https://www.cho-kaguyahime.com/"
-        },
-        {
-          "title": "最終楽章　響け！ユーフォニアム　後編",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-26": [
-                  {
-                    "start": "17:20",
-                    "end": "19:35"
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "17:20",
-                    "end": "19:35"
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "17:20",
-                    "end": "19:35"
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "17:20",
-                    "end": "19:35"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/106095/",
-          "official_url": "https://anime-eupho.com/"
         },
         {
           "title": "Michael マイケル",
@@ -11611,17 +9953,47 @@
           "official_url": "https://www.michael-movie.jp/"
         },
         {
+          "title": "最終楽章　響け！ユーフォニアム　後編",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-26": [
+                  {
+                    "start": "17:20",
+                    "end": "19:35"
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "17:20",
+                    "end": "19:35"
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "17:20",
+                    "end": "19:35"
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "17:20",
+                    "end": "19:35"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/106095/",
+          "official_url": "https://anime-eupho.com/"
+        },
+        {
           "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "20:50",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "20:50",
@@ -11664,12 +10036,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:25",
-                    "end": "12:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:25",
@@ -11705,12 +10071,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "12:55",
-                    "end": "14:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "12:55",
@@ -11746,12 +10106,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "15:55",
-                    "end": "17:00"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "15:55",
@@ -11794,12 +10148,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:10",
-                    "end": "10:30"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:10",
@@ -11860,17 +10208,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:00",
-                    "end": "10:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:20",
-                    "end": "15:45"
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:00",
@@ -11962,28 +10299,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:50",
-                    "end": "11:49",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:05",
-                    "end": "16:04",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:30",
-                    "end": "21:29",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:15",
-                    "end": "23:14",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:15",
@@ -12106,28 +10421,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "12:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:40",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:20",
@@ -12250,18 +10543,6 @@
             {
               "format": "IMAX",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "14:15",
-                    "end": "16:16",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:55",
-                    "end": "20:56",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "14:15",
@@ -12334,13 +10615,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "14:20",
-                    "end": "17:14",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "12:50",
@@ -12388,23 +10662,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:25",
-                    "end": "12:56",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:20",
-                    "end": "14:51",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:35",
-                    "end": "19:06",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:20",
@@ -12507,20 +10764,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "12:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:35",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:35",
@@ -12603,23 +10846,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:35",
-                    "end": "12:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:00",
-                    "end": "17:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "23:25",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:35",
@@ -12717,12 +10943,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:55",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "16:30",
@@ -12758,16 +10978,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:30",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:55",
@@ -12823,12 +11033,6 @@
             {
               "format": "IMAX字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "21:20",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "21:20",
@@ -12871,28 +11075,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:30",
-                    "end": "11:44",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:25",
-                    "end": "14:39",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:15",
-                    "end": "18:29",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:30",
-                    "end": "23:44",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:30",
@@ -13000,12 +11182,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:15",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:45",
@@ -13043,18 +11219,98 @@
           "official_url": "https://k2pic.com/film/wsk/"
         },
         {
+          "title": "DIGGER ディガー",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "20:45",
+                    "end": "23:04",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "21:25",
+                    "end": "23:44",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "21:25",
+                    "end": "23:44",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "21:10",
+                    "end": "23:29",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "21:25",
+                    "end": "23:44",
+                    "end_estimated": true
+                  }
+                ]
+              }
+            },
+            {
+              "format": "吹替",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "15:05",
+                    "end": "17:24",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "15:10",
+                    "end": "17:29",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "15:10",
+                    "end": "17:29",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "15:10",
+                    "end": "17:29",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "15:10",
+                    "end": "17:29",
+                    "end_estimated": true
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105275/",
+          "official_url": "https://digger-movie.jp/"
+        },
+        {
           "title": "ディスクロージャー・デイ",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "17:55",
-                    "end": "20:30",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:30",
@@ -13102,16 +11358,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "15:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:55",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "15:35",
@@ -13169,118 +11415,11 @@
           "official_url": "https://www.20thcenturystudios.jp/movies/whalefall"
         },
         {
-          "title": "DIGGER ディガー",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "20:45",
-                    "end": "23:04",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "20:45",
-                    "end": "23:04",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "21:25",
-                    "end": "23:44",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "21:25",
-                    "end": "23:44",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "21:10",
-                    "end": "23:29",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "21:25",
-                    "end": "23:44",
-                    "end_estimated": true
-                  }
-                ]
-              }
-            },
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "15:05",
-                    "end": "17:24",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "15:05",
-                    "end": "17:24",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "15:10",
-                    "end": "17:29",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "15:10",
-                    "end": "17:29",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "15:10",
-                    "end": "17:29",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "15:10",
-                    "end": "17:29",
-                    "end_estimated": true
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105275/",
-          "official_url": "https://digger-movie.jp/"
-        },
-        {
           "title": "ストリートファイター　ザ・ムービー",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:25",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:25",
@@ -13316,16 +11455,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "12:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:55",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "12:10",
@@ -13388,13 +11517,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "17:50",
-                    "end": "20:22",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "17:50",
@@ -13475,13 +11597,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "21:40",
-                    "end": "23:31",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "21:15",
@@ -13529,23 +11644,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "12:00",
-                    "end": "13:49",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:20",
-                    "end": "16:09",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:40",
-                    "end": "18:29",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:10",
@@ -13616,13 +11714,6 @@
             {
               "format": "IMAX",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:45",
-                    "end": "11:34",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:45",
@@ -13705,25 +11796,58 @@
           "official_url": "https://movies.shochiku.co.jp/eiga-hakuchotokomori/"
         },
         {
+          "title": "どこよりも遠い場所にいる君へ",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "18:45",
+                    "end": "20:51",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "14:20",
+                    "end": "16:26",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "14:20",
+                    "end": "16:26",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "19:25",
+                    "end": "21:31",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "14:20",
+                    "end": "16:26",
+                    "end_estimated": true
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105503/",
+          "official_url": "https://sh-anime.shochiku.co.jp/dokokimi-movie/"
+        },
+        {
           "title": "青春ブタ野郎はディアフレンドの夢を見ない",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:35",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:25",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "12:10",
@@ -13799,60 +11923,6 @@
           ],
           "eigacom_url": "https://eiga.com/movie/104715/",
           "official_url": "https://ao-buta.com/"
-        },
-        {
-          "title": "どこよりも遠い場所にいる君へ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "17:35",
-                    "end": "19:41",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "18:45",
-                    "end": "20:51",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "14:20",
-                    "end": "16:26",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "14:20",
-                    "end": "16:26",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "19:25",
-                    "end": "21:31",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "14:20",
-                    "end": "16:26",
-                    "end_estimated": true
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105503/",
-          "official_url": "https://sh-anime.shochiku.co.jp/dokokimi-movie/"
         },
         {
           "title": "ファーストボイス",
@@ -14006,13 +12076,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:40",
-                    "end": "20:50",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "18:45",
@@ -14060,12 +12123,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "14:45",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "17:10",
@@ -14116,18 +12173,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "14:45",
-                    "end": "15:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:05",
-                    "end": "21:10",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "14:45",
@@ -14200,13 +12245,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "09:25",
-                    "end": "10:46",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "09:15",
@@ -14254,18 +12292,6 @@
             {
               "format": "IMAX",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "12:05",
-                    "end": "13:49",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:45",
-                    "end": "18:29",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "12:05",
@@ -14333,24 +12359,6 @@
           "official_url": ""
         },
         {
-          "title": "NBA docomo パブリックビューイング クリッパーズ vs レイカーズ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:00",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "",
-          "official_url": ""
-        },
-        {
           "title": "舞台『IMPACT26』映画館ライブビューイング",
           "schedules": [
             {
@@ -14398,28 +12406,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "08:50",
-                    "end": "10:49",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:55",
-                    "end": "15:54",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:00",
-                    "end": "20:59",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:25",
-                    "end": "23:24",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "10:50",
@@ -14542,28 +12528,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "10:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:25",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:15",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "08:30",
@@ -14686,23 +12650,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "08:20",
-                    "end": "10:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:05",
-                    "end": "15:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:05",
-                    "end": "20:30",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "08:20",
@@ -14800,12 +12747,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "15:55",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "08:40",
@@ -14841,12 +12782,6 @@
             {
               "format": "Dolby Atmos字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:05",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:05",
@@ -14893,23 +12828,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:15",
-                    "end": "13:29",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:20",
-                    "end": "18:34",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "23:04",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:05",
@@ -15002,18 +12920,98 @@
           "official_url": "https://www.mamaseka-movie.com/"
         },
         {
+          "title": "DIGGER ディガー",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "18:55",
+                    "end": "21:14",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "18:15",
+                    "end": "20:34",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "18:15",
+                    "end": "20:34",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "17:55",
+                    "end": "20:14",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "17:55",
+                    "end": "20:14",
+                    "end_estimated": true
+                  }
+                ]
+              }
+            },
+            {
+              "format": "吹替",
+              "dates": {
+                "2026-10-25": [
+                  {
+                    "start": "08:20",
+                    "end": "10:39",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-26": [
+                  {
+                    "start": "09:50",
+                    "end": "12:09",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-27": [
+                  {
+                    "start": "09:50",
+                    "end": "12:09",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-28": [
+                  {
+                    "start": "09:50",
+                    "end": "12:09",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-10-29": [
+                  {
+                    "start": "09:50",
+                    "end": "12:09",
+                    "end_estimated": true
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105275/",
+          "official_url": "https://digger-movie.jp/"
+        },
+        {
           "title": "ディスクロージャー・デイ",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "20:55",
-                    "end": "23:30",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "21:10",
@@ -15061,12 +13059,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "16:35",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "16:35",
@@ -15078,12 +13070,6 @@
             {
               "format": "Dolby Atmos字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "21:00",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "21:00",
@@ -15137,118 +13123,11 @@
           "official_url": "https://www.20thcenturystudios.jp/movies/whalefall"
         },
         {
-          "title": "DIGGER ディガー",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "18:55",
-                    "end": "21:14",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "18:55",
-                    "end": "21:14",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "18:15",
-                    "end": "20:34",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "18:15",
-                    "end": "20:34",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "17:55",
-                    "end": "20:14",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "17:55",
-                    "end": "20:14",
-                    "end_estimated": true
-                  }
-                ]
-              }
-            },
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "08:20",
-                    "end": "10:39",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-25": [
-                  {
-                    "start": "08:20",
-                    "end": "10:39",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-26": [
-                  {
-                    "start": "09:50",
-                    "end": "12:09",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-27": [
-                  {
-                    "start": "09:50",
-                    "end": "12:09",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-28": [
-                  {
-                    "start": "09:50",
-                    "end": "12:09",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-10-29": [
-                  {
-                    "start": "09:50",
-                    "end": "12:09",
-                    "end_estimated": true
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105275/",
-          "official_url": "https://digger-movie.jp/"
-        },
-        {
           "title": "ストリートファイター　ザ・ムービー",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "14:00",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "14:00",
@@ -15284,16 +13163,6 @@
             {
               "format": "Dolby Atmos吹替",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "08:30",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:20",
-                    "end": ""
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "08:30",
@@ -15356,13 +13225,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:05",
-                    "end": "13:37",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:05",
@@ -15410,13 +13272,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "21:40",
-                    "end": "23:31",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "18:45",
@@ -15464,33 +13319,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "08:35",
-                    "end": "10:24",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:30",
-                    "end": "13:19",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:45",
-                    "end": "15:34",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:15",
-                    "end": "18:04",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:30",
-                    "end": "20:19",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:30",
@@ -15638,13 +13466,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "08:30",
-                    "end": "11:02",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "08:30",
@@ -15664,13 +13485,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "15:45",
-                    "end": "17:55",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "15:45",
@@ -15690,13 +13504,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "11:10",
-                    "end": "12:31",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "11:10",
@@ -15744,13 +13551,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-10-24": [
-                  {
-                    "start": "13:15",
-                    "end": "15:20",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-10-25": [
                   {
                     "start": "13:15",
@@ -15835,11 +13635,11 @@
       "release_date": "2026-10-30"
     },
     {
-      "title": "映画　聲の形",
+      "title": "見上げてごらん",
       "release_date": "2026-10-30"
     },
     {
-      "title": "見上げてごらん",
+      "title": "映画　聲の形",
       "release_date": "2026-10-30"
     },
     {
@@ -15852,6 +13652,10 @@
     },
     {
       "title": "COWBOY BEBOP 天国の扉",
+      "release_date": "2026-10-30"
+    },
+    {
+      "title": "ヤマトよ永遠に REBEL3199 第七章　虹色の輪廻",
       "release_date": "2026-10-30"
     },
     {
@@ -15904,10 +13708,6 @@
     },
     {
       "title": "トリコロール　白の愛",
-      "release_date": "2026-10-30"
-    },
-    {
-      "title": "ヤマトよ永遠に REBEL3199 第七章　虹色の輪廻",
       "release_date": "2026-10-30"
     },
     {
