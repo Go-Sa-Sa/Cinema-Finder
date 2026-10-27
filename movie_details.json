@@ -1194,5 +1194,21 @@
     "description": "2026年製作／148分／日本配給：エイベックス・フィルムレーベルズ劇場公開日：2026年11月27日",
     "copyright": "©2026 LDH JAPAN Inc. & AVEX MUSIC CREATIVE INC. & CJ 4DPLEX Japan All Rights Reserved.",
     "runtime_minutes": 148
+  },
+  "TOMORROW X TOGETHER WORLD TOUR ‘ACT : TOMORROW’": {
+    "official_url": "https://hybecinefest2026.jp/",
+    "eigacom_url": "https://eiga.com/movie/106948/",
+    "poster_url": "https://media.eiga.com/images/movie/106948/photo/326d3b2010b84f6f/640.jpg",
+    "release_date": "2026-10-30",
+    "release_date_formatted": "10月30日(金) 公開",
+    "director": "",
+    "cast": [
+      "スビン",
+      "ヨンジュン",
+      "ボムギュ"
+    ],
+    "description": "韓国の5人組ボーイズグループ「TOMORROW X TOGETHER（トゥモローバイトゥギャザー）」が2025年8月〜26年2月にかけて開催したワールドツアー「ACT : TOMORROW」の模様を映像収録したライブフィルム。2019年より活動を続けるTOMORROW X TOGETHERが、4回目のワールドツアーとして敢行した「ACT : TOMORROW」。洗練された演出と圧倒的なライブパフォーマンスで世界中のファンを魅了したステージを、迫力たっぷりにスクリーンに映し出す。韓国のエンターテインメント企業「HYBE MUSIC GROUP」に所属するアーティストのライブフィルムなどを映画館で上映する企画「HYBE CINE FEST 2026」にて、2026年10月30日〜11月12日に劇場上映。",
+    "copyright": "©BIGHIT MUSIC & HYBE & HYBE JAPAN. All Rights Reserved.",
+    "runtime_minutes": null
   }
 }
