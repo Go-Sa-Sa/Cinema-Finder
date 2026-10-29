@@ -1043,22 +1043,6 @@
     "copyright": "©NOTHING NEW, MIYU PRODUCTIONS",
     "runtime_minutes": 118
   },
-  "そして、僕たちになるまでに": {
-    "official_url": "https://www.netflix.com/title/81906583",
-    "eigacom_url": "https://eiga.com/movie/107140/",
-    "poster_url": "https://occ-0-3012-2433.1.nflxso.net/dnm/api/v6/MgXQGyNr1xbI8tJSYiMWv5kXg5g/AAAABVTbYRtj-jRbJCCDU-VfnAfvF02-DdBWqlaQRGG7nCcs7EMCf628SHyWhAxgVZxumtEws5qPZVKjACRKtFvHJAdDOsvFudFeyiRWBNiaKaKVnQtxNIjxIxmMTw.jpg?r=16b",
-    "release_date": "2026-10-29",
-    "release_date_formatted": "10月29日(木) 公開",
-    "director": "ダニエレ・ルケッティ",
-    "cast": [
-      "エリオ・ジェルマーノ",
-      "アンナ・ボナイウート",
-      "イラリア・スパダ"
-    ],
-    "description": "Netflixで2026年10月29日から配信。",
-    "copyright": "「クジラに落ちた男」©2026 20th Century Studios. All Rights Reserved.",
-    "runtime_minutes": 107
-  },
   "嵐を呼ぶプレゼント": {
     "official_url": "https://www.netflix.com/title/81746037",
     "eigacom_url": "https://eiga.com/movie/107141/",
@@ -1226,5 +1210,37 @@
     "description": "",
     "copyright": "",
     "runtime_minutes": null
+  },
+  "劇場版　うたの☆プリンスさまっ♪　マジLOVEスターリッシュツアーズ": {
+    "official_url": "",
+    "eigacom_url": "https://eiga.com/movie/94796/",
+    "poster_url": "https://media.eiga.com/images/movie/94796/photo/9367dc0efd1b62ab/640.jpg",
+    "release_date": "2022-09-02",
+    "release_date_formatted": "09月02日(金) 公開",
+    "director": "永岡智佳",
+    "cast": [
+      "寺島拓篤",
+      "鈴村健一",
+      "谷山紀章"
+    ],
+    "description": "アイドルを目指す個性豊かな男子たちが織りなす物語を描く人気ゲームソフトを原作に、2011年から4シリーズにわたって制作されたテレビアニメ「うたの☆プリンスさまっ♪ マジLOVE」シリーズの劇場版第2作。一十木音也、聖川真斗、四ノ宮那月、一ノ瀬トキヤ、神宮寺レン、来栖翔、愛島セシルによる7人組アイドルグループ「ST☆RISH」が繰り広げる“旅”をテーマにしたライブパフォーマンスを、前作「劇場版 うたの☆プリンスさまっ♪ マジLOVEキングダム」に続いて全編ライブアニメーション＆完全オリジナルで描き出す。「名探偵コナン 緋色の弾丸」の永岡智佳監督が前作より続投し、シリーズ全作を手がけるA-1 Picturesがアニメーション制作を担当。",
+    "copyright": "(C)UTA☆PRI-MOVIE ST PROJECT",
+    "runtime_minutes": 65
+  },
+  "ヒプノシスマイク Division Rap Battle": {
+    "official_url": "",
+    "eigacom_url": "https://eiga.com/movie/102843/",
+    "poster_url": "https://media.eiga.com/images/movie/102843/photo/ea3a561c0e14a7df/640.jpg",
+    "release_date": "2025-02-21",
+    "release_date_formatted": "02月21日(金) 公開",
+    "director": "辻本貴則",
+    "cast": [
+      "木村昴",
+      "石谷春貴",
+      "天﨑滉平"
+    ],
+    "description": "2017年9月に始動し、音声ドラマをはじめコミック、ゲームアプリ、舞台、アニメなどさまざまなメディアミックスで人気を集める音楽原作キャラクターラッププロジェクト「ヒプノシスマイク」をアニメ映画化。「イケブクロ・ディビジョン」「ヨコハマ・ディビジョン」「シブヤ・ディビジョン」「シンジュク・ディビジョン」「オオサカ・ディビジョン」「ナゴヤ・ディビジョン」の6チームに所属する総勢18人のキャラクターが、熱いラップバトルを繰り広げる。劇場用映画としては日本初となる観客参加型の「インタラクティブ映画」で、スクリーン上で描かれるディビジョン・ラップバトルの勝敗が映画館内の観客の投票によって決まる。投票はスマホアプリを通じてリアルタイムで行われ、投票数の多かった選択肢に従ってストーリーが進行するため、上映回ごとに物語の展開や結末が変わる。監督は、特撮テレビドラマ「ウルトラマン」シリーズやCGアニメ映画「バイオハザード ヴェンデッタ」の辻本貴則。「シドニアの騎士」シリーズなどのポリゴン・ピクチュアズがアニメーション制作を担当。",
+    "copyright": "(C)ヒプノシスマイク -Division Rap Battle- Movie",
+    "runtime_minutes": 100
   }
 }
