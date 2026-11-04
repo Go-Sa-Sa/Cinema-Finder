@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03 11:43:50",
+  "last_updated": "2026-11-04 09:59:38",
   "theaters": {
     "USシネマちはら台": {
       "name": "USシネマちはら台",
@@ -11,57 +11,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:30",
-                    "end": "11:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "10:10",
-                    "end": "12:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:15",
-                    "end": "14:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:55",
-                    "end": "15:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:25",
-                    "end": "15:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:40",
-                    "end": "18:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:10",
-                    "end": "18:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:35",
-                    "end": "19:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "22:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:40"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:30",
@@ -169,32 +118,6 @@
             {
               "format": "IMAX",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:50",
-                    "end": "12:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:35",
-                    "end": "14:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:20",
-                    "end": "17:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:00",
-                    "end": "20:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:50",
@@ -259,22 +182,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "15:00",
-                    "end": "17:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:15",
-                    "end": "20:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "15:00",
@@ -319,17 +226,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:20",
-                    "end": "11:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:00",
-                    "end": "17:20"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:20",
@@ -364,17 +260,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:20",
-                    "end": "13:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:55",
-                    "end": "20:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:20",
@@ -402,12 +287,6 @@
             {
               "format": "4D吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "20:30",
-                    "end": "22:10"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "20:30",
@@ -432,22 +311,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:20",
-                    "end": "11:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:50",
-                    "end": "15:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "22:40"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:20",
@@ -492,27 +355,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:35",
-                    "end": "13:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:50",
-                    "end": "15:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:05",
-                    "end": "18:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "22:25"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:35",
@@ -560,17 +402,6 @@
             {
               "format": "4D字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "10:00",
-                    "end": "11:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:10",
-                    "end": "20:05"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "10:00",
@@ -605,17 +436,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:20",
-                    "end": "11:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:55",
-                    "end": "17:50"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:20",
@@ -650,27 +470,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:30",
-                    "end": "11:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:05",
-                    "end": "18:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:30",
-                    "end": "20:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:30",
@@ -725,12 +524,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "20:20",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "20:20",
@@ -755,12 +548,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "18:20",
-                    "end": "20:05"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "18:20",
@@ -785,12 +572,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:55",
-                    "end": "14:00"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:55",
@@ -815,17 +596,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:40",
-                    "end": "11:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:25",
-                    "end": "20:25"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:40",
@@ -860,12 +630,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "12:05",
-                    "end": "14:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:05",
@@ -890,27 +654,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:30",
-                    "end": "11:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:40",
-                    "end": "13:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:10",
-                    "end": "15:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:15",
-                    "end": "18:00"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:30",
@@ -965,12 +708,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "17:45",
-                    "end": "20:00"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "17:45",
@@ -995,17 +732,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "12:05",
-                    "end": "13:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "22:30"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:05",
@@ -1040,12 +766,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "12:20",
-                    "end": "14:25"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:20",
@@ -1070,12 +790,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "14:20",
-                    "end": "15:40"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "14:20",
@@ -1100,12 +814,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "18:30",
-                    "end": "19:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "18:30",
@@ -1123,12 +831,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "14:50",
-                    "end": "15:55"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "14:50",
@@ -1153,12 +855,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "16:20",
-                    "end": "17:40"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "16:20",
@@ -1189,102 +885,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:00",
-                    "end": "11:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "09:30",
-                    "end": "12:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "10:10",
-                    "end": "12:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:10",
-                    "end": "13:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:50",
-                    "end": "14:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:20",
-                    "end": "14:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:00",
-                    "end": "15:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:00",
-                    "end": "16:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:40",
-                    "end": "17:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:10",
-                    "end": "17:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:50",
-                    "end": "18:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:50",
-                    "end": "19:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:30",
-                    "end": "20:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:00",
-                    "end": "20:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:40",
-                    "end": "21:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:40",
-                    "end": "22:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "23:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:30",
-                    "end": "24:00"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:30",
@@ -1452,17 +1052,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "14:25",
-                    "end": "16:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:05",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "17:15",
@@ -1505,27 +1094,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:10",
-                    "end": "13:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:45",
-                    "end": "16:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:20",
-                    "end": "18:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:10",
-                    "end": "22:25"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:10",
@@ -1580,22 +1148,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:55",
-                    "end": "14:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:55",
-                    "end": "19:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:35",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:00",
@@ -1630,17 +1182,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "14:40",
-                    "end": "16:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:05",
-                    "end": "22:50"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "13:55",
@@ -1675,17 +1216,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:25",
-                    "end": "13:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:05",
-                    "end": "20:45"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:55",
@@ -1720,12 +1250,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "12:00",
-                    "end": "14:05"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "17:00",
@@ -1774,17 +1298,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:55",
-                    "end": "13:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:45",
-                    "end": "18:45"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:55",
@@ -1819,22 +1332,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:25",
-                    "end": "11:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:15",
-                    "end": "16:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:50"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:25",
@@ -1879,12 +1376,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "14:15",
-                    "end": "16:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "14:15",
@@ -1909,12 +1400,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "13:50",
-                    "end": "15:40"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "13:50",
@@ -1939,22 +1424,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "12:05",
-                    "end": "13:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:00",
-                    "end": "17:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "22:25"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:05",
@@ -1999,17 +1468,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:25",
-                    "end": "11:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "23:10"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:25",
@@ -2044,12 +1502,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "18:45",
-                    "end": "20:40"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "18:45",
@@ -2098,12 +1550,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "13:25",
-                    "end": "15:55"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "14:15",
@@ -2176,22 +1622,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:30",
-                    "end": "11:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:25",
-                    "end": "16:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "22:10"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:30",
@@ -2236,12 +1666,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:35",
-                    "end": "11:50"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:35",
@@ -2259,12 +1683,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "16:40",
-                    "end": "18:55"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "16:40",
@@ -2289,17 +1707,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:25",
-                    "end": "10:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:55",
-                    "end": "18:25"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:25",
@@ -2334,12 +1741,6 @@
             {
               "format": "ScreenXDolby Atmos",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "17:10",
-                    "end": "19:45"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "14:25",
@@ -2374,12 +1775,6 @@
             {
               "format": "ScreenX",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "12:00",
-                    "end": "14:10"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:00",
@@ -2399,82 +1794,11 @@
           "official_url": "https://shingeki.tv/movie_guren/"
         },
         {
-          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:30",
-                    "end": "11:40"
-                  }
-                ],
-                "2026-11-04": [
-                  {
-                    "start": "09:30",
-                    "end": "11:40"
-                  }
-                ],
-                "2026-11-05": [
-                  {
-                    "start": "09:30",
-                    "end": "11:40"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/94928/",
-          "official_url": "https://www.madoka-magica.com/wr/"
-        },
-        {
-          "title": "映画　聲の形",
-          "schedules": [
-            {
-              "format": "Dolby Atmos",
-              "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:25",
-                    "end": "11:45"
-                  }
-                ],
-                "2026-11-04": [
-                  {
-                    "start": "09:25",
-                    "end": "11:45"
-                  }
-                ],
-                "2026-11-05": [
-                  {
-                    "start": "09:25",
-                    "end": "11:45"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/83287/",
-          "official_url": "https://koenokatachi-movie.com/"
-        },
-        {
           "title": "COWBOY BEBOP 天国の扉",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:50",
-                    "end": "13:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:45",
-                    "end": "19:50"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:50",
@@ -2504,17 +1828,59 @@
           "official_url": "https://www.cowboy-bebop.net/"
         },
         {
+          "title": "映画　聲の形",
+          "schedules": [
+            {
+              "format": "Dolby Atmos",
+              "dates": {
+                "2026-11-04": [
+                  {
+                    "start": "09:25",
+                    "end": "11:45"
+                  }
+                ],
+                "2026-11-05": [
+                  {
+                    "start": "09:25",
+                    "end": "11:45"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/83287/",
+          "official_url": "https://koenokatachi-movie.com/"
+        },
+        {
+          "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-04": [
+                  {
+                    "start": "09:30",
+                    "end": "11:40"
+                  }
+                ],
+                "2026-11-05": [
+                  {
+                    "start": "09:30",
+                    "end": "11:40"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/94928/",
+          "official_url": "https://www.madoka-magica.com/wr/"
+        },
+        {
           "title": "映画名探偵プリキュア！不思議な庭と2人の秘密",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:35",
-                    "end": "11:05"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:30",
@@ -2563,12 +1929,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "19:15",
-                    "end": "20:20"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "19:40",
@@ -2593,12 +1953,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "18:55",
-                    "end": "20:40"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "18:55",
@@ -2617,22 +1971,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:45",
-                    "end": "10:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:15",
-                    "end": "17:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:40",
-                    "end": "20:06"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:45",
@@ -2673,72 +2011,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:20",
-                    "end": "11:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "10:00",
-                    "end": "12:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:25",
-                    "end": "13:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:15",
-                    "end": "14:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:00",
-                    "end": "15:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:20",
-                    "end": "16:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:10",
-                    "end": "17:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:00",
-                    "end": "18:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:15",
-                    "end": "19:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:05",
-                    "end": "20:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:00",
-                    "end": "21:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:10",
-                    "end": "22:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "23:10"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:20",
@@ -2854,6 +2126,336 @@
                   {
                     "start": "18:05",
                     "end": "20:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "19:00",
+                    "end": "21:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:10",
+                    "end": "22:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:40",
+                    "end": "23:10"
+                  }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "09:20",
+                    "end": "11:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "12:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "11:25",
+                    "end": "13:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "12:15",
+                    "end": "14:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:00",
+                    "end": "15:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:20",
+                    "end": "16:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:10",
+                    "end": "17:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:00",
+                    "end": "18:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:15",
+                    "end": "19:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "19:00",
+                    "end": "21:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:10",
+                    "end": "22:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:40",
+                    "end": "23:10"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "09:20",
+                    "end": "11:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "12:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "11:25",
+                    "end": "13:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "12:15",
+                    "end": "14:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:00",
+                    "end": "15:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:20",
+                    "end": "16:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:10",
+                    "end": "17:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:00",
+                    "end": "18:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:15",
+                    "end": "19:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "19:00",
+                    "end": "21:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:10",
+                    "end": "22:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:40",
+                    "end": "23:10"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "09:20",
+                    "end": "11:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "12:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "11:25",
+                    "end": "13:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "12:15",
+                    "end": "14:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:00",
+                    "end": "15:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:20",
+                    "end": "16:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:10",
+                    "end": "17:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:00",
+                    "end": "18:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:15",
+                    "end": "19:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "19:00",
+                    "end": "21:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:10",
+                    "end": "22:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:40",
+                    "end": "23:10"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "09:20",
+                    "end": "11:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "12:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "11:25",
+                    "end": "13:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "12:15",
+                    "end": "14:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:00",
+                    "end": "15:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:20",
+                    "end": "16:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:10",
+                    "end": "17:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:00",
+                    "end": "18:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:15",
+                    "end": "19:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "19:00",
+                    "end": "21:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:10",
+                    "end": "22:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:40",
+                    "end": "23:10"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:20",
+                    "end": "11:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "12:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "11:25",
+                    "end": "13:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "12:15",
+                    "end": "14:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:00",
+                    "end": "15:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:20",
+                    "end": "16:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:10",
+                    "end": "17:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:00",
+                    "end": "18:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:15",
+                    "end": "19:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:00",
+                    "end": "20:30",
                     "end_estimated": true
                   },
                   {
@@ -2878,27 +2480,429 @@
           "official_url": "https://godzilla-minuszero.toho-movie.jp/"
         },
         {
+          "title": "ヴェリティ　真実",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-11-06": [
+                  {
+                    "start": "12:10",
+                    "end": "14:20",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:55",
+                    "end": "17:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:30",
+                    "end": "19:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:15",
+                    "end": "22:25"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "12:10",
+                    "end": "14:20",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:55",
+                    "end": "17:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:30",
+                    "end": "19:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:15",
+                    "end": "22:25"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "12:10",
+                    "end": "14:20",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:55",
+                    "end": "17:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:30",
+                    "end": "19:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:15",
+                    "end": "22:25"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "12:10",
+                    "end": "14:20",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:55",
+                    "end": "17:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:30",
+                    "end": "19:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:15",
+                    "end": "22:25"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "12:10",
+                    "end": "14:20",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:55",
+                    "end": "17:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:30",
+                    "end": "19:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:15",
+                    "end": "22:25"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/106119/",
+          "official_url": "https://verity-shinjitsu.jp"
+        },
+        {
+          "title": "ダビデ ～王になった少年～",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-11-06": [
+                  {
+                    "start": "09:40",
+                    "end": "11:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:50",
+                    "end": "16:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:05",
+                    "end": "22:10"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "09:40",
+                    "end": "11:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:50",
+                    "end": "16:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:05",
+                    "end": "22:10"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "09:40",
+                    "end": "11:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:50",
+                    "end": "16:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "21:00",
+                    "end": "23:05"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "09:40",
+                    "end": "11:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:50",
+                    "end": "16:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:05",
+                    "end": "22:10"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:40",
+                    "end": "11:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:50",
+                    "end": "16:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "21:05",
+                    "end": "23:10"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105282/",
+          "official_url": "https://hark3.com/david"
+        },
+        {
+          "title": "4アウト ─もう一度、プレイボール─",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-06": [
+                  {
+                    "start": "11:50",
+                    "end": "14:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "16:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:20",
+                    "end": "19:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:45",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "11:50",
+                    "end": "14:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "16:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:10",
+                    "end": "19:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:00",
+                    "end": "22:15"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "11:50",
+                    "end": "14:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "16:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:10",
+                    "end": "19:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:00",
+                    "end": "22:15"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "11:50",
+                    "end": "14:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "16:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:10",
+                    "end": "19:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:00",
+                    "end": "22:15"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "11:50",
+                    "end": "14:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "16:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:10",
+                    "end": "19:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:00",
+                    "end": "22:15"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/106315/",
+          "official_url": "https://4out-movie.com/"
+        },
+        {
+          "title": "星の教室",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-06": [
+                  {
+                    "start": "09:30",
+                    "end": "11:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:10",
+                    "end": "17:10",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:25",
+                    "end": "22:25"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "09:30",
+                    "end": "11:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:10",
+                    "end": "17:10",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:25",
+                    "end": "22:25"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "09:30",
+                    "end": "11:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:10",
+                    "end": "17:10",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:25",
+                    "end": "22:25"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "09:30",
+                    "end": "11:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:10",
+                    "end": "17:10",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:25",
+                    "end": "22:25"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:30",
+                    "end": "11:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:10",
+                    "end": "17:10",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:55",
+                    "end": "22:55"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/106193/",
+          "official_url": "https://nakachikapictures.com/hoshinokyoshitsu"
+        },
+        {
           "title": "ママがもうこの世界にいなくても　私の命の日記",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "12:40",
-                    "end": "14:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:45",
-                    "end": "20:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:40",
@@ -2929,6 +2933,71 @@
                   {
                     "start": "20:30",
                     "end": "22:45"
+                  }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "12:45",
+                    "end": "15:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:00",
+                    "end": "20:15"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "09:25",
+                    "end": "11:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "12:45",
+                    "end": "15:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:00",
+                    "end": "20:15"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "09:25",
+                    "end": "11:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "12:45",
+                    "end": "15:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:00",
+                    "end": "20:15"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "12:45",
+                    "end": "15:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:00",
+                    "end": "20:15"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "12:45",
+                    "end": "15:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:00",
+                    "end": "20:15"
                   }
                 ]
               }
@@ -2943,22 +3012,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:35",
-                    "end": "14:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:30",
-                    "end": "16:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:05",
-                    "end": "22:30"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:35",
@@ -2990,6 +3043,61 @@
                     "start": "20:05",
                     "end": "22:30"
                   }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "12:30",
+                    "end": "14:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:30",
+                    "end": "22:55"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "12:30",
+                    "end": "14:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:30",
+                    "end": "22:55"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "12:30",
+                    "end": "14:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:30",
+                    "end": "22:55"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "12:30",
+                    "end": "14:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:30",
+                    "end": "22:55"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "12:30",
+                    "end": "14:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:30",
+                    "end": "22:55"
+                  }
                 ]
               }
             }
@@ -3003,12 +3111,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "18:20",
-                    "end": "20:05"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "18:20",
@@ -3026,17 +3128,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "15:30",
-                    "end": "17:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "15:30",
@@ -3057,6 +3148,51 @@
                   {
                     "start": "21:00",
                     "end": "22:45"
+                  }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "15:35",
+                    "end": "17:20",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "21:00",
+                    "end": "22:45"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "15:35",
+                    "end": "17:20",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "21:00",
+                    "end": "22:45"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "15:35",
+                    "end": "17:20"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "15:35",
+                    "end": "17:20",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "21:00",
+                    "end": "22:45"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "15:35",
+                    "end": "17:20"
                   }
                 ]
               }
@@ -3071,27 +3207,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:30",
-                    "end": "11:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:00",
-                    "end": "15:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:10",
-                    "end": "17:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:30",
@@ -3132,6 +3247,71 @@
                   {
                     "start": "20:50",
                     "end": "22:35"
+                  }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "09:15",
+                    "end": "11:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:55",
+                    "end": "15:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:45",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "13:55",
+                    "end": "15:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:45",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "09:15",
+                    "end": "11:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:55",
+                    "end": "15:40"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "09:15",
+                    "end": "11:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:55",
+                    "end": "15:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:45",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:15",
+                    "end": "11:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:55",
+                    "end": "15:40"
                   }
                 ]
               }
@@ -3146,12 +3326,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "15:45",
-                    "end": "17:50"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "15:45",
@@ -3162,6 +3336,36 @@
                   {
                     "start": "15:45",
                     "end": "17:50"
+                  }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "17:50",
+                    "end": "19:55"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "17:50",
+                    "end": "19:55"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "17:50",
+                    "end": "19:55"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "17:50",
+                    "end": "19:55"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "18:40",
+                    "end": "20:45"
                   }
                 ]
               }
@@ -3176,27 +3380,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:55",
-                    "end": "11:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:30",
-                    "end": "14:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:10",
-                    "end": "17:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:15",
-                    "end": "22:15"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:55",
@@ -3238,6 +3421,86 @@
                     "start": "20:15",
                     "end": "22:15"
                   }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "10:00",
+                    "end": "12:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "17:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:05"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "10:00",
+                    "end": "12:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "17:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:05"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "10:00",
+                    "end": "12:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "17:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:05"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "10:00",
+                    "end": "12:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "17:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:05"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "10:00",
+                    "end": "12:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "17:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:05"
+                  }
                 ]
               }
             }
@@ -3251,12 +3514,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "12:45",
-                    "end": "15:20"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:45",
@@ -3281,17 +3538,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:35",
-                    "end": "11:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:25",
-                    "end": "19:25"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:35",
@@ -3312,6 +3558,36 @@
                   {
                     "start": "17:25",
                     "end": "19:25"
+                  }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "09:20",
+                    "end": "11:20"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "09:20",
+                    "end": "11:20"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "09:20",
+                    "end": "11:20"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "09:20",
+                    "end": "11:20"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:20",
+                    "end": "11:20"
                   }
                 ]
               }
@@ -3326,27 +3602,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "12:05",
-                    "end": "14:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:55",
-                    "end": "17:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:40",
-                    "end": "19:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:25",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:05",
@@ -3387,6 +3642,61 @@
                   {
                     "start": "20:25",
                     "end": "22:35"
+                  }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "12:15",
+                    "end": "14:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:25",
+                    "end": "19:35"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "12:15",
+                    "end": "14:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:25",
+                    "end": "19:35"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "12:15",
+                    "end": "14:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:25",
+                    "end": "19:35"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "12:15",
+                    "end": "14:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:25",
+                    "end": "19:35"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "12:15",
+                    "end": "14:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:25",
+                    "end": "19:35"
                   }
                 ]
               }
@@ -3401,12 +3711,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:20",
-                    "end": "11:40"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:20",
@@ -3417,6 +3721,36 @@
                   {
                     "start": "09:20",
                     "end": "11:40"
+                  }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "16:00",
+                    "end": "18:20"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "16:00",
+                    "end": "18:20"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "20:00",
+                    "end": "22:20"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "16:00",
+                    "end": "18:20"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "16:00",
+                    "end": "18:20"
                   }
                 ]
               }
@@ -3431,17 +3765,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "12:00",
-                    "end": "13:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "21:50"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:00",
@@ -3462,6 +3785,56 @@
                   {
                     "start": "20:00",
                     "end": "21:50"
+                  }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "11:40",
+                    "end": "13:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:50",
+                    "end": "22:40"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "11:40",
+                    "end": "13:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:50",
+                    "end": "22:40"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "11:40",
+                    "end": "13:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "21:05",
+                    "end": "22:55"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "11:40",
+                    "end": "13:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:50",
+                    "end": "22:40"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "11:40",
+                    "end": "13:30"
                   }
                 ]
               }
@@ -3476,12 +3849,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "17:20",
-                    "end": "19:30"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "17:20",
@@ -3492,6 +3859,36 @@
                   {
                     "start": "17:20",
                     "end": "19:30"
+                  }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "09:15",
+                    "end": "11:25"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "09:15",
+                    "end": "11:25"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "09:15",
+                    "end": "11:25"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "09:15",
+                    "end": "11:25"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:15",
+                    "end": "11:25"
                   }
                 ]
               }
@@ -3506,12 +3903,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "17:35",
-                    "end": "19:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "17:35",
@@ -3522,6 +3913,24 @@
                   {
                     "start": "17:35",
                     "end": "19:35"
+                  }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "09:40",
+                    "end": "11:40"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "09:40",
+                    "end": "11:40"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:40",
+                    "end": "11:40"
                   }
                 ]
               }
@@ -3536,12 +3945,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:15",
-                    "end": "11:05"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:15",
@@ -3566,12 +3969,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:40",
-                    "end": "12:15"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:40",
@@ -3582,6 +3979,36 @@
                   {
                     "start": "09:40",
                     "end": "12:15"
+                  }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "12:00",
+                    "end": "14:35"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "12:00",
+                    "end": "14:35"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "12:00",
+                    "end": "14:35"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "12:00",
+                    "end": "14:35"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "12:00",
+                    "end": "14:35"
                   }
                 ]
               }
@@ -3596,12 +4023,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:40",
-                    "end": "13:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:40",
@@ -3626,12 +4047,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "14:25",
-                    "end": "16:45"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "14:25",
@@ -3642,6 +4057,12 @@
                   {
                     "start": "14:25",
                     "end": "16:45"
+                  }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "20:00",
+                    "end": "22:20"
                   }
                 ]
               }
@@ -3656,12 +4077,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:15",
-                    "end": "11:00"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:15",
@@ -3686,12 +4101,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "18:20",
-                    "end": "20:30"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "18:20",
@@ -3711,17 +4120,29 @@
           "official_url": "https://www.madoka-magica.com/wr/"
         },
         {
+          "title": "映画名探偵プリキュア！不思議な庭と2人の秘密",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-07": [
+                  {
+                    "start": "09:25",
+                    "end": "10:50"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105969/",
+          "official_url": "https://2026.precure-movie.com/"
+        },
+        {
           "title": "ラブ・アクチュアリー",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:45",
-                    "end": "12:10"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:45",
@@ -3729,6 +4150,36 @@
                   }
                 ],
                 "2026-11-05": [
+                  {
+                    "start": "09:45",
+                    "end": "12:10"
+                  }
+                ],
+                "2026-11-06": [
+                  {
+                    "start": "09:45",
+                    "end": "12:10"
+                  }
+                ],
+                "2026-11-07": [
+                  {
+                    "start": "09:45",
+                    "end": "12:10"
+                  }
+                ],
+                "2026-11-08": [
+                  {
+                    "start": "09:45",
+                    "end": "12:10"
+                  }
+                ],
+                "2026-11-09": [
+                  {
+                    "start": "09:45",
+                    "end": "12:10"
+                  }
+                ],
+                "2026-11-10": [
                   {
                     "start": "09:45",
                     "end": "12:10"
@@ -3752,67 +4203,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:00",
-                    "end": "11:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "10:15",
-                    "end": "12:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:00",
-                    "end": "13:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:55",
-                    "end": "14:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:05",
-                    "end": "15:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:50",
-                    "end": "17:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:55",
-                    "end": "18:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:40",
-                    "end": "19:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:40",
-                    "end": "20:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:45",
-                    "end": "21:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:30",
-                    "end": "21:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:00",
@@ -3927,17 +4317,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "13:55",
-                    "end": "16:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:00",
-                    "end": "18:10"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "15:25",
@@ -3982,22 +4361,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "10:30",
-                    "end": "12:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:10",
-                    "end": "15:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:45",
-                    "end": "20:10"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "10:40",
@@ -4042,12 +4405,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "17:55",
-                    "end": "19:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "17:55",
@@ -4065,12 +4422,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "13:55",
-                    "end": "15:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "13:55",
@@ -4090,77 +4441,11 @@
           "official_url": "https://biomovie.jp"
         },
         {
-          "title": "RYUJI 竜二",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:55",
-                    "end": "13:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:55",
-                    "end": "17:35"
-                  }
-                ],
-                "2026-11-04": [
-                  {
-                    "start": "11:55",
-                    "end": "13:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:55",
-                    "end": "17:35"
-                  }
-                ],
-                "2026-11-05": [
-                  {
-                    "start": "11:55",
-                    "end": "13:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:55",
-                    "end": "17:35"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105714/",
-          "official_url": "https://www.culture-pub.jp/ryuji_movie/"
-        },
-        {
           "title": "ヤマトよ永遠に REBEL3199 第七章　虹色の輪廻",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:55",
-                    "end": "10:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:20",
-                    "end": "15:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:35",
-                    "end": "20:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:30"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "08:55",
@@ -4210,17 +4495,45 @@
           "official_url": "https://starblazers-yamato.net/"
         },
         {
+          "title": "RYUJI 竜二",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-04": [
+                  {
+                    "start": "11:55",
+                    "end": "13:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:55",
+                    "end": "17:35"
+                  }
+                ],
+                "2026-11-05": [
+                  {
+                    "start": "11:55",
+                    "end": "13:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:55",
+                    "end": "17:35"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105714/",
+          "official_url": "https://www.culture-pub.jp/ryuji_movie/"
+        },
+        {
           "title": "わたしの知らない子どもたち",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:20",
-                    "end": "11:55"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:20",
@@ -4245,32 +4558,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:00",
-                    "end": "10:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:15",
-                    "end": "13:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:55",
-                    "end": "17:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:15",
-                    "end": "20:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "22:25"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:00",
@@ -4335,17 +4622,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:15",
-                    "end": "13:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:15",
-                    "end": "20:10"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:15",
@@ -4380,12 +4656,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "13:30",
-                    "end": "15:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "13:30",
@@ -4410,22 +4680,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "12:15",
-                    "end": "14:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:40",
-                    "end": "16:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:05",
-                    "end": "19:10"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:15",
@@ -4470,12 +4724,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "20:00",
-                    "end": "22:15"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "20:00",
@@ -4500,17 +4748,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:00",
-                    "end": "12:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:30",
-                    "end": "17:20"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:00",
@@ -4545,17 +4782,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:10",
-                    "end": "10:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:55",
-                    "end": "16:20"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:15",
@@ -4600,17 +4826,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:55",
-                    "end": "11:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:30",
-                    "end": "15:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "08:55",
@@ -4645,12 +4860,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "20:30",
-                    "end": "22:25"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "20:30",
@@ -4675,12 +4884,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:05",
-                    "end": "11:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:05",
@@ -4705,12 +4908,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "15:55",
-                    "end": "18:00"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "15:55",
@@ -4735,17 +4932,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "16:40",
-                    "end": "18:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "13:20",
@@ -4780,12 +4966,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "20:00",
-                    "end": "22:15"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "20:00",
@@ -4810,17 +4990,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:50",
-                    "end": "10:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:10",
-                    "end": "14:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:00",
@@ -4855,12 +5024,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "20:30",
-                    "end": "22:40"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "16:00",
@@ -4885,12 +5048,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:00",
-                    "end": "10:25"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:00",
@@ -4915,17 +5072,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:45",
-                    "end": "09:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:05",
-                    "end": "20:10"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:00",
@@ -4970,12 +5116,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "10:40",
-                    "end": "13:00"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "10:40",
@@ -5006,52 +5146,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:10",
-                    "end": "11:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "09:40",
-                    "end": "12:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:00",
-                    "end": "14:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:30",
-                    "end": "14:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:50",
-                    "end": "17:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:20",
-                    "end": "17:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:45",
-                    "end": "20:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:10",
-                    "end": "20:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:35",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:10",
@@ -5159,22 +5253,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:30",
-                    "end": "13:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:20",
-                    "end": "19:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:10",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:30",
@@ -5209,22 +5287,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "10:35",
-                    "end": "12:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:50",
-                    "end": "17:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "22:40"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "10:35",
@@ -5269,22 +5331,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "10:40",
-                    "end": "13:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:50",
-                    "end": "18:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:40"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "10:40",
@@ -5329,12 +5375,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "15:50",
-                    "end": "17:30"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "15:50",
@@ -5352,12 +5392,6 @@
             {
               "format": "4D吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "12:50",
-                    "end": "14:30"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:50",
@@ -5382,22 +5416,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:50",
-                    "end": "10:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:00",
-                    "end": "14:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "22:40"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "08:50",
@@ -5442,12 +5460,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "16:00",
-                    "end": "18:00"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "16:00",
@@ -5472,12 +5484,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:00",
-                    "end": "13:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:00",
@@ -5502,22 +5508,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "13:20",
-                    "end": "15:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:50",
-                    "end": "17:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:15",
-                    "end": "20:10"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "13:20",
@@ -5555,22 +5545,6 @@
             {
               "format": "4D字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "10:35",
-                    "end": "12:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:15",
-                    "end": "18:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "22:50"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "10:35",
@@ -5608,12 +5582,6 @@
             {
               "format": "Dolby Atmos字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:10",
-                    "end": "11:05"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:10",
@@ -5638,12 +5606,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "20:00",
-                    "end": "22:30"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "20:00",
@@ -5668,22 +5630,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:20",
-                    "end": "13:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:00",
-                    "end": "16:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:10",
-                    "end": "22:05"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:20",
@@ -5723,27 +5669,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:55",
-                    "end": "11:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:35",
-                    "end": "15:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:20",
-                    "end": "19:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "08:55",
@@ -5793,12 +5718,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "18:20",
-                    "end": "20:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "18:20",
@@ -5823,12 +5742,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "10:50",
-                    "end": "12:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "10:50",
@@ -5853,22 +5766,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:50",
-                    "end": "10:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:05",
-                    "end": "14:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:30",
-                    "end": "19:55"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "08:50",
@@ -5913,12 +5810,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "17:20",
-                    "end": "19:25"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "17:20",
@@ -5943,12 +5834,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "20:50",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "20:50",
@@ -5973,12 +5858,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "13:00",
-                    "end": "15:30"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "13:00",
@@ -6003,12 +5882,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:00",
-                    "end": "11:15"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:00",
@@ -6033,17 +5906,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:10",
-                    "end": "10:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:55",
-                    "end": "15:25"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:10",
@@ -6078,12 +5940,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "18:00",
-                    "end": "20:30"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "18:00",
@@ -6108,12 +5964,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "18:30",
-                    "end": "20:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "18:30",
@@ -6138,12 +5988,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "14:20",
-                    "end": "16:35"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "14:20",
@@ -6168,12 +6012,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:00",
-                    "end": "10:20"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:00",
@@ -6198,12 +6036,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:35",
-                    "end": "12:40"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:35",
@@ -6221,12 +6053,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "14:50",
-                    "end": "15:55"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "14:50",
@@ -6251,12 +6077,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:50",
-                    "end": "10:15"
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "08:50",
@@ -6287,83 +6107,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:30",
-                    "end": "10:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "08:40",
-                    "end": "11:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "08:50",
-                    "end": "11:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:25",
-                    "end": "13:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:40",
-                    "end": "14:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:55",
-                    "end": "14:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:20",
-                    "end": "16:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:40",
-                    "end": "17:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:05",
-                    "end": "17:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:15",
-                    "end": "19:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:40",
-                    "end": "20:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:15",
-                    "end": "20:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:10",
-                    "end": "22:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "23:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:15",
-                    "end": "23:40",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:20",
@@ -6680,44 +6423,54 @@
                     "end": "23:25",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:20",
+                    "end": "11:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "11:40",
+                    "end": "14:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "12:15",
+                    "end": "14:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:40",
+                    "end": "17:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:10",
+                    "end": "17:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:05",
+                    "end": "20:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:15",
+                    "end": "22:40",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "21:00",
+                    "end": "23:25",
+                    "end_estimated": true
+                  }
                 ]
               }
             },
             {
               "format": "IMAX",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "09:40",
-                    "end": "12:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:35",
-                    "end": "15:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:30",
-                    "end": "17:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:25",
-                    "end": "20:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:20",
-                    "end": "23:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "24:00",
-                    "end": "02:25",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:40",
@@ -6879,6 +6632,33 @@
                     "end": "23:45",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:40",
+                    "end": "12:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "12:35",
+                    "end": "15:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "17:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:25",
+                    "end": "20:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "21:20",
+                    "end": "23:45",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -6939,6 +6719,18 @@
                     "end": "18:52",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:15",
+                    "end": "11:22",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:45",
+                    "end": "18:52",
+                    "end_estimated": true
+                  }
                 ]
               }
             },
@@ -6982,6 +6774,18 @@
                   }
                 ],
                 "2026-11-09": [
+                  {
+                    "start": "14:10",
+                    "end": "16:17",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "21:40",
+                    "end": "23:47",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-11-10": [
                   {
                     "start": "14:10",
                     "end": "16:17",
@@ -7077,6 +6881,33 @@
                   }
                 ],
                 "2026-11-09": [
+                  {
+                    "start": "09:20",
+                    "end": "11:14",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "12:10",
+                    "end": "14:04",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:35",
+                    "end": "16:29",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:55",
+                    "end": "18:49",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "21:50",
+                    "end": "23:44",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-11-10": [
                   {
                     "start": "09:20",
                     "end": "11:14",
@@ -7202,6 +7033,28 @@
                     "end": "23:49",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "12:05",
+                    "end": "14:19",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:45",
+                    "end": "16:59",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:55",
+                    "end": "21:09",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "21:35",
+                    "end": "23:49",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -7262,6 +7115,18 @@
                     "end": "21:18",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "11:50",
+                    "end": "13:48",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "19:20",
+                    "end": "21:18",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -7275,28 +7140,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:25",
-                    "end": "10:39",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:40",
-                    "end": "15:54",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:30",
-                    "end": "18:44",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:35",
-                    "end": "22:49",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:25",
@@ -7418,6 +7261,23 @@
                     "end": "19:49",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:25",
+                    "end": "11:39",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "12:00",
+                    "end": "14:14",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:35",
+                    "end": "19:49",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -7431,23 +7291,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:20",
-                    "end": "10:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:40",
-                    "end": "15:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:00",
-                    "end": "21:25",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:40",
@@ -7534,6 +7377,23 @@
                   }
                 ],
                 "2026-11-09": [
+                  {
+                    "start": "09:35",
+                    "end": "12:00",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:25",
+                    "end": "17:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:55",
+                    "end": "23:20",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-11-10": [
                   {
                     "start": "09:35",
                     "end": "12:00",
@@ -7562,12 +7422,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "21:50",
-                    "end": ""
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "19:05",
@@ -7603,18 +7457,18 @@
                     "start": "19:00",
                     "end": ""
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "19:00",
+                    "end": ""
+                  }
                 ]
               }
             },
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "14:15",
-                    "end": ""
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "15:35",
@@ -7650,6 +7504,12 @@
                     "start": "14:15",
                     "end": ""
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "14:15",
+                    "end": ""
+                  }
                 ]
               }
             }
@@ -7663,12 +7523,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "15:30",
-                    "end": ""
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:35",
@@ -7704,6 +7558,12 @@
                     "start": "09:25",
                     "end": ""
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:25",
+                    "end": ""
+                  }
                 ]
               }
             }
@@ -7717,13 +7577,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "20:45",
-                    "end": "23:20",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "20:35",
@@ -7750,18 +7603,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "14:25",
-                    "end": "16:24",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:40",
-                    "end": "23:39",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "14:20",
@@ -7813,6 +7654,13 @@
                     "end": "20:34",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "18:35",
+                    "end": "20:34",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -7826,20 +7674,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:40",
-                    "end": ""
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "10:00",
@@ -7923,6 +7757,20 @@
                     "start": "21:05",
                     "end": ""
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:30",
+                    "end": ""
+                  },
+                  {
+                    "start": "14:30",
+                    "end": ""
+                  },
+                  {
+                    "start": "21:05",
+                    "end": ""
+                  }
                 ]
               }
             }
@@ -7936,13 +7784,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:30",
-                    "end": "10:49",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:15",
@@ -7984,6 +7825,13 @@
                     "end": "23:29",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "21:10",
+                    "end": "23:29",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -7997,18 +7845,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "10:15",
-                    "end": "12:04",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:50",
-                    "end": "18:39",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:30",
@@ -8060,6 +7896,13 @@
                     "end": "21:24",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "19:35",
+                    "end": "21:24",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -8073,12 +7916,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "16:25",
-                    "end": ""
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:00",
@@ -8114,6 +7951,12 @@
                     "start": "16:25",
                     "end": ""
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "16:25",
+                    "end": ""
+                  }
                 ]
               }
             }
@@ -8127,12 +7970,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "21:25",
-                    "end": ""
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "21:55",
@@ -8168,6 +8005,12 @@
                     "start": "09:40",
                     "end": ""
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:40",
+                    "end": ""
+                  }
                 ]
               }
             }
@@ -8181,13 +8024,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "12:45",
-                    "end": "14:46",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "13:15",
@@ -8249,6 +8085,18 @@
                     "end": "23:51",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "12:30",
+                    "end": "14:31",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "21:50",
+                    "end": "23:51",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -8262,13 +8110,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "15:10",
-                    "end": "17:42",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "15:40",
@@ -8305,6 +8146,13 @@
                   }
                 ],
                 "2026-11-09": [
+                  {
+                    "start": "12:25",
+                    "end": "14:57",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-11-10": [
                   {
                     "start": "12:25",
                     "end": "14:57",
@@ -8350,6 +8198,13 @@
                     "end": "19:11",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "17:05",
+                    "end": "19:11",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -8363,16 +8218,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:05",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:20",
-                    "end": ""
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:15",
@@ -8416,6 +8261,12 @@
                     "start": "19:15",
                     "end": ""
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "19:15",
+                    "end": ""
+                  }
                 ]
               }
             }
@@ -8435,6 +8286,13 @@
                     "end": "11:52",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:35",
+                    "end": "11:52",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -8448,18 +8306,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:20",
-                    "end": "09:51",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:30",
-                    "end": "14:01",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:20",
@@ -8511,6 +8357,13 @@
                     "end": "13:51",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "12:20",
+                    "end": "13:51",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -8524,13 +8377,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "18:10",
-                    "end": "21:04",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "18:40",
@@ -8557,13 +8403,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:15",
-                    "end": "13:47",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "14:35",
@@ -8590,13 +8429,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "10:35",
-                    "end": "12:19",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:05",
@@ -8638,6 +8470,13 @@
                     "end": "16:39",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "14:55",
+                    "end": "16:39",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -8651,13 +8490,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "19:05",
-                    "end": "21:15",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "19:00",
@@ -8697,6 +8529,13 @@
                     "end": "20:32",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "18:15",
+                    "end": "20:32",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -8710,13 +8549,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:45",
-                    "end": "10:06",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:15",
@@ -8757,13 +8589,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "19:10",
-                    "end": "20:15",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "17:35",
@@ -8805,6 +8630,13 @@
                     "end": "18:10",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "17:05",
+                    "end": "18:10",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -8818,16 +8650,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:40",
-                    "end": ""
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:25",
@@ -8863,6 +8685,12 @@
                     "start": "17:25",
                     "end": ""
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "17:25",
+                    "end": ""
+                  }
                 ]
               }
             }
@@ -8876,12 +8704,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:20",
-                    "end": ""
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "11:45",
@@ -8913,25 +8735,6 @@
           "official_url": "https://www.maebashi-witches.com/"
         },
         {
-          "title": "映画　すみっコぐらし　青い月夜のまほうのコ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "18:55",
-                    "end": "20:10",
-                    "end_estimated": true
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/94096/",
-          "official_url": ""
-        },
-        {
           "title": "舞台『IMPACT26』映画館ディレイビューイング",
           "schedules": [
             {
@@ -8961,68 +8764,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:30",
-                    "end": "10:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "09:00",
-                    "end": "11:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "09:30",
-                    "end": "11:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:25",
-                    "end": "13:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:55",
-                    "end": "14:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:20",
-                    "end": "16:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:50",
-                    "end": "17:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:15",
-                    "end": "19:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:00",
-                    "end": "20:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:10",
-                    "end": "22:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:45",
-                    "end": "23:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:05",
-                    "end": "23:30",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:25",
@@ -9319,34 +9060,59 @@
                     "end": "23:25",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:30",
+                    "end": "11:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "10:30",
+                    "end": "12:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "12:20",
+                    "end": "14:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "13:25",
+                    "end": "15:50",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "14:20",
+                    "end": "16:45",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "15:10",
+                    "end": "17:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:00",
+                    "end": "20:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:40",
+                    "end": "21:05",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "21:00",
+                    "end": "23:25",
+                    "end_estimated": true
+                  }
                 ]
               }
             },
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "10:10",
-                    "end": "12:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:00",
-                    "end": "15:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:50",
-                    "end": "18:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:20",
-                    "end": "23:45",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "10:10",
@@ -9443,6 +9209,23 @@
                   }
                 ],
                 "2026-11-09": [
+                  {
+                    "start": "11:30",
+                    "end": "13:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:05",
+                    "end": "19:30",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:00",
+                    "end": "22:25",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-11-10": [
                   {
                     "start": "11:30",
                     "end": "13:55",
@@ -9587,6 +9370,23 @@
                     "end": "23:33",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:40",
+                    "end": "11:38",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "12:00",
+                    "end": "13:58",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "21:35",
+                    "end": "23:33",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -9600,18 +9400,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "12:25",
-                    "end": "14:39",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:10",
-                    "end": "17:24",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:30",
@@ -9713,6 +9501,23 @@
                     "end": "22:29",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:25",
+                    "end": "11:39",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:10",
+                    "end": "19:24",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:15",
+                    "end": "22:29",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -9726,18 +9531,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "14:00",
-                    "end": "16:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:30",
-                    "end": "20:55",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:20",
@@ -9809,6 +9602,18 @@
                     "end": "20:20",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "12:10",
+                    "end": "14:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "17:55",
+                    "end": "20:20",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -9822,12 +9627,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "16:55",
-                    "end": ""
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "17:20",
@@ -9876,6 +9675,12 @@
                     "start": "09:25",
                     "end": ""
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "09:25",
+                    "end": ""
+                  }
                 ]
               }
             }
@@ -9889,13 +9694,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "16:10",
-                    "end": "18:09",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "15:20",
@@ -9937,6 +9735,13 @@
                     "end": "17:19",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "15:20",
+                    "end": "17:19",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -9950,16 +9755,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:00",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:20",
-                    "end": ""
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "12:45",
@@ -10019,6 +9814,16 @@
                     "start": "17:40",
                     "end": ""
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "12:45",
+                    "end": ""
+                  },
+                  {
+                    "start": "17:40",
+                    "end": ""
+                  }
                 ]
               }
             }
@@ -10032,13 +9837,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:15",
-                    "end": "10:34",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "10:00",
@@ -10080,6 +9878,13 @@
                     "end": "12:19",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "10:00",
+                    "end": "12:19",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -10093,13 +9898,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "11:45",
-                    "end": "13:34",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "15:10",
@@ -10151,6 +9949,13 @@
                     "end": "18:09",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "16:20",
+                    "end": "18:09",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -10164,12 +9969,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "21:15",
-                    "end": ""
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "21:35",
@@ -10205,6 +10004,12 @@
                     "start": "20:45",
                     "end": ""
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "20:45",
+                    "end": ""
+                  }
                 ]
               }
             }
@@ -10218,13 +10023,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:45",
-                    "end": "11:17",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:20",
@@ -10261,6 +10059,13 @@
                   }
                 ],
                 "2026-11-09": [
+                  {
+                    "start": "15:00",
+                    "end": "17:32",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-11-10": [
                   {
                     "start": "15:00",
                     "end": "17:32",
@@ -10279,13 +10084,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "13:30",
-                    "end": "15:47",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "09:35",
@@ -10300,37 +10098,11 @@
           "official_url": "https://www.michael-movie.jp/"
         },
         {
-          "title": "超かぐや姫！",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "17:45",
-                    "end": "20:17",
-                    "end_estimated": true
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105011/",
-          "official_url": "https://www.cho-kaguyahime.com/"
-        },
-        {
           "title": "映画　聲の形",
           "schedules": [
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "18:40",
-                    "end": "20:59",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "18:40",
@@ -10372,6 +10144,13 @@
                     "end": "16:44",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "14:25",
+                    "end": "16:44",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -10385,13 +10164,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "08:20",
-                    "end": "09:41",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-06": [
                   {
                     "start": "19:50",
@@ -10419,6 +10191,13 @@
                     "end": "21:11",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "19:50",
+                    "end": "21:11",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -10432,13 +10211,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-03": [
-                  {
-                    "start": "19:00",
-                    "end": "20:45",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-04": [
                   {
                     "start": "15:15",
@@ -10478,6 +10250,13 @@
                     "end": "23:15",
                     "end_estimated": true
                   }
+                ],
+                "2026-11-10": [
+                  {
+                    "start": "21:30",
+                    "end": "23:15",
+                    "end_estimated": true
+                  }
                 ]
               }
             }
@@ -10489,10 +10268,6 @@
     }
   },
   "upcoming": [
-    {
-      "title": "ゴス家のワン！ダフル・クリスマス",
-      "release_date": "2026-11-04"
-    },
     {
       "title": "HYBE CHEERING PARTY",
       "release_date": "2026-11-05"
@@ -10562,11 +10337,11 @@
       "release_date": "2026-11-06"
     },
     {
-      "title": "CHURA VITA チュラ・ヴィータ",
+      "title": "マルセル＆ムッシュ・パニョル",
       "release_date": "2026-11-06"
     },
     {
-      "title": "マルセル＆ムッシュ・パニョル",
+      "title": "CHURA VITA チュラ・ヴィータ",
       "release_date": "2026-11-06"
     },
     {
@@ -10698,7 +10473,7 @@
       "release_date": "2026-11-13"
     },
     {
-      "title": "大富豪になるための正しい殺し方",
+      "title": "楽園追放　心のレゾナンス",
       "release_date": "2026-11-13"
     },
     {
@@ -10706,7 +10481,7 @@
       "release_date": "2026-11-13"
     },
     {
-      "title": "楽園追放　心のレゾナンス",
+      "title": "大富豪になるための正しい殺し方",
       "release_date": "2026-11-13"
     },
     {
@@ -10854,11 +10629,11 @@
       "release_date": "2026-11-20"
     },
     {
-      "title": "あなたが母親の手料理を食べられる回数は、あとどれくらい残ってますか？",
+      "title": "魔法使いの夜",
       "release_date": "2026-11-20"
     },
     {
-      "title": "魔法使いの夜",
+      "title": "あなたが母親の手料理を食べられる回数は、あとどれくらい残ってますか？",
       "release_date": "2026-11-20"
     },
     {
