@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14 10:08:07",
+  "last_updated": "2026-11-15 09:33:07",
   "theaters": {
     "USシネマちはら台": {
       "name": "USシネマちはら台",
@@ -11,27 +11,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:50",
-                    "end": "12:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:30",
-                    "end": "14:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:50",
-                    "end": "20:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:50",
@@ -149,27 +128,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:40",
-                    "end": "11:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:10",
-                    "end": "16:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:35",
-                    "end": "20:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:40",
@@ -287,32 +245,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "10:00",
-                    "end": "11:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:15",
-                    "end": "14:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:25",
-                    "end": "18:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:40",
-                    "end": "20:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "22:50"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "10:00",
@@ -455,27 +387,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "10:50",
-                    "end": "13:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:20",
-                    "end": "16:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:00",
-                    "end": "20:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "10:00",
@@ -586,12 +497,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "15:00",
-                    "end": "17:15"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "15:00",
@@ -634,37 +539,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "10:10",
-                    "end": "12:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:00",
-                    "end": "15:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:30",
-                    "end": "16:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:50",
-                    "end": "18:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:10",
-                    "end": "19:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "22:20"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "10:10",
@@ -825,32 +699,6 @@
             {
               "format": "IMAX",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:50",
-                    "end": "12:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:35",
-                    "end": "14:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:20",
-                    "end": "17:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:00",
-                    "end": "20:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:50",
@@ -986,27 +834,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:30",
-                    "end": "11:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:15",
-                    "end": "14:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:35",
-                    "end": "19:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:40"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:30",
@@ -1124,12 +951,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:00",
-                    "end": "14:05"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "12:00",
@@ -1165,12 +986,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "20:50",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "20:50",
@@ -1213,17 +1028,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:20",
-                    "end": "11:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:00",
-                    "end": "17:20"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:20",
@@ -1291,17 +1095,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "15:10",
-                    "end": "17:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "15:10",
@@ -1369,12 +1162,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "16:30",
-                    "end": "18:10"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "16:30",
@@ -1417,12 +1204,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:05",
-                    "end": "13:45"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "12:05",
@@ -1460,105 +1241,11 @@
           "official_url": "https://www.culture-pub.jp/ryuji_movie/"
         },
         {
-          "title": "うるわしの宵の月",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:30",
-                    "end": "11:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:00",
-                    "end": "18:05"
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "09:30",
-                    "end": "11:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:00",
-                    "end": "18:05"
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "09:30",
-                    "end": "11:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:00",
-                    "end": "18:05"
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "09:30",
-                    "end": "11:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:00",
-                    "end": "18:05"
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "09:30",
-                    "end": "11:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:00",
-                    "end": "18:05"
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "09:30",
-                    "end": "11:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:00",
-                    "end": "18:05"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105584/",
-          "official_url": "https://uruwashi.toho-movie.jp/"
-        },
-        {
           "title": "映画ちいかわ　人魚の島のひみつ",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:00",
-                    "end": "13:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:15",
-                    "end": "16:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:40",
-                    "end": "20:25"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "12:00",
@@ -1646,52 +1333,71 @@
           "official_url": "https://chiikawa.toho-movie.jp"
         },
         {
-          "title": "DIGGER ディガー",
+          "title": "うるわしの宵の月",
           "schedules": [
             {
-              "format": "字幕",
+              "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "20:30",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-11-15": [
                   {
-                    "start": "20:30",
-                    "end": "22:45"
+                    "start": "09:30",
+                    "end": "11:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:00",
+                    "end": "18:05"
                   }
                 ],
                 "2026-11-16": [
                   {
-                    "start": "20:30",
-                    "end": "22:45"
+                    "start": "09:30",
+                    "end": "11:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:00",
+                    "end": "18:05"
                   }
                 ],
                 "2026-11-17": [
                   {
-                    "start": "20:30",
-                    "end": "22:45"
+                    "start": "09:30",
+                    "end": "11:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:00",
+                    "end": "18:05"
                   }
                 ],
                 "2026-11-18": [
                   {
-                    "start": "20:30",
-                    "end": "22:45"
+                    "start": "09:30",
+                    "end": "11:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:00",
+                    "end": "18:05"
                   }
                 ],
                 "2026-11-19": [
                   {
-                    "start": "20:30",
-                    "end": "22:45"
+                    "start": "09:30",
+                    "end": "11:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:00",
+                    "end": "18:05"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105275/",
-          "official_url": "https://digger-movie.jp/"
+          "eigacom_url": "https://eiga.com/movie/105584/",
+          "official_url": "https://uruwashi.toho-movie.jp/"
         },
         {
           "title": "クレイフェイス",
@@ -1699,12 +1405,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "18:30",
-                    "end": "20:25"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "18:30",
@@ -1742,52 +1442,46 @@
           "official_url": "https://clayface-movie.jp/"
         },
         {
-          "title": "バッド・ルーテナント：トウキョウ",
+          "title": "DIGGER ディガー",
           "schedules": [
             {
-              "format": "2D",
+              "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:40",
-                    "end": "11:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
-                    "start": "09:40",
-                    "end": "11:35"
+                    "start": "20:30",
+                    "end": "22:45"
                   }
                 ],
                 "2026-11-16": [
                   {
-                    "start": "09:40",
-                    "end": "11:35"
+                    "start": "20:30",
+                    "end": "22:45"
                   }
                 ],
                 "2026-11-17": [
                   {
-                    "start": "09:40",
-                    "end": "11:35"
+                    "start": "20:30",
+                    "end": "22:45"
                   }
                 ],
                 "2026-11-18": [
                   {
-                    "start": "09:40",
-                    "end": "11:35"
+                    "start": "20:30",
+                    "end": "22:45"
                   }
                 ],
                 "2026-11-19": [
                   {
-                    "start": "09:40",
-                    "end": "11:35"
+                    "start": "20:30",
+                    "end": "22:45"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105831/",
-          "official_url": "https://blt-movie.jp/"
+          "eigacom_url": "https://eiga.com/movie/105275/",
+          "official_url": "https://digger-movie.jp/"
         },
         {
           "title": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！",
@@ -1795,12 +1489,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:05",
-                    "end": "14:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "12:05",
@@ -1838,52 +1526,46 @@
           "official_url": "https://odoru.com/"
         },
         {
-          "title": "ストリートファイター　ザ・ムービー",
+          "title": "バッド・ルーテナント：トウキョウ",
           "schedules": [
             {
-              "format": "吹替",
+              "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "17:50",
-                    "end": "19:55"
-                  }
-                ],
                 "2026-11-15": [
                   {
-                    "start": "17:50",
-                    "end": "19:55"
+                    "start": "09:40",
+                    "end": "11:35"
                   }
                 ],
                 "2026-11-16": [
                   {
-                    "start": "17:50",
-                    "end": "19:55"
+                    "start": "09:40",
+                    "end": "11:35"
                   }
                 ],
                 "2026-11-17": [
                   {
-                    "start": "17:50",
-                    "end": "19:55"
+                    "start": "09:40",
+                    "end": "11:35"
                   }
                 ],
                 "2026-11-18": [
                   {
-                    "start": "17:50",
-                    "end": "19:55"
+                    "start": "09:40",
+                    "end": "11:35"
                   }
                 ],
                 "2026-11-19": [
                   {
-                    "start": "17:50",
-                    "end": "19:55"
+                    "start": "09:40",
+                    "end": "11:35"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105732/",
-          "official_url": "https://streetfighter-the-movie.jp/"
+          "eigacom_url": "https://eiga.com/movie/105831/",
+          "official_url": "https://blt-movie.jp/"
         },
         {
           "title": "Michael マイケル",
@@ -1928,17 +1610,53 @@
           "official_url": "https://www.michael-movie.jp/"
         },
         {
+          "title": "ストリートファイター　ザ・ムービー",
+          "schedules": [
+            {
+              "format": "吹替",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "17:50",
+                    "end": "19:55"
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "17:50",
+                    "end": "19:55"
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "17:50",
+                    "end": "19:55"
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "17:50",
+                    "end": "19:55"
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "17:50",
+                    "end": "19:55"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105732/",
+          "official_url": "https://streetfighter-the-movie.jp/"
+        },
+        {
           "title": "ガールズ＆パンツァー　最終章　第5話",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "14:30",
-                    "end": "15:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "14:30",
@@ -1987,22 +1705,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:30",
-                    "end": "11:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:50",
-                    "end": "16:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:15",
-                    "end": "20:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:30",
@@ -2095,27 +1797,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:25",
-                    "end": "11:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:55",
-                    "end": "16:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:20",
-                    "end": "18:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:10",
-                    "end": "23:15"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:25",
@@ -2233,22 +1914,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:40",
-                    "end": "14:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:55",
-                    "end": "20:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:45",
-                    "end": "23:15"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:40",
@@ -2341,27 +2006,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:30",
-                    "end": "11:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:10",
-                    "end": "16:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:55",
-                    "end": "18:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:15",
-                    "end": "23:05"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:30",
@@ -2484,27 +2128,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "10:50",
-                    "end": "13:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:15",
-                    "end": "16:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:55",
-                    "end": "19:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:10",
-                    "end": "23:30"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:10",
@@ -2615,12 +2238,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "18:50",
-                    "end": "21:10"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "10:00",
@@ -2683,37 +2300,103 @@
           "official_url": "https://rakuen-tsuiho-r.com"
         },
         {
+          "title": "世界で最後の愛しい娘！",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "11:50",
+                    "end": "13:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:30",
+                    "end": "18:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:55",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "11:50",
+                    "end": "13:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:30",
+                    "end": "18:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:55",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "11:50",
+                    "end": "13:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:30",
+                    "end": "18:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:55",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "11:50",
+                    "end": "13:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:30",
+                    "end": "18:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:55",
+                    "end": "23:00"
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "11:50",
+                    "end": "13:55",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "16:30",
+                    "end": "18:35",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "20:55",
+                    "end": "23:00"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/106034/",
+          "official_url": "https://klockworx.com/movies/sekamusu/"
+        },
+        {
           "title": "風を継ぐもの　はじまり",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:25",
-                    "end": "11:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:25",
-                    "end": "15:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:25",
-                    "end": "17:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:10",
-                    "end": "20:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:25",
@@ -2851,125 +2534,11 @@
           "official_url": "https://kaze-tsugu.com/theater/"
         },
         {
-          "title": "世界で最後の愛しい娘！",
-          "schedules": [
-            {
-              "format": "字幕",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:50",
-                    "end": "13:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:30",
-                    "end": "18:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "11:50",
-                    "end": "13:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:30",
-                    "end": "18:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "11:50",
-                    "end": "13:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:30",
-                    "end": "18:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "11:50",
-                    "end": "13:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:30",
-                    "end": "18:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "11:50",
-                    "end": "13:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:30",
-                    "end": "18:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "23:00"
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "11:50",
-                    "end": "13:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:30",
-                    "end": "18:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "23:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/106034/",
-          "official_url": "https://klockworx.com/movies/sekamusu/"
-        },
-        {
           "title": "アフターバーン　世紀末の秘宝",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "18:55",
-                    "end": "20:50"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "18:55",
@@ -3012,12 +2581,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "18:50",
-                    "end": "20:40"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "18:50",
@@ -3054,57 +2617,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:10",
-                    "end": "11:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "10:50",
-                    "end": "13:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:55",
-                    "end": "14:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:35",
-                    "end": "16:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:45",
-                    "end": "17:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:25",
-                    "end": "17:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:25",
-                    "end": "18:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:35",
-                    "end": "20:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:25",
-                    "end": "20:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:25",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:10",
@@ -3325,17 +2837,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:30",
-                    "end": "15:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:25",
-                    "end": "23:55"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "12:40",
@@ -3403,12 +2904,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "18:45",
-                    "end": "20:55"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "18:45",
@@ -3451,17 +2946,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "13:15",
-                    "end": "15:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "23:05"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "13:15",
@@ -3529,17 +3013,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:35",
-                    "end": "13:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:20",
-                    "end": "18:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:35",
@@ -3607,12 +3080,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:25",
-                    "end": "11:25"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:25",
@@ -3655,12 +3122,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "18:40",
-                    "end": "20:25"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "18:40",
@@ -3698,27 +3159,47 @@
           "official_url": "https://biomovie.jp"
         },
         {
+          "title": "mentor",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-16": [
+                  {
+                    "start": "15:50",
+                    "end": "17:55"
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "15:50",
+                    "end": "17:55"
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "15:50",
+                    "end": "17:55"
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "15:50",
+                    "end": "17:55"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104992/",
+          "official_url": "https://www.mentor-movie.jp/"
+        },
+        {
           "title": "仮面ライダーカブト 20th 天を継ぐもの",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:25",
-                    "end": "10:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:50",
-                    "end": "13:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:25",
-                    "end": "17:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:25",
@@ -3816,12 +3297,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:25",
-                    "end": "13:05"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:25",
@@ -3864,17 +3339,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:45",
-                    "end": "13:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:05",
-                    "end": "21:00"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:45",
@@ -3937,53 +3401,11 @@
           "official_url": "https://movie-gtq123.com/"
         },
         {
-          "title": "mentor",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-16": [
-                  {
-                    "start": "15:50",
-                    "end": "17:55"
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "15:50",
-                    "end": "17:55"
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "15:50",
-                    "end": "17:55"
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "15:50",
-                    "end": "17:55"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104992/",
-          "official_url": "https://www.mentor-movie.jp/"
-        },
-        {
           "title": "3ミリの恋",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:25",
-                    "end": "11:20"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:25",
@@ -4021,75 +3443,11 @@
           "official_url": "https://www.3mmlove-movie.com/"
         },
         {
-          "title": "うるわしの宵の月",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:25",
-                    "end": "11:35"
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "09:25",
-                    "end": "11:35"
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "09:25",
-                    "end": "11:35"
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "09:25",
-                    "end": "11:35"
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "09:25",
-                    "end": "11:35"
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "09:25",
-                    "end": "11:35"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105584/",
-          "official_url": "https://uruwashi.toho-movie.jp/"
-        },
-        {
           "title": "映画ちいかわ　人魚の島のひみつ",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:40",
-                    "end": "11:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:15",
-                    "end": "15:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:15",
-                    "end": "23:05"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:40",
@@ -4132,17 +3490,53 @@
           "official_url": "https://chiikawa.toho-movie.jp"
         },
         {
+          "title": "うるわしの宵の月",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "09:25",
+                    "end": "11:35"
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "09:25",
+                    "end": "11:35"
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "09:25",
+                    "end": "11:35"
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "09:25",
+                    "end": "11:35"
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "09:25",
+                    "end": "11:35"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105584/",
+          "official_url": "https://uruwashi.toho-movie.jp/"
+        },
+        {
           "title": "DIGGER ディガー",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "21:10",
-                    "end": "23:30"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "21:10",
@@ -4178,6 +3572,48 @@
           ],
           "eigacom_url": "https://eiga.com/movie/105275/",
           "official_url": "https://digger-movie.jp/"
+        },
+        {
+          "title": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "15:55",
+                    "end": "18:25"
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "15:55",
+                    "end": "18:25"
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "15:55",
+                    "end": "18:25"
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "15:55",
+                    "end": "18:25"
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "15:55",
+                    "end": "18:25"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/103045/",
+          "official_url": "https://odoru.com/"
         },
         {
           "title": "バッド・ルーテナント：トウキョウ",
@@ -4216,65 +3652,11 @@
           "official_url": "https://blt-movie.jp/"
         },
         {
-          "title": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "15:55",
-                    "end": "18:25"
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "15:55",
-                    "end": "18:25"
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "15:55",
-                    "end": "18:25"
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "15:55",
-                    "end": "18:25"
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "15:55",
-                    "end": "18:25"
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "15:55",
-                    "end": "18:25"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/103045/",
-          "official_url": "https://odoru.com/"
-        },
-        {
           "title": "メイドインアビス　目覚める神秘",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:10",
-                    "end": "10:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:30",
@@ -4317,12 +3699,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "14:10",
-                    "end": "16:15"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "14:10",
@@ -4365,12 +3741,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "14:25",
-                    "end": "16:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "14:25",
@@ -4413,12 +3783,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "19:35",
-                    "end": "21:45"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "20:05",
@@ -4461,12 +3825,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:05",
-                    "end": "13:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "12:05",
@@ -4509,12 +3867,6 @@
             {
               "format": "ScreenX",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "10:00",
-                    "end": "12:10"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "15:30",
@@ -4557,12 +3909,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:35",
-                    "end": "13:00"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:35",
@@ -4737,27 +4083,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:45",
-                    "end": "12:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:40",
-                    "end": "15:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:25",
-                    "end": "17:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:45",
@@ -4875,32 +4200,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:50",
-                    "end": "12:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:30",
-                    "end": "14:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:15",
-                    "end": "17:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:50",
-                    "end": "20:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:25",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:50",
@@ -5043,27 +4342,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:50",
-                    "end": "14:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:45",
-                    "end": "17:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:35",
-                    "end": "20:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:50",
@@ -5181,17 +4459,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:40",
-                    "end": "13:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:35",
-                    "end": "20:30"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:40",
@@ -5279,17 +4546,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "14:00",
-                    "end": "15:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "22:50"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "14:00",
@@ -5357,57 +4613,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:20",
-                    "end": "11:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "10:00",
-                    "end": "12:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:25",
-                    "end": "13:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:15",
-                    "end": "14:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:00",
-                    "end": "15:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:20",
-                    "end": "16:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:10",
-                    "end": "17:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:15",
-                    "end": "19:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:05",
-                    "end": "20:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:15",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:20",
@@ -5675,17 +4880,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "14:50",
-                    "end": "17:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:30"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "14:50",
@@ -5753,17 +4947,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:10",
-                    "end": "14:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:45",
-                    "end": "20:10"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "12:10",
@@ -5831,17 +5014,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:00",
-                    "end": "14:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:35",
-                    "end": "19:50"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "12:00",
@@ -5929,12 +5101,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "15:55",
-                    "end": "17:55"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "15:55",
@@ -5977,12 +5143,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "16:20",
-                    "end": "18:05"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "16:20",
@@ -6020,65 +5180,11 @@
           "official_url": "https://biomovie.jp"
         },
         {
-          "title": "RYUJI 竜二",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:15",
-                    "end": "11:00"
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "09:15",
-                    "end": "11:00"
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "09:15",
-                    "end": "11:00"
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "09:15",
-                    "end": "11:00"
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "09:15",
-                    "end": "11:00"
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "09:15",
-                    "end": "11:00"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105714/",
-          "official_url": "https://www.culture-pub.jp/ryuji_movie/"
-        },
-        {
           "title": "mentor",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "21:00",
-                    "end": "23:05"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "21:00",
@@ -6116,22 +5222,53 @@
           "official_url": "https://www.mentor-movie.jp/"
         },
         {
+          "title": "RYUJI 竜二",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "09:15",
+                    "end": "11:00"
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "09:15",
+                    "end": "11:00"
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "09:15",
+                    "end": "11:00"
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "09:15",
+                    "end": "11:00"
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "09:15",
+                    "end": "11:00"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105714/",
+          "official_url": "https://www.culture-pub.jp/ryuji_movie/"
+        },
+        {
           "title": "4アウト　もう一度、プレイボール",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:30",
-                    "end": "11:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:05",
-                    "end": "17:20"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:30",
@@ -6194,80 +5331,11 @@
           "official_url": "https://4out-movie.com/"
         },
         {
-          "title": "うるわしの宵の月",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "17:30",
-                    "end": "19:40"
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "17:30",
-                    "end": "19:40"
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "17:30",
-                    "end": "19:40"
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "17:30",
-                    "end": "19:40"
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "17:30",
-                    "end": "19:40"
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "17:30",
-                    "end": "19:40"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105584/",
-          "official_url": "https://uruwashi.toho-movie.jp/"
-        },
-        {
           "title": "映画ちいかわ　人魚の島のひみつ",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:35",
-                    "end": "11:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:40",
-                    "end": "14:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:05",
-                    "end": "16:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:05",
-                    "end": "21:55"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:35",
@@ -6340,17 +5408,95 @@
           "official_url": "https://chiikawa.toho-movie.jp"
         },
         {
+          "title": "うるわしの宵の月",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "17:30",
+                    "end": "19:40"
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "17:30",
+                    "end": "19:40"
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "17:30",
+                    "end": "19:40"
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "17:30",
+                    "end": "19:40"
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "17:30",
+                    "end": "19:40"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105584/",
+          "official_url": "https://uruwashi.toho-movie.jp/"
+        },
+        {
+          "title": "クレイフェイス",
+          "schedules": [
+            {
+              "format": "字幕",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "20:35",
+                    "end": "22:35"
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "20:35",
+                    "end": "22:35"
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "20:35",
+                    "end": "22:35"
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "20:35",
+                    "end": "22:35"
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "20:35",
+                    "end": "22:35"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/106078/",
+          "official_url": "https://clayface-movie.jp/"
+        },
+        {
           "title": "DIGGER ディガー",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "20:35",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "20:35",
@@ -6388,52 +5534,46 @@
           "official_url": "https://digger-movie.jp/"
         },
         {
-          "title": "クレイフェイス",
+          "title": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！",
           "schedules": [
             {
-              "format": "字幕",
+              "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "20:35",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
-                    "start": "20:35",
-                    "end": "22:35"
+                    "start": "09:40",
+                    "end": "12:15"
                   }
                 ],
                 "2026-11-16": [
                   {
-                    "start": "20:35",
-                    "end": "22:35"
+                    "start": "12:15",
+                    "end": "14:50"
                   }
                 ],
                 "2026-11-17": [
                   {
-                    "start": "20:35",
-                    "end": "22:35"
+                    "start": "12:15",
+                    "end": "14:50"
                   }
                 ],
                 "2026-11-18": [
                   {
-                    "start": "20:35",
-                    "end": "22:35"
+                    "start": "12:15",
+                    "end": "14:50"
                   }
                 ],
                 "2026-11-19": [
                   {
-                    "start": "20:35",
-                    "end": "22:35"
+                    "start": "12:15",
+                    "end": "14:50"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/106078/",
-          "official_url": "https://clayface-movie.jp/"
+          "eigacom_url": "https://eiga.com/movie/103045/",
+          "official_url": "https://odoru.com/"
         },
         {
           "title": "バッド・ルーテナント：トウキョウ",
@@ -6472,65 +5612,11 @@
           "official_url": "https://blt-movie.jp/"
         },
         {
-          "title": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:40",
-                    "end": "12:15"
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "09:40",
-                    "end": "12:15"
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "12:15",
-                    "end": "14:50"
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "12:15",
-                    "end": "14:50"
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "12:15",
-                    "end": "14:50"
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "12:15",
-                    "end": "14:50"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/103045/",
-          "official_url": "https://odoru.com/"
-        },
-        {
           "title": "ストリートファイター　ザ・ムービー",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "18:10",
-                    "end": "20:20"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "18:10",
@@ -6573,12 +5659,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:40",
-                    "end": "11:05"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:40",
@@ -6597,12 +5677,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:35",
-                    "end": "11:20"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:35",
@@ -6645,12 +5719,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "18:15",
-                    "end": "20:15"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "18:15",
@@ -6699,22 +5767,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:00",
-                    "end": "11:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:35",
-                    "end": "13:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:10",
-                    "end": "18:25"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:00",
@@ -6827,27 +5879,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:00",
-                    "end": "11:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "11:20",
-                    "end": "13:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:10",
-                    "end": "18:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:35",
-                    "end": "22:40"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:00",
@@ -6965,27 +5996,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:40",
-                    "end": "13:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:10",
-                    "end": "18:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:30",
-                    "end": "20:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:35",
-                    "end": "22:25"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:40",
@@ -7103,27 +6113,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "10:50",
-                    "end": "13:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:15",
-                    "end": "16:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:10",
-                    "end": "20:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "10:45",
@@ -7241,27 +6230,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:00",
-                    "end": "10:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:25",
-                    "end": "15:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:25",
-                    "end": "17:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "22:15"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:25",
@@ -7379,47 +6347,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:10",
-                    "end": "11:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:00",
-                    "end": "14:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:25",
-                    "end": "15:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:50",
-                    "end": "17:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:05",
-                    "end": "18:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:40",
-                    "end": "20:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:00",
-                    "end": "21:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:30",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:10",
@@ -7645,12 +6572,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "10:25",
-                    "end": "12:50"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "10:25",
@@ -7675,12 +6596,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "13:45",
-                    "end": "15:50"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "13:45",
@@ -7716,12 +6631,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "18:15",
-                    "end": "20:20"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "18:15",
@@ -7764,17 +6673,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "13:15",
-                    "end": "15:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "22:25"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "13:15",
@@ -7842,17 +6740,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "10:55",
-                    "end": "13:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:55",
-                    "end": "19:05"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "13:25",
@@ -7920,12 +6807,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "14:10",
-                    "end": "15:50"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "14:10",
@@ -7968,12 +6849,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "18:45",
-                    "end": "20:25"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "18:45",
@@ -8011,82 +6886,46 @@
           "official_url": "https://www.culture-pub.jp/ryuji_movie/"
         },
         {
-          "title": "GROTESQQQUE グロテスク",
+          "title": "我々は宇宙人",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:35",
-                    "end": "14:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:25",
-                    "end": "20:15"
-                  }
-                ],
                 "2026-11-15": [
                   {
-                    "start": "12:35",
-                    "end": "14:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:25",
-                    "end": "20:15"
+                    "start": "13:45",
+                    "end": "15:50"
                   }
                 ],
                 "2026-11-16": [
                   {
-                    "start": "12:35",
-                    "end": "14:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:25",
-                    "end": "20:15"
+                    "start": "13:45",
+                    "end": "15:50"
                   }
                 ],
                 "2026-11-17": [
                   {
-                    "start": "12:35",
-                    "end": "14:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:25",
-                    "end": "20:15"
+                    "start": "13:45",
+                    "end": "15:50"
                   }
                 ],
                 "2026-11-18": [
                   {
-                    "start": "12:35",
-                    "end": "14:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:35",
-                    "end": "20:25"
+                    "start": "13:45",
+                    "end": "15:50"
                   }
                 ],
                 "2026-11-19": [
                   {
-                    "start": "12:35",
-                    "end": "14:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:25",
-                    "end": "20:15"
+                    "start": "13:45",
+                    "end": "15:50"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/104218/",
-          "official_url": "https://movie-gtq123.com/"
+          "eigacom_url": "https://eiga.com/movie/105075/",
+          "official_url": "https://nothingnew.film/wearealiens/"
         },
         {
           "title": "4アウト　もう一度、プレイボール",
@@ -8094,17 +6933,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:00",
-                    "end": "11:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:45",
-                    "end": "15:55"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:00",
@@ -8167,100 +6995,71 @@
           "official_url": "https://4out-movie.com/"
         },
         {
-          "title": "我々は宇宙人",
+          "title": "GROTESQQQUE グロテスク",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "13:45",
-                    "end": "15:50"
-                  }
-                ],
                 "2026-11-15": [
                   {
-                    "start": "13:45",
-                    "end": "15:50"
+                    "start": "12:35",
+                    "end": "14:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:25",
+                    "end": "20:15"
                   }
                 ],
                 "2026-11-16": [
                   {
-                    "start": "13:45",
-                    "end": "15:50"
+                    "start": "12:35",
+                    "end": "14:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:25",
+                    "end": "20:15"
                   }
                 ],
                 "2026-11-17": [
                   {
-                    "start": "13:45",
-                    "end": "15:50"
+                    "start": "12:35",
+                    "end": "14:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:25",
+                    "end": "20:15"
                   }
                 ],
                 "2026-11-18": [
                   {
-                    "start": "13:45",
-                    "end": "15:50"
+                    "start": "12:35",
+                    "end": "14:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:35",
+                    "end": "20:25"
                   }
                 ],
                 "2026-11-19": [
                   {
-                    "start": "13:45",
-                    "end": "15:50"
+                    "start": "12:35",
+                    "end": "14:25",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:25",
+                    "end": "20:15"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105075/",
-          "official_url": "https://nothingnew.film/wearealiens/"
-        },
-        {
-          "title": "うるわしの宵の月",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "16:10",
-                    "end": "18:15"
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "16:10",
-                    "end": "18:15"
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "16:10",
-                    "end": "18:15"
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "16:10",
-                    "end": "18:15"
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "16:10",
-                    "end": "18:15"
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "16:10",
-                    "end": "18:15"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105584/",
-          "official_url": "https://uruwashi.toho-movie.jp/"
+          "eigacom_url": "https://eiga.com/movie/104218/",
+          "official_url": "https://movie-gtq123.com/"
         },
         {
           "title": "映画ちいかわ　人魚の島のひみつ",
@@ -8268,22 +7067,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:10",
-                    "end": "13:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:15",
-                    "end": "18:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:30",
-                    "end": "20:20"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:10",
@@ -8351,46 +7134,46 @@
           "official_url": "https://chiikawa.toho-movie.jp"
         },
         {
-          "title": "DIGGER ディガー",
+          "title": "うるわしの宵の月",
           "schedules": [
             {
-              "format": "字幕",
+              "format": "2D",
               "dates": {
                 "2026-11-15": [
                   {
-                    "start": "08:55",
-                    "end": "11:10"
+                    "start": "16:10",
+                    "end": "18:15"
                   }
                 ],
                 "2026-11-16": [
                   {
-                    "start": "08:55",
-                    "end": "11:10"
+                    "start": "16:10",
+                    "end": "18:15"
                   }
                 ],
                 "2026-11-17": [
                   {
-                    "start": "08:55",
-                    "end": "11:10"
+                    "start": "16:10",
+                    "end": "18:15"
                   }
                 ],
                 "2026-11-18": [
                   {
-                    "start": "08:55",
-                    "end": "11:10"
+                    "start": "16:10",
+                    "end": "18:15"
                   }
                 ],
                 "2026-11-19": [
                   {
-                    "start": "08:55",
-                    "end": "11:10"
+                    "start": "16:10",
+                    "end": "18:15"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105275/",
-          "official_url": "https://digger-movie.jp/"
+          "eigacom_url": "https://eiga.com/movie/105584/",
+          "official_url": "https://uruwashi.toho-movie.jp/"
         },
         {
           "title": "クレイフェイス",
@@ -8398,17 +7181,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:35",
-                    "end": "13:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:30",
-                    "end": "20:25"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:35",
@@ -8471,52 +7243,46 @@
           "official_url": "https://clayface-movie.jp/"
         },
         {
-          "title": "バッド・ルーテナント：トウキョウ",
+          "title": "DIGGER ディガー",
           "schedules": [
             {
-              "format": "2D",
+              "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "20:40",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
-                    "start": "20:40",
-                    "end": "22:35"
+                    "start": "08:55",
+                    "end": "11:10"
                   }
                 ],
                 "2026-11-16": [
                   {
-                    "start": "20:45",
-                    "end": "22:40"
+                    "start": "08:55",
+                    "end": "11:10"
                   }
                 ],
                 "2026-11-17": [
                   {
-                    "start": "20:45",
-                    "end": "22:40"
+                    "start": "08:55",
+                    "end": "11:10"
                   }
                 ],
                 "2026-11-18": [
                   {
-                    "start": "20:45",
-                    "end": "22:40"
+                    "start": "08:55",
+                    "end": "11:10"
                   }
                 ],
                 "2026-11-19": [
                   {
-                    "start": "20:45",
-                    "end": "22:40"
+                    "start": "08:55",
+                    "end": "11:10"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105831/",
-          "official_url": "https://blt-movie.jp/"
+          "eigacom_url": "https://eiga.com/movie/105275/",
+          "official_url": "https://digger-movie.jp/"
         },
         {
           "title": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！",
@@ -8524,12 +7290,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "08:55",
-                    "end": "11:25"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "08:55",
@@ -8567,17 +7327,53 @@
           "official_url": "https://odoru.com/"
         },
         {
+          "title": "バッド・ルーテナント：トウキョウ",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "20:40",
+                    "end": "22:35"
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "20:45",
+                    "end": "22:40"
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "20:45",
+                    "end": "22:40"
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "20:45",
+                    "end": "22:40"
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "20:45",
+                    "end": "22:40"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105831/",
+          "official_url": "https://blt-movie.jp/"
+        },
+        {
           "title": "メイドインアビス　目覚める神秘",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:00",
-                    "end": "10:25"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:00",
@@ -8615,22 +7411,95 @@
           "official_url": "https://miabyss.com/"
         },
         {
+          "title": "青春ブタ野郎はディアフレンドの夢を見ない",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "20:30",
+                    "end": "22:35"
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "18:25",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "18:25",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "18:25",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "18:25",
+                    "end": "20:30"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/104715/",
+          "official_url": "https://ao-buta.com/"
+        },
+        {
+          "title": "ストリートファイター　ザ・ムービー",
+          "schedules": [
+            {
+              "format": "吹替",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "20:40",
+                    "end": "22:45"
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "20:40",
+                    "end": "22:45"
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "20:40",
+                    "end": "22:45"
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "20:40",
+                    "end": "22:45"
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "20:40",
+                    "end": "22:45"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105732/",
+          "official_url": "https://streetfighter-the-movie.jp/"
+        },
+        {
           "title": "ヤマトよ永遠に REBEL3199 第七章　虹色の輪廻",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "08:55",
-                    "end": "10:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:40",
-                    "end": "16:30"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "08:55",
@@ -8693,113 +7562,11 @@
           "official_url": "https://starblazers-yamato.net/"
         },
         {
-          "title": "青春ブタ野郎はディアフレンドの夢を見ない",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "20:30",
-                    "end": "22:35"
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "20:30",
-                    "end": "22:35"
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "18:25",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "18:25",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "18:25",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "18:25",
-                    "end": "20:30"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104715/",
-          "official_url": "https://ao-buta.com/"
-        },
-        {
-          "title": "ストリートファイター　ザ・ムービー",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "20:40",
-                    "end": "22:45"
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "20:40",
-                    "end": "22:45"
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "20:40",
-                    "end": "22:45"
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "20:40",
-                    "end": "22:45"
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "20:40",
-                    "end": "22:45"
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "20:40",
-                    "end": "22:45"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105732/",
-          "official_url": "https://streetfighter-the-movie.jp/"
-        },
-        {
           "title": "映画　ひつじのショーン　かぼちゃ畑の怪物！",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "16:45",
-                    "end": "18:10"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "16:45",
@@ -8842,12 +7609,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "08:55",
-                    "end": "10:20"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "08:55",
@@ -8890,12 +7651,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "10:35",
-                    "end": "12:20"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "10:35",
@@ -8938,12 +7693,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:00",
-                    "end": "10:05"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:00",
@@ -8992,27 +7741,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:40",
-                    "end": "11:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:20",
-                    "end": "14:35",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:45",
-                    "end": "20:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:40",
@@ -9130,27 +7858,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:40",
-                    "end": "11:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:05",
-                    "end": "14:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:55",
-                    "end": "18:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "22:55"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:40",
@@ -9268,27 +7975,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:00",
-                    "end": "13:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:40",
-                    "end": "15:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:40",
-                    "end": "18:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:00",
-                    "end": "22:50"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:20",
@@ -9431,22 +8117,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "10:50",
-                    "end": "13:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:15",
-                    "end": "16:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:15",
-                    "end": "20:30"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:30",
@@ -9532,12 +8202,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "15:00",
-                    "end": "17:15"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "15:00",
@@ -9573,12 +8237,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "20:45",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "20:45",
@@ -9621,32 +8279,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:35",
-                    "end": "14:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:25",
-                    "end": "16:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:15",
-                    "end": "19:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:00",
-                    "end": "22:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:35",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:35",
@@ -9782,27 +8414,6 @@
             {
               "format": "4D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:30",
-                    "end": "11:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:15",
-                    "end": "14:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:35",
-                    "end": "20:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:20",
-                    "end": "22:45"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:30",
@@ -9913,17 +8524,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:50",
-                    "end": "12:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:35",
-                    "end": "15:00"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:50",
@@ -10016,17 +8616,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:30",
-                    "end": "13:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:40",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:30",
@@ -10094,17 +8683,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "14:20",
-                    "end": "16:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:50",
-                    "end": "23:00"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "14:20",
@@ -10172,12 +8750,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "16:50",
-                    "end": "18:30"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "16:50",
@@ -10215,143 +8787,11 @@
           "official_url": "https://biomovie.jp"
         },
         {
-          "title": "RYUJI 竜二",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "18:50",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "18:50",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "18:50",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "18:50",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "18:50",
-                    "end": "20:30"
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "18:50",
-                    "end": "20:30"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105714/",
-          "official_url": "https://www.culture-pub.jp/ryuji_movie/"
-        },
-        {
-          "title": "GROTESQQQUE グロテスク",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:20",
-                    "end": "11:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:50",
-                    "end": "20:40"
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "09:20",
-                    "end": "11:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:50",
-                    "end": "20:40"
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "09:20",
-                    "end": "11:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:50",
-                    "end": "20:40"
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "09:20",
-                    "end": "11:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:50",
-                    "end": "20:40"
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "09:20",
-                    "end": "11:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:50",
-                    "end": "20:40"
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "09:20",
-                    "end": "11:10",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:50",
-                    "end": "20:40"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/104218/",
-          "official_url": "https://movie-gtq123.com/"
-        },
-        {
           "title": "mentor",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "15:50",
-                    "end": "17:50"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "15:50",
@@ -10389,22 +8829,53 @@
           "official_url": "https://www.mentor-movie.jp/"
         },
         {
+          "title": "RYUJI 竜二",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "18:50",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "18:50",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "18:50",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "18:50",
+                    "end": "20:30"
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "18:50",
+                    "end": "20:30"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105714/",
+          "official_url": "https://www.culture-pub.jp/ryuji_movie/"
+        },
+        {
           "title": "4アウト　もう一度、プレイボール",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:30",
-                    "end": "11:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:20",
-                    "end": "20:30"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:30",
@@ -10467,82 +8938,71 @@
           "official_url": "https://4out-movie.com/"
         },
         {
-          "title": "うるわしの宵の月",
+          "title": "GROTESQQQUE グロテスク",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:15",
-                    "end": "13:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:10",
-                    "end": "20:15"
-                  }
-                ],
                 "2026-11-15": [
                   {
-                    "start": "11:15",
-                    "end": "13:20",
+                    "start": "09:20",
+                    "end": "11:10",
                     "end_estimated": true
                   },
                   {
-                    "start": "18:10",
-                    "end": "20:15"
+                    "start": "18:50",
+                    "end": "20:40"
                   }
                 ],
                 "2026-11-16": [
                   {
-                    "start": "11:15",
-                    "end": "13:20",
+                    "start": "09:20",
+                    "end": "11:10",
                     "end_estimated": true
                   },
                   {
-                    "start": "18:10",
-                    "end": "20:15"
+                    "start": "18:50",
+                    "end": "20:40"
                   }
                 ],
                 "2026-11-17": [
                   {
-                    "start": "11:15",
-                    "end": "13:20",
+                    "start": "09:20",
+                    "end": "11:10",
                     "end_estimated": true
                   },
                   {
-                    "start": "18:10",
-                    "end": "20:15"
+                    "start": "18:50",
+                    "end": "20:40"
                   }
                 ],
                 "2026-11-18": [
                   {
-                    "start": "11:15",
-                    "end": "13:20",
+                    "start": "09:20",
+                    "end": "11:10",
                     "end_estimated": true
                   },
                   {
-                    "start": "18:10",
-                    "end": "20:15"
+                    "start": "18:50",
+                    "end": "20:40"
                   }
                 ],
                 "2026-11-19": [
                   {
-                    "start": "11:15",
-                    "end": "13:20",
+                    "start": "09:20",
+                    "end": "11:10",
                     "end_estimated": true
                   },
                   {
-                    "start": "18:10",
-                    "end": "20:15"
+                    "start": "18:50",
+                    "end": "20:40"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105584/",
-          "official_url": "https://uruwashi.toho-movie.jp/"
+          "eigacom_url": "https://eiga.com/movie/104218/",
+          "official_url": "https://movie-gtq123.com/"
         },
         {
           "title": "映画ちいかわ　人魚の島のひみつ",
@@ -10550,22 +9010,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "10:00",
-                    "end": "11:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:10",
-                    "end": "13:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:30",
-                    "end": "16:15"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "10:00",
@@ -10653,52 +9097,71 @@
           "official_url": "https://chiikawa.toho-movie.jp"
         },
         {
-          "title": "DIGGER ディガー",
+          "title": "うるわしの宵の月",
           "schedules": [
             {
-              "format": "吹替",
+              "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "15:50",
-                    "end": "18:05"
-                  }
-                ],
                 "2026-11-15": [
                   {
-                    "start": "15:50",
-                    "end": "18:05"
+                    "start": "11:15",
+                    "end": "13:20",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:10",
+                    "end": "20:15"
                   }
                 ],
                 "2026-11-16": [
                   {
-                    "start": "15:50",
-                    "end": "18:05"
+                    "start": "11:15",
+                    "end": "13:20",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:10",
+                    "end": "20:15"
                   }
                 ],
                 "2026-11-17": [
                   {
-                    "start": "15:50",
-                    "end": "18:05"
+                    "start": "11:15",
+                    "end": "13:20",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:10",
+                    "end": "20:15"
                   }
                 ],
                 "2026-11-18": [
                   {
-                    "start": "15:50",
-                    "end": "18:05"
+                    "start": "11:15",
+                    "end": "13:20",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:10",
+                    "end": "20:15"
                   }
                 ],
                 "2026-11-19": [
                   {
-                    "start": "15:50",
-                    "end": "18:05"
+                    "start": "11:15",
+                    "end": "13:20",
+                    "end_estimated": true
+                  },
+                  {
+                    "start": "18:10",
+                    "end": "20:15"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105275/",
-          "official_url": "https://digger-movie.jp/"
+          "eigacom_url": "https://eiga.com/movie/105584/",
+          "official_url": "https://uruwashi.toho-movie.jp/"
         },
         {
           "title": "クレイフェイス",
@@ -10706,12 +9169,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "18:25",
-                    "end": "20:20"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "18:25",
@@ -10749,52 +9206,46 @@
           "official_url": "https://clayface-movie.jp/"
         },
         {
-          "title": "バッド・ルーテナント：トウキョウ",
+          "title": "DIGGER ディガー",
           "schedules": [
             {
-              "format": "2D",
+              "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:20",
-                    "end": "11:15"
-                  }
-                ],
                 "2026-11-15": [
                   {
-                    "start": "09:20",
-                    "end": "11:15"
+                    "start": "15:50",
+                    "end": "18:05"
                   }
                 ],
                 "2026-11-16": [
                   {
-                    "start": "09:20",
-                    "end": "11:15"
+                    "start": "15:50",
+                    "end": "18:05"
                   }
                 ],
                 "2026-11-17": [
                   {
-                    "start": "09:20",
-                    "end": "11:15"
+                    "start": "15:50",
+                    "end": "18:05"
                   }
                 ],
                 "2026-11-18": [
                   {
-                    "start": "09:20",
-                    "end": "11:15"
+                    "start": "15:50",
+                    "end": "18:05"
                   }
                 ],
                 "2026-11-19": [
                   {
-                    "start": "09:20",
-                    "end": "11:15"
+                    "start": "15:50",
+                    "end": "18:05"
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105831/",
-          "official_url": "https://blt-movie.jp/"
+          "eigacom_url": "https://eiga.com/movie/105275/",
+          "official_url": "https://digger-movie.jp/"
         },
         {
           "title": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！",
@@ -10802,12 +9253,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "14:55",
-                    "end": "17:25"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "14:55",
@@ -10845,17 +9290,53 @@
           "official_url": "https://odoru.com/"
         },
         {
+          "title": "バッド・ルーテナント：トウキョウ",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "09:20",
+                    "end": "11:15"
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "09:20",
+                    "end": "11:15"
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "09:20",
+                    "end": "11:15"
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "09:20",
+                    "end": "11:15"
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "09:20",
+                    "end": "11:15"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105831/",
+          "official_url": "https://blt-movie.jp/"
+        },
+        {
           "title": "メイドインアビス　目覚める神秘",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "14:10",
-                    "end": "15:35"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "14:10",
@@ -10891,54 +9372,6 @@
           ],
           "eigacom_url": "https://eiga.com/movie/104435/",
           "official_url": "https://miabyss.com/"
-        },
-        {
-          "title": "ストリートファイター　ザ・ムービー",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "20:50",
-                    "end": "22:55"
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "20:50",
-                    "end": "22:55"
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "20:50",
-                    "end": "22:55"
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "20:50",
-                    "end": "22:55"
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "20:50",
-                    "end": "22:55"
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "20:50",
-                    "end": "22:55"
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105732/",
-          "official_url": "https://streetfighter-the-movie.jp/"
         },
         {
           "title": "Michael マイケル",
@@ -10983,17 +9416,53 @@
           "official_url": "https://www.michael-movie.jp/"
         },
         {
+          "title": "ストリートファイター　ザ・ムービー",
+          "schedules": [
+            {
+              "format": "吹替",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "20:50",
+                    "end": "22:55"
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "20:50",
+                    "end": "22:55"
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "20:50",
+                    "end": "22:55"
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "20:50",
+                    "end": "22:55"
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "20:50",
+                    "end": "22:55"
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105732/",
+          "official_url": "https://streetfighter-the-movie.jp/"
+        },
+        {
           "title": "映画　ひつじのショーン　かぼちゃ畑の怪物！",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:30",
-                    "end": "11:00"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:30",
@@ -11036,12 +9505,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "14:10",
-                    "end": "15:30"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "14:10",
@@ -11084,12 +9547,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "16:50",
-                    "end": "17:55"
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "16:50",
@@ -11138,28 +9595,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "13:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:15",
-                    "end": ""
-                  },
-                  {
-                    "start": "18:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "21:20",
-                    "end": ""
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:15",
@@ -11282,33 +9717,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:40",
-                    "end": "11:32",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:25",
-                    "end": "16:17",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:45",
-                    "end": "18:37",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:40",
-                    "end": "21:32",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:55",
-                    "end": "23:47",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:40",
@@ -11456,28 +9864,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "10:50",
-                    "end": ""
-                  },
-                  {
-                    "start": "14:10",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:55",
-                    "end": ""
-                  },
-                  {
-                    "start": "20:50",
-                    "end": ""
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:20",
@@ -11600,18 +9986,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:15",
-                    "end": "14:07",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:50",
-                    "end": "23:42",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "12:15",
@@ -11684,33 +10058,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:20",
-                    "end": "11:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:05",
-                    "end": "14:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:00",
-                    "end": "17:25",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:55",
-                    "end": "20:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:20",
-                    "end": "23:45",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:20",
@@ -11851,33 +10198,6 @@
             {
               "format": "IMAX",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:35",
-                    "end": "12:00",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:30",
-                    "end": "14:55",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:25",
-                    "end": "17:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "18:20",
-                    "end": "20:45",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:15",
-                    "end": "23:40",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:35",
@@ -12025,13 +10345,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "21:45",
-                    "end": "23:52",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "21:45",
@@ -12072,13 +10385,6 @@
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:30",
-                    "end": "11:37",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:30",
@@ -12126,18 +10432,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:25",
-                    "end": "11:50",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:55",
-                    "end": "17:20",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:25",
@@ -12210,28 +10504,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:10",
-                    "end": "13:24",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:50",
-                    "end": "16:04",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:30",
-                    "end": "18:44",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:10",
-                    "end": "21:24",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:10",
@@ -12354,13 +10626,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:25",
-                    "end": "11:23",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:25",
@@ -12408,12 +10673,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "19:35",
-                    "end": ""
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "19:20",
@@ -12487,23 +10746,73 @@
           "official_url": "https://k2pic.com/film/wsk/"
         },
         {
+          "title": "4アウト　もう一度、プレイボール",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "11:45",
+                    "end": ""
+                  },
+                  {
+                    "start": "16:55",
+                    "end": ""
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "11:45",
+                    "end": ""
+                  },
+                  {
+                    "start": "16:15",
+                    "end": ""
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "11:45",
+                    "end": ""
+                  },
+                  {
+                    "start": "16:15",
+                    "end": ""
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "11:45",
+                    "end": ""
+                  },
+                  {
+                    "start": "16:15",
+                    "end": ""
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "11:45",
+                    "end": ""
+                  },
+                  {
+                    "start": "16:15",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/106315/",
+          "official_url": "https://4out-movie.com/"
+        },
+        {
           "title": "GROTESQQQUE グロテスク",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:00",
-                    "end": "13:54",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:35",
-                    "end": "23:29",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:15",
@@ -12571,153 +10880,11 @@
           "official_url": "https://movie-gtq123.com/"
         },
         {
-          "title": "4アウト　もう一度、プレイボール",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:55",
-                    "end": ""
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "11:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:55",
-                    "end": ""
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "11:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:15",
-                    "end": ""
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "11:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:15",
-                    "end": ""
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "11:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:15",
-                    "end": ""
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "11:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:15",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/106315/",
-          "official_url": "https://4out-movie.com/"
-        },
-        {
-          "title": "うるわしの宵の月",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "14:20",
-                    "end": ""
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "14:20",
-                    "end": ""
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "09:15",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105584/",
-          "official_url": "https://uruwashi.toho-movie.jp/"
-        },
-        {
           "title": "映画ちいかわ　人魚の島のひみつ",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:20",
-                    "end": "14:09",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:35",
-                    "end": "16:24",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:50",
-                    "end": "18:39",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:05",
-                    "end": "20:54",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "12:20",
@@ -12795,6 +10962,48 @@
           "official_url": "https://chiikawa.toho-movie.jp"
         },
         {
+          "title": "うるわしの宵の月",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "14:20",
+                    "end": ""
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "09:15",
+                    "end": ""
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "09:15",
+                    "end": ""
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "09:15",
+                    "end": ""
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "09:15",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105584/",
+          "official_url": "https://uruwashi.toho-movie.jp/"
+        },
+        {
           "title": "DIGGER ディガー",
           "schedules": [
             {
@@ -12835,72 +11044,11 @@
           "official_url": "https://digger-movie.jp/"
         },
         {
-          "title": "バッド・ルーテナント：トウキョウ",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "22:00",
-                    "end": "23:59",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "22:00",
-                    "end": "23:59",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "21:40",
-                    "end": "23:39",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "21:40",
-                    "end": "23:39",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "21:40",
-                    "end": "23:39",
-                    "end_estimated": true
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "21:40",
-                    "end": "23:39",
-                    "end_estimated": true
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105831/",
-          "official_url": "https://blt-movie.jp/"
-        },
-        {
           "title": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:00",
-                    "end": "14:32",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "12:00",
@@ -12943,18 +11091,58 @@
           "official_url": "https://odoru.com/"
         },
         {
+          "title": "バッド・ルーテナント：トウキョウ",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "22:00",
+                    "end": "23:59",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "21:40",
+                    "end": "23:39",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "21:40",
+                    "end": "23:39",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "21:40",
+                    "end": "23:39",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "21:40",
+                    "end": "23:39",
+                    "end_estimated": true
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105831/",
+          "official_url": "https://blt-movie.jp/"
+        },
+        {
           "title": "どこよりも遠い場所にいる君へ",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "19:30",
-                    "end": "21:36",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "19:30",
@@ -13002,12 +11190,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "19:00",
-                    "end": ""
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "18:30",
@@ -13043,54 +11225,6 @@
           ],
           "eigacom_url": "https://eiga.com/movie/104715/",
           "official_url": "https://ao-buta.com/"
-        },
-        {
-          "title": "ストリートファイター　ザ・ムービー",
-          "schedules": [
-            {
-              "format": "吹替",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "21:45",
-                    "end": ""
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "21:05",
-                    "end": ""
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "21:40",
-                    "end": ""
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "21:40",
-                    "end": ""
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "21:40",
-                    "end": ""
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "21:40",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105732/",
-          "official_url": "https://streetfighter-the-movie.jp/"
         },
         {
           "title": "Michael マイケル",
@@ -13133,18 +11267,53 @@
           "official_url": "https://www.michael-movie.jp/"
         },
         {
+          "title": "ストリートファイター　ザ・ムービー",
+          "schedules": [
+            {
+              "format": "吹替",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "21:05",
+                    "end": ""
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "21:40",
+                    "end": ""
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "21:40",
+                    "end": ""
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "21:40",
+                    "end": ""
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "21:40",
+                    "end": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105732/",
+          "official_url": "https://streetfighter-the-movie.jp/"
+        },
+        {
           "title": "映画　ひつじのショーン　かぼちゃ畑の怪物！",
           "schedules": [
             {
               "format": "吹替",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:15",
-                    "end": "10:46",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:15",
@@ -13192,13 +11361,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:30",
-                    "end": "10:51",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:30",
@@ -13246,18 +11408,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:15",
-                    "end": "10:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "17:45",
-                    "end": "18:50",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "17:45",
@@ -13310,12 +11460,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "18:05",
-                    "end": ""
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "20:20",
@@ -13358,13 +11502,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "19:15",
-                    "end": "21:22",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "19:15",
@@ -13423,24 +11560,6 @@
           ],
           "eigacom_url": "",
           "official_url": ""
-        },
-        {
-          "title": "舞台『魔法使いの約束』5th Anniversary Celebration 全11作品ディレイビューイング【舞台『魔法使いの約束』きみに花を、空に魔法を 前編】",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "15:00",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "",
-          "official_url": ""
         }
       ]
     },
@@ -13454,20 +11573,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "11:40",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:45",
-                    "end": ""
-                  },
-                  {
-                    "start": "19:10",
-                    "end": ""
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "13:50",
@@ -13546,38 +11651,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "10:15",
-                    "end": "12:40",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "13:05",
-                    "end": "15:30",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "15:55",
-                    "end": "18:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:40",
-                    "end": "19:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "20:55",
-                    "end": "23:20",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:20",
-                    "end": "23:45",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "10:15",
@@ -13693,23 +11766,6 @@
             {
               "format": "Dolby Atmos",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:50",
-                    "end": "12:15",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:40",
-                    "end": "15:05",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:00",
-                    "end": "21:25",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:50",
@@ -13857,13 +11913,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "13:55",
-                    "end": "16:20",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "16:05",
@@ -13911,33 +11960,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:40",
-                    "end": "11:54",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:05",
-                    "end": "16:19",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "16:45",
-                    "end": "18:59",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:00",
-                    "end": "21:14",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "21:10",
-                    "end": "23:24",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:40",
@@ -14085,13 +12107,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "14:20",
-                    "end": "16:18",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "14:00",
@@ -14139,12 +12154,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:20",
-                    "end": ""
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "11:55",
@@ -14172,17 +12181,6 @@
                 "2026-11-19": [
                   {
                     "start": "11:55",
-                    "end": ""
-                  }
-                ]
-              }
-            },
-            {
-              "format": "Dolby Atmos字幕",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "21:50",
                     "end": ""
                   }
                 ]
@@ -14193,101 +12191,11 @@
           "official_url": "https://biomovie.jp"
         },
         {
-          "title": "うるわしの宵の月",
-          "schedules": [
-            {
-              "format": "2D",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "16:35",
-                    "end": ""
-                  }
-                ],
-                "2026-11-15": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:20",
-                    "end": ""
-                  }
-                ],
-                "2026-11-16": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:20",
-                    "end": ""
-                  }
-                ],
-                "2026-11-17": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:20",
-                    "end": ""
-                  }
-                ],
-                "2026-11-18": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:20",
-                    "end": ""
-                  }
-                ],
-                "2026-11-19": [
-                  {
-                    "start": "09:20",
-                    "end": ""
-                  },
-                  {
-                    "start": "16:20",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "https://eiga.com/movie/105584/",
-          "official_url": "https://uruwashi.toho-movie.jp/"
-        },
-        {
           "title": "映画ちいかわ　人魚の島のひみつ",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:55",
-                    "end": "11:44",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "12:10",
-                    "end": "13:59",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "14:25",
-                    "end": "16:14",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:30",
-                    "end": "21:19",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "10:00",
@@ -14365,58 +12273,66 @@
           "official_url": "https://chiikawa.toho-movie.jp"
         },
         {
-          "title": "バッド・ルーテナント：トウキョウ",
+          "title": "うるわしの宵の月",
           "schedules": [
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "21:45",
-                    "end": "23:44",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
-                    "start": "21:50",
-                    "end": "23:49",
-                    "end_estimated": true
+                    "start": "09:20",
+                    "end": ""
+                  },
+                  {
+                    "start": "16:20",
+                    "end": ""
                   }
                 ],
                 "2026-11-16": [
                   {
-                    "start": "21:50",
-                    "end": "23:49",
-                    "end_estimated": true
+                    "start": "09:20",
+                    "end": ""
+                  },
+                  {
+                    "start": "16:20",
+                    "end": ""
                   }
                 ],
                 "2026-11-17": [
                   {
-                    "start": "21:50",
-                    "end": "23:49",
-                    "end_estimated": true
+                    "start": "09:20",
+                    "end": ""
+                  },
+                  {
+                    "start": "16:20",
+                    "end": ""
                   }
                 ],
                 "2026-11-18": [
                   {
-                    "start": "21:50",
-                    "end": "23:49",
-                    "end_estimated": true
+                    "start": "09:20",
+                    "end": ""
+                  },
+                  {
+                    "start": "16:20",
+                    "end": ""
                   }
                 ],
                 "2026-11-19": [
                   {
-                    "start": "21:50",
-                    "end": "23:49",
-                    "end_estimated": true
+                    "start": "09:20",
+                    "end": ""
+                  },
+                  {
+                    "start": "16:20",
+                    "end": ""
                   }
                 ]
               }
             }
           ],
-          "eigacom_url": "https://eiga.com/movie/105831/",
-          "official_url": "https://blt-movie.jp/"
+          "eigacom_url": "https://eiga.com/movie/105584/",
+          "official_url": "https://uruwashi.toho-movie.jp/"
         },
         {
           "title": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！",
@@ -14424,13 +12340,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:25",
-                    "end": "11:57",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "18:55",
@@ -14473,17 +12382,58 @@
           "official_url": "https://odoru.com/"
         },
         {
+          "title": "バッド・ルーテナント：トウキョウ",
+          "schedules": [
+            {
+              "format": "2D",
+              "dates": {
+                "2026-11-15": [
+                  {
+                    "start": "21:50",
+                    "end": "23:49",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-11-16": [
+                  {
+                    "start": "21:50",
+                    "end": "23:49",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-11-17": [
+                  {
+                    "start": "21:50",
+                    "end": "23:49",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-11-18": [
+                  {
+                    "start": "21:50",
+                    "end": "23:49",
+                    "end_estimated": true
+                  }
+                ],
+                "2026-11-19": [
+                  {
+                    "start": "21:50",
+                    "end": "23:49",
+                    "end_estimated": true
+                  }
+                ]
+              }
+            }
+          ],
+          "eigacom_url": "https://eiga.com/movie/105831/",
+          "official_url": "https://blt-movie.jp/"
+        },
+        {
           "title": "ストリートファイター　ザ・ムービー",
           "schedules": [
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "21:40",
-                    "end": ""
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "21:30",
@@ -14526,13 +12476,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "09:30",
-                    "end": "11:18",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "09:30",
@@ -14625,18 +12568,6 @@
             {
               "format": "2D",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "12:20",
-                    "end": "13:41",
-                    "end_estimated": true
-                  },
-                  {
-                    "start": "19:20",
-                    "end": "20:41",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "12:20",
@@ -14709,13 +12640,6 @@
             {
               "format": "字幕",
               "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "18:45",
-                    "end": "20:32",
-                    "end_estimated": true
-                  }
-                ],
                 "2026-11-15": [
                   {
                     "start": "18:45",
@@ -14780,33 +12704,11 @@
           ],
           "eigacom_url": "https://eiga.com/movie/106951/",
           "official_url": "https://hybecinefest2026.jp/"
-        },
-        {
-          "title": "Ensemble Stars!! Cast Live Starry Symphony -Superbloom- in THEATER",
-          "schedules": [
-            {
-              "format": "Dolby Atmos",
-              "dates": {
-                "2026-11-14": [
-                  {
-                    "start": "15:30",
-                    "end": ""
-                  }
-                ]
-              }
-            }
-          ],
-          "eigacom_url": "",
-          "official_url": ""
         }
       ]
     }
   },
   "upcoming": [
-    {
-      "title": "自画像 47KMの窓",
-      "release_date": "2026-11-15"
-    },
     {
       "title": "自画像 47KMのおとぎ話",
       "release_date": "2026-11-16"
@@ -14836,11 +12738,11 @@
       "release_date": "2026-11-20"
     },
     {
-      "title": "アザー・マミー",
+      "title": "日曜のあと",
       "release_date": "2026-11-20"
     },
     {
-      "title": "日曜のあと",
+      "title": "アザー・マミー",
       "release_date": "2026-11-20"
     },
     {
@@ -14856,7 +12758,7 @@
       "release_date": "2026-11-20"
     },
     {
-      "title": "劇場版　遊☆戯☆王 THE DARK SIDE OF DIMENSIONS",
+      "title": "はじまりのさよなら",
       "release_date": "2026-11-20"
     },
     {
@@ -14864,11 +12766,11 @@
       "release_date": "2026-11-20"
     },
     {
-      "title": "1977 あの写真の私たち",
+      "title": "劇場版　遊☆戯☆王 THE DARK SIDE OF DIMENSIONS",
       "release_date": "2026-11-20"
     },
     {
-      "title": "はじまりのさよなら",
+      "title": "1977 あの写真の私たち",
       "release_date": "2026-11-20"
     },
     {
@@ -14877,6 +12779,10 @@
     },
     {
       "title": "禁闕の変",
+      "release_date": "2026-11-20"
+    },
+    {
+      "title": "サッカー日本代表 FIFAワールドカップ2026 「最高の景色」への挑戦 ONE CREATURE 2nd Leg",
       "release_date": "2026-11-20"
     },
     {
@@ -14893,10 +12799,6 @@
     },
     {
       "title": "劇場版　アイドルマスター SideM F＠NTASTIC BATTLE FES Who goes first",
-      "release_date": "2026-11-20"
-    },
-    {
-      "title": "サッカー日本代表 FIFAワールドカップ2026 「最高の景色」への挑戦 ONE CREATURE 2nd Leg",
       "release_date": "2026-11-20"
     },
     {
@@ -14956,11 +12858,11 @@
       "release_date": "2026-11-27"
     },
     {
-      "title": "君の話",
+      "title": "ハウスメイド",
       "release_date": "2026-11-27"
     },
     {
-      "title": "ハウスメイド",
+      "title": "君の話",
       "release_date": "2026-11-27"
     },
     {
@@ -14980,11 +12882,11 @@
       "release_date": "2026-11-27"
     },
     {
-      "title": "恋傷",
+      "title": "タコピーの原罪　ありがとう、また明日",
       "release_date": "2026-11-27"
     },
     {
-      "title": "タコピーの原罪　ありがとう、また明日",
+      "title": "恋傷",
       "release_date": "2026-11-27"
     },
     {
@@ -15056,15 +12958,15 @@
       "release_date": "2026-11-27"
     },
     {
-      "title": "スリープ・ノー・モア　不眠工場",
-      "release_date": "2026-11-28"
-    },
-    {
       "title": "いかさま隆二と裏切り純子",
       "release_date": "2026-11-28"
     },
     {
       "title": "インサイド・ガザ　封鎖の内側から",
+      "release_date": "2026-11-28"
+    },
+    {
+      "title": "スリープ・ノー・モア　不眠工場",
       "release_date": "2026-11-28"
     },
     {
